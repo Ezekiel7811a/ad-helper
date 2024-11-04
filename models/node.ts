@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 export class MyNode {
   title: string;
-  links?: MyNode[];
+  links: MyNode[];
   content: ReactNode;
 
   constructor(title: string, children: MyNode[], content: ReactNode) {

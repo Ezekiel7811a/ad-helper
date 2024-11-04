@@ -1,16 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.title {
+  @apply text-lg ml-2 mt-5;
+  color: var(--title-color);
+}
+.paragraph {
+  @apply ml-5;
+}
+.tab {
+  box-shadow: var(--shadow) 0px 0px 10px;
+  background-color: var(--secondary-background);
+}
 
 :root {
   --background: #ffffff;
+  --secondary-background: #f5f5f5cd;
+  --shadow: #000000;
   --foreground: #171717;
+  --button-background: #b9bcbf;
+  --text-font-size: 1rem;
+  --text-line-height: 1.5;
+  --text-color: #171717;
+  --title-color: #171717;
+
+  font-size: var(--text-font-size);
+  line-height: var(--text-line-height);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #121820;
+    --secondary-background: #1a2533;
+    --shadow: #ffffff0c;
     --foreground: #ededed;
+    --button-background: #3a3a3a;
+    --text-color: #e8e8e8;
+    --title-color: #cfcece;
   }
 }
 

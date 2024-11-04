@@ -1,13 +1,25 @@
 import { MyNode } from "@/models/node";
+import { Button } from "@mui/material";
 
 interface Props {
   nodes: MyNode[];
+  setNode: (node: MyNode) => void;
 }
 
-const LinksTab = ({ nodes }: Props) => {
+const LinksTab = ({ nodes, setNode }: Props) => {
   return (
     <div>
-      {nodes && nodes.map(({ title }, index) => <div key={index}>{title}</div>)}
+      {nodes &&
+        nodes.map((node, index) => (
+          <Button
+            key={index}
+            onClick={(e) => {
+              setNode(node);
+            }}
+          >
+            {node.title}
+          </Button>
+        ))}
     </div>
   );
 };
