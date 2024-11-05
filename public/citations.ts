@@ -1,7 +1,6 @@
 import { Citation } from "@/models/citation";
 import {
   DSKnopman,
-  HyperactivationAuthors,
   HyperactivationAuthors2,
   HyperactivationA3,
   HyperactivationA4,
@@ -10,6 +9,13 @@ import {
   LinksADOscillatorySlowingA,
   EIIncreasedParietalA,
   SynergyABTauCorticalAndMCA,
+  XModelA,
+  ABViciousCycleA,
+  PowEnvCorrReviewA,
+  ParamsPSDA,
+  NeuroChemsOrganizationAdA,
+  DirectionalInformationADA,
+  ATNA,
 } from "./authors";
 
 export const adReview: Citation = {
@@ -25,14 +31,15 @@ export const CombiningBrainSimAndMeg: Citation = {
   publicationDate: new Date("2023-09-01"),
 };
 
-export const hyperexcitability: Citation = {
+export const ABViciousCycle: Citation = {
   title: "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
-  authors: HyperactivationAuthors,
+  authors: ABViciousCycleA,
   publicationDate: new Date("2019-08-09"),
 };
 
 export const hyperexcitability2: Citation = {
-  title: "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
+  title:
+    "Rescue of long-range circuit dysfunction in Alzheimer's disease models",
   authors: HyperactivationAuthors2,
   publicationDate: new Date("2015-10-12"),
 };
@@ -76,4 +83,42 @@ export const SynergyABTauCorticalAndMC: Citation = {
     "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
   authors: SynergyABTauCorticalAndMCA,
   publicationDate: new Date("2024-08-13"),
+};
+
+export const XModel: Citation = {
+  title: "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+  authors: XModelA,
+  publicationDate: new Date("2019-12-01"),
+};
+
+export const PowEnvCorrReview: Citation = {
+  title:
+    "Measuring electrophysiological connectivity by power envelope correlation: a technical review on MEG methods",
+  authors: PowEnvCorrReviewA,
+  publicationDate: new Date("2015-11-07"),
+};
+
+export const ParamsPSD: Citation = {
+  title:
+    "Parameterizing neural power spectra into periodic and aperiodic components",
+  authors: ParamsPSDA,
+  publicationDate: new Date("2020-12-01"),
+};
+export const NeuroChemsOrganizationAd: Citation = {
+  title:
+    "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+  authors: NeuroChemsOrganizationAdA,
+  publicationDate: new Date("2024-09-01"),
+};
+export const DirectionalInformationAD: Citation = {
+  title:
+    "Directional information flow in patients with Alzheimer's disease. A sourcespace resting-state MEG study",
+  authors: DirectionalInformationADA,
+  publicationDate: new Date("2017-01-01"),
+};
+export const ATNClassification: Citation = {
+  title:
+    "A/T/N: An unbiased descriptive classification scheme for Alzheimer disease biomarkers",
+  authors: ATNA,
+  publicationDate: new Date("2016-08-02"),
 };

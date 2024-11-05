@@ -1,6 +1,7 @@
 "use client";
 
 import { createTheme, ThemeProvider } from "@mui/material";
+import { MathJaxContext } from "better-react-mathjax";
 import { ReactNode } from "react";
 
 const theme = createTheme({
@@ -20,8 +21,27 @@ const theme = createTheme({
   },
 });
 
+const mathJaxConfig = {
+  loader: { load: ["[tex]/ams"] },
+  tex: {
+    inlineMath: [
+      ["$", "$"],
+      ["\\(", "\\)"],
+    ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"],
+    ],
+    packages: { "[+]": ["ams"] },
+  },
+};
+
 const Providers = ({ children }: { children: ReactNode }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+  return (
+    <ThemeProvider theme={theme}>
+      <MathJaxContext config={mathJaxConfig}>{children}</MathJaxContext>
+    </ThemeProvider>
+  );
 };
 
 export default Providers;

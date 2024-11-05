@@ -1,5 +1,6 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
 import Figure from "@/app/components/figure/figure";
+import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import { SynergyABTauCorticalAndMC } from "@/public/citations";
 
@@ -32,8 +33,25 @@ export const Frequencies = new MyNode(
           alt="ab_frequencies"
           caption="Interactive effects of AD proteinopathies on neurophysiological activity in asymptomatic adults"
         />
+        Aβ deposits induce toxic effects on the dynamics of neuronal circuits,
+        by simultaneously increasing excitation and decreasing inhibition,
+        leading to augmented levels of alpha-band activity41. slower brain
+        activity in the delta and theta bands, which are linked to impairments
+        in additional cognitive domains, such as processing speed34.
       </CitationCard>
       <ToCheck string="Would not that be due to shifts of frequency centers ?" />
+      <Hypothesis>
+        Increased Tau Accumulation Leads to Decreased High-Frequency Power
+        (Alpha/Beta) in Excitatory-Dominated Regions
+      </Hypothesis>
+      <Hypothesis>
+        High Tau Levels Correlate with Increased Low-Frequency Power
+        (Delta/Theta) as a Result of Compensatory Inhibitory Activity
+      </Hypothesis>
+      <Hypothesis>
+        The Ratio of Low- to High-Frequency Power Increases with Tau Load,
+        Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions
+      </Hypothesis>
     </div>
   )
 );

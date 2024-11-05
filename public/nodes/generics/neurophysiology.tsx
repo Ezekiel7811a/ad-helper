@@ -4,6 +4,7 @@ import { MyNode } from "@/models/node";
 import {
   CombiningBrainSimAndMeg,
   SynergyABTauCorticalAndMC,
+  XModel,
 } from "@/public/citations";
 
 export const Neurophysiology = new MyNode(
@@ -39,6 +40,16 @@ export const Neurophysiology = new MyNode(
         In the prodromal stage of AD, increased blood-oxygen-level-dependent
         (BOLD) activations in hippocampal and middle temporal lobe circuits have
         been reported
+      </CitationCard>
+      <CitationCard citations={[XModel]}>
+        This model is also supported by the X model, stating that sMCI are just
+        future pMCI in the hypersynchronization phase.
+        <Figure
+          n={3}
+          src="images/hypersynchronization/x_model.png"
+          alt="X model"
+          caption="Proposition of a model explaining the observations made on sMCI."
+        />
       </CitationCard>
     </div>
   )

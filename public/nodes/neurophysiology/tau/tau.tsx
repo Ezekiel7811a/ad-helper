@@ -1,4 +1,5 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
+import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import {
   SynergyABTauCorticalAndMC,
@@ -27,6 +28,10 @@ export const Tau = new MyNode(
         pattern, accumulating first in the entorhinal cortex before spreading to
         limbic areas and eventually the neocortex6,14,15.
       </CitationCard>
+      <Hypothesis>
+        Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting
+        an Imbalance in Excitatory-Inhibitory Activity
+      </Hypothesis>
     </div>
   )
 );

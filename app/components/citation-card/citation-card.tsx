@@ -26,7 +26,7 @@ const CitationCard = ({ citations, children }: Props) => {
 
   return (
     <div>
-      <div className="" onClick={handleMouseEnter}>
+      <div onClick={handleMouseEnter}>
         <RippleEffectButton>{children}</RippleEffectButton>
       </div>
       <Popover

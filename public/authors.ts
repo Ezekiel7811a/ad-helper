@@ -9,7 +9,7 @@ export const PMCanada: Author = {
 const BZott: Author = {
   name: "Benedikt Zott",
 };
-export const HyperactivationAuthors = [BZott];
+export const ABViciousCycleA = [BZott];
 const MABusche: Author = {
   name: "Marc Aurel Busche",
 };
@@ -32,3 +32,27 @@ const JGRudolf: Author = {
   name: "J.G. Rudolf",
 };
 export const SynergyABTauCorticalAndMCA = [JGRudolf];
+const SPusil: Author = {
+  name: "S. Pusil",
+};
+export const XModelA = [SPusil];
+const GCONeil: Author = {
+  name: "G.C. O'Neil",
+};
+export const PowEnvCorrReviewA = [GCONeil];
+const TDonoghue: Author = {
+  name: "T. Donoghue",
+};
+export const ParamsPSDA = [TDonoghue];
+const ALWiesman: Author = {
+  name: "A.L. Wiesman",
+};
+export const NeuroChemsOrganizationAdA = [ALWiesman];
+const MMAEngels: Author = {
+  name: "M.M.A. Engels",
+};
+export const DirectionalInformationADA = [MMAEngels];
+const JRClifford: Author = {
+  name: "J.R. Clifford",
+};
+export const ATNA = [JRClifford];

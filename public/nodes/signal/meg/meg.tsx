@@ -19,6 +19,12 @@ export const Meg = new MyNode(
         the 1/f spectral power law
       </CitationCard>
       <ToCheck string="Clinical applications of EEG power spectra aperiodic component analysis: a mini-review" />
+      Nakamura et al. (2017): This MEG study found altered network organization
+      in healthy elderly individuals with high amyloid levels, particularly in
+      the inferior parietal lobe and precuneus. The correlation between Aβ and
+      brain synchrony indicates that network impairment precedes metabolic
+      (FDG-PET) or structural (MRI) changes, suggesting that M/EEG could detect
+      functional changes before visible atrophy.
     </div>
   )
 );
