@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const GraphPrediction = new MyNode(
+const GraphPrediction = new MyNode(
   "GraphPrediction",
   [],
   (
@@ -15,3 +15,5 @@ export const GraphPrediction = new MyNode(
     </div>
   )
 );
+
+export default GraphPrediction;

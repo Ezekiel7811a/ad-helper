@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { CombiningBrainSimAndMeg } from "@/public/citations";
 
-export const Hypoexcitability = new MyNode(
+const Hypoexcitability = new MyNode(
   "Hypoexcitability",
   [],
   (
@@ -18,3 +18,5 @@ export const Hypoexcitability = new MyNode(
     </div>
   )
 );
+
+export default Hypoexcitability;

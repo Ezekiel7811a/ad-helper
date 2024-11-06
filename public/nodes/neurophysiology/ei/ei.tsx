@@ -7,7 +7,7 @@ import {
 } from "@/public/citations";
 import { MathJax } from "better-react-mathjax";
 
-export const EI = new MyNode(
+const EI = new MyNode(
   "E/I balance",
   [],
   (
@@ -68,3 +68,5 @@ export const EI = new MyNode(
     </div>
   )
 );
+
+export default EI;

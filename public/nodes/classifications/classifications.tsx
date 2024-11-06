@@ -1,11 +1,10 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
 import Figure from "@/app/components/figure/figure";
 import Hypothesis from "@/app/components/hypothesis/hypothesis";
-import MyTable from "@/app/components/table/table";
 import { MyNode } from "@/models/node";
 import { MMSEReview, NIAAA } from "@/public/citations";
 
-export const Classifications = new MyNode(
+const Classifications = new MyNode(
   "Classifications",
   [],
   (
@@ -51,8 +50,8 @@ export const Classifications = new MyNode(
         aligning more closely with NIA-AA’s biologic definition.
       </CitationCard>
       <CitationCard citations={[NIAAA]}>
-        "Alzheimer’s clinical syndrome" rather than "probable AD" when
-        describing syndromes without biomarker evidence
+        Alzheimer’s clinical syndrome rather than probable AD when describing
+        syndromes without biomarker evidence
       </CitationCard>
       <Hypothesis>
         <Figure
@@ -70,3 +69,5 @@ export const Classifications = new MyNode(
     </div>
   )
 );
+
+export default Classifications;

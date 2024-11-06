@@ -7,7 +7,7 @@ import {
   synergyABTauInAD,
 } from "@/public/citations";
 
-export const Tau = new MyNode(
+const Tau = new MyNode(
   "Tau",
   [],
   (
@@ -41,3 +41,5 @@ export const Tau = new MyNode(
     </div>
   )
 );
+
+export default Tau;

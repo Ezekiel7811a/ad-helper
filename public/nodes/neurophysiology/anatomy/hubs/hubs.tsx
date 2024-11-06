@@ -3,7 +3,7 @@ import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const HUBS = new MyNode(
+const HUBS = new MyNode(
   "HUBS",
   [],
   (
@@ -50,3 +50,5 @@ export const HUBS = new MyNode(
     </div>
   )
 );
+
+export default HUBS;

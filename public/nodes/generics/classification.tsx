@@ -1,6 +1,6 @@
 import { MyNode } from "@/models/node";
 
-export const ClassificationNode = new MyNode(
+const ClassificationNode = new MyNode(
   "Classification",
   [],
   (
@@ -16,3 +16,5 @@ export const ClassificationNode = new MyNode(
     </div>
   )
 );
+
+export default ClassificationNode;

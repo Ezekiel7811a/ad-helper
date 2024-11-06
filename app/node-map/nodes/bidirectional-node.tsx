@@ -15,7 +15,12 @@ const style = {
 const BiDirectionalNode = ({ data }: NodeProps<BuiltInNode>) => {
   return (
     <div style={style}>
-      <Handle type="source" position={Position.Left} id="left" />
+      <Handle
+        type="target"
+        position={Position.Left}
+        id="left"
+        isConnectable={true}
+      />
       {data?.label}
       <Handle type="source" position={Position.Right} id="right" />
     </div>

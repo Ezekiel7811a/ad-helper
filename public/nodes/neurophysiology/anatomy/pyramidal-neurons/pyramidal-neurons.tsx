@@ -3,7 +3,7 @@ import Figure from "@/app/components/figure/figure";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const PyramidalNeurons = new MyNode(
+const PyramidalNeurons = new MyNode(
   "PyramidalNeurons",
   [],
   (
@@ -40,3 +40,5 @@ export const PyramidalNeurons = new MyNode(
     </div>
   )
 );
+
+export default PyramidalNeurons;

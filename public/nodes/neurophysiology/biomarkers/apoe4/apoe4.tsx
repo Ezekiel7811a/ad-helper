@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const Apoe4 = new MyNode(
+const Apoe4 = new MyNode(
   "Apoe4",
   [],
   (
@@ -21,3 +21,5 @@ export const Apoe4 = new MyNode(
     </div>
   )
 );
+
+export default Apoe4;

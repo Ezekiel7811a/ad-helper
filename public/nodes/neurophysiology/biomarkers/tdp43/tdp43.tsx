@@ -1,3 +1,5 @@
 import { MyNode } from "@/models/node";
 
-export const TDP43 = new MyNode("TDP43", [], <div>bonjour</div>);
+const TDP43 = new MyNode("TDP43", [], <div>bonjour</div>);
+
+export default TDP43;

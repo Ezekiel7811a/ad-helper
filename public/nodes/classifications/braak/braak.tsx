@@ -18,7 +18,7 @@ const rows = [
   ["VI", "NFTs in the isocortex", "Dementia"],
 ];
 
-export const BraakNode = new MyNode(
+const BraakNode = new MyNode(
   "Braak",
   [],
   (
@@ -48,3 +48,5 @@ export const BraakNode = new MyNode(
     </div>
   )
 );
+
+export default BraakNode;

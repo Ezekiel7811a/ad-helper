@@ -8,7 +8,7 @@ import {
   SynergyABTauCorticalAndMC,
 } from "@/public/citations";
 
-export const AB = new MyNode(
+const AB = new MyNode(
   "Amyloid Beta (AB)",
   [],
   (
@@ -111,3 +111,5 @@ export const AB = new MyNode(
     </div>
   )
 );
+
+export default AB;

@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { NIAAA } from "@/public/citations";
 
-export const CSF = new MyNode(
+const CSF = new MyNode(
   "CSF",
   [],
   (
@@ -22,3 +22,5 @@ export const CSF = new MyNode(
     </div>
   )
 );
+
+export default CSF;

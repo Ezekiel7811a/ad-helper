@@ -1,6 +1,6 @@
 import { MyNode } from "@/models/node";
 
-export const Prediction = new MyNode(
+const Prediction = new MyNode(
   "Prediction",
   [],
   (
@@ -10,3 +10,5 @@ export const Prediction = new MyNode(
     </div>
   )
 );
+
+export default Prediction;

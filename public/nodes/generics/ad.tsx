@@ -1,9 +1,8 @@
 import { MyNode } from "@/models/node";
-import { ClassificationNode } from "./classification";
 import CitationCard from "@/app/components/citation-card/citation-card";
 import { adReview, NIAAA } from "@/public/citations";
 
-export const AlzheimerNode = new MyNode(
+const AlzheimerNode = new MyNode(
   "Alzheimer's Disease",
   [],
   (
@@ -37,3 +36,5 @@ export const AlzheimerNode = new MyNode(
     </div>
   )
 );
+
+export default AlzheimerNode;

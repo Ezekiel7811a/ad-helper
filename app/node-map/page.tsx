@@ -11,22 +11,16 @@ import {
   ReactFlow,
   useEdgesState,
   useNodesState,
-  Handle,
-  Position,
 } from "@xyflow/react";
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
+import bidirectionalNode from "./nodes/bidirectional-node";
+import CustomEdge from "./nodes/button-edge";
+import "@xyflow/react/dist/style.css";
+import { getNodes } from "@/models/node-reflector/node-reflector";
+import { MyNode } from "@/models/node";
 
-const CustomNode = ({ data }: { data: { label: string } }) => {
-  return (
-    <div className="custom-node" style={{ width: "100px", height: "50px" }}>
-      <Handle type="target" position={Position.Top} />
-      <div>{data.label}</div>
-      <Handle type="source" position={Position.Bottom} />
-    </div>
-  );
-};
-
-const nodeTypes = { custom: CustomNode };
+const nodeTypes = { custom: bidirectionalNode };
+const edgeTypes = { buttonedge: CustomEdge };
 
 const NodeMap = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
@@ -34,19 +28,16 @@ const NodeMap = () => {
       id: "1",
       position: { x: 500, y: 500 },
       data: { label: "Node 1" },
-      type: "custom-node",
-      sourcePosition: Position.Left,
-      targetPosition: Position.Right,
+      type: "custom",
     },
     {
       id: "2",
       position: { x: 600, y: 500 },
       data: { label: "Node 2" },
-      type: "custom-node",
-      sourcePosition: Position.Left,
-      targetPosition: Position.Right,
+      type: "custom",
     },
   ]);
+  const [newNodes, setNewNodes] = useState<MyNode[]>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([
     {
       id: "e1-2",
@@ -60,7 +51,9 @@ const NodeMap = () => {
 
   const onConnect = useCallback(
     (params: Edge | Connection) =>
-      setEdges((eds: Edge[]) => addEdge(params, eds)),
+      setEdges((eds: Edge[]) =>
+        addEdge({ ...params, type: "buttonedge" }, eds)
+      ),
     [setEdges]
   );
 
@@ -74,15 +67,25 @@ const NodeMap = () => {
     setNodes((nds) => [...nds, newNode]);
   };
 
+  useEffect(() => {
+    const setNodes = async () => {
+      const nodes = await getNodes("nodes");
+      setNewNodes(nodes);
+    };
+    setNodes();
+  }, []);
+
   return (
-    <div className="bg-slate-200 h-screen">
+    <div className="bg-slate-200 h-screen grid grid-cols-4">
       <ReactFlow
+        className="col-span-3"
         nodes={nodes}
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
       >
         <Controls />
         <MiniMap />
@@ -90,6 +93,14 @@ const NodeMap = () => {
       <button onClick={addNode} className="absolute top-4 right-4 bg-blue-200">
         Add Node
       </button>
+      <div className="col-span-1">
+        <h2 className="text-2xl">Nodes</h2>
+        <ul>
+          {newNodes.map(({ title }, index) => (
+            <li key={index}>{title}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

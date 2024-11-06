@@ -3,7 +3,7 @@ import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const GlialCells = new MyNode(
+const GlialCells = new MyNode(
   "GlialCells",
   [],
   (
@@ -35,3 +35,5 @@ export const GlialCells = new MyNode(
     </div>
   )
 );
+
+export default GlialCells;

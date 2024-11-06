@@ -23,7 +23,7 @@ const rows = [
   ["GABA", "E", "Low", "2-6"],
 ];
 
-export const Biomarkers = new MyNode(
+const Biomarkers = new MyNode(
   "Biomarkers",
   [],
   (
@@ -73,3 +73,5 @@ export const Biomarkers = new MyNode(
     </div>
   )
 );
+
+export default Biomarkers;

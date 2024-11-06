@@ -1,7 +1,5 @@
 import { MyNode } from "@/models/node";
 
-export const ImmuneActivation = new MyNode(
-  "ImmuneActivation",
-  [],
-  <div>bonjour</div>
-);
+const ImmuneActivation = new MyNode("ImmuneActivation", [], <div>bonjour</div>);
+
+export default ImmuneActivation;

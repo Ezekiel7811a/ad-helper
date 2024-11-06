@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { MMSEReview } from "@/public/citations";
 
-export const MMSE = new MyNode(
+const MMSE = new MyNode(
   "Mini Mental State Examination (MMSE)",
   [],
   (
@@ -37,3 +37,5 @@ export const MMSE = new MyNode(
     </div>
   )
 );
+
+export default MMSE;

@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { EIIncreasedParietal } from "@/public/citations";
 
-export const DMN = new MyNode(
+const DMN = new MyNode(
   "Default Mode Network (DMN)",
   [],
   (
@@ -15,3 +15,5 @@ export const DMN = new MyNode(
     </div>
   )
 );
+
+export default DMN;

@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
-export const Epileptiform = new MyNode(
+const Epileptiform = new MyNode(
   "Epileptiform",
   [],
   (
@@ -19,3 +19,5 @@ export const Epileptiform = new MyNode(
     </div>
   )
 );
+
+export default Epileptiform;

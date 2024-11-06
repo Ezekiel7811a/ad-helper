@@ -44,7 +44,7 @@ const rowsDementia = [
   ],
 ];
 
-export const NIAAANode = new MyNode(
+const NIAAANode = new MyNode(
   "NIA-AA",
   [],
   (
@@ -66,3 +66,5 @@ export const NIAAANode = new MyNode(
     </div>
   )
 );
+
+export default NIAAANode;

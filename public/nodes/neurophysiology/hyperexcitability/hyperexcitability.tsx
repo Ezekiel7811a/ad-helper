@@ -12,7 +12,7 @@ import {
   EITranslationalPerspective,
 } from "@/public/citations";
 
-export const Hyperexcitability = new MyNode(
+const Hyperexcitability = new MyNode(
   "Hyperexcitability",
   [],
   (
@@ -106,3 +106,5 @@ export const Hyperexcitability = new MyNode(
     </div>
   )
 );
+
+export default Hyperexcitability;

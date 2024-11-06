@@ -2,16 +2,6 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import MyTable from "@/app/components/table/table";
 import { MyNode } from "@/models/node";
 import { ATNClassification } from "@/public/citations";
-import {
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-} from "@mui/material";
-
 const rows = [
   ["A-/T-/N-", "Not defined", "Not defined"],
   [
@@ -91,7 +81,7 @@ const headers = [
   "2014 IWG Classification",
 ];
 
-export const ATN = new MyNode(
+const ATN = new MyNode(
   "ATN",
   [],
   (
@@ -128,3 +118,5 @@ export const ATN = new MyNode(
     </div>
   )
 );
+
+export default ATN;

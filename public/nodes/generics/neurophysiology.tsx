@@ -7,7 +7,7 @@ import {
   XModel,
 } from "@/public/citations";
 
-export const Neurophysiology = new MyNode(
+const Neurophysiology = new MyNode(
   "Neurophysiology",
   [],
   (
@@ -54,3 +54,5 @@ export const Neurophysiology = new MyNode(
     </div>
   )
 );
+
+export default Neurophysiology;

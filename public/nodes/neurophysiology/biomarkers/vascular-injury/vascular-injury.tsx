@@ -1,7 +1,5 @@
 import { MyNode } from "@/models/node";
 
-export const VascularInjury = new MyNode(
-  "VascularInjury",
-  [],
-  <div>bonjour</div>
-);
+const VascularInjury = new MyNode("VascularInjury", [], <div>bonjour</div>);
+
+export default VascularInjury;
