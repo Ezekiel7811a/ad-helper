@@ -13,7 +13,7 @@ const LinksTab = ({ nodes, setNode }: Props) => {
         nodes.map((node, index) => (
           <Button
             key={index}
-            onClick={(e) => {
+            onClick={() => {
               setNode(node);
             }}
           >

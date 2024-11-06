@@ -1,16 +1,25 @@
 "use client";
 
-import { AlzheimerNode } from "@/public/nodes/generics/ad";
 import NodeCard from "./components/node-card/node-card";
 import LinksTab from "./components/node-card/links-tab/links-tab";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import "@/public/nodes/lazy-loader";
-import { MathJax } from "better-react-mathjax";
-import { Assymetric } from "@/public/nodes/signal/meg/connectivity/assymetric/assymetric";
 import { ATN } from "@/public/nodes/classifications/atn/atn";
+import {
+  addEdge,
+  Node,
+  Edge,
+  ReactFlow,
+  useEdgesState,
+  useNodesState,
+  Connection,
+  Controls,
+  Background,
+} from "@xyflow/react";
+import { AlzheimerNode } from "@/public/nodes/generics/ad";
 
 const Home = () => {
-  const [currentNode, setCurrentNode] = useState(ATN);
+  const [currentNode, setCurrentNode] = useState(AlzheimerNode);
   return (
     <div className="grid grid-cols-6 min-h-screen">
       <div className="col-span-5">
