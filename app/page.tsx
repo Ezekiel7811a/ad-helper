@@ -17,9 +17,11 @@ import {
   Background,
 } from "@xyflow/react";
 import { AlzheimerNode } from "@/public/nodes/generics/ad";
+import { EI } from "@/public/nodes/neurophysiology/ei/ei";
+import { Assymetric } from "@/public/nodes/signal/meg/connectivity/assymetric/assymetric";
 
 const Home = () => {
-  const [currentNode, setCurrentNode] = useState(AlzheimerNode);
+  const [currentNode, setCurrentNode] = useState(EI);
   return (
     <div className="grid grid-cols-6 min-h-screen">
       <div className="col-span-5">

@@ -16,6 +16,11 @@ import {
   NeuroChemsOrganizationAdA,
   DirectionalInformationADA,
   ATNA,
+  NIAAAA,
+  BraakA,
+  MMSEReviewA,
+  InferringEIFromFieldPotentialsA,
+  EITranslationalPerspectiveA,
 } from "./authors";
 
 export const adReview: Citation = {
@@ -23,81 +28,69 @@ export const adReview: Citation = {
   authors: [DSKnopman],
   publicationDate: new Date("2021-05-13"),
 };
-
 export const CombiningBrainSimAndMeg: Citation = {
   title:
     "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
   authors: [PMCanada],
   publicationDate: new Date("2023-09-01"),
 };
-
 export const ABViciousCycle: Citation = {
   title: "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
   authors: ABViciousCycleA,
   publicationDate: new Date("2019-08-09"),
 };
-
 export const hyperexcitability2: Citation = {
   title:
     "Rescue of long-range circuit dysfunction in Alzheimer's disease models",
   authors: HyperactivationAuthors2,
   publicationDate: new Date("2015-10-12"),
 };
-
 export const hyperexcitability3: Citation = {
   title:
     "Inhibitory Interneuron Deficit Links Altered Network Activity and Cognitive Dysfunction in Alzheimer Model",
   authors: HyperactivationA3,
   publicationDate: new Date("2012-04-27"),
 };
-
 export const hyperexcitability4: Citation = {
   title:
     "Clusters of Hyperactive Neurons Near Amyloid Plaques in a Mouse Model of Alzheimer's Disease",
   authors: HyperactivationA4,
   publicationDate: new Date("2008-09-19"),
 };
-
 export const synergyABTauInAD: Citation = {
   title: "Synergy between amyloid-β and tau in Alzheimer’s disease",
   authors: SynergyABTauA,
   publicationDate: new Date("2020-08-10"),
 };
-
 export const LinksADOscillatorySlowing: Citation = {
   title:
     "A multiscale brain network model links Alzheimer’s disease-mediated neuronal hyperactivity to large-scale oscillatory slowing",
   authors: LinksADOscillatorySlowingA,
   publicationDate: new Date("2022-07-01"),
 };
-
 export const EIIncreasedParietal: Citation = {
   title:
     "Increased excitatory to inhibitory synaptic ratio in parietal cortex samples from individuals with Alzheimer’s disease",
   authors: EIIncreasedParietalA,
   publicationDate: new Date("2021-05-10"),
 };
-
 export const SynergyABTauCorticalAndMC: Citation = {
   title:
     "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
   authors: SynergyABTauCorticalAndMCA,
   publicationDate: new Date("2024-08-13"),
 };
-
 export const XModel: Citation = {
   title: "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
   authors: XModelA,
   publicationDate: new Date("2019-12-01"),
 };
-
 export const PowEnvCorrReview: Citation = {
   title:
     "Measuring electrophysiological connectivity by power envelope correlation: a technical review on MEG methods",
   authors: PowEnvCorrReviewA,
   publicationDate: new Date("2015-11-07"),
 };
-
 export const ParamsPSD: Citation = {
   title:
     "Parameterizing neural power spectra into periodic and aperiodic components",
@@ -121,4 +114,33 @@ export const ATNClassification: Citation = {
     "A/T/N: An unbiased descriptive classification scheme for Alzheimer disease biomarkers",
   authors: ATNA,
   publicationDate: new Date("2016-08-02"),
+};
+export const NIAAA: Citation = {
+  title:
+    "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+  authors: NIAAAA,
+  publicationDate: new Date("2018-01-01"),
+};
+export const Braak: Citation = {
+  title: "Staging of Alzheimer-Related Cortical Destruction",
+  authors: BraakA,
+  publicationDate: new Date("1993-01-01"),
+};
+export const MMSEReview: Citation = {
+  title:
+    "Mini-Mental State Examination (MMSE) for the detection of Alzheimer's disease and other dementias in people with mild cognitive impairment (MCI)",
+  authors: MMSEReviewA,
+  publicationDate: new Date("2015-01-01"),
+};
+export const InferringEIFromFieldPotentials: Citation = {
+  title:
+    "Inferring synaptic excitation/inhibition balance from field potentials",
+  authors: InferringEIFromFieldPotentialsA,
+  publicationDate: new Date("2017-09-01"),
+};
+export const EITranslationalPerspective: Citation = {
+  title:
+    "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+  authors: EITranslationalPerspectiveA,
+  publicationDate: new Date("2021-08-01"),
 };

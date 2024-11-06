@@ -1,4 +1,5 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
+import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import {
   CombiningBrainSimAndMeg,
@@ -8,6 +9,7 @@ import {
   hyperexcitability4,
   LinksADOscillatorySlowing,
   XModel,
+  EITranslationalPerspective,
 } from "@/public/citations";
 
 export const Hyperexcitability = new MyNode(
@@ -73,6 +75,34 @@ export const Hyperexcitability = new MyNode(
         neuronal synchronization, which may lead to the establishment of
         aberrant relationships between brain areas
       </CitationCard>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        (Nakamura et al., 2017) showed increased phase synchronization (delta
+        and theta frequency bands) between the precuneus and the bilateral
+        inferior parietal lobules in asymptomatic amyloid-positive. And between
+        ante-posterior networks.
+      </CitationCard>
+      <Hypothesis>
+        Hypersynchrony observed in AD is a direct result of Aβ-induced
+        overactivation of excitatory neurons due to disrupted inhibitory
+        (GABAergic) control, rather than a compensatory mechanism. Supported by{" "}
+        <CitationCard citations={[EITranslationalPerspective]}>
+          the loss of GABAergic transmission, could induce hyperactivity,
+          increasing the probability of local synchronization of brain
+          oscillatory activity
+        </CitationCard>
+      </Hypothesis>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        However, p-tau also mediated increased synchronization between the
+        anterior cingulate cortex (ACC) and the medial temporal lobe in the beta
+        frequency band (Canuet et al., 2015), probably due to the interaction
+        with amyloid deposits, which mainly cause neuronal hyperactivation
+        (Busche and Konnerth, 2016).
+      </CitationCard>
+      <Hypothesis>
+        If hypersynchrony is driven by Aβ pathology, then directional
+        connectivity from regions with higher Aβ load to regions with lower Aβ
+        load should show causal hypersynchrony.
+      </Hypothesis>
     </div>
   )
 );

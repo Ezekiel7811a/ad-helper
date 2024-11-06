@@ -50,6 +50,41 @@ const rowsMCI = [
   ["A-/T+/N+", "Not defined", "Not defined"],
 ];
 
+const rowsAD = [
+  ["A-/T-/N-", "Dementia, unlikely due to AD", "Not defined"],
+  [
+    "A+/T-/N-",
+    "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+    "Typical AD (if A+ established by amyloid PET)",
+  ],
+  [
+    "A+/T+/N-",
+    "High likelihood probable AD dementia; based on clinical criteria",
+    "Typical AD",
+  ],
+  [
+    "A+/T-/N+",
+    "High likelihood; probable AD dementia; based on clinical criteria",
+    "Typical AD (if A+ established by amyloid PET)",
+  ],
+  ["A+/T+/N+", "High likelihood AD pathophysiology", "Typical AD"],
+  [
+    "A-/T+/N-",
+    "Probable AD dementia; based on clinical criteria",
+    "Not defined",
+  ],
+  [
+    "A-/T-/N+",
+    "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+    "Not defined",
+  ],
+  [
+    "A-/T+/N+",
+    "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+    "Not defined",
+  ],
+];
+
 const headers = [
   "A/T/N Classification",
   "NIA-AA Classification preclinical AD",
@@ -87,6 +122,8 @@ export const ATN = new MyNode(
         <MyTable headers={headers} contents={rows} />
         <div>Table 2. MCI individuals</div>
         <MyTable headers={headers} contents={rowsMCI} />
+        <div>Table 3. Probable AD</div>
+        <MyTable headers={headers} contents={rowsAD} />
       </CitationCard>
     </div>
   )

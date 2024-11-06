@@ -56,3 +56,20 @@ const JRClifford: Author = {
   name: "J.R. Clifford",
 };
 export const ATNA = [JRClifford];
+export const NIAAAA = [JRClifford];
+const HBraak: Author = {
+  name: "H. Braak",
+};
+export const BraakA = [HBraak];
+const IAlvaloRodriguez: Author = {
+  name: "I. Alvalo-Rodriguez",
+};
+export const MMSEReviewA = [IAlvaloRodriguez];
+const RGao: Author = {
+  name: "R. Gao",
+};
+export const InferringEIFromFieldPotentialsA = [RGao];
+const FMaestu: Author = {
+  name: "F. Maestú",
+};
+export const EITranslationalPerspectiveA = [FMaestu];

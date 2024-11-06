@@ -1,7 +1,7 @@
 import { MyNode } from "@/models/node";
 import { ClassificationNode } from "./classification";
 import CitationCard from "@/app/components/citation-card/citation-card";
-import { adReview } from "@/public/citations";
+import { adReview, NIAAA } from "@/public/citations";
 
 export const AlzheimerNode = new MyNode(
   "Alzheimer's Disease",
@@ -24,6 +24,15 @@ export const AlzheimerNode = new MyNode(
         tau play important roles. Therapeutic endeavours are still struggling to
         find targets within this framework that substantially change the
         clinical course in persons with AD.`}
+      </CitationCard>
+      <CitationCard citations={[NIAAA]}>
+        From 10% to 30% of individuals clinically diagnosed as AD dementia by
+        experts do not display AD neuropathologic changes at autopsy [50], and a
+        similar proportion has normal amyloid PET or CSF Ab42 studies [53–62].
+        especially in older persons. Thirty to forty percent of cognitively
+        unimpaired (CU) elderly persons have AD neuropathologic changes at
+        autopsy [67–69], and a similar proportion has abnormal amyloid
+        biomarkers [33,53–55,60,70–73].
       </CitationCard>
     </div>
   )

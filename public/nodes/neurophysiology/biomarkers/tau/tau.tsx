@@ -2,6 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import {
+  Braak,
   SynergyABTauCorticalAndMC,
   synergyABTauInAD,
 } from "@/public/citations";
@@ -32,6 +33,11 @@ export const Tau = new MyNode(
         Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting
         an Imbalance in Excitatory-Inhibitory Activity
       </Hypothesis>
+      <CitationCard citations={[Braak]}>
+        Neurofibrillary tangles develop mainly in Pyramidal cells of the
+        entorhinal cortex and then due to the spread effect will spread to
+        hippocampus and finally to the neocortex.
+      </CitationCard>
     </div>
   )
 );
