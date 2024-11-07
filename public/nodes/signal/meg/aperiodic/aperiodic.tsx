@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { NeuroChemsOrganizationAd, ParamsPSD } from "@/public/citations";
 
-export const Aperiodic = new MyNode(
+const Aperiodic = new MyNode(
   "Aperiodic",
   [],
   (
@@ -44,3 +44,5 @@ export const Aperiodic = new MyNode(
     </div>
   )
 );
+
+export default Aperiodic;

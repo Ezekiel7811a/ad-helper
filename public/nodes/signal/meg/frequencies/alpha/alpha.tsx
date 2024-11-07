@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { NeuroChemsOrganizationAd } from "@/public/citations";
 
-export const Alpha = new MyNode(
+const Alpha = new MyNode(
   "Alpha",
   [],
   (
@@ -20,3 +20,5 @@ export const Alpha = new MyNode(
     </div>
   )
 );
+
+export default Alpha;

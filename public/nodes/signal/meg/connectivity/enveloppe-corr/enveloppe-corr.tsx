@@ -3,7 +3,7 @@ import Figure from "@/app/components/figure/figure";
 import { MyNode } from "@/models/node";
 import { PowEnvCorrReview } from "@/public/citations";
 
-export const EnveloppeCorr = new MyNode(
+const EnveloppeCorr = new MyNode(
   "Enveloppe Correlation",
   [],
   (
@@ -27,3 +27,5 @@ export const EnveloppeCorr = new MyNode(
     </div>
   )
 );
+
+export default EnveloppeCorr;

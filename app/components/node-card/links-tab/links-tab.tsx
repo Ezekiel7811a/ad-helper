@@ -2,8 +2,8 @@ import { MyNode } from "@/models/node";
 import { Button } from "@mui/material";
 
 interface Props {
-  nodes: MyNode[];
-  setNode: (node: MyNode) => void;
+  nodes: string[];
+  setNode: (label: string) => void;
 }
 
 const LinksTab = ({ nodes, setNode }: Props) => {
@@ -17,7 +17,7 @@ const LinksTab = ({ nodes, setNode }: Props) => {
               setNode(node);
             }}
           >
-            {node.title}
+            {node}
           </Button>
         ))}
     </div>

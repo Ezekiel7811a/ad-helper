@@ -2,12 +2,12 @@ import { ReactNode } from "react";
 
 export class MyNode {
   title: string;
-  links: MyNode[];
+  links: string[];
   content: ReactNode;
 
-  constructor(title: string, children: MyNode[], content: ReactNode) {
+  constructor(title: string, links: string[], content: ReactNode) {
     this.title = title;
-    this.links = children;
+    this.links = links;
     this.content = content;
   }
 }

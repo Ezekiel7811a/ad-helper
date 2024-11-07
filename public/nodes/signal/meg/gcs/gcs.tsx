@@ -1,6 +1,6 @@
 import { MyNode } from "@/models/node";
 
-export const GCS = new MyNode(
+const GCS = new MyNode(
   "Geometric Correction Scheme (GCS)",
   [],
   (
@@ -31,3 +31,5 @@ export const GCS = new MyNode(
     </div>
   )
 );
+
+export default GCS;

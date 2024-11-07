@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { XModel } from "@/public/citations";
 
-export const MCI = new MyNode(
+const MCI = new MyNode(
   "Mild Cognitive Impairment (MCI)",
   [],
   (
@@ -19,3 +19,5 @@ export const MCI = new MyNode(
     </div>
   )
 );
+
+export default MCI;

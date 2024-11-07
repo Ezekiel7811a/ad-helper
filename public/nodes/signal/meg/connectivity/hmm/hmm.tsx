@@ -1,6 +1,6 @@
 import { MyNode } from "@/models/node";
 
-export const HMM = new MyNode(
+const HMM = new MyNode(
   "HMM",
   [],
   (
@@ -19,3 +19,5 @@ export const HMM = new MyNode(
     </div>
   )
 );
+
+export default HMM;

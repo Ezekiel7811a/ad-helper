@@ -1,8 +1,9 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
+import ToCheck from "@/app/components/to-check/to-check";
 import { MyNode } from "@/models/node";
 import { CombiningBrainSimAndMeg } from "@/public/citations";
 
-export const Meg = new MyNode(
+const Meg = new MyNode(
   "Magnetoencephalography (MEG)",
   [],
   (
@@ -28,3 +29,5 @@ export const Meg = new MyNode(
     </div>
   )
 );
+
+export default Meg;

@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import { MyNode } from "@/models/node";
 import { NIAAA } from "@/public/citations";
 
-export const PET = new MyNode(
+const PET = new MyNode(
   "PET",
   [],
   (
@@ -31,3 +31,5 @@ export const PET = new MyNode(
     </div>
   )
 );
+
+export default PET;

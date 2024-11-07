@@ -4,7 +4,7 @@ import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import { ParamsPSD } from "@/public/citations";
 
-export const Periodic = new MyNode(
+const Periodic = new MyNode(
   "Periodic",
   [],
   (
@@ -41,3 +41,5 @@ export const Periodic = new MyNode(
     </div>
   )
 );
+
+export default Periodic;

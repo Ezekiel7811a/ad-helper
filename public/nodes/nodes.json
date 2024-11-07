@@ -1,0 +1,2904 @@
+[
+  {
+    "title": "ATN",
+    "links": ["Braak", "IWG", "Braak", "IWG"],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "A/T/N: An unbiased descriptive classification scheme for Alzheimer disease biomarkers",
+                "authors": [
+                  {
+                    "name": "J.R. Clifford"
+                  }
+                ],
+                "publicationDate": "2016-08-02T00:00:00.000Z"
+              }
+            ],
+            "children": [
+              "“A” refers to the value of a b-amyloid biomarker (amyloid PET or CSF Ab42); “T,” the value of a tau biomarker (CSF phospho tau, or tau PET); and “N,” biomarkers of neurodegeneration or neuronal injury ([18F]-fluorodeoxyglucose–PET, structural MRI, or CSF total tau). Conflicting results within a category would be labeled “c.” For example, if an individual had conflicting results from amyloid PET and CSF Ab,heorshemight be labeled Ac.Individuals can be fully classified by CSF alone, imaging alone, or combinations.Several different approaches to selecting normal/ abnormal cutpoints in the continuous range of biomarker values exist. These include selecting values that best separate clinically normal individuals from those with dementia, values that have predictive power for future clinical decline,53 or using autopsied individuals with antemortem biomarker studies to guide selection of cutpoints.51,52 In laboratory medicine, the 95th percentile based on a healthy control population is commonly used or the 10th percentile of values seen in typical AD dementia.21,55. Biomarker values are then scaled linearly from 0 (normal) to 100 (abnormal). The centiloid scale is related to but not identical to percentiles because centiloid values below 0 (i.e., below the mean for the normal group) and above 100 (i.e., above the mean for the abnormal group) are possible. An example of how this might appear is A80/T50/N20.",
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 1. Clinically normal individuals"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": [
+                    "A/T/N Classification",
+                    "NIA-AA Classification preclinical AD",
+                    "2014 IWG Classification"
+                  ],
+                  "contents": [
+                    ["A-/T-/N-", "Not defined", "Not defined"],
+                    [
+                      "A+/T-/N-",
+                      "Stage 1",
+                      "Asymptomatic at risk of AD (if A+ established by amyloid PET)"
+                    ],
+                    ["A+/T+/N-", "Stage 2/3", "Asymptomatic at risk of AD"],
+                    [
+                      "A+/T-/N+",
+                      "Not addressed",
+                      "Asymptomatic at risk of AD (if A+ established by amyloid PET)"
+                    ],
+                    ["A+/T+/N+", "Stage 2/3", "Asymptomatic at risk of AD"],
+                    ["A-/T+/N-", "Not defined", "Not defined"],
+                    ["A-/T-/N+", "Not defined", "Not defined"],
+                    ["A-/T+/N+", "Not defined", "Not defined"]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 2. MCI individuals"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": [
+                    "A/T/N Classification",
+                    "NIA-AA Classification preclinical AD",
+                    "2014 IWG Classification"
+                  ],
+                  "contents": [
+                    ["A-/T-/N-", "MCI, unlikely due to AD", "Not defined"],
+                    [
+                      "A+/T-/N-",
+                      "MCI, core clinical criteria",
+                      "Asymptomatic at risk of AD (if A+ established by amyloid PET)"
+                    ],
+                    ["A+/T+/N-", "MCI, core clinical criteriaa", "Typical AD"],
+                    [
+                      "A+/T-/N+",
+                      "MCI, core clinical criteria",
+                      "Typical AD (if A1 established by amyloid PET)"
+                    ],
+                    [
+                      "A+/T+/N+",
+                      "MCI due to AD, high likelihood",
+                      "Typical AD"
+                    ],
+                    ["A-/T+/N-", "Not defined", "Not defined"],
+                    ["A-/T-/N+", "Not defined", "Not defined"],
+                    ["A-/T+/N+", "Not defined", "Not defined"]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 3. Probable AD"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": [
+                    "A/T/N Classification",
+                    "NIA-AA Classification preclinical AD",
+                    "2014 IWG Classification"
+                  ],
+                  "contents": [
+                    ["A-/T-/N-", "Dementia, unlikely due to AD", "Not defined"],
+                    [
+                      "A+/T-/N-",
+                      "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+                      "Typical AD (if A+ established by amyloid PET)"
+                    ],
+                    [
+                      "A+/T+/N-",
+                      "High likelihood probable AD dementia; based on clinical criteria",
+                      "Typical AD"
+                    ],
+                    [
+                      "A+/T-/N+",
+                      "High likelihood; probable AD dementia; based on clinical criteria",
+                      "Typical AD (if A+ established by amyloid PET)"
+                    ],
+                    [
+                      "A+/T+/N+",
+                      "High likelihood AD pathophysiology",
+                      "Typical AD"
+                    ],
+                    [
+                      "A-/T+/N-",
+                      "Probable AD dementia; based on clinical criteria",
+                      "Not defined"
+                    ],
+                    [
+                      "A-/T-/N+",
+                      "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+                      "Not defined"
+                    ],
+                    [
+                      "A-/T+/N+",
+                      "Intermediate likelihood; probable AD dementia; based on clinical criteria",
+                      "Not defined"
+                    ]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            ]
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Braak",
+    "links": ["ATN", "Classifications", "ATN", "Classifications"],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Staging of Alzheimer-Related Cortical Destruction",
+                "authors": [
+                  {
+                    "name": "H. Braak"
+                  }
+                ],
+                "publicationDate": "1993-01-01T00:00:00.000Z"
+              }
+            ],
+            "children": [
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 1. Braak stages"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": ["Stage", "Definition", "Cognition"],
+                  "contents": [
+                    [
+                      "I",
+                      "Few NFTs in the transentorhinal region",
+                      "Normal cognition"
+                    ],
+                    [
+                      "II",
+                      "NFTs in the transentorhinal region and few in the entorhinal region",
+                      "Normal cognition"
+                    ],
+                    [
+                      "III",
+                      "Severe NFTs in the entorhinal region",
+                      "Mild cognitive impairment"
+                    ],
+                    [
+                      "IV",
+                      "NFTs in the hippocampus",
+                      "Mild cognitive impairment"
+                    ],
+                    ["V", "NFTs in the isocortex", "Dementia"],
+                    ["VI", "NFTs in the isocortex", "Dementia"]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "src": "images/classification/transenthorinal_stage.png",
+                  "alt": "Transentorhinal stage",
+                  "caption": "Transenthorinal stage",
+                  "n": 1
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "src": "images/classification/limbic_stage.png",
+                  "alt": "Limbic stage",
+                  "caption": "Entorhinal stage",
+                  "n": 2
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "src": "images/classification/isocortical_stage.png",
+                  "alt": "Isocortical stage",
+                  "caption": "Hippocampal stage",
+                  "n": 3
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            ]
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Classifications",
+    "links": ["Braak", "Braak"],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "individuals without overt symptoms, called “preclinical AD” [4]."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Biomarkers of AD: CSF biomarkers are valid proxies for neuropathologic changes of AD. Imaging-to-autopsy comparison studies have established that amyloid positron emission tomography (PET) is a valid in vivo surrogate for Ab deposits (in brain parenchyma/vessel walls) [17–24].Itis also now widely accepted that CSF Ab42 (or the Ab42/ Ab40 ratio) is a valid indicator of the abnormal pathologic state associated with cerebral Ab [25]. An additional development has been the introduction of PET ligands for pathologic tau [26–28]. magnetic resonance imaging (MRI), fluorodeoxyglucose (FDG) PET, and CSF total tau (T-tau)—are not specific for AD but rather are nonspecific indicators of damage that may derive from a variety of etiologies, for example, cerebrovascular injury [29]."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/classifcation/classification.png",
+                    "alt": "Classification problem",
+                    "caption": "Interaction of ATN features",
+                    "n": 1
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/classifcation/atn_niaaa.png",
+                    "alt": "ATN X NIA-AA",
+                    "caption": "Biomarkers interactions with NIA-AA",
+                    "n": 2
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Comparision NIA-AA with IWG: The International Working Group (IWG) also incorporates biomarkers in AD diagnosis but requires cognitive symptoms alongside biomarkers for diagnosis (except for genetic AD). Unlike NIA-AA’s purely biological model, IWG initially required clinical symptoms to define AD. However, IWG’s 2016 update included asymptomatic individuals with both abnormal Aβ and tau biomarkers in the AD category, aligning more closely with NIA-AA’s biologic definition."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Alzheimer’s clinical syndrome rather than probable AD when describing syndromes without biomarker evidence"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "src": "images/causality/causal_hypothesis.png",
+                  "alt": "Hypothesis",
+                  "caption": "The possible causalities of the biomarkers",
+                  "n": 1
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Mini-Mental State Examination (MMSE) for the detection of Alzheimer's disease and other dementias in people with mild cognitive impairment (MCI)",
+                  "authors": [
+                    {
+                      "name": "I. Alvalo-Rodriguez"
+                    }
+                  ],
+                  "publicationDate": "2015-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "he prevalence of cognitive impairment without dementia as 22% in people aged 71 years or older (Plassman 2008).10% to 15% of individuals with MCI may progress to dementia,"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "IWG",
+    "links": ["ATN", "ATN"],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Mini Mental State Examination (MMSE)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          "The MMSE is subject to copyright restrictions, therefore will not be included in this resource.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Mini-Mental State Examination (MMSE) for the detection of Alzheimer's disease and other dementias in people with mild cognitive impairment (MCI)",
+                  "authors": [
+                    {
+                      "name": "I. Alvalo-Rodriguez"
+                    }
+                  ],
+                  "publicationDate": "2015-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "MMSE is the best-known and the most oRen used short screening tool for providing an overall measure of cognitive impairment in clinical, research and community settings. sensitivities of 23% to 76% and specificities from 40% to 94%. n relationship to conversion from MCI to Alzheimer’s disease dementia, the accuracy of baseline MMSE scores ranged from sensitivities of 27% to 89% and specificities from 32% to 90%. In conclusion it should not be used as a standalone diagnostic."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Mini-Mental State Examination (MMSE) for the detection of Alzheimer's disease and other dementias in people with mild cognitive impairment (MCI)",
+                  "authors": [
+                    {
+                      "name": "I. Alvalo-Rodriguez"
+                    }
+                  ],
+                  "publicationDate": "2015-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "a 30-question assessment of cognitive function that evaluates attention and orientation, memory, registration, recall, calculation, language and ability to draw a complex polygon ( Folstein 1975). Traditionally, a 23/24 cut-off has been used to select patients with suspected cognitive impairment or dementia ( Tombaugh 1992 ). However, several studies have shown that sociocultural variables, age and education, among other factors, could affect individual scores (Bleecker 1988; Brayne 1990; Crum 1993); therefore local standards must be developed for each population and setting evaluated (Diniz 2007; Kulisevsky 2009; Shiroky 2007; Trenkle 2007)."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Mini-Mental State Examination (MMSE) for the detection of Alzheimer's disease and other dementias in people with mild cognitive impairment (MCI)",
+                  "authors": [
+                    {
+                      "name": "I. Alvalo-Rodriguez"
+                    }
+                  ],
+                  "publicationDate": "2015-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Alternatives: Montreal Cognitive Assessment (MoCA) (Davis 2013) and the Mini-Cog test (Chan 2014, Fage 2013, Seitz 2014)."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "NIA-AA",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                "authors": [
+                  {
+                    "name": "J.R. Clifford"
+                  }
+                ],
+                "publicationDate": "2018-01-01T00:00:00.000Z"
+              }
+            ],
+            "children": [
+              "The committee designed a 3-range system: normal (0), intermediate (1), and abnormal (2).",
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 1. Syndromal staging of cognitive continuum: Applicable to all members of a research cohort independent from biomarker profiles"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": ["Stage"],
+                  "contents": [
+                    [
+                      "Cognitively unimpaired: Cognitive performance within expected range for that individual based on all available information (clinical judgement / cognitive performance)."
+                    ],
+                    [
+                      "Mild cognitive impairment (MCI): Cognitive performance below expected range for that individual based on all available information (clinical judgement / cognitive performance) and compared to baseline. Still independent in daily life."
+                    ],
+                    [
+                      "Dementia: Substantial progressive cognitive impairment that affects several domains and/or neurobehavioral symptoms. (self / observer reported). Not independent in daily life."
+                    ]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "type": "div",
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": "Table 2. Staging of cognitive continuum: Applicable only to individuals with AD"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": ["Stage", "Definition"],
+                  "contents": [
+                    [
+                      "1",
+                      "Performance within expected range on objective cognitive tests. Cognitive test performance may be compared to normative data of the investigators choice, with or without adjustment (the choice of the investigators) for age, sex, education, etc.* Does not report recent decline in cognition or new onset of neurobehavioral symptoms of concern. No evidence of recent cognitive decline or new neurobehavioral symptoms by report of an observer (e.g., study partner) or by longitudinal cognitive testing if available."
+                    ],
+                    [
+                      "2",
+                      "Normal performance within expected range on objective cognitive tests. Transitional cognitive decline: Decline in previous level of cognitive function, which may involve any cognitive domain(s) (i.e., not exclusively memory). May be documented through subjective report of cognitive decline that is of concern to the participant. Represents a change from individual baseline within past 1–3 years, and persistent for at least 6 months. May be corroborated by informant but not required. Or may be documented by evidence of subtle decline on longitudinal cognitive testing but not required. Or may be documented by both subjective report of decline and objective evidence on longitudinal testing. Although cognition is the core feature, mild neurobehavioral changes—for example, changes in mood, anxiety, or motivation—may coexist. In some individuals, the primary compliant may be neurobehavioral rather than cognitive. Neurobehavioral symptoms should have a clearly defined recent onset, which persists and cannot be explained by life events.y No functional impact on daily life activities"
+                    ],
+                    [
+                      "3",
+                      "Performance in the impaired/abnormal range on objective cognitive tests. Evidence of decline from baseline, documented by the individual’s report or by observer (e.g., study partner) report or by change on longitudinal cognitive testing or neurobehavioral behavioral assessments. May be characterized by cognitive presentations that are not primarily amnestic.z Performs daily life activities independently, but cognitive difficulty may result in detectable but mild functional impact on the more complex activities of daily life, that is, may take more time or be less efficient but still can complete, either self-reported or corroborated by a study partner."
+                    ],
+                    [
+                      "4",
+                      "Mild dementia Substantial progressive cognitive impairment affecting several domains, and/or neurobehavioral disturbance. Documented by the individual’s report or by observer (e.g., study partner) report or by change on longitudinal cognitive testing. Clearly evident functional impact on daily life, affecting mainly instrumental activities. No longer fully independent/requires occasional assistance with daily life activities."
+                    ],
+                    [
+                      "5",
+                      "Moderate dementia Progressive cognitive impairment or neurobehavioral changes. Extensive functional impact on daily life with impairment in basic activities. No longer independent and requires frequent assistance with daily life activities."
+                    ],
+                    [
+                      "6",
+                      "Severe dementia Progressive cognitive impairment or neurobehavioral changes. Clinical interview may not be possible. Complete dependency due to severe functional impact on daily life with impairment in basic activities, including basic self-care."
+                    ]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            ]
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Alzheimer's Disease",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "David S. Knopman"
+                    }
+                  ],
+                  "publicationDate": "2021-05-13T00:00:00.000Z"
+                }
+              ],
+              "children": "Alzheimer disease (AD) is biologically defined by the presence of\n        β-amyloid-containing plaques and tau-containing neurofibrillary tangles.\n        AD is a genetic and sporadic neurodegenerative disease that causes an\n        amnestic cognitive impairment in its prototypical presentation and\n        non-amnestic cognitive impairment in its less common variants. AD is a\n        common cause of cognitive impairment acquired in midlife and late-life\n        but its clinical impact is modified by other neurodegenerative and\n        cerebrovascular conditions. This Primer conceives of AD biology as the\n        brain disorder that results from a complex interplay of loss of synaptic\n        homeostasis and dysfunction in the highly interrelated\n        endosomal/lysosomal clearance pathways in which the precursors,\n        aggregated species and post-translationally modified products of Aβ and\n        tau play important roles. Therapeutic endeavours are still struggling to\n        find targets within this framework that substantially change the\n        clinical course in persons with AD."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "From 10% to 30% of individuals clinically diagnosed as AD dementia by experts do not display AD neuropathologic changes at autopsy [50], and a similar proportion has normal amyloid PET or CSF Ab42 studies [53–62]. especially in older persons. Thirty to forty percent of cognitively unimpaired (CU) elderly persons have AD neuropathologic changes at autopsy [67–69], and a similar proportion has abnormal amyloid biomarkers [33,53–55,60,70–73]."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Classification",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "The classification of Alzheimer's disease is based on the clinical\n        presentation and the underlying pathology. The clinical presentation is\n        based on the severity of the cognitive impairment, which is assessed\n        using the Mini-Mental State Examination (MMSE) or the Clinical Dementia\n        Rating (CDR) scale. The underlying pathology is based on the presence of\n        amyloid-beta plaques and tau tangles in the brain, which are detected\n        using positron emission tomography (PET) or cerebrospinal fluid (CSF)\n        analysis."
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Neurophysiology",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "Aβ and tau show different temporal evolution profiles (in which tau pathology is delayed), are initially deposited in different brain regions (Aβ plaques are particularly found in medial prefrontal and medial parietal regions, while tau aggregates in the medial temporal lobe), and propagate across other cortical regions as the disease progresses.",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 1,
+                    "src": "images/ab-tau/ab_tau_progression.png",
+                    "alt": "ab_tau_progression",
+                    "caption": "chematic representation of the spatiotemporal progression of Aβ and tau biomarker levels during AD progression."
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
+                  "authors": [
+                    {
+                      "name": "J.G. Rudolf"
+                    }
+                  ],
+                  "publicationDate": "2024-08-13T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "The joint accumulation of Aβ and tau triggers a cascade of deleterious events from synaptic loss, neuronal death, to brain atrophy5,16–18, which are thought to underlie the cognitive deficits that characterize the disease4,19.",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 2,
+                    "src": "images/ab-tau/proposed_model_ad.png",
+                    "alt": "proposed_model",
+                    "caption": "the possible evolution of pathological changes across the AD continuum, with the new hypothesis of an early shift in neurophysiological activity from acceleration to slowing during the preclinical phase."
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                "In the prodromal stage of AD, increased blood-oxygen-level-dependent (BOLD) activations in hippocampal and middle temporal lobe circuits have been reported"
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+                  "authors": [
+                    {
+                      "name": "S. Pusil"
+                    }
+                  ],
+                  "publicationDate": "2019-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "This model is also supported by the X model, stating that sMCI are just future pMCI in the hypersynchronization phase.",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 3,
+                    "src": "images/hypersynchronization/x_model.png",
+                    "alt": "X model",
+                    "caption": "Proposition of a model explaining the observations made on sMCI."
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "GlialCells",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Microglia (immune cells in the brain) become active when neurons are hypoactive. They can further reduce neuronal firing and are known to clear synapses and neurons in AD, contributing to loss of E. also contribute to synapse removal and become structurally abnormal in AD. These changes further disrupt neuron communication and could impair brain circuits."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Astrocytes also contribute to synapse removal and become structurally abnormal in AD. These changes further disrupt neuron communication and could impair brain circuits."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Oligodendrocytes (cells involved in myelination) are implicated in AD, but their specific role is still under research."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "It is possible to make a model of MEG signal / features based on tau and Aβ that takes into account their interactions with one another and with glial cells. As it is possible to predict the AD progression based on MEG features it would help understand glial cells role in AD progression."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "HUBS",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "one striking phenomenon is repeatedly observed: namely that highly connected ‘hub’ regions in the brain appear to be most vulnerable in AD (Buckner et al., 2009b; Stam, 2014; Yu et al., 2017). T"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": [
+                "The vulnerability of hub regions in AD may be due to their high connectivity, which makes them more susceptible to the spread of pathological proteins and the propagation of neurodegenerative processes.",
+                {
+                  "type": "div",
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "children": "We could try to find the correlation between the connectivity of the region and the vulnerability to AD."
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "he tendency of increased clustering and the loss of brain hubs (de Haan et al., 2012; Engels et al., 2017) reflect a progressive isolation of brain regions which correlates with cognitive impairment. Engels et al. (Engels et al., 2015) foundthat, alongside decreased functional connectivity values, hubs were mainly damaged in the posteriorregions of the brain,with a shift of the center of gravity from the posterior to the anterior areas."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "We could make a model to predict the progression of AD based on the previous model of signal but adding the connectivity of the regions."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "(Yu et al., 2017), appliedmultiplex networks analysis and found that several brain hubs (hippocampus, posterior regions of the defaultmode network and occipital regions), were impaired in AD patients at different frequency bands, indicating a close relationship between the damage across the frequency spectra."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "This finding could explain why previous hypersynchronization phenomena were found at several frequency bands."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "PyramidalNeurons",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "The dendritic spines of pyramidal cells are the mainpostsynaptic targets of excitatory glutamatergic synapses, and pyramidal cell axons represent the main source of these synapses in the cerebral cortex (DeFelipe and Farinas, 1992).",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/neurons/pyramidal_degradation.png",
+                    "alt": "Pyramidal cell degradation",
+                    "n": 1,
+                    "caption": "Scheme representing the changes to pyramidal cell dendrites of that showed different patterns of PHF-tau immunostaining"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/ab-tau/ab_pyramidal.png",
+                    "alt": "AB pyramidal",
+                    "n": 2,
+                    "caption": "Aβ depositions on pyramidal cells"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "div",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Pyramidal neurons in alpha-dominant areas receive rhythmic inhibitory input from GABAergic interneurons, which regulates their excitability and helps sustain a lower-frequency rhythm. This interplay between excitation and inhibition within these circuits supports a slower, synchronized alpha rhythm.In beta-generating regions, pyramidal neurons tend to fire at higher rates and with less synchrony than in alpha-dominated areas. Beta oscillations involve faster cycles of excitation and inhibition, allowing for rapid processing required for motor control and planning."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "AlphaSynuclein",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Amyloid Beta (AB)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          "Amyloid-b is primarily produced by the endocytosis of a transmembrane protein, amyloid precursor protein (APP), which modulates synapse formation and function (Priller et al., 2006). APP inside the neuron increases the amyloid-b production that is secreted into the brain interstitial fluid. The accumulation of soluble amyloid-b within the interstitial fluid becomes abnormal during Alzheimer’s disease as amyloid-b starts to aggregate into soluble amyloid-b oligomers and extracellular amyloidb plaques (Cirrito et al., 2005).Both amyloid-b forms exert a toxic effect on cells, causing the synaptic dysfunction that is a critical characteristic of the pathogenesis of Alzheimer’s disease (Selkoe, 2002).",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
+                  "authors": [
+                    {
+                      "name": "J.G. Rudolf"
+                    }
+                  ],
+                  "publicationDate": "2024-08-13T00:00:00.000Z"
+                }
+              ],
+              "children": "Aβ plaques deposition can begin up to two decades before symptom onset1-4,9, initially accumulating in cortical areas with high metabolic baseline activity, such as the precuneus, medial orbitofrontal and posterior cingulate cortices10,11, before spreading to the entire neocortex, brainstem and subcortical nuclei"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+                  "authors": [
+                    {
+                      "name": "A.L. Wiesman"
+                    }
+                  ],
+                  "publicationDate": "2024-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Amyloid Beta (Aβ) Plaques: These plaques, which are a hallmark of AD, are found at high levels (SUVR) in prefrontal and parieto-temporal cortices bilaterally. This spatial pattern aligns with regions showing abnormal rhythmic and aperiodic activity, suggesting a possible direct relationship between Aβ deposition and these neurophysiological changes. Brain regions with high densities of cholinergic (α4β2, M1), cannabinoid (CB1), mu-opioid (MOR), noradrenergic (NET), and specific serotonergic receptors (5-HT6, 5-HT1b) were more likely to show Aβ deposition."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Aβ plaques concentration is associated with an increased frequency of epileptiform activity in AD patients."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          "Some studies, like those by Dubois et al. (2018) and Teipel et al. (2018), did not find significant correlations between amyloid-PET and EEG/MEG connectivity in amyloid-positive subjects, leading to potential concerns about compatibility.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "src": "images/hypersynchronization/ab_hyperexcitation.png",
+                  "alt": "AB hyperexcitation model",
+                  "n": 1,
+                  "caption": "AB hyperexcitation model"
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "div",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Pyramidal cells are the main disrupted type of neurons with Aβ plaques."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/ab-tau/ab_pyramidal.png",
+                    "alt": "AB pyramidal",
+                    "n": 1,
+                    "caption": "Aβ depositions on pyramidal cells"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                "Aβ plaques, associated with Alzheimer’s Disease (AD), can form either in the spaces between neurons (neuropil) or directly on the surface of neuronal cell bodies. When Aβ plaques are on the surface of neuronal cell bodies, they disrupt GABAergic synapses in the perisomatic region. This loss of GABAergic inhibition is significant because it may cause neurons to become hyperactive due to a lack of inhibitory control around the cell body. Aβ plaques near the dendrites in the neuropil may lead to the loss of dendritic spines, which are small protrusions that typically form excitatory synapses. This loss of dendritic spines means a partial reduction in excitatory input to those neurons, but it doesn’t heavily impact the overall control of their activity since it only affects part of the dendritic structure. In summary, Aβ plaques can reduce inhibitory synapses (causing hyperactivity) near the cell bodies of neurons and reduce excitatory synapses on dendrites in the neuropil. Each change has a different impact on neuronal activity and synaptic circuits, contributing to the disruptions seen in Alzheimer's Disease."
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "In Alzheimer’s Disease (AD) patients, a higher density of Aβ plaques will correlate with a flatter PSD slope, particularly in frontal and temporal regions, due to decreased perisomatic GABAergic inhibition and increased neuronal hyperactivity in these areas."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Regions with high tau pathology in AD patients will show a steeper PSD slope due to tau's impact on excitatory neurons, resulting in reduced high-frequency power and an increased relative contribution of low-frequency activity."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "In brain regions with both Aβ and tau pathology, the effect on PSD slope will depend on the relative densities of Aβ versus tau: Aβ-dominant regions will have a flatter slope, while tau-dominant regions will exhibit a steeper slope."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Animal models of AD have shown that Aβ plaques induce local morphological alterations in the dendrites that are in contact with Aβ (e.g., (Knafo et al., 2009; Spires et al., 2005; Tsai et al., 2004))."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "AbTauInteractions",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Apoe4",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "APOE-ε4 carrier. Carriers of this genotype have a high probability of Aβ deposition in regions associated with the default mode network (Buckner et al., 2009a ) as shown by Nakamura et al. (Nakamura et al., 2018, 2017)."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "div",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Studies indicate that healthy elderly APOE4 carriers show increased network synchronization, while MCI APOE4 carriers exhibit lower synchronization in the same regions. (Gonzalez-Escamilla et al., 2014)."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Biomarkers",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": "ul",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": [
+                {
+                  "type": "li",
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "children": "Excitatory:"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                [
+                  {
+                    "type": "li",
+                    "key": "excitatory-0",
+                    "ref": null,
+                    "props": {
+                      "children": "glutamate"
+                    },
+                    "_owner": null,
+                    "_store": {}
+                  }
+                ]
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "ul",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": [
+                {
+                  "type": "li",
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "children": "Inhibitory:"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                [
+                  {
+                    "type": "li",
+                    "key": "inhibitory-0",
+                    "ref": null,
+                    "props": {
+                      "children": "GABA"
+                    },
+                    "_owner": null,
+                    "_store": {}
+                  },
+                  {
+                    "type": "li",
+                    "key": "inhibitory-1",
+                    "ref": null,
+                    "props": {
+                      "children": "gamma-aminobutyric acid"
+                    },
+                    "_owner": null,
+                    "_store": {}
+                  }
+                ]
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          "magnetic resonance spectroscopy (MRS) measurements of in vivo concentrations of primary excitatory (glutamate) and inhibitory (γ-aminobutyric acid, GABA) neurotransmitters.14–17 This approach presents several methodological challenges: the relatively low signals of glutamate and GABA complicate their interpretation because of their overlap with signals from other metabolites, it has low temporal and spatial resolution, and their measurements are usually restricted to one or few brain regions. For these reasons, current MRS approaches have limited utility for tracking variations of E/I across cortical regions or behavioral states.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Inferring synaptic excitation/inhibition balance from field potentials",
+                  "authors": [
+                    {
+                      "name": "R. Gao"
+                    }
+                  ],
+                  "publicationDate": "2017-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "headers": [
+                    "Biomarkers",
+                    "Type",
+                    "Frequency activity",
+                    "Amplitude activity (proportion)"
+                  ],
+                  "contents": [
+                    ["Glutamate", "E", "High", "1"],
+                    ["GABA", "E", "Low", "2-6"]
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Inferring synaptic excitation/inhibition balance from field potentials",
+                  "authors": [
+                    {
+                      "name": "R. Gao"
+                    }
+                  ],
+                  "publicationDate": "2017-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "synaptic input fluctuations during the high conductance state can be accurately modeled by a summation of two stationary stochastic processes representing excitatory and inhibitory inputs (Alvarez and Destexhe, 2004).",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "src": "images/ei/ei_frequency.png",
+                    "alt": "E:I interaction model",
+                    "caption": "Model schematic: an “LFP population” receives input from two Poisson populations, one excitatory and one inhibitory.",
+                    "n": 1
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Tau and Aβ together can have complex effects, with tau further silencing neurons even if Aβ is causing hyperactivity, suggesting tau can override the excitatory imbalance from Aβ."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Epileptiform",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                "authors": [
+                  {
+                    "name": "F. Maestú"
+                  }
+                ],
+                "publicationDate": "2021-08-01T00:00:00.000Z"
+              }
+            ],
+            "children": "subclinical epileptogenic activity has been found in about 42 % of AD patients, leading to a faster decline of cognitive abilities (Vossel et al., 2016). epileptic activity is more common in AD than other dementias, indicating that the link to hyperexcitability may be relatively specific to AD pathophysiology rather than just an unspecific consequence of neurodegeneration. Therefore, hypersynchronization could be a result of cortical hyperexcitability"
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "ImmuneActivation",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Tau",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          "Tau is a microtubule-associated protein that is abundant in neurons. It stabilizes microtubules and promotes their assembly. In the context of Alzheimer's disease, tau becomes hyperphosphorylated and forms neurofibrillary tangles. These tangles are associated with neuronal dysfunction and cell death. Tau pathology is thought to be a key driver of neurodegeneration in Alzheimer's disease.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Synergy between amyloid-β and tau in Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "Marc Aurel Busche"
+                    }
+                  ],
+                  "publicationDate": "2020-08-10T00:00:00.000Z"
+                }
+              ],
+              "children": "The tau aggregates are commonly found in the medial temporal lobe, starting in the parahippocampal gyrus, which includes the entorhinal cortex, from which they spread to limbic areas, and from there to the association areas."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
+                  "authors": [
+                    {
+                      "name": "J.G. Rudolf"
+                    }
+                  ],
+                  "publicationDate": "2024-08-13T00:00:00.000Z"
+                }
+              ],
+              "children": "Tau deposition also follows a relatively stereotypical distribution pattern, accumulating first in the entorhinal cortex before spreading to limbic areas and eventually the neocortex6,14,15."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting an Imbalance in Excitatory-Inhibitory Activity"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Staging of Alzheimer-Related Cortical Destruction",
+                  "authors": [
+                    {
+                      "name": "H. Braak"
+                    }
+                  ],
+                  "publicationDate": "1993-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Neurofibrillary tangles develop mainly in Pyramidal cells of the entorhinal cortex and then due to the spread effect will spread to hippocampus and finally to the neocortex."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "TDP43",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "VascularInjury",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "bonjour"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Hyperexcitability",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                },
+                {
+                  "title": "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
+                  "authors": [
+                    {
+                      "name": "Benedikt Zott"
+                    }
+                  ],
+                  "publicationDate": "2019-08-09T00:00:00.000Z"
+                },
+                {
+                  "title": "Rescue of long-range circuit dysfunction in Alzheimer's disease models",
+                  "authors": [
+                    {
+                      "name": "Marc Aurel Busche"
+                    }
+                  ],
+                  "publicationDate": "2015-10-12T00:00:00.000Z"
+                },
+                {
+                  "title": "Inhibitory Interneuron Deficit Links Altered Network Activity and Cognitive Dysfunction in Alzheimer Model",
+                  "authors": [
+                    {
+                      "name": "Laure Verret"
+                    }
+                  ],
+                  "publicationDate": "2012-04-27T00:00:00.000Z"
+                },
+                {
+                  "title": "Clusters of Hyperactive Neurons Near Amyloid Plaques in a Mouse Model of Alzheimer's Disease",
+                  "authors": [
+                    {
+                      "name": "Marc Aurel Busche"
+                    }
+                  ],
+                  "publicationDate": "2008-09-19T00:00:00.000Z"
+                }
+              ],
+              "children": "There is strong evidence that Aβ plaques, as well as soluble forms of Aβ,area key player in driving neuronal hyperexcitability in AD, which might ultimately give rise to epileptiform activity."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Significant patterns of hyperexcitability observed in prefrontal regions associated with Aβ deposition."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "A multiscale brain network model links Alzheimer’s disease-mediated neuronal hyperactivity to large-scale oscillatory slowing",
+                  "authors": [
+                    {
+                      "name": "A.M. van Nifterick"
+                    }
+                  ],
+                  "publicationDate": "2022-07-01T00:00:00.000Z"
+                }
+              ],
+              "children": "A link between neuronal hyperactivity in preclinical AD to oscillatory slowing has been shown."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+                  "authors": [
+                    {
+                      "name": "S. Pusil"
+                    }
+                  ],
+                  "publicationDate": "2019-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": "As the disease progresses, the hypersynchronization observed in the pMCI group would cause neuronal death due to excessive calciummediated activity (de Haan et al., 2012a, b), leading to the characteristic network disruption observed in more advanced stages of Alzheimer’s disease (Locatelli et al., 1998; Koenig et al., 2005; Stam et al., 2009)."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          "pyramidal neurons exhibit hyperactivity, possibly due to the lack of GABAergic perisomatic synapses (Garcia-Marin et al., 2009). This increase of activity generates, in turn, an increment of the APP endocytosis, reinforcing the aberrant circle of amyloid-b production.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
+                  "authors": [
+                    {
+                      "name": "Benedikt Zott"
+                    }
+                  ],
+                  "publicationDate": "2019-08-09T00:00:00.000Z"
+                }
+              ],
+              "children": "Ab can induce hyperexcitation in sensitive neurons and that this drives a vicious cycle of hyperactivation. Next, the block of synaptically released glutamate at active excitatory synapses is an important element of the vicious cycle. The third component of the cycle is excessive perisynaptic accumulation of glutamate. The final element of the cycle is revealed by the dependence of the increase in hyperactivation on the level of baseline activity, both for synthetic and human brainderived Ab dimers. Abdependent hyperactivity precedes plaque formation and is present at early stages, long before plaques."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "div",
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Interpretations:"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+                  "authors": [
+                    {
+                      "name": "S. Pusil"
+                    }
+                  ],
+                  "publicationDate": "2019-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": "we may speculate that the profile of hypersynchronization found here, as in other studies, may be related to the pathological process of Alzheimer’s disease (de Haan et al., 2012a, b;L ́ opez et al., 2014). This view of synchronization as a pathological sign, not as compensatory, would reflect the hyperexcitability of the pyramidal neurons induced by the lack of inhibitory connections caused by the toxic effects of the neuritic plaques as previously shown in animal models (Cirrito et al., 2005; Garcia-Marin et al., 2009). Thus, the greater the neuronal excitability, the greater the likelihood of neuronal synchronization, which may lead to the establishment of aberrant relationships between brain areas"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "(Nakamura et al., 2017) showed increased phase synchronization (delta and theta frequency bands) between the precuneus and the bilateral inferior parietal lobules in asymptomatic amyloid-positive. And between ante-posterior networks."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": [
+                "Hypersynchrony observed in AD is a direct result of Aβ-induced overactivation of excitatory neurons due to disrupted inhibitory (GABAergic) control, rather than a compensatory mechanism. Supported by",
+                " ",
+                {
+                  "type": {},
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "citations": [
+                      {
+                        "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                        "authors": [
+                          {
+                            "name": "F. Maestú"
+                          }
+                        ],
+                        "publicationDate": "2021-08-01T00:00:00.000Z"
+                      }
+                    ],
+                    "children": "the loss of GABAergic transmission, could induce hyperactivity, increasing the probability of local synchronization of brain oscillatory activity"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                  "authors": [
+                    {
+                      "name": "F. Maestú"
+                    }
+                  ],
+                  "publicationDate": "2021-08-01T00:00:00.000Z"
+                }
+              ],
+              "children": "However, p-tau also mediated increased synchronization between the anterior cingulate cortex (ACC) and the medial temporal lobe in the beta frequency band (Canuet et al., 2015), probably due to the interaction with amyloid deposits, which mainly cause neuronal hyperactivation (Busche and Konnerth, 2016)."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "If hypersynchrony is driven by Aβ pathology, then directional connectivity from regions with higher Aβ load to regions with lower Aβ load should show causal hypersynchrony."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Hypoexcitability",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Aβ-mediated effects, tau is associated with suppression of neuronal activity (hypoexcitability) and progressive loss of connectivity"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Significant patterns of hypoexcitability observed in the temporal lobe associated with tau accumulation."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "GraphPrediction",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
+                "authors": [
+                  {
+                    "name": "F. Maestú"
+                  }
+                ],
+                "publicationDate": "2021-08-01T00:00:00.000Z"
+              }
+            ],
+            "children": "Graph theoretical approaches have been particularly successful in characterizing macroscopic functional brain network damage in AD (Pievani et al., 2011; Stam, 2014)."
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Prediction",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "(S Pusil et al. 2019) have shown that using temporal synchronization accross frequency bands can predict MCI progression to AD."
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Default Mode Network (DMN)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Increased excitatory to inhibitory synaptic ratio in parietal cortex samples from individuals with Alzheimer’s disease",
+                "authors": [
+                  {
+                    "name": "J.C. Lauterborn"
+                  }
+                ],
+                "publicationDate": "2021-05-10T00:00:00.000Z"
+              }
+            ],
+            "children": "baseline DMN activity is increased in AD and fails to deactivate during cognitive tasks, suggesting that the DMN is abnormally and continuously hyperactive in AD"
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "CSF",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                "authors": [
+                  {
+                    "name": "J.R. Clifford"
+                  }
+                ],
+                "publicationDate": "2018-01-01T00:00:00.000Z"
+              }
+            ],
+            "children": "P-tau: Primarily measured by the P-tau181 epitope (and others like P-tau231 and P-tau199), elevated CSF P-tau is specific to AD and correlates with PHF tau formation. It remains normal in most other neurodegenerative diseases, making it a reliable biomarker for AD pathology. T-tau: Reflects general neuronal injury rather than AD-specific tau pathology. T-tau increases in response to various neuronal injuries (e.g., traumatic brain injury), distinguishing it from P-tau, which rises specifically in AD. Tau PET and CSF P-tau cannot detect minimal neurofibrillary changes, impacting the diagnostic distinction between “Alzheimer’s pathologic change” and full AD."
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Aperiodic",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Parameterizing neural power spectra into periodic and aperiodic components",
+                  "authors": [
+                    {
+                      "name": "T. Donoghue"
+                    }
+                  ],
+                  "publicationDate": "2020-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": "aperiodic power across frequencies, and is equivalent to the negative slope of the power spectrum when measured in log–log space24. The aperiodic component is additionally parameterized with an ‘offset’ parameter, which reflects the uniform shift of power across frequencies. The aperiodic offset, for example, is correlated with both neuronal population spiking13,14 and the blood-oxygen-level-dependent signal from functional MRI15. The aperiodic exponent, in contrast, has been related to the integration of the underlying synaptic currents26. Currents with faster time constants, such as excitatory (E) AMPA, have relatively constant power at lower frequencies before power quickly decays, whereas for inhibitory (I) GABA currents power decays more slowly as a function of frequency. This means that the exponent will be lower (flatter PSD) when E » I, and larger when E« I."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          "Aperiodic components can be extracted thanks to FOOOF algorithm of the same authors.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Parameterizing neural power spectra into periodic and aperiodic components",
+                  "authors": [
+                    {
+                      "name": "T. Donoghue"
+                    }
+                  ],
+                  "publicationDate": "2020-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": "The observation of within-subject changes of the aperiodic exponent also has implications regarding the ubiquitous negative correlation between low-frequency (<30 Hz) and high-frequency (>40 Hz) activity38, observed here in the EEG data (Fig. 5d). This is often interpreted as a push/pull relationship between low-frequency oscillations and gamma; however spectral parameterization offers a different interpretation: a see-saw-like rotation of the spectrum at around 20–30 Hz due to a change in aperiodic activity."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+                  "authors": [
+                    {
+                      "name": "A.L. Wiesman"
+                    }
+                  ],
+                  "publicationDate": "2024-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "In patients with aMCI and AD, both aperiodic offsets and slopes are altered, particularly in prefrontal and parieto-occipital regions. A higher aperiodic offset and steeper slope indicate increased \"background\" or arrhythmic neural activity, particularly in lower frequencies."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Enveloppe Correlation",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Measuring electrophysiological connectivity by power envelope correlation: a technical review on MEG methods",
+                "authors": [
+                  {
+                    "name": "G.C. O'Neil"
+                  }
+                ],
+                "publicationDate": "2015-11-07T00:00:00.000Z"
+              }
+            ],
+            "children": [
+              {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "n": 0,
+                  "src": "images/signal/enveloppe_coupling.png",
+                  "alt": "enveloppe_coupling",
+                  "caption": "Enveloppe coupling"
+                },
+                "_owner": null,
+                "_store": {}
+              },
+              "However, a number of significant technical challenges exist, in particular the MEG inverse problem (inferring 3D distributions of moment to moment change in neural current based only on extra cranial magnetic fields) is ill posed (Hadamard 1902). This means that estimated timecourses of brain current at spatially separate regions are not necessarily independent. As a result, estimated functional connectivity between regions can be artefactually inflated. This significant confound makes connectivity modelling using MEG non-trivial."
+            ]
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "HMM",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "Hidden Markov Models (HMM) have been used to model the progression of Alzheimer's disease (AD). This model is based on the assumption that the progression of AD can be divided into a finite number of states, each representing a different stage of the disease. The transition between states is governed by a set of probabilities, which can be estimated from longitudinal data. HMMs have been shown to be effective in capturing the complex dynamics of AD progression and have been used to predict the future course of the disease in individual patients.This approach, which identifies the points in time at which unique patterns of electrophysiological activity recur, revealed transient (100–200 ms) brain states with spatial topographies similar to RSNs"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Phase Correlation",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Measuring electrophysiological connectivity by power envelope correlation: a technical review on MEG methods",
+                "authors": [
+                  {
+                    "name": "G.C. O'Neil"
+                  }
+                ],
+                "publicationDate": "2015-11-07T00:00:00.000Z"
+              }
+            ],
+            "children": {
+              "key": null,
+              "ref": null,
+              "props": {
+                "n": 0,
+                "src": "images/signal/phase_coupling.png",
+                "alt": "phase_coupling",
+                "caption": "Phase coupling"
+              },
+              "_owner": null,
+              "_store": {}
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Alpha",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+                "authors": [
+                  {
+                    "name": "A.L. Wiesman"
+                  }
+                ],
+                "publicationDate": "2024-09-01T00:00:00.000Z"
+              }
+            ],
+            "children": "α and β rhythms, in patients with aMCI, AD which are associated with cognitive and sensory processing, are significantly reduced in frontal and temporal areas. This reduction might signal cortical dysfunction in areas critical for cognitive abilities impacted by AD. Disease-related decreases in faster α and β rhythms were most strongly aligned with the first neurochemical gradient, particularly in areas with high densities of dopaminergic, mu-opioid, and glutamatergic receptors."
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Beta",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+                  "authors": [
+                    {
+                      "name": "S. Pusil"
+                    }
+                  ],
+                  "publicationDate": "2019-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Beta band seems to have a special significance in Alzheimer’s disease, especially in the early stages of the disease (Stam et al., 2003). This band has been classically related to excitatory activity, as well as to cognitive processes impaired in Alzheimer’s disease, such as memory or executive function (Koenig et al., 2005). And has been supported by our results."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+                  "authors": [
+                    {
+                      "name": "A.L. Wiesman"
+                    }
+                  ],
+                  "publicationDate": "2024-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Interestingly, β rhythms in patients with aMCI, AD are increased in parietal and prefrontal regions. This selective increase could represent a regionally specific compensatory response or an attempt to maintain certain functions in the face of neurodegeneration. Beta rhythm increases were aligned with the fourth neurochemical gradient, specifically in regions rich in serotonin (5-HT4) and acetylcholine (M1)."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "string": "Higher frequencies, particularly in the beta and gamma ranges, are typically linked with excitatory pyramidal neurons and local, fast synaptic activity. Changes in these frequencies could reflect disruptions in excitatory transmission or altered cortical processing. Decreased alpha and beta power, as observed in AD, might suggest diminished excitatory activity or a decline in excitatory cell populations"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Delta-Theta",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          "δ and θ rhythms are considered slow rythms.",
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Neurochemical organization of cortical proteinopathy and neurophysiology along the Alzheimer’s disease continuum ",
+                  "authors": [
+                    {
+                      "name": "A.L. Wiesman"
+                    }
+                  ],
+                  "publicationDate": "2024-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "δ and θ rhythms in patients with aMCI, AD are elevated in prefrontal and parieto-occipital regions. Disease-related increases in slow δ and θ rhythms were strongest in regions with low density of dopaminergic, serotonergic, and mu-opioid receptors, indicating that these slower rhythms are more prominent in areas with lower densities of these neurotransmitter systems. The noradrenergic (NET), serotonergic (5-HT1a, 5-HT6), dopaminergic (D2), and GABAergic (GABAa) systems showed alignment with theta alterations."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "string": "These frequencies are often associated with inhibitory interneurons and slower, synchronized network activity. They are commonly linked to large-scale, long-range interactions in the brain. Increased delta and theta rhythms, as seen in AD, could indicate compensatory or pathological upregulation of inhibitory processes in affected areas."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Frequencies",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Synergistic association of Aβ and tau pathology with cortical neurophysiology and cognitive decline in asymptomatic older adults",
+                  "authors": [
+                    {
+                      "name": "J.G. Rudolf"
+                    }
+                  ],
+                  "publicationDate": "2024-08-13T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "A consistent observation with electroencephalography (EEG) and magnetoencephalography (MEG) is that low-frequency neurophysiological activity (δ–θ bands; 2–8 Hz) is increased and higher frequency activity (mainly in the α band; 8–12 Hz) is reduced in the symptomatic and prodromal stages of the disease31,35–40. To test the synergy of proteins with bands. 104 patients were tested with PET-Aβ and tau, and MEG. The results showed that early Aβ deposition is with macroscopic neurophysiological manifestations of hyperactivity, expressed as an acceleration of neurophysiological oscillatory activity reflected by increased alpha-band and decreased delta-band activity. As predicted from disease models, we also found that these effects shift from oscillatory acceleration to slowing in individuals presenting early temporal lobe tau pathology and that the magnitude of the shift from neurophysiological acceleration to slowing is associated with longitudinal cognitive decline. They ran their test with the mean values of each participant and with linear mixed effects models to account for intra-patient variability.",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 1,
+                    "src": "images/ab-tau/ab_frequencies.png",
+                    "alt": "ab_frequencies",
+                    "caption": "Interactive effects of AD proteinopathies on neurophysiological activity in asymptomatic adults"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                "Aβ deposits induce toxic effects on the dynamics of neuronal circuits, by simultaneously increasing excitation and decreasing inhibition, leading to augmented levels of alpha-band activity41. slower brain activity in the delta and theta bands, which are linked to impairments in additional cognitive domains, such as processing speed34."
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "string": "Would not that be due to shifts of frequency centers ?"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Increased Tau Accumulation Leads to Decreased High-Frequency Power (Alpha/Beta) in Excitatory-Dominated Regions"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "High Tau Levels Correlate with Increased Low-Frequency Power (Delta/Theta) as a Result of Compensatory Inhibitory Activity"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "The Ratio of Low- to High-Frequency Power Increases with Tau Load, Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Geometric Correction Scheme (GCS)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "(Wens et al. 2015) Spatial leakage effects are particularly confounding for seed-based investigations of brain networks using source-level electroencephalography (EEG) or magnetoencephalography (MEG). Various methods designed to avoid this issue have been introduced but are limited to particular assumptions about its temporal characteristics. Here, we investigate the usefulness of a model-based geometric correction scheme (GCS) to suppress spatial leakage emanating from the seed location. We analyze its properties theoretically and then assess potential advantages and limitations with simulated and experimental MEG data (resting state and auditory-motor task). To do so, we apply Minimum Norm Estimation (MNE) for source reconstruction and use variation of error parameters, statistical gauging of spatial leakage correction and comparison with signal orthogonalization. Results show that the GCS has a local (i.e., near the seed) effect only, in line with the geometry of MNE spatial leakage, and is able to map spatially all types of brain interactions, including linear correlations eliminated after signal orthogonalization. Furthermore, it is robust against the introduction of forward model errors. On the other hand, the GCS can be affected by local overcorrection effects and seed mislocation. These issues arise with signal orthogonalization too, although significantly less extensively, so the two approaches complement each other. The GCS thus appears to be a valuable addition to the spatial leakage correction toolkits for seed-based FC analyses in source-projected MEG/EEG data"
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Magnetoencephalography (MEG)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Recently, a range of novel features derived from electroencephalography (EEG) and magnetoencephalography (MEG) recordings have been described as robust proxy makers for noninvasive real-time measurements of changes in E/I balance."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "string": "From mechanisms to markers: novel noninvasive EEG proxy markers of the neural excitation and inhibition system in humans., Globally elevated excitation-inhibition ratio in children with autism spectrum disorder and below-average intelligence, Methods for inferring neural circuit interactions and neuromodulation from local field potential and electroencephalogram measures, Memantine effects on electroencephalographic measures of putative excitatory/inhibitory balance in schizophrenia, Inferring synaptic excitation/inhibition balance from field potentials"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
+                  "authors": [
+                    {
+                      "name": "Pablo M. Canada"
+                    }
+                  ],
+                  "publicationDate": "2023-09-01T00:00:00.000Z"
+                }
+              ],
+              "children": "One of the most promising candidate E/I biomarkers is the exponent of the 1/f spectral power law"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "string": "Clinical applications of EEG power spectra aperiodic component analysis: a mini-review"
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          "Nakamura et al. (2017): This MEG study found altered network organization in healthy elderly individuals with high amyloid levels, particularly in the inferior parietal lobe and precuneus. The correlation between Aβ and brain synchrony indicates that network impairment precedes metabolic (FDG-PET) or structural (MRI) changes, suggesting that M/EEG could detect functional changes before visible atrophy."
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Periodic",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "Parameterizing neural power spectra into periodic and aperiodic components",
+                  "authors": [
+                    {
+                      "name": "T. Donoghue"
+                    }
+                  ],
+                  "publicationDate": "2020-12-01T00:00:00.000Z"
+                }
+              ],
+              "children": [
+                "Older adults had lower (slower) α center frequencies than younger adults. Measured as a pourcentage of the canonical α frequency younger = 84%, older = 71%; Specifically, we find that canonical alpha band analyses (for example, analyzing the 8–12-Hz range) fail to capture all of the oscillatory power within individual participants, and are systematically biased between groups22. We conclude that periodic activity is not the sole driver of the apparent ~10-Hz power differences in aging, and that the magnitude of alpha power differences has been systemically confounded by concomitant differences in aperiodic activity.",
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 1,
+                    "src": "images/signal/periodic_distrib.png",
+                    "alt": "periodic distribution",
+                    "caption": "distribution of center of frequencies"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                },
+                {
+                  "key": null,
+                  "ref": null,
+                  "props": {
+                    "n": 2,
+                    "src": "images/signal/spatial_feature_distrib.png",
+                    "alt": "spatial feature distribution",
+                    "caption": "spatial feature distribution of the fooof extraction"
+                  },
+                  "_owner": null,
+                  "_store": {}
+                }
+              ]
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "children": "Is it possible that the θ frequency increased in AD patients is in fact due to slower α causing a leakage of power into the θ band?"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Resting State",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": "Koelewijn et al. (2017), which found a decreased resting state MEG functional connectivity in Alzheimer’s disease patients compared to healthy older subjects. Lopez et al. (2014) found, in a resting-state study, that the pMCI group exhibited a higher synchronization in the alpha band between the right anterior cingulate and temporo-occipital regions than sMCI subjects."
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "PET",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Tau PET: This emerging imaging modality targets PHF tau deposits in the brain but faces limitations, such as off-target binding. The first-generation ligand, flortaucipir, is a reliable marker for 3R/4R PHF tau, correlating with Braak staging and cognitive impairment. Newer ligands are in development to improve specificity and reduce off-target effects. Tau PET and CSF P-tau cannot detect minimal neurofibrillary changes, impacting the diagnostic distinction between “Alzheimer’s pathologic change” and full AD."
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": {},
+            "key": null,
+            "ref": null,
+            "props": {
+              "citations": [
+                {
+                  "title": "The National Institute on Aging and the Alzheimer’s Association Research Framework for Alzheimer’s disease",
+                  "authors": [
+                    {
+                      "name": "J.R. Clifford"
+                    }
+                  ],
+                  "publicationDate": "2018-01-01T00:00:00.000Z"
+                }
+              ],
+              "children": "Amyloid PET: Sensitivity thresholds are set by typical cut points for PET ligands. For example: 18F Amyloid PET: Labels moderate to high neuritic plaque loads as abnormal but may miss low plaque levels. 11C Pittsburgh Compound B: Categorizes individuals with Thal phase 2–5 as abnormal, potentially missing early plaque stages (Thal 0–1). Consequently, a negative amyloid PET does not necessarily indicate a complete absence of amyloid-beta (Aβ) or neuritic plaques, as subtle pathologic changes can still occur below detection thresholds, sometimes causing mild cognitive effects."
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  {
+    "title": "Mild Cognitive Impairment (MCI)",
+    "links": [],
+    "content": {
+      "type": "div",
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": {
+          "type": {},
+          "key": null,
+          "ref": null,
+          "props": {
+            "citations": [
+              {
+                "title": "Hypersynchronization in mild cognitive impairment: the ‘X’ model",
+                "authors": [
+                  {
+                    "name": "S. Pusil"
+                  }
+                ],
+                "publicationDate": "2019-12-01T00:00:00.000Z"
+              }
+            ],
+            "children": "we observed an increment of functional connectivity in those patients with MCI that progress to Alzheimer’s disease [progressive (p)MCI] compared to those that remained stable [stable (s)MCI]. We found two networks, one in the theta band and the other one in the beta band, where the functional connectivity ratio of the pMCI group was lower than that of the sMCI group. These networks involved the frontooccipital cortex and fronto-temporal regions including the hippocampus."
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  }
+]

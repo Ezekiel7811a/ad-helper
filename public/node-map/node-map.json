@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "position": {
+        "x": 373,
+        "y": 187
+      },
+      "data": {
+        "label": "ATN",
+        "links": [
+          "2",
+          "3"
+        ]
+      },
+      "type": "custom",
+      "measured": {
+        "width": 52,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "position": {
+        "x": 572,
+        "y": 338
+      },
+      "data": {
+        "label": "Braak",
+        "links": [
+          "1",
+          "4"
+        ]
+      },
+      "type": "custom",
+      "measured": {
+        "width": 63,
+        "height": 46
+      }
+    },
+    {
+      "id": "3",
+      "position": {
+        "x": 196,
+        "y": 314
+      },
+      "data": {
+        "label": "IWG",
+        "links": [
+          "1"
+        ]
+      },
+      "type": "custom",
+      "measured": {
+        "width": 54,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "position": {
+        "x": 665,
+        "y": 273
+      },
+      "data": {
+        "label": "Classifications",
+        "links": [
+          "2"
+        ]
+      },
+      "type": "custom",
+      "measured": {
+        "width": 124,
+        "height": 46
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "right",
+      "target": "2",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__1right-2left",
+      "selected": false
+    },
+    {
+      "source": "3",
+      "sourceHandle": "right",
+      "target": "1",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__3right-1left"
+    },
+    {
+      "source": "2",
+      "sourceHandle": "right",
+      "target": "4",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__2right-4left"
+    }
+  ]
+}

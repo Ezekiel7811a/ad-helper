@@ -1,10 +1,11 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
 import Figure from "@/app/components/figure/figure";
 import Hypothesis from "@/app/components/hypothesis/hypothesis";
+import ToCheck from "@/app/components/to-check/to-check";
 import { MyNode } from "@/models/node";
 import { SynergyABTauCorticalAndMC } from "@/public/citations";
 
-export const Frequencies = new MyNode(
+const Frequencies = new MyNode(
   "Frequencies",
   [],
   (
@@ -55,3 +56,5 @@ export const Frequencies = new MyNode(
     </div>
   )
 );
+
+export default Frequencies;

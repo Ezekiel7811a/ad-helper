@@ -2,9 +2,13 @@ import CitationCard from "@/app/components/citation-card/citation-card";
 import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import { MyNode } from "@/models/node";
 import { DirectionalInformationAD } from "@/public/citations";
-import { MathJax } from "better-react-mathjax";
+import dynamic from "next/dynamic";
+const MathJax = dynamic(
+  () => import("better-react-mathjax").then((mod) => mod.MathJax),
+  { ssr: false }
+);
 
-export const Assymetric = new MyNode(
+const Assymetric = new MyNode(
   "Assymetric",
   [],
   (
@@ -88,3 +92,5 @@ export const Assymetric = new MyNode(
     </div>
   )
 );
+
+export default Assymetric;

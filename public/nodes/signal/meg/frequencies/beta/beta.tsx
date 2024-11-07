@@ -1,8 +1,10 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
+import ToCheck from "@/app/components/to-check/to-check";
 import { MyNode } from "@/models/node";
 import { NeuroChemsOrganizationAd, XModel } from "@/public/citations";
+import exp from "constants";
 
-export const Beta = new MyNode(
+const Beta = new MyNode(
   "Beta",
   [],
   (
@@ -28,3 +30,5 @@ export const Beta = new MyNode(
     </div>
   )
 );
+
+export default Beta;

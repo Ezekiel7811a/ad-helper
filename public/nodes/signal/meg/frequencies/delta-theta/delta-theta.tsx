@@ -1,8 +1,9 @@
 import CitationCard from "@/app/components/citation-card/citation-card";
+import ToCheck from "@/app/components/to-check/to-check";
 import { MyNode } from "@/models/node";
 import { NeuroChemsOrganizationAd } from "@/public/citations";
 
-export const DeltaTheta = new MyNode(
+const DeltaTheta = new MyNode(
   "Delta-Theta",
   [],
   (
@@ -22,3 +23,5 @@ export const DeltaTheta = new MyNode(
     </div>
   )
 );
+
+export default DeltaTheta;

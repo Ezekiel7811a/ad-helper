@@ -1,6 +1,6 @@
 import { MyNode } from "@/models/node";
 
-export const RestingState = new MyNode(
+const RestingState = new MyNode(
   "Resting State",
   [],
   (
@@ -14,3 +14,5 @@ export const RestingState = new MyNode(
     </div>
   )
 );
+
+export default RestingState;

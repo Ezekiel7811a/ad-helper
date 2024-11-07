@@ -3,7 +3,7 @@ import Figure from "@/app/components/figure/figure";
 import { MyNode } from "@/models/node";
 import { PowEnvCorrReview } from "@/public/citations";
 
-export const PhaseCorr = new MyNode(
+const PhaseCorr = new MyNode(
   "Phase Correlation",
   [],
   (
@@ -19,3 +19,5 @@ export const PhaseCorr = new MyNode(
     </div>
   )
 );
+
+export default PhaseCorr;
