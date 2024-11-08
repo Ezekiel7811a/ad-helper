@@ -1,4 +1,3 @@
-import { MyNode } from "@/models/node";
 import { Button } from "@mui/material";
 
 interface Props {
@@ -8,13 +7,17 @@ interface Props {
 
 const LinksTab = ({ nodes, setNode }: Props) => {
   return (
-    <div>
+    <div className="flex flex-col gap-y-5">
       {nodes &&
         nodes.map((node, index) => (
           <Button
             key={index}
             onClick={() => {
               setNode(node);
+            }}
+            style={{
+              color: "var(--text-color)",
+              padding: "10px",
             }}
           >
             {node}

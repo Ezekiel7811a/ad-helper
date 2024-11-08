@@ -2,7 +2,6 @@
 
 import {
   addEdge,
-  Background,
   Connection,
   Controls,
   Edge,
@@ -71,7 +70,7 @@ const NodeMap = () => {
         });
       });
     },
-    [setEdges]
+    [setEdges, setNodes]
   );
 
   const createNode = (node: MyNode) => {
@@ -82,16 +81,21 @@ const NodeMap = () => {
       type: "custom",
     };
     setNodes((nds) => [...nds, newNode]);
+    setNewNodes((nds) => nds.filter((n) => n.title !== node.title));
   };
 
   useEffect(() => {
     const setNodes = async () => {
       const res = await fetch("/api/get-nodes");
-      const nodes: MyNode[] = await res.json();
-      setNewNodes(nodes);
+      const myNodes: MyNode[] = await res.json();
+      setNewNodes(
+        myNodes.filter(
+          (node) => !nodes.find((n) => n.data.label === node.title)
+        )
+      );
     };
     setNodes();
-  }, []);
+  }, [nodes]);
 
   return (
     <div className="bg-primary h-screen grid grid-cols-4">

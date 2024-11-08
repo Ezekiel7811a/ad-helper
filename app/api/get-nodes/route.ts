@@ -2,11 +2,17 @@ import fs from "fs";
 import { MyNode } from "@/models/node";
 import path from "path";
 
-const thisPath = "signal/pet/pet.js";
-const moduleAtn = await import(`@/public/nodes/${thisPath}`);
-const ATN = moduleAtn.default;
+export interface NodeDTO {
+  title: string;
+  links: string[];
+  path: string;
+}
 
 export async function GET(req: Request): Promise<Response> {
+  const isToSave: boolean = Boolean(
+    new URL(req.url).searchParams.get("saving")
+  );
+
   const dirPath = path.join(process.cwd(), "public/nodes");
   const filesList: string[] = [];
 
@@ -30,13 +36,24 @@ export async function GET(req: Request): Promise<Response> {
         const myModule = await import(`@/public/nodes/${filePath}`);
         return myModule.default as MyNode;
       } catch (e) {
-        console.error(filePath);
+        console.error(filePath, e);
         return null;
       }
     })
   ).then((nodes) => nodes.filter((node) => node !== null));
 
-  fs.writeFileSync("public/nodes/nodes.json", JSON.stringify(nodes, null, 2));
+  const nodesDTO: NodeDTO[] = nodes.map((node, index) => ({
+    title: node.title,
+    links: node.links,
+    path: filesList[index].replace(".js", ".tsx"),
+  }));
 
-  return Response.json(nodes, { status: 200 });
+  if (isToSave) {
+    fs.writeFileSync(
+      "public/nodes/nodes.json",
+      JSON.stringify(nodesDTO, null, 2)
+    );
+  }
+
+  return Response.json(nodesDTO, { status: 200 });
 }

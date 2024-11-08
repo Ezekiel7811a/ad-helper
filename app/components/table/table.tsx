@@ -7,7 +7,7 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-import React, { ReactNode } from "react";
+import React from "react";
 
 interface TableProps {
   headers: string[];

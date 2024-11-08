@@ -1,6 +1,5 @@
-import { CustomNode } from "@/models/custome-node";
-import { MyNode } from "@/models/node";
 import { promises as fs } from "fs";
+import { NodeDTO } from "../get-nodes/route";
 
 export async function GET(req: Request) {
   try {
@@ -15,9 +14,12 @@ export async function GET(req: Request) {
     const nodes = await fs
       .readFile("public/nodes/nodes.json", "utf-8")
       .then((data) => JSON.parse(data))
-      .then((data) => data as MyNode[]);
+      .then((data) => data as NodeDTO[]);
 
     const node = nodes.find((node) => node.title === label);
+    if (!node) {
+      return Response.json("Node not found", { status: 404 });
+    }
 
     return Response.json(node, { status: 200 });
   } catch (e) {

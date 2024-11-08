@@ -3,11 +3,13 @@
 import React, { useEffect, useState } from "react";
 import {
   BaseEdge,
+  Edge,
   EdgeLabelRenderer,
   getBezierPath,
   useReactFlow,
   type EdgeProps,
 } from "@xyflow/react";
+import { CustomNode } from "@/models/custome-node";
 
 export default function CustomEdge({
   id,
@@ -20,7 +22,7 @@ export default function CustomEdge({
   style = {},
   markerEnd,
 }: EdgeProps) {
-  const { setEdges } = useReactFlow();
+  const { setEdges, setNodes } = useReactFlow();
   const [edgePath, labelX, labelY] = getBezierPath({
     sourceX,
     sourceY,
@@ -30,13 +32,36 @@ export default function CustomEdge({
     targetPosition,
   });
 
-  const deleteEdge = () => {
-    setEdges((edges) => edges.filter((edge) => edge.id !== id));
-  };
-
   const [selectedEdge, setSelectedEdge] = useState(false);
 
   useEffect(() => {
+    const deleteEdge = () => {
+      setEdges((edges: Edge[]) => {
+        const thisEdge: Edge | undefined = edges.find(
+          (edge: Edge) => edge.id === id
+        );
+        if (thisEdge) {
+          setNodes((nodes) => {
+            const sourceNode: CustomNode | undefined = nodes.find(
+              (node) => node.id === thisEdge.source
+            ) as CustomNode;
+            const targetNode: CustomNode | undefined = nodes.find(
+              (node) => node.id === thisEdge.target
+            ) as CustomNode;
+            if (sourceNode && targetNode) {
+              sourceNode.data.links = sourceNode.data.links.filter(
+                (link) => link !== targetNode.id
+              );
+              targetNode.data.links = targetNode.data.links.filter(
+                (link) => link !== sourceNode.id
+              );
+            }
+            return nodes;
+          });
+        }
+        return edges.filter((edge) => edge.id !== id);
+      });
+    };
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Delete" && selectedEdge) {
         deleteEdge();
@@ -47,7 +72,7 @@ export default function CustomEdge({
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [selectedEdge, deleteEdge]);
+  }, [selectedEdge, id, setEdges, setNodes]);
 
   return (
     <>

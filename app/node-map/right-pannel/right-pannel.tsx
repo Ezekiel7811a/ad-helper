@@ -11,7 +11,7 @@ interface Props {
 
 const RightPannel = ({ nodes, createNode, nodesMap, edgesMap }: Props) => {
   return (
-    <div className="col-span-1 p-4 h-screen ">
+    <div className="col-span-1 p-4 h-screen flex flex-col">
       <div className="flex gap-5 justify-center p-4">
         <div className="text-2xl">Nodes</div>
         <Button
@@ -21,13 +21,13 @@ const RightPannel = ({ nodes, createNode, nodesMap, edgesMap }: Props) => {
               method: "POST",
               body: JSON.stringify({ nodes: nodesMap, edges: edgesMap }),
             });
-            await fetch("/api/update-nodes-with-node-map");
+            await fetch("/api/update-node-with-node-map");
           }}
         >
           Save changes
         </Button>
       </div>
-      <div className="flex flex-col gap-y-5 overflow-auto h-auto">
+      <div className="flex flex-col gap-y-5 overflow-auto flex-grow">
         {nodes.map((node, index) => (
           <Button
             style={{
