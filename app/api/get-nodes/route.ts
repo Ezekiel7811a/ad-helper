@@ -1,21 +1,9 @@
 import fs from "fs";
-import { MyNode } from "@/models/node";
 import path from "path";
+import { NodeDTO } from "@/models/node-dto";
 
-export interface NodeDTO {
-  title: string;
-  links: string[];
-  path: string;
-}
-
-export async function GET(req: Request): Promise<Response> {
-  const isToSave: boolean = Boolean(
-    new URL(req.url).searchParams.get("saving")
-  );
-
-  const dirPath = path.join(process.cwd(), "public/nodes");
+export const getNodesDTO = async (dirPath: string): Promise<NodeDTO[]> => {
   const filesList: string[] = [];
-
   const searchFiles = (dirPath: string) => {
     const files = fs.readdirSync(dirPath);
     files.forEach((file) => {
@@ -28,25 +16,39 @@ export async function GET(req: Request): Promise<Response> {
       }
     });
   };
+
   searchFiles(dirPath);
 
-  const nodes: MyNode[] = await Promise.all(
+  const nodesDTO: NodeDTO[] = await Promise.all(
     filesList.map(async (filePath) => {
       try {
-        const myModule = await import(`@/public/nodes/${filePath}`);
-        return myModule.default as MyNode;
-      } catch (e) {
-        console.error(filePath, e);
+        return await import(`@/app/components/nodes/${filePath}`)
+          .then((module) => module.default)
+          .then((node) => {
+            return {
+              title: node.title,
+              links: node.links,
+              path: filePath.replace(".js", ".tsx"),
+              hypotheses: [],
+            };
+          });
+      } catch {
+        console.error(filePath);
         return null;
       }
     })
   ).then((nodes) => nodes.filter((node) => node !== null));
 
-  const nodesDTO: NodeDTO[] = nodes.map((node, index) => ({
-    title: node.title,
-    links: node.links,
-    path: filesList[index].replace(".js", ".tsx"),
-  }));
+  return nodesDTO;
+};
+
+export async function GET(req: Request): Promise<Response> {
+  const isToSave: boolean = Boolean(
+    new URL(req.url).searchParams.get("saving")
+  );
+
+  const dirPath = path.join(process.cwd(), "app/components/nodes");
+  const nodesDTO = await getNodesDTO(dirPath);
 
   if (isToSave) {
     fs.writeFileSync(

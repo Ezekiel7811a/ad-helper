@@ -73,3 +73,7 @@ const FMaestu: Author = {
   name: "F. Maestú",
 };
 export const EITranslationalPerspectiveA = [FMaestu];
+const JGiorgio: Author = {
+  name: "J. Giorgio",
+};
+export const ABInducedHyperAndTauA = [JGiorgio];

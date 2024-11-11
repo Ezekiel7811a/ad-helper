@@ -1,6 +1,6 @@
 import { CustomNode } from "@/models/custome-node";
+import { NodeDTO } from "@/models/node-dto";
 import { promises as fs } from "fs";
-import { NodeDTO } from "../get-nodes/route";
 
 export async function GET() {
   const nodesMap = await fs

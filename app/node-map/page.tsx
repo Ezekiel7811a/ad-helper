@@ -17,20 +17,15 @@ import CustomEdge from "./nodes/button-edge";
 import "@xyflow/react/dist/style.css";
 import { MyNode } from "@/models/node";
 import RightPannel from "./right-pannel/right-pannel";
-
-export interface CustomNode extends Node {
-  data: {
-    label: string;
-    links: string[];
-  };
-}
+import { NodeDTO } from "@/models/node-dto";
+import { CustomNode } from "@/models/custome-node";
 
 const nodeTypes = { custom: bidirectionalNode };
 const edgeTypes = { buttonedge: CustomEdge };
 
 const NodeMap = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState<CustomNode>([]);
-  const [newNodes, setNewNodes] = useState<MyNode[]>([]);
+  const [newNodes, setNewNodes] = useState<NodeDTO[]>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([]);
   useEffect(() => {
     const setInitialValues = async () => {
@@ -73,11 +68,15 @@ const NodeMap = () => {
     [setEdges, setNodes]
   );
 
-  const createNode = (node: MyNode) => {
+  const createNode = (node: NodeDTO) => {
     const newNode: CustomNode = {
       id: (nodes.length + 1).toString(),
       position: { x: window.innerWidth / 2, y: window.innerHeight / 2 },
-      data: { label: node.title, links: [] },
+      data: {
+        label: node.title,
+        links: node.links,
+        hypotheses: node.hypotheses,
+      },
       type: "custom",
     };
     setNodes((nds) => [...nds, newNode]);
@@ -87,14 +86,15 @@ const NodeMap = () => {
   useEffect(() => {
     const setNodes = async () => {
       const res = await fetch("/api/get-nodes");
-      const myNodes: MyNode[] = await res.json();
-      setNewNodes(
-        myNodes.filter(
-          (node) => !nodes.find((n) => n.data.label === node.title)
-        )
-      );
+      const myNodes: NodeDTO[] = await res.json();
+      setNewNodes(myNodes);
     };
     setNodes();
+  }, []);
+  useEffect(() => {
+    setNewNodes((myNodes) =>
+      myNodes.filter((node) => !nodes.find((n) => n.data.label === node.title))
+    );
   }, [nodes]);
 
   return (

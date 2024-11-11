@@ -1,17 +1,11 @@
-import { MyNode } from "@/models/node";
+import { ReactNode } from "react";
 
 interface Props {
-  node: MyNode;
+  children: ReactNode;
 }
 
-const NodeCard = ({ node }: Props) => {
-  const { title, content } = node;
-  return (
-    <div className="flex flex-col gap-y-12">
-      <div className="title">{title}</div>
-      <div className="paragraph">{content && <div>{content}</div>}</div>
-    </div>
-  );
+const NodeCard = ({ children }: Props) => {
+  return <div className="flex flex-col gap-y-12">{children}</div>;
 };
 
 export default NodeCard;

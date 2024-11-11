@@ -4,5 +4,6 @@ export interface CustomNode extends Node {
   data: {
     label: string;
     links: string[];
+    hypotheses: string[];
   };
 }

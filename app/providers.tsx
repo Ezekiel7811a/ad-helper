@@ -5,6 +5,11 @@ import { MathJaxContext } from "better-react-mathjax";
 import { ReactNode } from "react";
 
 const theme = createTheme({
+  palette: {
+    primary: {
+      main: "rgb(0, 200, 0)",
+    },
+  },
   components: {
     MuiButton: {
       styleOverrides: {

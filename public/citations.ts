@@ -21,6 +21,7 @@ import {
   MMSEReviewA,
   InferringEIFromFieldPotentialsA,
   EITranslationalPerspectiveA,
+  ABInducedHyperAndTauA,
 } from "./authors";
 
 export const adReview: Citation = {
@@ -143,4 +144,10 @@ export const EITranslationalPerspective: Citation = {
     "Neuronal excitation/inhibition imbalance: core element of a translational perspective on Alzheimer pathophysiology",
   authors: EITranslationalPerspectiveA,
   publicationDate: new Date("2021-08-01"),
+};
+export const ABInducedHyperAndTau: Citation = {
+  title:
+    "Amyloid induced hyperexcitability in default mode network drives medial temporal hyperactivity and early tau accumulation",
+  authors: ABInducedHyperAndTauA,
+  publicationDate: new Date("2024-02-01"),
 };

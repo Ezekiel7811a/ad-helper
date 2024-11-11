@@ -1,10 +1,11 @@
 import { MyNode } from "@/models/node";
+import { NodeDTO } from "@/models/node-dto";
 import { Button } from "@mui/material";
 import { Edge, Node } from "@xyflow/react";
 
 interface Props {
-  nodes: MyNode[];
-  createNode: (node: MyNode) => void;
+  nodes: NodeDTO[];
+  createNode: (node: NodeDTO) => void;
   nodesMap: Node[];
   edgesMap: Edge[];
 }

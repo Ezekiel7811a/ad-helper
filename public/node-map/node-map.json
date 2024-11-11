@@ -16,6 +16,9 @@
           "6",
           "7",
           "33"
+        ],
+        "hypotheses": [
+          "<Figure\r\n          src=\"images/causality/causal_hypothesis.png\"\r\n          alt=\"Hypothesis\"\r\n          caption=\"The possible causalities of the biomarkers\"\r\n          n={1}\r\n        />"
         ]
       },
       "type": "custom",
@@ -36,7 +39,8 @@
         "label": "ATN",
         "links": [
           "1"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -56,7 +60,8 @@
         "label": "Braak",
         "links": [
           "1"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -76,7 +81,8 @@
         "label": "IWG",
         "links": [
           "1"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -96,7 +102,8 @@
         "label": "Mini Mental State Examination (MMSE)",
         "links": [
           "1"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -117,7 +124,8 @@
         "links": [
           "1",
           "40"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -142,7 +150,8 @@
           "22",
           "23",
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -162,6 +171,9 @@
         "label": "GlialCells",
         "links": [
           "33"
+        ],
+        "hypotheses": [
+          "It is possible to make a model of MEG signal / features based on tau and\r\n        Aβ that takes into account their interactions with one another and with\r\n        glial cells. As it is possible to predict the AD progression based on\r\n        MEG features it would help understand glial cells role in AD\r\n        progression."
         ]
       },
       "type": "custom",
@@ -182,6 +194,11 @@
         "label": "HUBS",
         "links": [
           "33"
+        ],
+        "hypotheses": [
+          "The vulnerability of hub regions in AD may be due to their high\r\n        connectivity, which makes them more susceptible to the spread of\r\n        pathological proteins and the propagation of neurodegenerative\r\n        processes.\r\n        <div>\r\n          We could try to find the correlation between the connectivity of the\r\n          region and the vulnerability to AD.\r\n        </div>",
+          "We could make a model to predict the progression of AD based on the\r\n        previous model of signal but adding the connectivity of the regions.",
+          "This finding could explain why previous hypersynchronization phenomena\r\n        were found at several frequency bands."
         ]
       },
       "type": "custom",
@@ -202,7 +219,8 @@
         "label": "PyramidalNeurons",
         "links": [
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -229,7 +247,8 @@
           "18",
           "19",
           "20"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -249,7 +268,8 @@
         "label": "AlphaSynuclein",
         "links": [
           "12"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -270,6 +290,12 @@
         "links": [
           "12",
           "15"
+        ],
+        "hypotheses": [
+          "Aβ plaques concentration is associated with an increased frequency of\r\n        epileptiform activity in AD patients.",
+          "In Alzheimer’s Disease (AD) patients, a higher density of Aβ plaques\r\n        will correlate with a flatter PSD slope, particularly in frontal and\r\n        temporal regions, due to decreased perisomatic GABAergic inhibition and\r\n        increased neuronal hyperactivity in these areas.",
+          "Regions with high tau pathology in AD patients will show a steeper PSD\r\n        slope due to tau's impact on excitatory neurons, resulting in reduced\r\n        high-frequency power and an increased relative contribution of\r\n        low-frequency activity.",
+          "In brain regions with both Aβ and tau pathology, the effect on PSD slope\r\n        will depend on the relative densities of Aβ versus tau: Aβ-dominant\r\n        regions will have a flatter slope, while tau-dominant regions will\r\n        exhibit a steeper slope."
         ]
       },
       "type": "custom",
@@ -291,7 +317,8 @@
         "links": [
           "18",
           "14"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -311,7 +338,8 @@
         "label": "Apoe4",
         "links": [
           "12"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -331,7 +359,8 @@
         "label": "Epileptiform",
         "links": [
           "12"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -352,6 +381,9 @@
         "links": [
           "12",
           "15"
+        ],
+        "hypotheses": [
+          "Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting\r\n        an Imbalance in Excitatory-Inhibitory Activity"
         ]
       },
       "type": "custom",
@@ -372,7 +404,8 @@
         "label": "ImmuneActivation",
         "links": [
           "12"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -392,7 +425,8 @@
         "label": "TDP43",
         "links": [
           "12"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -412,7 +446,8 @@
         "label": "VascularInjury",
         "links": [
           "8"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -432,6 +467,10 @@
         "label": "Hyperexcitability",
         "links": [
           "8"
+        ],
+        "hypotheses": [
+          "Hypersynchrony observed in AD is a direct result of Aβ-induced\r\n        overactivation of excitatory neurons due to disrupted inhibitory\r\n        (GABAergic) control, rather than a compensatory mechanism. Supported by{\" \"}\r\n        <CitationCard citations={[EITranslationalPerspective]}>\r\n          the loss of GABAergic transmission, could induce hyperactivity,\r\n          increasing the probability of local synchronization of brain\r\n          oscillatory activity\r\n        </CitationCard>",
+          "If hypersynchrony is driven by Aβ pathology, then directional\r\n        connectivity from regions with higher Aβ load to regions with lower Aβ\r\n        load should show causal hypersynchrony."
         ]
       },
       "type": "custom",
@@ -452,7 +491,8 @@
         "label": "Hypoexcitability",
         "links": [
           "8"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -472,7 +512,8 @@
         "label": "Default Mode Network (DMN)",
         "links": [
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -494,7 +535,8 @@
           "7",
           "26",
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -514,7 +556,8 @@
         "label": "GraphPrediction",
         "links": [
           "25"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -532,7 +575,8 @@
       },
       "data": {
         "label": "CSF",
-        "links": []
+        "links": [],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -560,7 +604,8 @@
           "38",
           "41",
           "39"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -588,7 +633,8 @@
           "38",
           "41",
           "39"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -608,6 +654,11 @@
         "label": "Frequencies",
         "links": [
           "32"
+        ],
+        "hypotheses": [
+          "Increased Tau Accumulation Leads to Decreased High-Frequency Power\r\n        (Alpha/Beta) in Excitatory-Dominated Regions",
+          "High Tau Levels Correlate with Increased Low-Frequency Power\r\n        (Delta/Theta) as a Result of Compensatory Inhibitory Activity",
+          "The Ratio of Low- to High-Frequency Power Increases with Tau Load,\r\n        Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions"
         ]
       },
       "type": "custom",
@@ -628,7 +679,8 @@
         "label": "Alpha",
         "links": [
           "32"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -648,7 +700,8 @@
         "label": "Beta",
         "links": [
           "32"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -671,6 +724,9 @@
           "30",
           "31",
           "36"
+        ],
+        "hypotheses": [
+          "Is it possible that the &theta; frequency increased in AD patients is in\r\n        fact due to slower &alpha; causing a leakage of power into the &theta;\r\n        band?"
         ]
       },
       "type": "custom",
@@ -700,7 +756,8 @@
           "42",
           "9",
           "11"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -720,7 +777,8 @@
         "label": "Aperiodic",
         "links": [
           "29"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -740,7 +798,8 @@
         "label": "PET",
         "links": [
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -760,7 +819,8 @@
         "label": "Delta-Theta",
         "links": [
           "32"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -780,7 +840,8 @@
         "label": "Phase Correlation",
         "links": [
           "29"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -800,7 +861,8 @@
         "label": "Enveloppe Correlation",
         "links": [
           "29"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -820,7 +882,8 @@
         "label": "Geometric Correction Scheme (GCS)",
         "links": [
           "29"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -840,7 +903,8 @@
         "label": "Mild Cognitive Impairment (MCI)",
         "links": [
           "6"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -860,7 +924,8 @@
         "label": "HMM",
         "links": [
           "29"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {
@@ -880,7 +945,8 @@
         "label": "Resting State",
         "links": [
           "33"
-        ]
+        ],
+        "hypotheses": []
       },
       "type": "custom",
       "measured": {

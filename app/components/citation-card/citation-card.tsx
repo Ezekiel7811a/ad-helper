@@ -2,10 +2,9 @@
 
 import { Citation } from "@/models/citation";
 import { ReactNode, useState } from "react";
-import { Button, Divider, Popover } from "@mui/material";
-import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 import "./style.css";
-import RippleEffectButton from "./ripple-effect";
+import RippleEffectButton from "./ripple-effect.tsx";
+import { Divider, Popover } from "@mui/material";
 
 interface Props {
   children: ReactNode;

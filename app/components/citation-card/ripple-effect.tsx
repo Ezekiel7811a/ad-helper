@@ -39,11 +39,9 @@ export const RippleEffectButton: React.FC<RippleEffectButtonProps> = ({
   };
 
   return (
-    <div className="ripple-container" onClick={handleMouseEnter}>
-      <span>
-        <ExpandCircleDownIcon />
-        <span className="flex flex-col gap-y-12">{children}</span>
-      </span>
+    <div className="ripple-container flex" onClick={handleMouseEnter}>
+      <ExpandCircleDownIcon />
+      <span className="flex flex-col gap-y-12">{children}</span>
       {ripples.map((ripple) => (
         <span
           key={ripple.id}

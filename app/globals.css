@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 .title {
-  @apply text-lg ml-2 mt-5;
+  @apply text-lg pl-5 pt-5;
   color: var(--title-color);
 }
 .paragraph {
-  @apply ml-5;
+  @apply pl-12 pr-12;
 }
 .tab {
   box-shadow: var(--shadow) 0px 0px 10px;
@@ -27,6 +27,7 @@
   --text-line-height: 1.5;
   --text-color: #171717;
   --title-color: #171717;
+  --color-hypothesis: #164716cd;
 
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
@@ -41,6 +42,7 @@
     --button-background: #3a3a3a;
     --text-color: #e8e8e8;
     --title-color: #cfcece;
+    --color-hypothesis: #40eb40cd;
   }
 }
 

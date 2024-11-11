@@ -9,6 +9,10 @@ import {
   useReactFlow,
 } from "@xyflow/react";
 import { useRouter } from "next/navigation";
+import { CustomNode } from "@/models/custome-node";
+import { KeyboardArrowDown } from "@mui/icons-material";
+import { Button, Popover } from "@mui/material";
+import HypothesisList from "./hypothesis-list/hypothesis-list";
 
 const style = {
   padding: 10,
@@ -23,7 +27,7 @@ const selectedStyle = {
   border: "1px solid #ddd",
 };
 
-const BiDirectionalNode = ({ data }: NodeProps<BuiltInNode>) => {
+const BiDirectionalNode = ({ data }: NodeProps<CustomNode>) => {
   const [selected, setSelected] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [isCtrlPressed, setIsCtrlPressed] = useState(false);
@@ -73,6 +77,19 @@ const BiDirectionalNode = ({ data }: NodeProps<BuiltInNode>) => {
     setSelected(!selected);
   };
 
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
+  const handlePopClick = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget); // Set the anchor to the element that was clicked
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null); // Close the popover by setting anchor to null
+  };
+
+  const open = Boolean(anchorEl); // If anchorEl is not null, popover is open
+  const id = open ? "simple-popover" : undefined;
+
   return (
     <div
       style={{
@@ -91,6 +108,25 @@ const BiDirectionalNode = ({ data }: NodeProps<BuiltInNode>) => {
         isConnectable={true}
       />
       {data?.label}
+      {data?.hypotheses.length > 0 && (
+        <div>
+          <Button onClick={handlePopClick}>
+            <KeyboardArrowDown color="primary" />
+          </Button>
+          <Popover
+            id={id}
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+            style={{
+              maxWidth: "1500px",
+            }}
+          >
+            <HypothesisList hypotheses={data.hypotheses} />
+          </Popover>
+        </div>
+      )}
       <Handle type="source" position={Position.Right} id="right" />
     </div>
   );
