@@ -1,6 +1,6 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import CitationCard from "@/app/components/citation-card/citation-card";
-import MyTable from "@/app/components/table/table";
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import CitationCard from "@/app/components/citation-card/citation-card.tsx";
+import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
 import { NIAAA } from "@/public/citations";
 const headers = ["Stage"];
@@ -43,4 +43,5 @@ const rowsDementia = [
     ],
 ];
 const NIAAANode = new MyNode("NIA-AA", [], (_jsx("div", { children: _jsxs(CitationCard, { citations: [NIAAA], children: ["The committee designed a 3-range system: normal (0), intermediate (1), and abnormal (2).", _jsx("div", { children: "Table 1. Syndromal staging of cognitive continuum: Applicable to all members of a research cohort independent from biomarker profiles" }), _jsx(MyTable, { headers: headers, contents: rows }), _jsx("div", { children: "Table 2. Staging of cognitive continuum: Applicable only to individuals with AD" }), _jsx(MyTable, { headers: headersDementia, contents: rowsDementia })] }) })));
+export const Wrapper = () => _jsx(_Fragment, { children: NIAAANode.content });
 export default NIAAANode;

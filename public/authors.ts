@@ -77,3 +77,23 @@ const JGiorgio: Author = {
   name: "J. Giorgio",
 };
 export const ABInducedHyperAndTauA = [JGiorgio];
+const BDubois: Author = {
+  name: "B. Dubois",
+};
+export const ADBiologicalConstructA = [BDubois];
+const JPLevy: Author = {
+  name: "J.P. Levy",
+};
+export const PetTauGeneticFrontoTemporalA = [JPLevy];
+const JPSeibyl: Author = {
+  name: "J.P. Seibyl",
+};
+export const VisualInterpretationPetTauA = [JPSeibyl];
+const KGRanasinghe: Author = {
+  name: "K.G. Ranasinghe",
+};
+export const AlteredEISubPopsA = [KGRanasinghe];
+const RLFrozza: Author = {
+  name: "R.L. Frozza",
+};
+export const ChallengesInADA = [RLFrozza];

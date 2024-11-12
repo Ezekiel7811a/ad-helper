@@ -3,6 +3,8 @@ import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
 import {
   Braak,
+  ChallengesInAD,
+  PetTauGeneticFrontoTemporal,
   SynergyABTauCorticalAndMC,
   synergyABTauInAD,
 } from "@/public/citations";
@@ -14,10 +16,21 @@ const Tau = new MyNode(
     <div>
       Tau is a microtubule-associated protein that is abundant in neurons. It
       stabilizes microtubules and promotes their assembly. In the context of
-      Alzheimer's disease, tau becomes hyperphosphorylated and forms
+      Alzheimer&apos;s disease, tau becomes hyperphosphorylated and forms
       neurofibrillary tangles. These tangles are associated with neuronal
       dysfunction and cell death. Tau pathology is thought to be a key driver of
-      neurodegeneration in Alzheimer's disease.
+      neurodegeneration in Alzheimer&apos;s disease.
+      <CitationCard citations={[ChallengesInAD]}>
+        thereby destabilizing microtubules and compromising axonal transport
+        (Querfurth and LaFerla, 2010; Ittner and Götz, 2011; Medeiros et al.,
+        2011; Morris et al., 2011; Scheltens et al., 2016).
+      </CitationCard>
+      <CitationCard citations={[PetTauGeneticFrontoTemporal]}>
+        In fact, there are six different isoforms of the tau protein, and these
+        can adopt different conformations, leading to various tauopathies.8 The
+        characteristic tau pathology found in Alzheimer&apos;s disease consists
+        of neurofibrillary tangles (NFTs) composed of all six tau isoforms.
+      </CitationCard>
       <CitationCard citations={[synergyABTauInAD]}>
         The tau aggregates are commonly found in the medial temporal lobe,
         starting in the parahippocampal gyrus, which includes the entorhinal

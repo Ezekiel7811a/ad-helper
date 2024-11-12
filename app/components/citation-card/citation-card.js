@@ -1,9 +1,9 @@
 "use client";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
-import { Divider, Popover } from "@mui/material";
 import "./style.css";
-import RippleEffectButton from "./ripple-effect";
+import RippleEffectButton from "./ripple-effect.tsx";
+import { Divider, Popover } from "@mui/material";
 const CitationCard = ({ citations, children }) => {
     var _a;
     const [anchorEl, setAnchorEl] = useState(null);

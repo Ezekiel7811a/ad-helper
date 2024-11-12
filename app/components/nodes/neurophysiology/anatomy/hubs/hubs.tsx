@@ -47,6 +47,20 @@ const HUBS = new MyNode(
         This finding could explain why previous hypersynchronization phenomena
         were found at several frequency bands.
       </Hypothesis>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        Why are certain brain regions more prone to phenomenon than others? The
+        hubs of the default mode network are brain areas with high metabolic
+        demands and increased neuronal activity. In fact, these regions show
+        higher presence of Aβ plaques (Buckner et al., 2009b). These higher
+        demands of neuronal activity may increase the release of amyloid species
+        into the interstitial fluid (Cirrito et al., 2008), exerting toxicity to
+        inhibitory terminals (Garcia-Marin et al., 2009) and hyperexcitability
+        (Busche and Konnerth, 2016).
+      </CitationCard>
+      <Hypothesis>
+        There is a correlation between the metabolic demands of the region and
+        the presence of Aβ plaques.
+      </Hypothesis>
     </div>
   )
 );

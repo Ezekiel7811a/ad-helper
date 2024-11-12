@@ -22,6 +22,11 @@ import {
   InferringEIFromFieldPotentialsA,
   EITranslationalPerspectiveA,
   ABInducedHyperAndTauA,
+  ADBiologicalConstructA,
+  PetTauGeneticFrontoTemporalA,
+  VisualInterpretationPetTauA,
+  AlteredEISubPopsA,
+  ChallengesInADA,
 } from "./authors";
 
 export const adReview: Citation = {
@@ -150,4 +155,34 @@ export const ABInducedHyperAndTau: Citation = {
     "Amyloid induced hyperexcitability in default mode network drives medial temporal hyperactivity and early tau accumulation",
   authors: ABInducedHyperAndTauA,
   publicationDate: new Date("2024-02-01"),
+};
+export const ADBiologicalConstruct: Citation = {
+  title:
+    "Alzheimer Disease as a Clinical-Biological Construct - An International Working Group Recommendation",
+  authors: ADBiologicalConstructA,
+  publicationDate: new Date("2024-11-01"),
+};
+export const PetTauGeneticFrontoTemporal: Citation = {
+  title:
+    "PET tau, amyloid, and neurodegeneration in the genetic frontotemporal dementia",
+  authors: PetTauGeneticFrontoTemporalA,
+  publicationDate: new Date("2021-10-19"),
+};
+export const VisualInterpretationPetTau: Citation = {
+  title:
+    "A Visual Interpretation Algorithm for Assessing Brain Tauopathy with 18F-MK-6240 PET",
+  authors: VisualInterpretationPetTauA,
+  publicationDate: new Date("2023-03-01"),
+};
+export const AlteredEISubPops: Citation = {
+  title:
+    "Altered excitatory and inhibitory neuronal subpopulation parameters are distinctly associated with tau and amyloid in Alzheimer’s disease",
+  authors: AlteredEISubPopsA,
+  publicationDate: new Date("2022-05-26"),
+};
+export const ChallengesInAD: Citation = {
+  title:
+    "Challenges for Alzheimer’s Disease Therapy: Insights from Novel Mechanisms Beyond Memory Defects",
+  authors: ChallengesInADA,
+  publicationDate: new Date("2018-02-06"),
 };

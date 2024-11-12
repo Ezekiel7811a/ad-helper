@@ -3,6 +3,7 @@ import Figure from "@/app/components/figure/figure.tsx";
 import { MyNode } from "@/models/node";
 import {
   CombiningBrainSimAndMeg,
+  EITranslationalPerspective,
   InferringEIFromFieldPotentials,
 } from "@/public/citations";
 import { MathJax } from "better-react-mathjax";
@@ -33,6 +34,18 @@ const EI = new MyNode(
           src="images/ei/ei_balance.png"
           alt="ei_balance"
           caption="Spectral changes and E/I shifts in MCI. (A) Normalized power spectrum across all individuals from the control (Ctrl), MCIn,and MCIcv groups and over all ROIs."
+          n={1}
+        />
+      </CitationCard>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        “The Virtual Brain” (Ritter et al., 2013; Sanzleon et al., 2013). With
+        this simulator, optimal E/I balance and coupling in individual models
+        was associated with cognitive performance in AD in various cognitive
+        domains (Zimmermann et al., 2018).
+        <Figure
+          src="images/ei/ei_disruption_model.png"
+          alt="ei_disruption_model"
+          caption="Model of E/I disruption in AD"
           n={1}
         />
       </CitationCard>

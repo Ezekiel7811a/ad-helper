@@ -1,8 +1,7 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Hypothesis = ({ children }) => {
-  return _jsx("div", {
-    className: "text-green-200 text-lg",
-    children: children,
-  });
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Hypothesis = ({ children, title, }) => {
+    return (_jsxs("div", { className: "text-lg", style: {
+            color: "var(--color-hypothesis)",
+        }, children: [title && _jsx("h3", { children: title }), children] }));
 };
 export default Hypothesis;

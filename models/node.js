@@ -1,7 +1,7 @@
 export class MyNode {
-    constructor(title, children, content) {
+    constructor(title, links, content) {
         this.title = title;
-        this.links = children;
+        this.links = links;
         this.content = content;
     }
 }

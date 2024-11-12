@@ -12,15 +12,15 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "rootDir": "./public/nodes",
+    "rootDir": "./",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["../../../*"]
     }
   },
-  "include": ["./public/nodes/**/*.tsx"]
+  "include": ["./**/*.tsx"]
 }

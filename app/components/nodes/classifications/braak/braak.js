@@ -1,7 +1,7 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import CitationCard from "@/app/components/citation-card/citation-card";
-import Figure from "@/app/components/figure/figure";
-import MyTable from "@/app/components/table/table";
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import CitationCard from "@/app/components/citation-card/citation-card.tsx";
+import Figure from "@/app/components/figure/figure.tsx";
+import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
 import { Braak } from "@/public/citations";
 const headers = ["Stage", "Definition", "Cognition"];
@@ -18,4 +18,5 @@ const rows = [
     ["VI", "NFTs in the isocortex", "Dementia"],
 ];
 const BraakNode = new MyNode("Braak", [], (_jsx("div", { children: _jsxs(CitationCard, { citations: [Braak], children: [_jsx("div", { children: "Table 1. Braak stages" }), _jsx(MyTable, { headers: headers, contents: rows }), _jsx(Figure, { src: "images/classification/transenthorinal_stage.png", alt: "Transentorhinal stage", caption: "Transenthorinal stage", n: 1 }), _jsx(Figure, { src: "images/classification/limbic_stage.png", alt: "Limbic stage", caption: "Entorhinal stage", n: 2 }), _jsx(Figure, { src: "images/classification/isocortical_stage.png", alt: "Isocortical stage", caption: "Hippocampal stage", n: 3 })] }) })));
+export const Wrapper = () => _jsx(_Fragment, { children: BraakNode.content });
 export default BraakNode;

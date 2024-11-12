@@ -15,4 +15,5 @@ export const Glossary: Term[] = [
   { term: "MEG", definition: "Magnetoencephalography" },
   { term: "EEG", definition: "Electroencephalography" },
   { term: "MRI", definition: "Magnetic Resonance Imaging" },
+  { term: "AβOs", definition: "Amyloid-β Oligomers" },
 ];

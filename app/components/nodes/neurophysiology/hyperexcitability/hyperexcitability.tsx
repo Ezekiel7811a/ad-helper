@@ -103,6 +103,23 @@ const Hyperexcitability = new MyNode(
         connectivity from regions with higher Aβ load to regions with lower Aβ
         load should show causal hypersynchrony.
       </Hypothesis>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        Also, it should be noted that increased neuronal activity arises without
+        any compensating mechanisms implemented, supporting the idea that
+        hyperactivity is not compensatory.
+      </CitationCard>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        As cells die and synapses lose their drive in AD, neuronal homeostatic
+        synaptic scaling adjusts neuronal firing activity. However, this effect
+        can itself become pathological, as it produces increased imbalance
+        between excitatory and inhibitory circuits, leading to greater
+        calcium-mediated excitotoxicity
+      </CitationCard>
+      <CitationCard citations={[EITranslationalPerspective]}>
+        animal models of AD have shown how the diminishing of hyperexcitability
+        by levetiracetam improves their cognitive abilities (Sanchez et al.,
+        2012).
+      </CitationCard>
     </div>
   )
 );

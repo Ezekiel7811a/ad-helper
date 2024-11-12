@@ -6,7 +6,6 @@ import {
   Controls,
   Edge,
   MiniMap,
-  Node,
   ReactFlow,
   useEdgesState,
   useNodesState,
@@ -15,7 +14,6 @@ import { useCallback, useEffect, useState } from "react";
 import bidirectionalNode from "./nodes/bidirectional-node";
 import CustomEdge from "./nodes/button-edge";
 import "@xyflow/react/dist/style.css";
-import { MyNode } from "@/models/node";
 import RightPannel from "./right-pannel/right-pannel";
 import { NodeDTO } from "@/models/node-dto";
 import { CustomNode } from "@/models/custome-node";
@@ -86,6 +84,10 @@ const NodeMap = () => {
   useEffect(() => {
     const setNodes = async () => {
       const res = await fetch("/api/get-nodes");
+      if (!res.ok) {
+        console.error("Error fetching nodes");
+        return;
+      }
       const myNodes: NodeDTO[] = await res.json();
       setNewNodes(myNodes);
     };
