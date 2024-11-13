@@ -1,14 +1,14 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import { MyNode } from "@/models/node";
-import { EITranslationalPerspective } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const PyramidalNeurons = new MyNode(
   "PyramidalNeurons",
   [],
   (
     <div>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         The dendritic spines of pyramidal cells are the mainpostsynaptic targets
         of excitatory glutamatergic synapses, and pyramidal cell axons represent
         the main source of these synapses in the cerebral cortex (DeFelipe and

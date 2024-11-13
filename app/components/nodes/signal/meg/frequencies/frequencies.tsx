@@ -3,14 +3,14 @@ import Figure from "@/app/components/figure/figure.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import ToCheck from "@/app/components/to-check/to-check.tsx";
 import { MyNode } from "@/models/node";
-import { SynergyABTauCorticalAndMC } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Frequencies = new MyNode(
   "Frequencies",
   [],
   (
     <div>
-      <CitationCard citations={[SynergyABTauCorticalAndMC]}>
+      <CitationCard citations={[bibtex.gallego2024synergistic]}>
         A consistent observation with electroencephalography (EEG) and
         magnetoencephalography (MEG) is that low-frequency neurophysiological
         activity (&delta;–&theta; bands; 2–8 Hz) is increased and higher

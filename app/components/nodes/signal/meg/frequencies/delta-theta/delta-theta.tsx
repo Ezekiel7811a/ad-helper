@@ -1,7 +1,7 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import ToCheck from "@/app/components/to-check/to-check.tsx";
 import { MyNode } from "@/models/node";
-import { NeuroChemsOrganizationAd } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const DeltaTheta = new MyNode(
   "Delta-Theta",
@@ -9,7 +9,7 @@ const DeltaTheta = new MyNode(
   (
     <div>
       &delta; and &theta; rhythms are considered slow rythms.
-      <CitationCard citations={[NeuroChemsOrganizationAd]}>
+      <CitationCard citations={[bibtex.wiesman2024neurochemical]}>
         &delta; and &theta; rhythms in patients with aMCI, AD are elevated in
         prefrontal and parieto-occipital regions. Disease-related increases in
         slow &delta; and &theta; rhythms were strongest in regions with low

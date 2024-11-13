@@ -2,17 +2,17 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import { MMSEReview, NIAAA } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Classifications = new MyNode(
   "Classifications",
   [],
   (
     <div>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         individuals without overt symptoms, called “preclinical AD” [4].
       </CitationCard>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         Biomarkers of AD: CSF biomarkers are valid proxies for neuropathologic
         changes of AD. Imaging-to-autopsy comparison studies have established
         that amyloid positron emission tomography (PET) is a valid in vivo
@@ -26,7 +26,7 @@ const Classifications = new MyNode(
         damage that may derive from a variety of etiologies, for example,
         cerebrovascular injury [29].
       </CitationCard>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         <Figure
           src="images/classifcation/classification.png"
           alt="Classification problem"
@@ -40,7 +40,7 @@ const Classifications = new MyNode(
           n={2}
         />
       </CitationCard>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         Comparision NIA-AA with IWG: The International Working Group (IWG) also
         incorporates biomarkers in AD diagnosis but requires cognitive symptoms
         alongside biomarkers for diagnosis (except for genetic AD). Unlike
@@ -49,7 +49,7 @@ const Classifications = new MyNode(
         individuals with both abnormal Aβ and tau biomarkers in the AD category,
         aligning more closely with NIA-AA’s biologic definition.
       </CitationCard>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         Alzheimer’s clinical syndrome rather than probable AD when describing
         syndromes without biomarker evidence
       </CitationCard>
@@ -61,7 +61,7 @@ const Classifications = new MyNode(
           n={1}
         />
       </Hypothesis>
-      <CitationCard citations={[MMSEReview]}>
+      <CitationCard citations={[bibtex.arevalo2015mini]}>
         he prevalence of cognitive impairment without dementia as 22% in people
         aged 71 years or older (Plassman 2008).10% to 15% of individuals with
         MCI may progress to dementia,

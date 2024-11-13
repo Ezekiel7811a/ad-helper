@@ -1,18 +1,14 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import { MyNode } from "@/models/node";
-import {
-  CombiningBrainSimAndMeg,
-  SynergyABTauCorticalAndMC,
-  XModel,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Neurophysiology = new MyNode(
   "Neurophysiology",
   [],
   (
     <div>
-      <CitationCard citations={[CombiningBrainSimAndMeg]}>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
         Aβ and tau show different temporal evolution profiles (in which tau
         pathology is delayed), are initially deposited in different brain
         regions (Aβ plaques are particularly found in medial prefrontal and
@@ -26,7 +22,7 @@ const Neurophysiology = new MyNode(
           caption="chematic representation of the spatiotemporal progression of Aβ and tau biomarker levels during AD progression."
         />
       </CitationCard>
-      <CitationCard citations={[SynergyABTauCorticalAndMC]}>
+      <CitationCard citations={[bibtex.busche2020synergy]}>
         The joint accumulation of Aβ and tau triggers a cascade of deleterious
         events from synaptic loss, neuronal death, to brain atrophy5,16–18,
         which are thought to underlie the cognitive deficits that characterize
@@ -41,7 +37,7 @@ const Neurophysiology = new MyNode(
         (BOLD) activations in hippocampal and middle temporal lobe circuits have
         been reported
       </CitationCard>
-      <CitationCard citations={[XModel]}>
+      <CitationCard citations={[bibtex.pusil2019hypersynchronization]}>
         This model is also supported by the X model, stating that sMCI are just
         future pMCI in the hypersynchronization phase.
         <Figure

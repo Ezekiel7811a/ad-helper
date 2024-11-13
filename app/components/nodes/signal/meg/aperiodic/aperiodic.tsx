@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { NeuroChemsOrganizationAd, ParamsPSD } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Aperiodic = new MyNode(
   "Aperiodic",
   [],
   (
     <div>
-      <CitationCard citations={[ParamsPSD]}>
+      <CitationCard citations={[bibtex.donoghue2020parameterizing]}>
         aperiodic power across frequencies, and is equivalent to the negative
         slope of the power spectrum when measured in log–log space24. The
         aperiodic component is additionally parameterized with an ‘offset’
@@ -24,7 +24,7 @@ const Aperiodic = new MyNode(
       </CitationCard>
       Aperiodic components can be extracted thanks to FOOOF algorithm of the
       same authors.
-      <CitationCard citations={[ParamsPSD]}>
+      <CitationCard citations={[bibtex.donoghue2020parameterizing]}>
         The observation of within-subject changes of the aperiodic exponent also
         has implications regarding the ubiquitous negative correlation between
         low-frequency (&lt;30 Hz) and high-frequency (&gt;40 Hz) activity38,
@@ -34,12 +34,12 @@ const Aperiodic = new MyNode(
         see-saw-like rotation of the spectrum at around 20–30 Hz due to a change
         in aperiodic activity.
       </CitationCard>
-      <CitationCard citations={[NeuroChemsOrganizationAd]}>
+      <CitationCard citations={[bibtex.wiesman2024neurochemical]}>
         In patients with aMCI and AD, both aperiodic offsets and slopes are
         altered, particularly in prefrontal and parieto-occipital regions. A
         higher aperiodic offset and steeper slope indicate increased
-        "background" or arrhythmic neural activity, particularly in lower
-        frequencies.
+        &quot;background&quot; or arrhythmic neural activity, particularly in
+        lower frequencies.
       </CitationCard>
     </div>
   )

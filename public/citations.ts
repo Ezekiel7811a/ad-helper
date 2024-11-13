@@ -30,52 +30,52 @@ import {
   ChallengesInADA,
 } from "./authors";
 
-export const adReview: Citation = {
+/* export const adReview: Citation = {
   title: "Alzheimer's disease",
   authorsList: [DSKnopman],
   publicationDate: new Date("2021-05-13"),
-};
-export const CombiningBrainSimAndMeg: Citation = {
+}; */
+/* export const CombiningBrainSimAndMeg: Citation = {
   title:
     "Combining aperiodic 1/f slopes and brain simulation: An EEG/MEG proxy marker of excitation/inhibition imbalance in Alzheimer's disease",
   authorsList: [PMCanada],
   publicationDate: new Date("2023-09-01"),
-};
-export const ABViciousCycle: Citation = {
+}; */
+/* export const ABViciousCycle: Citation = {
   title: "A vicious cycle of β amyloid-dependent neuronal hyperactivation ",
   authorsList: ABViciousCycleA,
   publicationDate: new Date("2019-08-09"),
-};
-export const hyperexcitability2: Citation = {
+}; */
+/* export const hyperexcitability2: Citation = {
   title:
     "Rescue of long-range circuit dysfunction in Alzheimer's disease models",
   authorsList: HyperactivationAuthors2,
   publicationDate: new Date("2015-10-12"),
-};
-export const hyperexcitability3: Citation = {
+}; */
+/* export const hyperexcitability3: Citation = {
   title:
     "Inhibitory Interneuron Deficit Links Altered Network Activity and Cognitive Dysfunction in Alzheimer Model",
   authorsList: HyperactivationA3,
   publicationDate: new Date("2012-04-27"),
-};
-export const hyperexcitability4: Citation = {
+}; */
+/* export const hyperexcitability4: Citation = {
   title:
     "Clusters of Hyperactive Neurons Near Amyloid Plaques in a Mouse Model of Alzheimer's Disease",
   authorsList: HyperactivationA4,
   publicationDate: new Date("2008-09-19"),
-};
-export const synergyABTauInAD: Citation = {
+}; */
+/* export const synergyABTauInAD: Citation = {
   title: "Synergy between amyloid-β and tau in Alzheimer’s disease",
   authorsList: SynergyABTauA,
   publicationDate: new Date("2020-08-10"),
-};
-export const LinksADOscillatorySlowing: Citation = {
+}; */
+/* export const LinksADOscillatorySlowing: Citation = {
   title:
     "A multiscale brain network model links Alzheimer’s disease-mediated neuronal hyperactivity to large-scale oscillatory slowing",
   authorsList: LinksADOscillatorySlowingA,
   publicationDate: new Date("2022-07-01"),
-};
-export const EIIncreasedParietal: Citation = {
+}; */
+/* export const EIIncreasedParietal: Citation = {
   title:
     "Increased excitatory to inhibitory synaptic ratio in parietal cortex samples from individuals with Alzheimer’s disease",
   authorsList: EIIncreasedParietalA,
@@ -174,18 +174,16 @@ export const VisualInterpretationPetTau: Citation = {
     "A Visual Interpretation Algorithm for Assessing Brain Tauopathy with 18F-MK-6240 PET",
   authorsList: VisualInterpretationPetTauA,
   publicationDate: new Date("2023-03-01"),
-};
-export const AlteredEISubPops: Citation = {
+}; */
+/* export const AlteredEISubPops: Citation = {
   title:
     "Altered excitatory and inhibitory neuronal subpopulation parameters are distinctly associated with tau and amyloid in Alzheimer’s disease",
   authorsList: AlteredEISubPopsA,
   publicationDate: new Date("2022-05-26"),
-};
+}; */
 /* export const ChallengesInAD: Citation = {
   title:
     "Challenges for Alzheimer’s Disease Therapy: Insights from Novel Mechanisms Beyond Memory Defects",
   authorsList: ChallengesInADA,
   publicationDate: new Date("2018-02-06"),
 }; */
-export const frozza2018challenges = bibtex.frozza2018challenges
-export const seibyl2023visual = bibtex.seibyl2023visual;

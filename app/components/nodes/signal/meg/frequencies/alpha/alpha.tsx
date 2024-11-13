@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { NeuroChemsOrganizationAd } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Alpha = new MyNode(
   "Alpha",
   [],
   (
     <div>
-      <CitationCard citations={[NeuroChemsOrganizationAd]}>
+      <CitationCard citations={[bibtex.wiesman2024neurochemical]}>
         &alpha; and &beta; rhythms, in patients with aMCI, AD which are
         associated with cognitive and sensory processing, are significantly
         reduced in frontal and temporal areas. This reduction might signal

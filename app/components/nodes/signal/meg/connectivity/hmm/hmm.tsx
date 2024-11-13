@@ -6,8 +6,8 @@ const HMM = new MyNode(
   (
     <div>
       Hidden Markov Models (HMM) have been used to model the progression of
-      Alzheimer's disease (AD). This model is based on the assumption that the
-      progression of AD can be divided into a finite number of states, each
+      Alzheimer&quot;s disease (AD). This model is based on the assumption that
+      the progression of AD can be divided into a finite number of states, each
       representing a different stage of the disease. The transition between
       states is governed by a set of probabilities, which can be estimated from
       longitudinal data. HMMs have been shown to be effective in capturing the

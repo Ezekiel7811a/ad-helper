@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { NIAAA } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const PET = new MyNode(
   "PET",
   [],
   (
     <div>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         Tau PET: This emerging imaging modality targets PHF tau deposits in the
         brain but faces limitations, such as off-target binding. The
         first-generation ligand, flortaucipir, is a reliable marker for 3R/4R
@@ -17,7 +17,7 @@ const PET = new MyNode(
         changes, impacting the diagnostic distinction between “Alzheimer’s
         pathologic change” and full AD.
       </CitationCard>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         Amyloid PET: Sensitivity thresholds are set by typical cut points for
         PET ligands. For example: 18F Amyloid PET: Labels moderate to high
         neuritic plaque loads as abnormal but may miss low plaque levels. 11C

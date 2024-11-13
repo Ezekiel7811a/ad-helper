@@ -1,7 +1,7 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
-import { NIAAA } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const headers = ["Stage"];
 const rows = [
@@ -49,7 +49,7 @@ const NIAAANode = new MyNode(
   [],
   (
     <div>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         The committee designed a 3-range system: normal (0), intermediate (1),
         and abnormal (2).
         <div>

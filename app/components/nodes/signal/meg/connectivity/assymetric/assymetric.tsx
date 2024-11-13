@@ -1,19 +1,15 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import { DirectionalInformationAD } from "@/public/citations";
-import dynamic from "next/dynamic";
-const MathJax = dynamic(
-  () => import("better-react-mathjax").then((mod) => mod.MathJax),
-  { ssr: false }
-);
+import { MathJax } from "better-react-mathjax";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Assymetric = new MyNode(
   "Assymetric",
   [],
   (
     <div>
-      <CitationCard citations={[DirectionalInformationAD]}>
+      <CitationCard citations={[bibtex.engels2017directional]}>
         Phase Transfer Entropy: Functional connections can be evaluated by
         calculating the statistical interdependencies between time series of
         neuronal activity (Friston, 2011). For the PTE the time series of the
@@ -65,18 +61,19 @@ const Assymetric = new MyNode(
         Findings: In the beta band, AD patients exhibited reduced information
         flow from posterior (visual and posterior Default Mode Network regions)
         to anterior regions, compared to controls. The posterior regions,
-        particularly the precuneus and visual cortex, were less "sending," while
-        prefrontal regions were less "receiving" in AD. This disruption aligns
-        with previous EEG findings that suggest altered beta-band connectivity
-        in AD. The beta band may play a crucial role in maintaining long-range
-        connectivity, which becomes compromised in AD. In AD patients, only the
-        beta band exhibited disrupted posterior-to-anterior flow, while the
-        theta band’s anterior-to-posterior flow remained intact. This selective
-        disruption in the beta band may indicate the vulnerability of beta-band
-        connectivity in AD. High-degree hubs, like the posterior hubs, are
-        typically strong information senders. However, in AD, these posterior
-        hubs are damaged, leading to a redistribution of hub-like activity to
-        more anterior regions.
+        particularly the precuneus and visual cortex, were less
+        &quot;sending,&quot; while prefrontal regions were less
+        &quot;receiving&quot; in AD. This disruption aligns with previous EEG
+        findings that suggest altered beta-band connectivity in AD. The beta
+        band may play a crucial role in maintaining long-range connectivity,
+        which becomes compromised in AD. In AD patients, only the beta band
+        exhibited disrupted posterior-to-anterior flow, while the theta band’s
+        anterior-to-posterior flow remained intact. This selective disruption in
+        the beta band may indicate the vulnerability of beta-band connectivity
+        in AD. High-degree hubs, like the posterior hubs, are typically strong
+        information senders. However, in AD, these posterior hubs are damaged,
+        leading to a redistribution of hub-like activity to more anterior
+        regions.
       </CitationCard>
       <Hypothesis>
         Tau and/or Amyloid-Beta Burden in Posterior Hubs Correlates with

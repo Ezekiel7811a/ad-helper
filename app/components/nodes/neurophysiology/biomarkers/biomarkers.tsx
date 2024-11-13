@@ -2,10 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
-import {
-  EITranslationalPerspective,
-  InferringEIFromFieldPotentials,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const biomarkers = {
   excitatory: ["glutamate"],
@@ -50,10 +47,10 @@ const Biomarkers = new MyNode(
       brain regions. For these reasons, current MRS approaches have limited
       utility for tracking variations of E/I across cortical regions or
       behavioral states.
-      <CitationCard citations={[InferringEIFromFieldPotentials]}>
+      <CitationCard citations={[bibtex.gao2017inferring]}>
         <MyTable headers={headers} contents={rows} />
       </CitationCard>
-      <CitationCard citations={[InferringEIFromFieldPotentials]}>
+      <CitationCard citations={[bibtex.gao2017inferring]}>
         synaptic input fluctuations during the high conductance state can be
         accurately modeled by a summation of two stationary stochastic processes
         representing excitatory and inhibitory inputs (Alvarez and Destexhe,
@@ -65,7 +62,7 @@ const Biomarkers = new MyNode(
           n={1}
         />
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Tau and Aβ together can have complex effects, with tau further silencing
         neurons even if Aβ is causing hyperactivity, suggesting tau can override
         the excitatory imbalance from Aβ.

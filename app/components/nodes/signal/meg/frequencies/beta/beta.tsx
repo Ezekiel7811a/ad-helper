@@ -1,7 +1,7 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import ToCheck from "@/app/components/to-check/to-check.tsx";
 import { MyNode } from "@/models/node";
-import { NeuroChemsOrganizationAd, XModel } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 import exp from "constants";
 
 const Beta = new MyNode(
@@ -9,7 +9,7 @@ const Beta = new MyNode(
   [],
   (
     <div>
-      <CitationCard citations={[XModel]}>
+      <CitationCard citations={[bibtex.pusil2019hypersynchronization]}>
         Beta band seems to have a special significance in Alzheimer’s disease,
         especially in the early stages of the disease (Stam et al., 2003). This
         band has been classically related to excitatory activity, as well as to
@@ -17,7 +17,7 @@ const Beta = new MyNode(
         executive function (Koenig et al., 2005). And has been supported by our
         results.
       </CitationCard>
-      <CitationCard citations={[NeuroChemsOrganizationAd]}>
+      <CitationCard citations={[bibtex.wiesman2024neurochemical]}>
         Interestingly, &beta; rhythms in patients with aMCI, AD are increased in
         parietal and prefrontal regions. This selective increase could represent
         a regionally specific compensatory response or an attempt to maintain

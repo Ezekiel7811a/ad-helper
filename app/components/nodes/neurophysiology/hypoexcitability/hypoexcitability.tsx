@@ -1,17 +1,17 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { CombiningBrainSimAndMeg } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Hypoexcitability = new MyNode(
   "Hypoexcitability",
   [],
   (
     <div>
-      <CitationCard citations={[CombiningBrainSimAndMeg]}>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
         Aβ-mediated effects, tau is associated with suppression of neuronal
         activity (hypoexcitability) and progressive loss of connectivity
       </CitationCard>
-      <CitationCard citations={[CombiningBrainSimAndMeg]}>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
         Significant patterns of hypoexcitability observed in the temporal lobe
         associated with tau accumulation.
       </CitationCard>

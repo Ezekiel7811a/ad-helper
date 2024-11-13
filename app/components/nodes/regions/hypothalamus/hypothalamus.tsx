@@ -1,14 +1,14 @@
 import { MyNode } from "@/models/node";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
-import { ChallengesInAD } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 export const Hypothalamus = new MyNode(
   "Hypothalamus",
   [],
   (
     <NodeCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         the hypothalamus is responsible for controlling circadian rhythm,
         impairments in its function can at least partially account for sleep
         disturbances. Nonetheless, although initial results have already shed

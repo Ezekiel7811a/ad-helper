@@ -1,7 +1,9 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
-import { ATNClassification } from "@/public/citations";
+
+import bibtex from "@/public/citations/bibtex.json";
+
 const rows = [
   ["A-/T-/N-", "Not defined", "Not defined"],
   [
@@ -86,7 +88,7 @@ const ATN = new MyNode(
   [],
   (
     <div>
-      <CitationCard citations={[ATNClassification]}>
+      <CitationCard citations={[bibtex.jack2016t]}>
         “A” refers to the value of a b-amyloid biomarker (amyloid PET or CSF
         Ab42); “T,” the value of a tau biomarker (CSF phospho tau, or tau PET);
         and “N,” biomarkers of neurodegeneration or neuronal injury

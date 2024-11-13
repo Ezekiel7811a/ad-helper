@@ -1,14 +1,14 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import { EITranslationalPerspective } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const GlialCells = new MyNode(
   "GlialCells",
   [],
   (
     <div>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Microglia (immune cells in the brain) become active when neurons are
         hypoactive. They can further reduce neuronal firing and are known to
         clear synapses and neurons in AD, contributing to loss of E. also
@@ -16,12 +16,12 @@ const GlialCells = new MyNode(
         These changes further disrupt neuron communication and could impair
         brain circuits.
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Astrocytes also contribute to synapse removal and become structurally
         abnormal in AD. These changes further disrupt neuron communication and
         could impair brain circuits.
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Oligodendrocytes (cells involved in myelination) are implicated in AD,
         but their specific role is still under research.
       </CitationCard>

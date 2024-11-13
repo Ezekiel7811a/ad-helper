@@ -1,10 +1,7 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import NodeCard from "@/app/components/node-card/node-card";
 import { MyNode } from "@/models/node";
-import {
-  PetTauGeneticFrontoTemporal,
-  VisualInterpretationPetTau,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const tauTracers = [
   <span key={0}>
@@ -41,7 +38,7 @@ export const PetTau = new MyNode(
   [],
   (
     <NodeCard>
-      <CitationCard citations={[PetTauGeneticFrontoTemporal]}>
+      <CitationCard citations={[bibtex.levy202218f]}>
         Developing a reliable tracer is proving to be challenging—in part due to
         the inherent heterogeneity of tau. In fact, there are six different
         isoforms of the tau protein.
@@ -54,23 +51,22 @@ export const PetTau = new MyNode(
           ))}
         </ul>
         <span>
-
-        <sup>18</sup>F-MK-6240 PET. MK-6240 has exhibited strong specificity and
-        sensitivity for tau without the influence of monoamine oxidase (MAO).34
-        While off-target binding to melanin and meninges is notable, and mild
-        off-target binding to intraparenchymal haemorrhage is observed as well,
-        there is no off-target binding to key brain regions such as the basal
-        ganglia as exhibited by certain other tracers.34 A large body of
-        pre-existing evidence, including the tracer’s previous success in
-        Alzheimer’s disease,31,32 confirms MK-6240 binding to tau specifically
-        in the NFT conformation. In fact, the only autoradiography study
-        conducted thus far with MK-6240 on human post-mortem brain tissue
-        concluded by proposing ‘that MK-6240 strongly binds to NFTs in Alzheimer
-        disease but does not seem to bind to a significant extent to tau
-        aggregates in nonAlzheimer tauopathies’.34
+          <sup>18</sup>F-MK-6240 PET. MK-6240 has exhibited strong specificity
+          and sensitivity for tau without the influence of monoamine oxidase
+          (MAO).34 While off-target binding to melanin and meninges is notable,
+          and mild off-target binding to intraparenchymal haemorrhage is
+          observed as well, there is no off-target binding to key brain regions
+          such as the basal ganglia as exhibited by certain other tracers.34 A
+          large body of pre-existing evidence, including the tracer’s previous
+          success in Alzheimer’s disease,31,32 confirms MK-6240 binding to tau
+          specifically in the NFT conformation. In fact, the only
+          autoradiography study conducted thus far with MK-6240 on human
+          post-mortem brain tissue concluded by proposing ‘that MK-6240 strongly
+          binds to NFTs in Alzheimer disease but does not seem to bind to a
+          significant extent to tau aggregates in nonAlzheimer tauopathies’.34
         </span>
       </CitationCard>
-      <CitationCard citations={[PetTauGeneticFrontoTemporal]}>
+      <CitationCard citations={[bibtex.levy202218f]}>
         However, our findings in amyloid-negative subjects with a P301L MAPT
         mutation (Figs 1A, B,2B and C ) are more difficult to explain. P301L is
         a mutation in exon 10 of the MAPT gene which causes accumulation of 4R
@@ -80,12 +76,12 @@ export const PetTau = new MyNode(
         binding to sparse NFTs in these patients, to pretangles or to something
         else entirely remains ambiguous.
       </CitationCard>
-      <CitationCard citations={[VisualInterpretationPetTau]}>
+      <CitationCard citations={[bibtex.seibyl2023visual]}>
         <span>
           <sup>18</sup>F-MK-6240 demonstrates homogeneous uptake such that some
           structural features such as the ventricles are visualized but without
-          evidence of focal uptake in the neocortex. AD patients show a pattern of
-          cortical uptake that is more intense, asymmetric, and focal (13),
+          evidence of focal uptake in the neocortex. AD patients show a pattern
+          of cortical uptake that is more intense, asymmetric, and focal (13),
           consistent with the distribution of the tau pathology reported in
           postmortem studies (9).
         </span>

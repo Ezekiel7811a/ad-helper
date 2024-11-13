@@ -2,10 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import {
-  AlteredEISubPops,
-  EITranslationalPerspective,
-} from "@/public/citations.ts";
+import bibtex from "@/public/citations/bibtex.json";
 import { MathJax } from "better-react-mathjax";
 import Figure from "@/app/components/figure/figure.tsx";
 
@@ -14,13 +11,13 @@ export const NMM = new MyNode(
   [],
   (
     <NodeCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         ‘neural mass models’. These describe oscillatory neuronal activity in
         cortical regions, and provide realistic descriptions of, for example,
         the human alpha rhythm (David and Friston, 2003; Lopes da Silva et al.,
         1974; Zetterberg et al., 1978).
       </CitationCard>
-      <CitationCard citations={[AlteredEISubPops]}>
+      <CitationCard citations={[bibtex.ranasinghe2022altered]}>
         <span>
           for every region k (k varies from 1 to N and N is the total number of
           regions) based on the Desikan–Killiany parcellation, the regional

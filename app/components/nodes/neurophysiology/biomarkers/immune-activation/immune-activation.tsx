@@ -1,14 +1,14 @@
 import { MyNode } from "@/models/node";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
-import { ChallengesInAD } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 export const ImmuneActivation = new MyNode(
   "ImmuneActivation",
   [],
   (
     <NodeCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         AD pathogenesis appears to include strong interactions with immune
         mechanisms in the brain. AβOs induce aberrant reactivity of astrocytes
         and microglia, in the brains of mice and non-human primates (Bomfim et
@@ -19,14 +19,14 @@ export const ImmuneActivation = new MyNode(
         al., 2013; Baruch et al., 2015, 2016; GuillotSestier et al., 2015;
         Zenaro et al., 2015; Hong et al., 2016a,b).
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         markers of inflammation, such as TNF-α, IL-1β, IL-6, and other
         cytokines, have been shown to be increased in the brain, CSF, and plasma
         of AD patients (Perry et al., 2010; Swardfager et al., 2010; Czirr and
         Wyss-Coray, 2012; Alcolea et al., 2014; Heneka et al., 2015a; Hong et
         al., 2016a; Salter and Stevens, 2017).
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         Increased pro-inflammatory signaling resulting from reactive microglial
         reduces Aβ clearance, promotes aberrant synaptic pruning (Lee and
         Landreth, 2010; Mandrekar-Colucci et al., 2012; Heneka et al., 2015a,b;
@@ -37,7 +37,7 @@ export const ImmuneActivation = new MyNode(
         thereby indicating a causal role of inflammation in deleterious
         processes linked to AD.
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         TNFα, have been reported to induce neuronal stress (Lourenco et al.,
         2013), likely resulting in defective proteostasis. it has been recently
         demonstrated that AβOs stimulates eIF2α phosphorylation (Devi and Ohno,
@@ -47,12 +47,12 @@ export const ImmuneActivation = new MyNode(
         in health and disease. When phosphorylated, however, eIF2α attenuates
         the initiation of global protein synthesis (Lourenco et al., 2015).
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         In line with this notion, deletion of eIF2α kinases, including PKR,
         PERK, or GCN2 restores memory and synapse function in mouse models of AD
         (Lourenco et al., 2013; Ma et al., 2013).
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         Abnormal accumulation of misfolded proteins in the endoplasmic reticulum
         triggers the unfolded protein response (UPR), a set of signaling
         branches aimed at restore cellular homeostasis (Hetz, 2012; Dufey et

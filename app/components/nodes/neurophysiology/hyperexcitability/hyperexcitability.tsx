@@ -1,16 +1,7 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import {
-  CombiningBrainSimAndMeg,
-  ABViciousCycle,
-  hyperexcitability2,
-  hyperexcitability3,
-  hyperexcitability4,
-  LinksADOscillatorySlowing,
-  XModel,
-  EITranslationalPerspective,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Hyperexcitability = new MyNode(
   "Hyperexcitability",
@@ -19,26 +10,26 @@ const Hyperexcitability = new MyNode(
     <div>
       <CitationCard
         citations={[
-          CombiningBrainSimAndMeg,
-          ABViciousCycle,
-          hyperexcitability2,
-          hyperexcitability3,
-          hyperexcitability4,
+          bibtex.martinez2023combining,
+          bibtex.zott2019vicious,
+          bibtex.busche2015rescue,
+          bibtex.verret2012inhibitory,
+          bibtex.busche2008clusters,
         ]}
       >
         There is strong evidence that Aβ plaques, as well as soluble forms of
         Aβ,area key player in driving neuronal hyperexcitability in AD, which
         might ultimately give rise to epileptiform activity.
       </CitationCard>
-      <CitationCard citations={[CombiningBrainSimAndMeg]}>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
         Significant patterns of hyperexcitability observed in prefrontal regions
         associated with Aβ deposition.
       </CitationCard>
-      <CitationCard citations={[LinksADOscillatorySlowing]}>
+      <CitationCard citations={[bibtex.van2022multiscale]}>
         A link between neuronal hyperactivity in preclinical AD to oscillatory
         slowing has been shown.
       </CitationCard>
-      <CitationCard citations={[XModel]}>
+      <CitationCard citations={[bibtex.pusil2019hypersynchronization]}>
         As the disease progresses, the hypersynchronization observed in the pMCI
         group would cause neuronal death due to excessive calciummediated
         activity (de Haan et al., 2012a, b), leading to the characteristic
@@ -50,7 +41,7 @@ const Hyperexcitability = new MyNode(
       GABAergic perisomatic synapses (Garcia-Marin et al., 2009). This increase
       of activity generates, in turn, an increment of the APP endocytosis,
       reinforcing the aberrant circle of amyloid-b production.
-      <CitationCard citations={[ABViciousCycle]}>
+      <CitationCard citations={[bibtex.zott2019vicious]}>
         Ab can induce hyperexcitation in sensitive neurons and that this drives
         a vicious cycle of hyperactivation. Next, the block of synaptically
         released glutamate at active excitatory synapses is an important element
@@ -62,7 +53,7 @@ const Hyperexcitability = new MyNode(
         present at early stages, long before plaques.
       </CitationCard>
       <div>Interpretations:</div>
-      <CitationCard citations={[XModel]}>
+      <CitationCard citations={[bibtex.pusil2019hypersynchronization]}>
         we may speculate that the profile of hypersynchronization found here, as
         in other studies, may be related to the pathological process of
         Alzheimer’s disease (de Haan et al., 2012a, b;L ́ opez et al., 2014).
@@ -75,7 +66,7 @@ const Hyperexcitability = new MyNode(
         neuronal synchronization, which may lead to the establishment of
         aberrant relationships between brain areas
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         (Nakamura et al., 2017) showed increased phase synchronization (delta
         and theta frequency bands) between the precuneus and the bilateral
         inferior parietal lobules in asymptomatic amyloid-positive. And between
@@ -85,13 +76,13 @@ const Hyperexcitability = new MyNode(
         Hypersynchrony observed in AD is a direct result of Aβ-induced
         overactivation of excitatory neurons due to disrupted inhibitory
         (GABAergic) control, rather than a compensatory mechanism. Supported by{" "}
-        <CitationCard citations={[EITranslationalPerspective]}>
+        <CitationCard citations={[bibtex.maestu2021neuronal]}>
           the loss of GABAergic transmission, could induce hyperactivity,
           increasing the probability of local synchronization of brain
           oscillatory activity
         </CitationCard>
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         However, p-tau also mediated increased synchronization between the
         anterior cingulate cortex (ACC) and the medial temporal lobe in the beta
         frequency band (Canuet et al., 2015), probably due to the interaction
@@ -103,19 +94,19 @@ const Hyperexcitability = new MyNode(
         connectivity from regions with higher Aβ load to regions with lower Aβ
         load should show causal hypersynchrony.
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Also, it should be noted that increased neuronal activity arises without
         any compensating mechanisms implemented, supporting the idea that
         hyperactivity is not compensatory.
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         As cells die and synapses lose their drive in AD, neuronal homeostatic
         synaptic scaling adjusts neuronal firing activity. However, this effect
         can itself become pathological, as it produces increased imbalance
         between excitatory and inhibitory circuits, leading to greater
         calcium-mediated excitotoxicity
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         animal models of AD have shown how the diminishing of hyperexcitability
         by levetiracetam improves their cognitive abilities (Sanchez et al.,
         2012).

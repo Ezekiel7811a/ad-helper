@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { ABInducedHyperAndTau } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const AbTauInteractions = new MyNode(
   "AbTauInteractions",
   [],
   (
     <div>
-      <CitationCard citations={[ABInducedHyperAndTau]}>
+      <CitationCard citations={[bibtex.giorgio2024amyloid]}>
         It has been proposed that this Ab then promotes the migration of tau4,5
       </CitationCard>
     </div>

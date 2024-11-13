@@ -1,14 +1,14 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import { EITranslationalPerspective } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const HUBS = new MyNode(
   "HUBS",
   [],
   (
     <div>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         one striking phenomenon is repeatedly observed: namely that highly
         connected ‘hub’ regions in the brain appear to be most vulnerable in AD
         (Buckner et al., 2009b; Stam, 2014; Yu et al., 2017). T
@@ -23,7 +23,7 @@ const HUBS = new MyNode(
           region and the vulnerability to AD.
         </div>
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         he tendency of increased clustering and the loss of brain hubs (de Haan
         et al., 2012; Engels et al., 2017) reflect a progressive isolation of
         brain regions which correlates with cognitive impairment. Engels et al.
@@ -36,7 +36,7 @@ const HUBS = new MyNode(
         We could make a model to predict the progression of AD based on the
         previous model of signal but adding the connectivity of the regions.
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         (Yu et al., 2017), appliedmultiplex networks analysis and found that
         several brain hubs (hippocampus, posterior regions of the defaultmode
         network and occipital regions), were impaired in AD patients at
@@ -47,7 +47,7 @@ const HUBS = new MyNode(
         This finding could explain why previous hypersynchronization phenomena
         were found at several frequency bands.
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Why are certain brain regions more prone to phenomenon than others? The
         hubs of the default mode network are brain areas with high metabolic
         demands and increased neuronal activity. In fact, these regions show

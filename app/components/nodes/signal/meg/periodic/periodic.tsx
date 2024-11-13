@@ -2,14 +2,14 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import { ParamsPSD } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Periodic = new MyNode(
   "Periodic",
   [],
   (
     <div>
-      <CitationCard citations={[ParamsPSD]}>
+      <CitationCard citations={[bibtex.donoghue2020parameterizing]}>
         Older adults had lower (slower) &alpha; center frequencies than younger
         adults. Measured as a pourcentage of the canonical &alpha; frequency
         younger = 84%, older = 71%; Specifically, we find that canonical alpha

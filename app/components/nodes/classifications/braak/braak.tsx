@@ -2,7 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import MyTable from "@/app/components/table/table.tsx";
 import { MyNode } from "@/models/node";
-import { Braak } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const headers = ["Stage", "Definition", "Cognition"];
 const rows = [
@@ -23,7 +23,7 @@ const BraakNode = new MyNode(
   [],
   (
     <div>
-      <CitationCard citations={[Braak]}>
+      <CitationCard citations={[bibtex.braak1993staging]}>
         <div>Table 1. Braak stages</div>
         <MyTable headers={headers} contents={rows} />
         <Figure

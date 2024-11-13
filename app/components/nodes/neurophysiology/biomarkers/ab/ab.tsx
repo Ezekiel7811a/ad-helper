@@ -2,11 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import Hypothesis from "@/app/components/hypothesis/hypothesis.tsx";
 import { MyNode } from "@/models/node";
-import {
-  EITranslationalPerspective,
-  NeuroChemsOrganizationAd,
-  SynergyABTauCorticalAndMC,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const AB = new MyNode(
   "Amyloid Beta (AB)",
@@ -24,14 +20,14 @@ const AB = new MyNode(
       exert a toxic effect on cells, causing the synaptic dysfunction that is a
       critical characteristic of the pathogenesis of Alzheimer’s disease
       (Selkoe, 2002).
-      <CitationCard citations={[SynergyABTauCorticalAndMC]}>
+      <CitationCard citations={[bibtex.gallego2024synergistic]}>
         Aβ plaques deposition can begin up to two decades before symptom
         onset1-4,9, initially accumulating in cortical areas with high metabolic
         baseline activity, such as the precuneus, medial orbitofrontal and
         posterior cingulate cortices10,11, before spreading to the entire
         neocortex, brainstem and subcortical nuclei
       </CitationCard>
-      <CitationCard citations={[NeuroChemsOrganizationAd]}>
+      <CitationCard citations={[bibtex.wiesman2024neurochemical]}>
         Amyloid Beta (Aβ) Plaques: These plaques, which are a hallmark of AD,
         are found at high levels (SUVR) in prefrontal and parieto-temporal
         cortices bilaterally. This spatial pattern aligns with regions showing
@@ -49,7 +45,7 @@ const AB = new MyNode(
       did not find significant correlations between amyloid-PET and EEG/MEG
       connectivity in amyloid-positive subjects, leading to potential concerns
       about compatibility.
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         <Figure
           src="images/hypersynchronization/ab_hyperexcitation.png"
           alt="AB hyperexcitation model"
@@ -61,7 +57,7 @@ const AB = new MyNode(
         Pyramidal cells are the main disrupted type of neurons with A&beta;
         plaques.
       </div>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         <Figure
           src="images/ab-tau/ab_pyramidal.png"
           alt="AB pyramidal"
@@ -83,7 +79,7 @@ const AB = new MyNode(
         synapses (causing hyperactivity) near the cell bodies of neurons and
         reduce excitatory synapses on dendrites in the neuropil. Each change has
         a different impact on neuronal activity and synaptic circuits,
-        contributing to the disruptions seen in Alzheimer's Disease.
+        contributing to the disruptions seen in Alzheimer&apos;s Disease.
       </CitationCard>
       <Hypothesis>
         In Alzheimer’s Disease (AD) patients, a higher density of Aβ plaques
@@ -93,8 +89,8 @@ const AB = new MyNode(
       </Hypothesis>
       <Hypothesis>
         Regions with high tau pathology in AD patients will show a steeper PSD
-        slope due to tau's impact on excitatory neurons, resulting in reduced
-        high-frequency power and an increased relative contribution of
+        slope due to tau&apos;s impact on excitatory neurons, resulting in
+        reduced high-frequency power and an increased relative contribution of
         low-frequency activity.
       </Hypothesis>
       <Hypothesis>
@@ -103,7 +99,7 @@ const AB = new MyNode(
         regions will have a flatter slope, while tau-dominant regions will
         exhibit a steeper slope.
       </Hypothesis>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         Animal models of AD have shown that Aβ plaques induce local
         morphological alterations in the dendrites that are in contact with Aβ
         (e.g., (Knafo et al., 2009; Spires et al., 2005; Tsai et al., 2004)).

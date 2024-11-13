@@ -2,11 +2,7 @@ import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import { MyNode } from "@/models/node";
-import {
-  CombiningBrainSimAndMeg,
-  EITranslationalPerspective,
-  InferringEIFromFieldPotentials,
-} from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 import { MathJax } from "better-react-mathjax";
 
 const EI = new MyNode(
@@ -14,7 +10,7 @@ const EI = new MyNode(
   [],
   (
     <NodeCard>
-      <CitationCard citations={[InferringEIFromFieldPotentials]}>
+      <CitationCard citations={[bibtex.gao2017inferring]}>
         Neurons are constantly bombarded with spontaneous synaptic inputs. This
         state of fluctuating activity is referred to as the high-conductance
         state (Destexhe et al., 2003), and gives rise to the asynchronous,
@@ -24,7 +20,7 @@ const EI = new MyNode(
         and getting steeper with inhibitory activation. Consistent with the
         results.
       </CitationCard>
-      <CitationCard citations={[CombiningBrainSimAndMeg]}>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
         Accumulation and interaction of Aβ and tau proteins during progression
         of AD are shown to tilt neuronal circuits away from balanced E:I.
         Moreover, Aβ and tau may not act independently. Recent evidence suggests
@@ -38,7 +34,7 @@ const EI = new MyNode(
           n={1}
         />
       </CitationCard>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         “The Virtual Brain” (Ritter et al., 2013; Sanzleon et al., 2013). With
         this simulator, optimal E/I balance and coupling in individual models
         was associated with cognitive performance in AD in various cognitive
@@ -51,28 +47,26 @@ const EI = new MyNode(
         />
       </CitationCard>
       E:I balance has been verified as follows:
-          <CitationCard citations={[CombiningBrainSimAndMeg]}>
-            Comparision between a model of E:I that passes through a leadfield
-            matrix and 1/f spectral power law observed at the sensor space.
-            Showing that based on this assumption the E:I balance can be
-            inferred from the sensor space with 1/f slope. (using FOOOF
-            algorithm)
-          </CitationCard>
-          <CitationCard citations={[InferringEIFromFieldPotentials]}>
-            First normalize LFP power. then we get the PSC in time domain:
-            <MathJax>
-              {
-                "\\( \\text{PSC}(t) = C\\left(-e^{\\frac{-t}{\\tau_{\\text{rise}}}} + e^{\\frac{-t}{\\tau_{\\text{decay}}}}\\right) \\)"
-              }
-            </MathJax>
-            Then we can get the power spectrum of the PSC with Welch method.
-            Finally we extract the 1/f slope thanks to non linear fitting. Then
-            we change the E:I balance and observe the change in the slope, we do
-            that for all the empirically known E:I balance accross the stratum
-            depth and look at E:I and 1/f slope correlation. This observation
-            was further confirmed by the observation of macaques with an evoked
-            inhibitory response.
-          </CitationCard>
+      <CitationCard citations={[bibtex.martinez2023combining]}>
+        Comparision between a model of E:I that passes through a leadfield
+        matrix and 1/f spectral power law observed at the sensor space. Showing
+        that based on this assumption the E:I balance can be inferred from the
+        sensor space with 1/f slope. (using FOOOF algorithm)
+      </CitationCard>
+      <CitationCard citations={[bibtex.gao2017inferring]}>
+        First normalize LFP power. then we get the PSC in time domain:
+        <MathJax>
+          {
+            "\\( \\text{PSC}(t) = C\\left(-e^{\\frac{-t}{\\tau_{\\text{rise}}}} + e^{\\frac{-t}{\\tau_{\\text{decay}}}}\\right) \\)"
+          }
+        </MathJax>
+        Then we can get the power spectrum of the PSC with Welch method. Finally
+        we extract the 1/f slope thanks to non linear fitting. Then we change
+        the E:I balance and observe the change in the slope, we do that for all
+        the empirically known E:I balance accross the stratum depth and look at
+        E:I and 1/f slope correlation. This observation was further confirmed by
+        the observation of macaques with an evoked inhibitory response.
+      </CitationCard>
     </NodeCard>
   )
 );

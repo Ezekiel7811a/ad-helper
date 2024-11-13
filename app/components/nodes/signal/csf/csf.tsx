@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { NIAAA } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const CSF = new MyNode(
   "CSF",
   [],
   (
     <div>
-      <CitationCard citations={[NIAAA]}>
+      <CitationCard citations={[bibtex.knopman2018national]}>
         P-tau: Primarily measured by the P-tau181 epitope (and others like
         P-tau231 and P-tau199), elevated CSF P-tau is specific to AD and
         correlates with PHF tau formation. It remains normal in most other

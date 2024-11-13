@@ -1,14 +1,14 @@
 import { MyNode } from "@/models/node";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
-import { ChallengesInAD } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 export const VascularInjury = new MyNode(
   "VascularInjury",
   [],
   (
     <NodeCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         Altered peripheral metabolism with hyperglycemia and hyperinsulinemia,
         which are cardinal features of type 2 diabetes (T2D), were recently
         found to positively correlate with development of AD-like brain
@@ -17,14 +17,14 @@ export const VascularInjury = new MyNode(
         al., 2004), suggesting that the connection between AD and T2D may
         comprise a two-way road.
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         Recent studies have shown that AβOs are the toxins linked to impaired
         hippocampal insulin signaling by promoting internalization and cellular
         redistribution of insulin receptors, blocking downstream hippocampal
         insulin signaling (De Felice et al., 2009; Ma et al., 2009; Bomfim et
         al., 2012).
       </CitationCard>
-      <CitationCard citations={[ChallengesInAD]}>
+      <CitationCard citations={[bibtex.frozza2018challenges]}>
         mounting evidence has pointed to inflammation as a critical player
         linking AD and metabolic diseases, including T2D (De Felice and
         Ferreira, 2014; Ferreira et al., 2014; Morales et al., 2014; Heneka et

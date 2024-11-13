@@ -1,6 +1,6 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { MMSEReview } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const MMSE = new MyNode(
   "Mini Mental State Examination (MMSE)",
@@ -9,7 +9,7 @@ const MMSE = new MyNode(
     <div>
       The MMSE is subject to copyright restrictions, therefore will not be
       included in this resource.
-      <CitationCard citations={[MMSEReview]}>
+      <CitationCard citations={[bibtex.arevalo2015mini]}>
         MMSE is the best-known and the most oRen used short screening tool for
         providing an overall measure of cognitive impairment in clinical,
         research and community settings. sensitivities of 23% to 76% and
@@ -18,7 +18,7 @@ const MMSE = new MyNode(
         ranged from sensitivities of 27% to 89% and specificities from 32% to
         90%. In conclusion it should not be used as a standalone diagnostic.
       </CitationCard>
-      <CitationCard citations={[MMSEReview]}>
+      <CitationCard citations={[bibtex.arevalo2015mini]}>
         a 30-question assessment of cognitive function that evaluates attention
         and orientation, memory, registration, recall, calculation, language and
         ability to draw a complex polygon ( Folstein 1975). Traditionally, a
@@ -30,7 +30,7 @@ const MMSE = new MyNode(
         population and setting evaluated (Diniz 2007; Kulisevsky 2009; Shiroky
         2007; Trenkle 2007).
       </CitationCard>
-      <CitationCard citations={[MMSEReview]}>
+      <CitationCard citations={[bibtex.arevalo2015mini]}>
         Alternatives: Montreal Cognitive Assessment (MoCA) (Davis 2013) and the
         Mini-Cog test (Chan 2014, Fage 2013, Seitz 2014).
       </CitationCard>

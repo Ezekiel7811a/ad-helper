@@ -1,13 +1,13 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
-import { EITranslationalPerspective } from "@/public/citations";
+import bibtex from "@/public/citations/bibtex.json";
 
 const Apoe4 = new MyNode(
   "Apoe4",
   [],
   (
     <div>
-      <CitationCard citations={[EITranslationalPerspective]}>
+      <CitationCard citations={[bibtex.maestu2021neuronal]}>
         APOE-ε4 carrier. Carriers of this genotype have a high probability of Aβ
         deposition in regions associated with the default mode network (Buckner
         et al., 2009a ) as shown by Nakamura et al. (Nakamura et al., 2018,
