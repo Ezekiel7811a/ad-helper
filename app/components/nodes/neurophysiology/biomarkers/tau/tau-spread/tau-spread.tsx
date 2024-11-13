@@ -1,4 +1,4 @@
-import CitationCard from "@/app/components/citation-card/citation-card";
+import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
 import { VisualInterpretationPetTau } from "@/public/citations";
 
@@ -15,3 +15,7 @@ export const TauSpread = new MyNode(
     </div>
   )
 );
+
+export const Wrapper = () => <>{TauSpread.content}</>
+
+export default TauSpread;

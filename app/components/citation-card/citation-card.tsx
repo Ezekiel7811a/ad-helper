@@ -5,6 +5,8 @@ import { ReactNode, useState } from "react";
 import "./style.css";
 import RippleEffectButton from "./ripple-effect.tsx";
 import { Divider, Popover } from "@mui/material";
+import Row from "./row/row.tsx";
+
 
 interface Props {
   children: ReactNode;
@@ -23,8 +25,10 @@ const CitationCard = ({ citations, children }: Props) => {
   };
   const open = Boolean(anchorEl);
 
+  const authors = citations.map((citation) => citation.authorsList.length > 0 ? citation.authorsList.map((author) => author.name) : citation.author?.split(",").map(author => author.trim())
+  .filter(author => author)); // Remove any empty entries, just in case);
   return (
-    <div>
+    <div >
       <div onClick={handleMouseEnter}>
         <RippleEffectButton>{children}</RippleEffectButton>
       </div>
@@ -44,18 +48,21 @@ const CitationCard = ({ citations, children }: Props) => {
       >
         <div>
           <div>
-            {citations[0].authors[0].name} et al. (
-            {citations[0].publicationDate?.getFullYear()})
+            <Row citation={citations[0]}>
+            {authors[0]} et al. (
+            {citations[0].publicationDate ? citations[0].publicationDate.getFullYear() : citations[0].year})
+            </Row>
             <Divider />
           </div>
-          {citations.length > 1 &&
-            citations.slice(1).map((citation, index) => (
-              <div key={index}>
-                {citation.authors[0].name} et al. (
-                {citation.publicationDate?.getFullYear()})
-              </div>
+          {authors.length > 1 &&
+            authors.slice(1).map((author, index) => (
+              <Row key={index} citation={citations[index]}>
+                {author} et al. (
+                {citations[index].publicationDate ? citations[index].publicationDate.getFullYear() : citations[index].year})
+              </Row>
             ))}
         </div>
+        
       </Popover>
     </div>
   );

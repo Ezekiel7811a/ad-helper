@@ -17,6 +17,7 @@ import "@xyflow/react/dist/style.css";
 import RightPannel from "./right-pannel/right-pannel";
 import { NodeDTO } from "@/models/node-dto";
 import { CustomNode } from "@/models/custome-node";
+import { writeNodesDTO } from "@/models/functions/write-nodes";
 
 const nodeTypes = { custom: bidirectionalNode };
 const edgeTypes = { buttonedge: CustomEdge };
@@ -25,15 +26,33 @@ const NodeMap = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState<CustomNode>([]);
   const [newNodes, setNewNodes] = useState<NodeDTO[]>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([]);
+  const savingWrapper = async () => {
+    const saving = new URL(window.location.href).searchParams.get("saving");
+    if (saving) {
+      const res = await writeNodesDTO();
+      if (!res.ok) {
+        console.error("Error in saving nodes");
+      }
+    }
+  }
   useEffect(() => {
     const setInitialValues = async () => {
-      const data = await fetch("/api/node-map");
-      const { nodes, edges } = await data.json();
-      setNodes(nodes);
+      savingWrapper();
+      const data = await fetch("/api/node-map").then((res) => res.json());
+      const customNodes: CustomNode[] = data.nodes;
+      const edges: Edge[] = data.edges;
+      setNodes(customNodes);
       setEdges(edges);
+
+      const nodesDTO: NodeDTO[] = await fetch("/api/nodes").then((res) => res.json());
+      //writeNodesDTO(nodesDTO);
+      setNewNodes(
+        nodesDTO.filter((node) => !customNodes.find((n) => n.data.label === node.title))
+      );
     };
     setInitialValues();
-  }, []);
+
+  }, [setNodes, setEdges, setNewNodes]);
 
   const onConnect = useCallback(
     (params: Edge | Connection) => {
@@ -82,23 +101,11 @@ const NodeMap = () => {
   };
 
   useEffect(() => {
-    const setNodes = async () => {
-      const res = await fetch("/api/get-nodes");
-      if (!res.ok) {
-        console.error("Error fetching nodes");
-        return;
-      }
-      const myNodes: NodeDTO[] = await res.json();
-      setNewNodes(myNodes);
-    };
-    setNodes();
-  }, []);
-  useEffect(() => {
     setNewNodes((myNodes) =>
       myNodes.filter((node) => !nodes.find((n) => n.data.label === node.title))
     );
   }, [nodes]);
-
+  
   return (
     <div className="bg-primary h-screen grid grid-cols-4">
       <ReactFlow

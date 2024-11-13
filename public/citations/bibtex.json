@@ -1,0 +1,27 @@
+{
+  "seibyl2023visual": {
+    "type": "article",
+    "bibref": "seibyl2023visual",
+    "authorsList": [],
+    "title": "A visual interpretation algorithm for assessing brain tauopathy with 18F-MK-6240 PET",
+    "author": "Seibyl, John P and DuBois, Jonathan M and Racine, Annie and Collins, Jessica and Guo, Qi and Wooten, Dustin and Stage, Eddie and Cheng, David and Gunn, Roger N and Porat, Lilly and others",
+    "journal": "Journal of Nuclear Medicine",
+    "volume": "64",
+    "number": "3",
+    "pages": "444--451",
+    "year": "2023",
+    "publisher": "Soc Nuclear Med"
+  },
+  "frozza2018challenges": {
+    "type": "article",
+    "bibref": "frozza2018challenges",
+    "authorsList": [],
+    "title": "Challenges for Alzheimer's disease therapy: insights from novel mechanisms beyond memory defects",
+    "author": "Frozza, Rudimar L and Lourenco, Mychael V and De Felice, Fernanda G",
+    "journal": "Frontiers in neuroscience",
+    "volume": "12",
+    "pages": "37",
+    "year": "2018",
+    "publisher": "Frontiers Media SA"
+  }
+}

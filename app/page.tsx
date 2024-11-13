@@ -77,15 +77,13 @@ const Home = () => {
   return (
     <div className="grid grid-cols-6 h-screen">
       {currentNode && (
-        <div className="col-span-5 overflow-x-visible overflow-y-auto">
-          <NodeCard>
+        <div className="col-span-5 overflow-x-visible overflow-y-auto flex flex-col gap-y-5">
             <div className="title">
               {currentNode.title ? currentNode.title : "No title found"}
             </div>
             <div className="paragraph overflow-x-visible">
               <DynamicComponent />
             </div>
-          </NodeCard>
         </div>
       )}
       {currentNode && (

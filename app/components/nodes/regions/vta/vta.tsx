@@ -22,4 +22,6 @@ export const VTA = new MyNode(
   )
 );
 
-export const Wrapper = () => VTA.content;
+export const Wrapper = () => <>{VTA.content}</>;
+
+export default VTA;

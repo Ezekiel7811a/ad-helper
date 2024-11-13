@@ -85,3 +85,5 @@ export const NMM = new MyNode(
 );
 
 export const Wrapper = () => <>{NMM.content}</>;
+
+export default NMM;

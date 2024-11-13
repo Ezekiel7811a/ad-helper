@@ -1,24 +1,7 @@
-import { promises as fs } from "fs";
-import path from "path";
 import { NodeDTO } from "@/models/node-dto";
 
-export const getNodesDTO = async (dirPath: string): Promise<NodeDTO[]> => {
-  const filesList: string[] = [];
-  const searchFiles = async (dirPath: string) => {
-    const files = await fs.readdir(dirPath);
-    files.forEach(async (file) => {
-      const filePath = path.join(dirPath, file);
-      if (await fs.stat(filePath).then((stat) => stat.isDirectory())) {
-        await searchFiles(filePath);
-      } else if (filePath.endsWith(".tsx")) {
-        const corrFilePath = filePath.replace(/\\/g, "/").split("nodes/")[1];
-        filesList.push(corrFilePath);
-      }
-    });
-  };
-
-  searchFiles(dirPath);
-
+export const getNodesDTO = async (): Promise<NodeDTO[]> => {
+  const filesList: string[] = await fetch("api/nodes/folder").then((res) => res.json());
   const nodesDTO: NodeDTO[] = await Promise.all(
     filesList.map(async (filePath) => {
       try {
@@ -32,7 +15,7 @@ export const getNodesDTO = async (dirPath: string): Promise<NodeDTO[]> => {
               hypotheses: [],
             };
           });
-      } catch {
+      } catch(err) {
         console.error(filePath);
         return null;
       }
@@ -42,14 +25,17 @@ export const getNodesDTO = async (dirPath: string): Promise<NodeDTO[]> => {
   return nodesDTO;
 };
 
-export async function writeNodesDTO() {
-  const dirPath = path.join(process.cwd(), "app/components/nodes");
-  const nodesDTO = await getNodesDTO(dirPath);
+export const writeNodesDTO = async (): Promise<Response> => {
+  const nodesDTO = await getNodesDTO();
 
-  fs.writeFile(
-    "public/nodes/nodes.json",
-    JSON.stringify(nodesDTO, null, 2)
-  ).catch((err) => {
-    console.error(err);
-  });
+  const res = await fetch("api/nodes", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(nodesDTO),
+  })
+
+  fetch ("api/update-node-with-node-map")
+  return res;
 }

@@ -1,4 +1,4 @@
-import CitationCard from "@/app/components/citation-card/citation-card";
+import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import { MyNode } from "@/models/node";
 import { EITranslationalPerspective } from "@/public/citations";
 
@@ -14,3 +14,7 @@ export const Excitotoxicity = new MyNode(
     </div>
   )
 );
+
+export const Wrapper = () => <>{Excitotoxicity.content}</>;
+
+export default Excitotoxicity;

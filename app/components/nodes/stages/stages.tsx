@@ -21,4 +21,6 @@ export const Stages = new MyNode(
   )
 );
 
-export const Wrapper = () => Stages.content;
+export const Wrapper = () => <>{Stages.content}</>;
+
+export default Stages;

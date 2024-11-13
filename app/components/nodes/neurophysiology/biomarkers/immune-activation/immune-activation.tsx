@@ -69,4 +69,6 @@ export const ImmuneActivation = new MyNode(
   )
 );
 
-export const Wrapper = () => ImmuneActivation.content;
+export const Wrapper = () => <>{ImmuneActivation.content}</>;
+
+export default ImmuneActivation;

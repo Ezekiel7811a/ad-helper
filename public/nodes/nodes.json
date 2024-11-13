@@ -23,7 +23,8 @@
       "IWG",
       "Mini Mental State Examination (MMSE)",
       "NIA-AA",
-      "Alzheimer's Disease"
+      "Alzheimer's Disease",
+      "Stages"
     ],
     "path": "classifications/classifications.tsx",
     "hypotheses": []
@@ -47,8 +48,7 @@
   {
     "title": "NIA-AA",
     "links": [
-      "Classifications",
-      "Mild Cognitive Impairment (MCI)"
+      "Classifications"
     ],
     "path": "classifications/nia-aa/nia-aa.tsx",
     "hypotheses": []
@@ -61,13 +61,21 @@
       "Prediction",
       "Magnetoencephalography (MEG)",
       "PET",
-      "HUBS",
-      "Default Mode Network (DMN)",
-      "Resting State",
       "GlialCells",
-      "PyramidalNeurons"
+      "PyramidalNeurons",
+      "Epidemiology",
+      "Regions",
+      "CSF"
     ],
     "path": "generics/ad.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Epidemiology",
+    "links": [
+      "Alzheimer's Disease"
+    ],
+    "path": "generics/epidemiology.tsx",
     "hypotheses": []
   },
   {
@@ -77,7 +85,8 @@
       "VascularInjury",
       "Hyperexcitability",
       "Hypoexcitability",
-      "Alzheimer's Disease"
+      "Alzheimer's Disease",
+      "Excitotoxicity"
     ],
     "path": "generics/neurophysiology.tsx",
     "hypotheses": []
@@ -93,7 +102,7 @@
   {
     "title": "HUBS",
     "links": [
-      "Alzheimer's Disease"
+      "Regions"
     ],
     "path": "neurophysiology/anatomy/hubs/hubs.tsx",
     "hypotheses": []
@@ -124,10 +133,19 @@
     "hypotheses": []
   },
   {
+    "title": "AbCascade",
+    "links": [
+      "AbTauInteractions"
+    ],
+    "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-cascade/ab-cascade.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "AbTauInteractions",
     "links": [
       "Tau",
-      "Amyloid Beta (AB)"
+      "Amyloid Beta (AB)",
+      "AbCascade"
     ],
     "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-tau-interactions.tsx",
     "hypotheses": []
@@ -150,7 +168,8 @@
       "Epileptiform",
       "Tau",
       "ImmuneActivation",
-      "TDP43"
+      "TDP43",
+      "E/I balance"
     ],
     "path": "neurophysiology/biomarkers/biomarkers.tsx",
     "hypotheses": []
@@ -172,10 +191,19 @@
     "hypotheses": []
   },
   {
+    "title": "TauSpread",
+    "links": [
+      "Tau"
+    ],
+    "path": "neurophysiology/biomarkers/tau/tau-spread/tau-spread.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Tau",
     "links": [
       "Biomarkers",
-      "AbTauInteractions"
+      "AbTauInteractions",
+      "TauSpread"
     ],
     "path": "neurophysiology/biomarkers/tau/tau.tsx",
     "hypotheses": []
@@ -194,6 +222,22 @@
       "Neurophysiology"
     ],
     "path": "neurophysiology/biomarkers/vascular-injury/vascular-injury.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "E/I balance",
+    "links": [
+      "Biomarkers"
+    ],
+    "path": "neurophysiology/ei/ei.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Excitotoxicity",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/hyperexcitability/excitotoxicity/excitotoxicity.tsx",
     "hypotheses": []
   },
   {
@@ -232,14 +276,44 @@
   {
     "title": "Default Mode Network (DMN)",
     "links": [
-      "Alzheimer's Disease"
+      "Regions"
     ],
     "path": "regions/dmn/dmn.tsx",
     "hypotheses": []
   },
   {
+    "title": "Hypothalamus",
+    "links": [
+      "Regions"
+    ],
+    "path": "regions/hypothalamus/hypothalamus.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Regions",
+    "links": [
+      "Alzheimer's Disease",
+      "HUBS",
+      "Default Mode Network (DMN)",
+      "VTA",
+      "Hypothalamus"
+    ],
+    "path": "regions/regions.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "VTA",
+    "links": [
+      "Regions"
+    ],
+    "path": "regions/vta/vta.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "CSF",
-    "links": [],
+    "links": [
+      "Alzheimer's Disease"
+    ],
     "path": "signal/csf/csf.tsx",
     "hypotheses": []
   },
@@ -253,7 +327,9 @@
   },
   {
     "title": "Assymetric",
-    "links": [],
+    "links": [
+      "Magnetoencephalography (MEG)"
+    ],
     "path": "signal/meg/connectivity/assymetric/assymetric.tsx",
     "hypotheses": []
   },
@@ -284,7 +360,7 @@
   {
     "title": "Alpha",
     "links": [
-      "Periodic"
+      "Frequencies"
     ],
     "path": "signal/meg/frequencies/alpha/alpha.tsx",
     "hypotheses": []
@@ -292,7 +368,7 @@
   {
     "title": "Beta",
     "links": [
-      "Periodic"
+      "Frequencies"
     ],
     "path": "signal/meg/frequencies/beta/beta.tsx",
     "hypotheses": []
@@ -300,7 +376,7 @@
   {
     "title": "Delta-Theta",
     "links": [
-      "Periodic"
+      "Frequencies"
     ],
     "path": "signal/meg/frequencies/delta-theta/delta-theta.tsx",
     "hypotheses": []
@@ -308,7 +384,10 @@
   {
     "title": "Frequencies",
     "links": [
-      "Periodic"
+      "Periodic",
+      "Beta",
+      "Delta-Theta",
+      "Alpha"
     ],
     "path": "signal/meg/frequencies/frequencies.tsx",
     "hypotheses": []
@@ -330,18 +409,27 @@
       "Phase Correlation",
       "Enveloppe Correlation",
       "HMM",
-      "Geometric Correction Scheme (GCS)"
+      "Resting State",
+      "Geometric Correction Scheme (GCS)",
+      "NMM",
+      "Assymetric"
     ],
     "path": "signal/meg/meg.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "NMM",
+    "links": [
+      "Magnetoencephalography (MEG)"
+    ],
+    "path": "signal/meg/nmm/nmm.tsx",
     "hypotheses": []
   },
   {
     "title": "Periodic",
     "links": [
       "Magnetoencephalography (MEG)",
-      "Frequencies",
-      "Beta",
-      "Delta-Theta"
+      "Frequencies"
     ],
     "path": "signal/meg/periodic/periodic.tsx",
     "hypotheses": []
@@ -349,15 +437,24 @@
   {
     "title": "Resting State",
     "links": [
-      "Alzheimer's Disease"
+      "Magnetoencephalography (MEG)"
     ],
     "path": "signal/meg/resting-state/resting-state.tsx",
     "hypotheses": []
   },
   {
+    "title": "PetTau",
+    "links": [
+      "PET"
+    ],
+    "path": "signal/pet/pet-tau/pet-tau.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "PET",
     "links": [
-      "Alzheimer's Disease"
+      "Alzheimer's Disease",
+      "PetTau"
     ],
     "path": "signal/pet/pet.tsx",
     "hypotheses": []
@@ -365,9 +462,18 @@
   {
     "title": "Mild Cognitive Impairment (MCI)",
     "links": [
-      "NIA-AA"
+      "Stages"
     ],
     "path": "stages/mci/mci.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Stages",
+    "links": [
+      "Classifications",
+      "Mild Cognitive Impairment (MCI)"
+    ],
+    "path": "stages/stages.tsx",
     "hypotheses": []
   }
 ]

@@ -36,4 +36,6 @@ export const VascularInjury = new MyNode(
   )
 );
 
-export const Wrapper = () => VascularInjury.content;
+export const Wrapper = () => <>{VascularInjury.content}</>;
+
+export default VascularInjury;

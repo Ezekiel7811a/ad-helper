@@ -1,14 +1,14 @@
-import fs from "fs";
+import { promises as fs } from "fs";
 import path from "path";
 import { NodeDTO } from "@/models/node-dto";
 
 export const getNodesDTO = async (dirPath: string): Promise<NodeDTO[]> => {
   const filesList: string[] = [];
-  const searchFiles = (dirPath: string) => {
-    const files = fs.readdirSync(dirPath);
-    files.forEach((file) => {
+  const searchFiles = async (dirPath: string) => {
+    const files = await fs.readdir(dirPath);
+    files.forEach(async (file) => {
       const filePath = path.join(dirPath, file);
-      if (fs.statSync(filePath).isDirectory()) {
+      if (await fs.stat(filePath).then((stat) => stat.isDirectory())) {
         searchFiles(filePath);
       } else if (filePath.endsWith(".js")) {
         const corrFilePath = filePath.replace(/\\/g, "/").split("nodes/")[1];
@@ -51,10 +51,10 @@ export async function GET(req: Request): Promise<Response> {
   const nodesDTO = await getNodesDTO(dirPath);
 
   if (isToSave) {
-    fs.writeFileSync(
+    fs.writeFile(
       "public/nodes/nodes.json",
       JSON.stringify(nodesDTO, null, 2)
-    );
+    ).catch((err) => console.error(err));
   }
 
   return Response.json(nodesDTO, { status: 200 });

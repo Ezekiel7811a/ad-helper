@@ -27,4 +27,6 @@ export const Hypothalamus = new MyNode(
   )
 );
 
-export const Wrapper = () => Hypothalamus.content;
+export const Wrapper = () => <>{Hypothalamus.content}</>;
+
+export default Hypothalamus;

@@ -1,5 +1,6 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
+import NodeCard from "@/app/components/node-card/node-card.tsx";
 import { MyNode } from "@/models/node";
 import {
   CombiningBrainSimAndMeg,
@@ -12,7 +13,7 @@ const EI = new MyNode(
   "E/I balance",
   [],
   (
-    <div>
+    <NodeCard>
       <CitationCard citations={[InferringEIFromFieldPotentials]}>
         Neurons are constantly bombarded with spontaneous synaptic inputs. This
         state of fluctuating activity is referred to as the high-conductance
@@ -50,8 +51,6 @@ const EI = new MyNode(
         />
       </CitationCard>
       E:I balance has been verified as follows:
-      <ul>
-        <li>
           <CitationCard citations={[CombiningBrainSimAndMeg]}>
             Comparision between a model of E:I that passes through a leadfield
             matrix and 1/f spectral power law observed at the sensor space.
@@ -59,8 +58,6 @@ const EI = new MyNode(
             inferred from the sensor space with 1/f slope. (using FOOOF
             algorithm)
           </CitationCard>
-        </li>
-        <li>
           <CitationCard citations={[InferringEIFromFieldPotentials]}>
             First normalize LFP power. then we get the PSC in time domain:
             <MathJax>
@@ -76,9 +73,7 @@ const EI = new MyNode(
             was further confirmed by the observation of macaques with an evoked
             inhibitory response.
           </CitationCard>
-        </li>
-      </ul>
-    </div>
+    </NodeCard>
   )
 );
 

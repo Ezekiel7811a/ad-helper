@@ -15,7 +15,8 @@
           "5",
           "6",
           "7",
-          "33"
+          "33",
+          "46"
         ],
         "hypotheses": [
           "<Figure\r\n          src=\"images/causality/causal_hypothesis.png\"\r\n          alt=\"Hypothesis\"\r\n          caption=\"The possible causalities of the biomarkers\"\r\n          n={1}\r\n        />"
@@ -122,8 +123,7 @@
       "data": {
         "label": "NIA-AA",
         "links": [
-          "1",
-          "40"
+          "1"
         ],
         "hypotheses": []
       },
@@ -149,7 +149,8 @@
           "21",
           "22",
           "23",
-          "33"
+          "33",
+          "55"
         ],
         "hypotheses": []
       },
@@ -187,13 +188,13 @@
     {
       "id": "10",
       "position": {
-        "x": 494.6608072903664,
-        "y": 639.1513180522235
+        "x": 387.780666517762,
+        "y": 573.1759225135787
       },
       "data": {
         "label": "HUBS",
         "links": [
-          "33"
+          "47"
         ],
         "hypotheses": [
           "The vulnerability of hub regions in AD may be due to their high\r\n        connectivity, which makes them more susceptible to the spread of\r\n        pathological proteins and the propagation of neurodegenerative\r\n        processes.\r\n        <div>\r\n          We could try to find the correlation between the connectivity of the\r\n          region and the vulnerability to AD.\r\n        </div>",
@@ -246,7 +247,8 @@
           "17",
           "18",
           "19",
-          "20"
+          "20",
+          "50"
         ],
         "hypotheses": []
       },
@@ -316,7 +318,8 @@
         "label": "AbTauInteractions",
         "links": [
           "18",
-          "14"
+          "14",
+          "44"
         ],
         "hypotheses": []
       },
@@ -380,7 +383,8 @@
         "label": "Tau",
         "links": [
           "12",
-          "15"
+          "15",
+          "45"
         ],
         "hypotheses": [
           "Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting\r\n        an Imbalance in Excitatory-Inhibitory Activity"
@@ -505,13 +509,13 @@
     {
       "id": "24",
       "position": {
-        "x": 331.91423447210224,
-        "y": 710.7333922960295
+        "x": 246.14622027186402,
+        "y": 652.675044222022
       },
       "data": {
         "label": "Default Mode Network (DMN)",
         "links": [
-          "33"
+          "47"
         ],
         "hypotheses": []
       },
@@ -575,7 +579,9 @@
       },
       "data": {
         "label": "CSF",
-        "links": [],
+        "links": [
+          "33"
+        ],
         "hypotheses": []
       },
       "type": "custom",
@@ -603,7 +609,10 @@
           "37",
           "38",
           "41",
-          "39"
+          "42",
+          "39",
+          "51",
+          "53"
         ],
         "hypotheses": []
       },
@@ -632,7 +641,10 @@
           "37",
           "38",
           "41",
-          "39"
+          "42",
+          "39",
+          "51",
+          "53"
         ],
         "hypotheses": []
       },
@@ -653,7 +665,10 @@
       "data": {
         "label": "Frequencies",
         "links": [
-          "32"
+          "32",
+          "31",
+          "36",
+          "49"
         ],
         "hypotheses": [
           "Increased Tau Accumulation Leads to Decreased High-Frequency Power\r\n        (Alpha/Beta) in Excitatory-Dominated Regions",
@@ -663,8 +678,8 @@
       },
       "type": "custom",
       "measured": {
-        "width": 63,
-        "height": 46
+        "width": 110,
+        "height": 71
       },
       "selected": false,
       "dragging": false
@@ -676,16 +691,23 @@
         "y": 893.8063392238489
       },
       "data": {
-        "label": "Alpha",
+        "label": "Frequencies",
         "links": [
-          "32"
+          "32",
+          "31",
+          "36",
+          "49"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Increased Tau Accumulation Leads to Decreased High-Frequency Power\r\n        (Alpha/Beta) in Excitatory-Dominated Regions",
+          "High Tau Levels Correlate with Increased Low-Frequency Power\r\n        (Delta/Theta) as a Result of Compensatory Inhibitory Activity",
+          "The Ratio of Low- to High-Frequency Power Increases with Tau Load,\r\n        Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions"
+        ]
       },
       "type": "custom",
       "measured": {
-        "width": 63,
-        "height": 46
+        "width": 110,
+        "height": 71
       },
       "selected": false,
       "dragging": false
@@ -693,13 +715,13 @@
     {
       "id": "31",
       "position": {
-        "x": 1446.5450178498377,
-        "y": 954.4350018842648
+        "x": 1714.0666652405935,
+        "y": 955.2429932961672
       },
       "data": {
         "label": "Beta",
         "links": [
-          "32"
+          "30"
         ],
         "hypotheses": []
       },
@@ -721,9 +743,7 @@
         "label": "Periodic",
         "links": [
           "29",
-          "30",
-          "31",
-          "36"
+          "30"
         ],
         "hypotheses": [
           "Is it possible that the &theta; frequency increased in AD patients is in\r\n        fact due to slower &alpha; causing a leakage of power into the &theta;\r\n        band?"
@@ -751,11 +771,11 @@
           "25",
           "29",
           "35",
-          "10",
-          "24",
-          "42",
           "9",
-          "11"
+          "11",
+          "43",
+          "47",
+          "27"
         ],
         "hypotheses": []
       },
@@ -797,7 +817,8 @@
       "data": {
         "label": "PET",
         "links": [
-          "33"
+          "33",
+          "52"
         ],
         "hypotheses": []
       },
@@ -812,13 +833,13 @@
     {
       "id": "36",
       "position": {
-        "x": 1449.5764509828584,
-        "y": 1028.7051136432744
+        "x": 1713.3329992683427,
+        "y": 1023.3480601248418
       },
       "data": {
         "label": "Delta-Theta",
         "links": [
-          "32"
+          "30"
         ],
         "hypotheses": []
       },
@@ -896,13 +917,13 @@
     {
       "id": "40",
       "position": {
-        "x": -174.22556425036788,
-        "y": 605.8819668594726
+        "x": -128.22556425036788,
+        "y": 264.88196685947264
       },
       "data": {
         "label": "Mild Cognitive Impairment (MCI)",
         "links": [
-          "6"
+          "46"
         ],
         "hypotheses": []
       },
@@ -938,11 +959,32 @@
     {
       "id": "42",
       "position": {
-        "x": 436.1458404485415,
-        "y": 772.7892801884702
+        "x": 1103.4869663219322,
+        "y": 826.8891045301588
       },
       "data": {
         "label": "Resting State",
+        "links": [
+          "29"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 118,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "43",
+      "position": {
+        "x": 382,
+        "y": 194
+      },
+      "data": {
+        "label": "Epidemiology",
         "links": [
           "33"
         ],
@@ -951,6 +993,264 @@
       "type": "custom",
       "measured": {
         "width": 118,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "44",
+      "position": {
+        "x": 1851.1875,
+        "y": 399.5
+      },
+      "data": {
+        "label": "AbCascade",
+        "links": [
+          "15"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 105,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "45",
+      "position": {
+        "x": 1763,
+        "y": 482.5
+      },
+      "data": {
+        "label": "TauSpread",
+        "links": [
+          "18"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 99,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "46",
+      "position": {
+        "x": 196,
+        "y": 266.5
+      },
+      "data": {
+        "label": "Stages",
+        "links": [
+          "1",
+          "40"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 72,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "47",
+      "position": {
+        "x": 564.3587250824371,
+        "y": 613.026282244263
+      },
+      "data": {
+        "label": "Regions",
+        "links": [
+          "33",
+          "10",
+          "24",
+          "48",
+          "54"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 81,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "48",
+      "position": {
+        "x": 411.290890303546,
+        "y": 699.7946187105182
+      },
+      "data": {
+        "label": "VTA",
+        "links": [
+          "47"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 52,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "49",
+      "position": {
+        "x": 1716.4066799349384,
+        "y": 892.0007915384556
+      },
+      "data": {
+        "label": "Alpha",
+        "links": [
+          "Periodic",
+          "30"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 63,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "50",
+      "position": {
+        "x": 1413,
+        "y": 176.5
+      },
+      "data": {
+        "label": "E/I balance",
+        "links": [
+          "12"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 102,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "51",
+      "position": {
+        "x": 1112.4608081441133,
+        "y": 1259.6148813979837
+      },
+      "data": {
+        "label": "NMM",
+        "links": [
+          "29"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 60,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "52",
+      "position": {
+        "x": 890.2573253208319,
+        "y": 957.4664350172857
+      },
+      "data": {
+        "label": "PetTau",
+        "links": [
+          "35"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 72,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "53",
+      "position": {
+        "x": 1058.550226665228,
+        "y": 1312.9312394800697
+      },
+      "data": {
+        "label": "Assymetric",
+        "links": [
+          "29"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 100,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "54",
+      "position": {
+        "x": 339.38681523110904,
+        "y": 749.5928117793002
+      },
+      "data": {
+        "label": "Hypothalamus",
+        "links": [
+          "47"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 124,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "55",
+      "position": {
+        "x": 1234.727131938469,
+        "y": 598.0352866804024
+      },
+      "data": {
+        "label": "Excitotoxicity",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 114,
         "height": 46
       },
       "selected": false,
@@ -1175,22 +1475,6 @@
       "id": "xy-edge__32right-30left"
     },
     {
-      "source": "32",
-      "sourceHandle": "right",
-      "target": "31",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__32right-31left"
-    },
-    {
-      "source": "32",
-      "sourceHandle": "right",
-      "target": "36",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__32right-36left"
-    },
-    {
       "source": "29",
       "sourceHandle": "right",
       "target": "37",
@@ -1208,52 +1492,12 @@
       "selected": false
     },
     {
-      "source": "40",
-      "sourceHandle": "right",
-      "target": "6",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__40right-6left"
-    },
-    {
       "source": "29",
       "sourceHandle": "right",
       "target": "41",
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__29right-41left"
-    },
-    {
-      "source": "10",
-      "sourceHandle": "right",
-      "target": "33",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__10right-33left"
-    },
-    {
-      "source": "24",
-      "sourceHandle": "right",
-      "target": "33",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__24right-33left"
-    },
-    {
-      "source": "29",
-      "sourceHandle": "right",
-      "target": "39",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__29right-39left"
-    },
-    {
-      "source": "42",
-      "sourceHandle": "right",
-      "target": "33",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__42right-33left"
     },
     {
       "source": "33",
@@ -1270,6 +1514,174 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__33right-11left"
+    },
+    {
+      "source": "43",
+      "sourceHandle": "right",
+      "target": "33",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__43right-33left"
+    },
+    {
+      "source": "15",
+      "sourceHandle": "right",
+      "target": "44",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__15right-44left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "45",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-45left"
+    },
+    {
+      "source": "46",
+      "sourceHandle": "right",
+      "target": "1",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__46right-1left"
+    },
+    {
+      "source": "40",
+      "sourceHandle": "right",
+      "target": "46",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__40right-46left"
+    },
+    {
+      "source": "47",
+      "sourceHandle": "right",
+      "target": "33",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__47right-33left"
+    },
+    {
+      "source": "10",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__10right-47left"
+    },
+    {
+      "source": "24",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__24right-47left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "42",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-42left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "39",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-39left"
+    },
+    {
+      "source": "48",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__48right-47left"
+    },
+    {
+      "source": "30",
+      "sourceHandle": "right",
+      "target": "31",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__30right-31left"
+    },
+    {
+      "source": "30",
+      "sourceHandle": "right",
+      "target": "36",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__30right-36left"
+    },
+    {
+      "source": "33",
+      "sourceHandle": "right",
+      "target": "27",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__33right-27left"
+    },
+    {
+      "source": "30",
+      "sourceHandle": "right",
+      "target": "49",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__30right-49left"
+    },
+    {
+      "source": "12",
+      "sourceHandle": "right",
+      "target": "50",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__12right-50left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "51",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-51left"
+    },
+    {
+      "source": "35",
+      "sourceHandle": "right",
+      "target": "52",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__35right-52left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "53",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-53left"
+    },
+    {
+      "source": "54",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__54right-47left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "55",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-55left"
     }
   ]
 }

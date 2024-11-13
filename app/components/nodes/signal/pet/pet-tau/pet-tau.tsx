@@ -1,4 +1,5 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
+import NodeCard from "@/app/components/node-card/node-card";
 import { MyNode } from "@/models/node";
 import {
   PetTauGeneticFrontoTemporal,
@@ -39,7 +40,7 @@ export const PetTau = new MyNode(
   "PetTau",
   [],
   (
-    <div>
+    <NodeCard>
       <CitationCard citations={[PetTauGeneticFrontoTemporal]}>
         Developing a reliable tracer is proving to be challenging—in part due to
         the inherent heterogeneity of tau. In fact, there are six different
@@ -52,6 +53,8 @@ export const PetTau = new MyNode(
             </li>
           ))}
         </ul>
+        <span>
+
         <sup>18</sup>F-MK-6240 PET. MK-6240 has exhibited strong specificity and
         sensitivity for tau without the influence of monoamine oxidase (MAO).34
         While off-target binding to melanin and meninges is notable, and mild
@@ -65,6 +68,7 @@ export const PetTau = new MyNode(
         concluded by proposing ‘that MK-6240 strongly binds to NFTs in Alzheimer
         disease but does not seem to bind to a significant extent to tau
         aggregates in nonAlzheimer tauopathies’.34
+        </span>
       </CitationCard>
       <CitationCard citations={[PetTauGeneticFrontoTemporal]}>
         However, our findings in amyloid-negative subjects with a P301L MAPT
@@ -77,13 +81,19 @@ export const PetTau = new MyNode(
         else entirely remains ambiguous.
       </CitationCard>
       <CitationCard citations={[VisualInterpretationPetTau]}>
-        <sup>18</sup>F-MK-6240 demonstrates homogeneous uptake such that some
-        structural features such as the ventricles are visualized but without
-        evidence of focal uptake in the neocortex. AD patients show a pattern of
-        cortical uptake that is more intense, asymmetric, and focal (13),
-        consistent with the distribution of the tau pathology reported in
-        postmortem studies (9).
+        <span>
+          <sup>18</sup>F-MK-6240 demonstrates homogeneous uptake such that some
+          structural features such as the ventricles are visualized but without
+          evidence of focal uptake in the neocortex. AD patients show a pattern of
+          cortical uptake that is more intense, asymmetric, and focal (13),
+          consistent with the distribution of the tau pathology reported in
+          postmortem studies (9).
+        </span>
       </CitationCard>
-    </div>
+    </NodeCard>
   )
 );
+
+export const Wrapper = () => <>{PetTau.content}</>;
+
+export default PetTau;

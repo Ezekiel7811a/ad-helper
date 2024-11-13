@@ -75,4 +75,6 @@ export const AbCascade = new MyNode(
   )
 );
 
-export const Wrapper = () => AbCascade.content;
+export const Wrapper = () => <>{AbCascade.content}</>;
+
+export default AbCascade;
