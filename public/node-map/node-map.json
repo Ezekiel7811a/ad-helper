@@ -269,7 +269,8 @@
       "data": {
         "label": "AlphaSynuclein",
         "links": [
-          "12"
+          "12",
+          "56"
         ],
         "hypotheses": []
       },
@@ -384,7 +385,12 @@
         "links": [
           "12",
           "15",
-          "45"
+          "45",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60"
         ],
         "hypotheses": [
           "Regions with High Tau Burden Show Altered Aperiodic Slopes, Reflecting\r\n        an Imbalance in Excitatory-Inhibitory Activity"
@@ -1022,8 +1028,8 @@
     {
       "id": "45",
       "position": {
-        "x": 1763,
-        "y": 482.5
+        "x": 1621.8126535473002,
+        "y": 457.429349695315
       },
       "data": {
         "label": "TauSpread",
@@ -1254,6 +1260,112 @@
         "height": 46
       },
       "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "56",
+      "position": {
+        "x": 1606.5588762787183,
+        "y": 314.56151115338815
+      },
+      "data": {
+        "label": "ASynTauInteractions",
+        "links": [
+          "18",
+          "13"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 169,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "57",
+      "position": {
+        "x": 1737.1901594452347,
+        "y": 499.29261866159334
+      },
+      "data": {
+        "label": "TauAggregation",
+        "links": [
+          "18"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 134,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "58",
+      "position": {
+        "x": 1606.5588762787181,
+        "y": 516.446221501641
+      },
+      "data": {
+        "label": "DnaProtection",
+        "links": [
+          "18"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 123,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "59",
+      "position": {
+        "x": 1731.9121278021432,
+        "y": 562.6289983786924
+      },
+      "data": {
+        "label": "TauEncoding",
+        "links": [
+          "18"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 115,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "60",
+      "position": {
+        "x": 1621.07346329722,
+        "y": 590.3386645049231
+      },
+      "data": {
+        "label": "TauRoles",
+        "links": [
+          "18"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 89,
+        "height": 46
+      },
+      "selected": true,
       "dragging": false
     }
   ],
@@ -1682,6 +1794,54 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__8right-55left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "56",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-56left"
+    },
+    {
+      "source": "13",
+      "sourceHandle": "right",
+      "target": "56",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__13right-56left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "57",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-57left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "58",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-58left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "59",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-59left"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "right",
+      "target": "60",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__18right-60left"
     }
   ]
 }

@@ -116,9 +116,19 @@
     "hypotheses": []
   },
   {
+    "title": "ASynTauInteractions",
+    "links": [
+      "Tau",
+      "AlphaSynuclein"
+    ],
+    "path": "neurophysiology/biomarkers/a-syn-tau-interactions/a-syn-tau-interactions.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "AlphaSynuclein",
     "links": [
-      "Biomarkers"
+      "Biomarkers",
+      "ASynTauInteractions"
     ],
     "path": "neurophysiology/biomarkers/a-synuclein/a-synuclein.tsx",
     "hypotheses": []
@@ -130,14 +140,6 @@
       "AbTauInteractions"
     ],
     "path": "neurophysiology/biomarkers/ab/ab.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "AbCascade",
-    "links": [
-      "AbTauInteractions"
-    ],
-    "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-cascade/ab-cascade.tsx",
     "hypotheses": []
   },
   {
@@ -191,6 +193,38 @@
     "hypotheses": []
   },
   {
+    "title": "DnaProtection",
+    "links": [
+      "Tau"
+    ],
+    "path": "neurophysiology/biomarkers/tau/dna-protection/dna-protection.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "TauAggregation",
+    "links": [
+      "Tau"
+    ],
+    "path": "neurophysiology/biomarkers/tau/tau-aggregation/tau-aggregation.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "TauEncoding",
+    "links": [
+      "Tau"
+    ],
+    "path": "neurophysiology/biomarkers/tau/tau-encoding/tau-encoding.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "TauRoles",
+    "links": [
+      "Tau"
+    ],
+    "path": "neurophysiology/biomarkers/tau/tau-roles/tau-roles.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "TauSpread",
     "links": [
       "Tau"
@@ -203,7 +237,12 @@
     "links": [
       "Biomarkers",
       "AbTauInteractions",
-      "TauSpread"
+      "TauSpread",
+      "ASynTauInteractions",
+      "TauAggregation",
+      "DnaProtection",
+      "TauEncoding",
+      "TauRoles"
     ],
     "path": "neurophysiology/biomarkers/tau/tau.tsx",
     "hypotheses": []

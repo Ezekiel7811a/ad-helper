@@ -370,5 +370,18 @@
     "pages": "1141--1148",
     "year": "1989",
     "publisher": "Mass Medical Soc"
+  },
+  "canuet2015network": {
+    "type": "article",
+    "bibref": "canuet2015network",
+    "authorsList": [],
+    "title": "Network disruption and cerebrospinal fluid amyloid-beta and phospho-tau levels in mild cognitive impairment",
+    "author": "Canuet, Leonides and Pusil, Sandra and L{\\'o}pez, Mar{\\'\\i}a Eugenia and Bajo, Ricardo and Pineda-Pardo, Jos{\\'e} {\\'A}ngel and Cuesta, Pablo and G{\\'a}lvez, Gerardo and Gaztelu, Jos{\\'e} Mar{\\'\\i}a and Lourido, Daniel and Garc{\\'\\i}a-Ribas, Guillermo and others",
+    "journal": "Journal of Neuroscience",
+    "volume": "35",
+    "number": "28",
+    "pages": "10325--10330",
+    "year": "2015",
+    "publisher": "Soc Neuroscience"
   }
 }
