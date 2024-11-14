@@ -21,6 +21,13 @@ export const TauAggregation = new MyNode(
                 the higher propensity of 4R isoforms to aggregate compared to 3R
                 isoforms.
             </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                2 hexapeptides that can form intermolecular b-sheet rich
+                structures: aa275-280 (VQIINK) in R2 and aa306-311 (VQIVYK) in
+                R3 (30,31). Under pathological conditions, tau can adopt an
+                abnormal conformation that exposes these residues and increases
+                its propensity for selfaggregation (32,33).
+            </CitationCard>
             <CitationCard citations={[bibtex.brunello2020mechanisms]}>
                 Tau dimerization, the first step in tau oligomerization, can
                 occur through any combination of these two motifs, which form
@@ -38,10 +45,21 @@ export const TauAggregation = new MyNode(
                 which represent the building blocks of the neurofibrillary
                 tangles (NFT) [45].
             </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                Physiological tau monomers can be incorporated into aggregates;
+                this process is known as templated misfolding or seeded
+                nucleation and results in the rapid elongation of aggregates
+                (34).
+            </CitationCard>
             <Conclusion>
                 Tau models should take into account the possible different mixes
                 of tau.
             </Conclusion>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                the conformations of different types of tau aggregates can be
+                stably maintained when repeating this process multiple times
+                (99).
+            </CitationCard>
         </NodeCard>
     )
 );

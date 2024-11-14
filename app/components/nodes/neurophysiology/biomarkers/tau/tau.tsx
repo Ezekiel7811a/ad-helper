@@ -134,6 +134,30 @@ const Tau = new MyNode(
                 The filaments are formed of anti-parallel β-sheets, with the
                 protofilament core formed by the four MTBDs of tau.
             </CitationCard>
+            <CitationCard citations={[bibtex.canuet2015network]}>
+                Increased connectivity was observed between the right
+                supplementary motor area and the contralateral cuneus in the
+                alpha band. In addition, there was increased intrahemispheric
+                connectivity between the right anterior cingulate cortex and
+                medial temporal area in the beta band and between the right
+                middle frontal cortex and anterior temporal area in the gamma
+                band
+                <Hypothesis>
+                    Not the expected results based on the model can we reproduce
+                    that ?
+                </Hypothesis>
+            </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                Furthermore, suppression of tau overexpression in a mouse model
+                with aggressive tauopathy led to rescue of neurodegeneration and
+                cognitive deficits. Interestingly, NFTs continued to develop,
+                indicating that the toxicity mainly originates from soluble tau
+                that is not sequestered by insoluble tau fibrils (41).
+                <Hypothesis>
+                    Soluble tau is a better predictor of cognitive decline than
+                    NFTs.
+                </Hypothesis>
+            </CitationCard>
         </NodeCard>
     )
 );

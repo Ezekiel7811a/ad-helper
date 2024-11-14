@@ -45,6 +45,18 @@ const GlialCells = new MyNode(
                 AD progression based on MEG features it would help understand
                 glial cells role in AD progression.
             </Hypothesis>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                while microglia phagocytose extracellular tau, they seem unable
+                to fully degrade it, secreting it back into the extracellular
+                space; in this way, microglia may contribute to the propagation
+                of tau pathology (63).
+            </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                adenoassociated virus (AAV) model has been used to show that
+                when microglia were depleted, spreading was greatly diminished,
+                thereby providing the first evidence that microglia play an
+                important role in tau propagation (61).
+            </CitationCard>
         </div>
     )
 );

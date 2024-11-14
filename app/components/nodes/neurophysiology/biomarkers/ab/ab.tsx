@@ -10,6 +10,18 @@ const AB = new MyNode(
     [],
     (
         <NodeCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                Aβ was recognized as an endogenous neuropeptide that is
+                physiologically metabolized in the central nervous system [6].
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                <Figure
+                    src="images/ab/ab_roles.png"
+                    alt="AB roles"
+                    n={1}
+                    caption="Schematic representation of the suggested physiological and pathological roles of Aβ"
+                />
+            </CitationCard>
             Amyloid-b is primarily produced by the endocytosis of a
             transmembrane protein, amyloid precursor protein (APP), which
             modulates synapse formation and function (Priller et al., 2006). APP
@@ -66,7 +78,7 @@ const AB = new MyNode(
                 <Figure
                     src="images/ab-tau/ab_pyramidal.png"
                     alt="AB pyramidal"
-                    n={1}
+                    n={2}
                     caption="Aβ depositions on pyramidal cells"
                 />
                 Aβ plaques, associated with Alzheimer’s Disease (AD), can form
@@ -113,6 +125,83 @@ const AB = new MyNode(
                 morphological alterations in the dendrites that are in contact
                 with Aβ (e.g., (Knafo et al., 2009; Spires et al., 2005; Tsai et
                 al., 2004)).
+            </CitationCard>
+            <CitationCard citations={[bibtex.canuet2015network]}>
+                Patients with abnormal CSF AB42 levels exhibited decreased
+                functional connectivity between right temporal areas and several
+                cortical regions of the frontal, parietal, and temporal lobes
+                compared with patients with normal CSF levels. Decreased alpha
+                connectivity was found between the right posterior cingulate
+                cortex and the ipsilateral middle temporal cortex, as well as
+                between the right medial temporal and left superior parietal
+                cortex. In the beta band, there was decreased connectivity
+                between the right inferior temporal cortex and the ipsilateral
+                precentral area. These areas also exhibited decreased
+                connectivity in the gamma band. In addition, a decrease in gamma
+                connectivity was found between the right superior temporal
+                cortex and the contralateral anterior temporal area.
+                <Hypothesis>
+                    Unexpected results based on our model. Can we reproduce that
+                    ?
+                </Hypothesis>
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                The mature Aβ along with the C-terminal fragment (CTF) is
+                packaged into vesicles or is secreted into extracellular space.
+                Intracellularly, Aβ can be transported in both anterograde and
+                retrograde directions. APP [24] as well as somatic Aβ [25] are
+                transported in the fast anterograde component, while retrograde
+                transport to cell bodies occurs when Aβ is absorbed by synaptic
+                reuptake or is produced by APP internalized from distal axon
+                terminals [26].
+                <Figure
+                    src="images/ab/ab_transporting.png"
+                    alt="AB transporting"
+                    n={3}
+                    caption="Aβ transport"
+                />
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                <Figure
+                    src="images/ab/ab_degrading.png"
+                    alt="AB degrading"
+                    caption="Aβ Degradation"
+                    n={4}
+                />
+                Degrading. Aβ is transported by lipoprotein receptorrelated
+                protein (LRP) and receptor for advanced glycation end products
+                (RAGE). In cells, Aβ can be degraded by insulin-degrading
+                enzymes and neprilysin or be bound by peripheral substances.
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                Aβ deposits first appear in the neocortex, followed by
+                allocortical regions, diencephalic nuclei, the striatum, and the
+                cholinergic nuclei of the basal forebrain [60]; the entorhinal
+                cortex is one of the most vulnerable regions [61]. Similarly, in
+                normal brains, the cortex and hippocampus strongly express APP,
+                suggesting the regions where Aβ abounds [62, 63].
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                AB is not only detected in neurons but also glial cells,
+                especially in astrocytes [77].
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                APP is more frequently associated with glutamatergic rather than
+                GABAergic or cholinergic terminals, indicating that endogenous
+                Aβ is predominantly derived from excitatory neurons [78]. Given
+                the high expression of APP in a heterogeneous subset of
+                GABAergic interneurons, it has been reported that these
+                interneurons take part in ~ 17% of the soluble Aβ and ~ 30% of
+                the total hippocampal plaque burden, and interneurons are also
+                located in the CA1 region, where plaques are most prevalent
+                (accounting for ~ 75%) [79]
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                high concentrations of Aβ oligomers can cause the collapse of
+                dendritic spines [84, 99] and disruption of LTP [100]. On the
+                other hand blocage of endogenous AB does not protect synaptic
+                transmission. Physiological concentrations of Aβ increase
+                dendritic spine density [59], and promote docking vesicles [36].
             </CitationCard>
         </NodeCard>
     )

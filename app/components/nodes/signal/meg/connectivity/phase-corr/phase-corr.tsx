@@ -28,7 +28,7 @@ const PhaseCorr = new MyNode(
                 obtained by using the Hilbert transform.
                 <MathJax>
                     {
-                        "\\[ \\text{Hilbert}(x(t)) = \\frac{1}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{x(\\tau)}{t-\\tau} d\\tau;\\ \\text{or} \\; \\left( \\frac{1}{\\pi t'} \\right) * x(t) \\] \
+                        "\\[ \\text{Hilbert}(x(t)) = \\frac{1}{\\pi} P.V. \\int_{-\\infty}^{\\infty} \\frac{x(\\tau)}{t-\\tau} d\\tau;\\ \\text{or} \\; \\left( \\frac{1}{\\pi t'} \\right) * x(t) \\] \
                         \\[ z(t) = x(t) + i \\text{Hilbert}(x(t)) \\] \
                         \\[ z(t) = A(t) e^{i \\phi(t)} \\]"
                     }

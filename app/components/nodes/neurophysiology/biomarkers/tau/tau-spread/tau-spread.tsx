@@ -109,6 +109,13 @@ export const TauSpread = new MyNode(
                 forms of tau and in different cell types.
                 <Conclusion>Quelque chose à creuse ici</Conclusion>
             </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                1) bulk endocytosis (55), 2) macropinocytosis by heparan sulfate
+                proteoglycans (56), and/or 3) clathrin-mediated endocytosis
+                (57,58).After tau seeds enter the neuron, they can leak via
+                damaged vesicles into the cytosol and seed physiological
+                monomers to propagate the pathological process (59,60).
+            </CitationCard>
             <CitationCard citations={[bibtex.brunello2020mechanisms]}>
                 three scenarios: (1) tau may be secreted in a free,
                 non-vesicle-associated form, with a minority secreted in
@@ -119,6 +126,32 @@ export const TauSpread = new MyNode(
                 the most supported with th release from the PM facilitated by
                 binding to heparan sulfate proteoglycans (HSPG) located at the
                 extracellular leaflet of the PM. [67, 159]
+            </CitationCard>
+            <CitationCard citations={[bibtex.vogels2020propagation]}>
+                transgenic models have been developed that selectively express
+                the transgene in the entorhinal cortex (87,88). These models
+                show spreading of human tau to neighboring and synaptically
+                connected neurons, albeit only at advanced ages (12–21 months).
+                Viral vector models are a practical improvement on transgenic
+                spreading models, as they have been shown to induce spreading
+                from the entorhinal cortex to the dentate gyrus in as little as
+                4 weeks after injection (61).
+            </CitationCard>
+            <CitationCard citations={[bibtex.braak2018spreading]}>
+                Diffusion through volume transmission in non-thalamic nuclei
+                leads to widespread, nonspecific effects, inconsistent with AD’s
+                precise pattern of tau spread. These subcortical nuclei lack
+                specific synaptic structures necessary for tau seeding and
+                transsynaptic propagation, meaning they cannot effectively
+                transmit tau pathology to other regions.
+            </CitationCard>
+            <CitationCard citations={[bibtex.braak2018spreading]}>
+                They propose 4 stages of tau spread: Phase 1: Tau aggregates in
+                isolated distal dendrites. Phase 2: Thread-like tau structures
+                extending from basal dendrites around a central, mostly
+                tau-negative area. Phase 3: Tau pathology in the cell body and
+                part of the apical dendrite. Phase 4: Extensive tau pathology
+                throughout the dendritic tree and into the axon.
             </CitationCard>
         </NodeCard>
     )
