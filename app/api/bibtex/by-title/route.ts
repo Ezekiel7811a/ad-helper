@@ -1,7 +1,7 @@
 import bibtex from "@/public/citations/bibtex.json";
 
 export async function GET(req: Request) {
-    const title = new URL(req.url).searchParams.get("title");
+    /* const title = new URL(req.url).searchParams.get("title");
 
     const citation = bibtex.find((citation) => citation.title === title);
 
@@ -9,5 +9,6 @@ export async function GET(req: Request) {
         return Response.json({ error: "Citation not found" }, { status: 404 });
     }
 
-    return Response.json(citation, { status: 200 });
+    return Response.json(citation, { status: 200 }); */
+    return Response.json(bibtex, { status: 200 });
 }
