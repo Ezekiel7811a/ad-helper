@@ -44,7 +44,7 @@ export async function GET(req: Request) {
             ),
         };
         return acc;
-    }, {});
+    }, {} as Record<string, Citation>);
 
     if (isToSave) {
         promises
