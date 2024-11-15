@@ -16,6 +16,14 @@
     "hypotheses": []
   },
   {
+    "title": "CDR",
+    "links": [
+      "Classifications"
+    ],
+    "path": "classifications/cdr/cdr.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Classifications",
     "links": [
       "ATN",
@@ -24,7 +32,8 @@
       "Mini Mental State Examination (MMSE)",
       "NIA-AA",
       "Alzheimer's Disease",
-      "Stages"
+      "Stages",
+      "CDR"
     ],
     "path": "classifications/classifications.tsx",
     "hypotheses": []
@@ -65,7 +74,8 @@
       "PyramidalNeurons",
       "Epidemiology",
       "Regions",
-      "CSF"
+      "CSF",
+      "StructuralConnectivity"
     ],
     "path": "generics/ad.tsx",
     "hypotheses": []
@@ -134,12 +144,66 @@
     "hypotheses": []
   },
   {
+    "title": "ABAggregation",
+    "links": [
+      "Amyloid Beta (AB)"
+    ],
+    "path": "neurophysiology/biomarkers/ab/ab-aggregation/ab-aggregation.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "ABRegulatingSynaptic",
+    "links": [
+      "Amyloid Beta (AB)"
+    ],
+    "path": "neurophysiology/biomarkers/ab/ab-regulating-synaptic/ab-regulating-synaptic.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "ABSpread",
+    "links": [
+      "Amyloid Beta (AB)"
+    ],
+    "path": "neurophysiology/biomarkers/ab/ab-spread/ab-spread.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Amyloid Beta (AB)",
     "links": [
       "Biomarkers",
-      "AbTauInteractions"
+      "AbTauInteractions",
+      "ABAggregation",
+      "ABRegulatingSynaptic",
+      "ABSpread",
+      "APP"
     ],
     "path": "neurophysiology/biomarkers/ab/ab.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Amyloidogenic",
+    "links": [
+      "APP"
+    ],
+    "path": "neurophysiology/biomarkers/ab/app/amyloidogenic/amyloidogenic.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "APP",
+    "links": [
+      "Amyloid Beta (AB)",
+      "Amyloidogenic",
+      "NonAmyloidogenic"
+    ],
+    "path": "neurophysiology/biomarkers/ab/app/app.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "NonAmyloidogenic",
+    "links": [
+      "APP"
+    ],
+    "path": "neurophysiology/biomarkers/ab/app/non-amyloidogenic/non-amyloidogenic.tsx",
     "hypotheses": []
   },
   {
@@ -222,6 +286,14 @@
       "Tau"
     ],
     "path": "neurophysiology/biomarkers/tau/tau-roles/tau-roles.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "RetrogenesisModel",
+    "links": [
+      "Regions"
+    ],
+    "path": "neurophysiology/biomarkers/tau/tau-spread/retrogenesis-model/retrogenesis-model.tsx",
     "hypotheses": []
   },
   {
@@ -321,6 +393,14 @@
     "hypotheses": []
   },
   {
+    "title": "Entorhinal",
+    "links": [
+      "Regions"
+    ],
+    "path": "regions/entorhinal/entorhinal.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Hypothalamus",
     "links": [
       "Regions"
@@ -335,7 +415,9 @@
       "HUBS",
       "Default Mode Network (DMN)",
       "VTA",
-      "Hypothalamus"
+      "Hypothalamus",
+      "Entorhinal",
+      "RetrogenesisModel"
     ],
     "path": "regions/regions.tsx",
     "hypotheses": []
@@ -479,6 +561,14 @@
       "Magnetoencephalography (MEG)"
     ],
     "path": "signal/meg/resting-state/resting-state.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "StructuralConnectivity",
+    "links": [
+      "Alzheimer's Disease"
+    ],
+    "path": "signal/mri/structural-connectivity/structural-connectivity.tsx",
     "hypotheses": []
   },
   {

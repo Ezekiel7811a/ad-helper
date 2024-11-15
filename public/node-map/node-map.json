@@ -16,7 +16,8 @@
           "6",
           "7",
           "33",
-          "46"
+          "46",
+          "61"
         ],
         "hypotheses": [
           "<Figure\r\n          src=\"images/causality/causal_hypothesis.png\"\r\n          alt=\"Hypothesis\"\r\n          caption=\"The possible causalities of the biomarkers\"\r\n          n={1}\r\n        />"
@@ -292,7 +293,11 @@
         "label": "Amyloid Beta (AB)",
         "links": [
           "12",
-          "15"
+          "15",
+          "62",
+          "63",
+          "64",
+          "66"
         ],
         "hypotheses": [
           "Aβ plaques concentration is associated with an increased frequency of\r\n        epileptiform activity in AD patients.",
@@ -781,7 +786,8 @@
           "11",
           "43",
           "47",
-          "27"
+          "27",
+          "70"
         ],
         "hypotheses": []
       },
@@ -1081,7 +1087,9 @@
           "10",
           "24",
           "48",
-          "54"
+          "54",
+          "68",
+          "69"
         ],
         "hypotheses": []
       },
@@ -1265,8 +1273,8 @@
     {
       "id": "56",
       "position": {
-        "x": 1606.5588762787183,
-        "y": 314.56151115338815
+        "x": 1631.5588762787183,
+        "y": 331.56151115338815
       },
       "data": {
         "label": "ASynTauInteractions",
@@ -1363,6 +1371,218 @@
       "type": "custom",
       "measured": {
         "width": 89,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "61",
+      "position": {
+        "x": 137.30075856433297,
+        "y": 621.4081305898762
+      },
+      "data": {
+        "label": "CDR",
+        "links": [
+          "1"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 56,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "62",
+      "position": {
+        "x": 1679.3911461205967,
+        "y": 111.9492981833699
+      },
+      "data": {
+        "label": "ABAggregation",
+        "links": [
+          "14"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 129,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "63",
+      "position": {
+        "x": 1682.6915182823157,
+        "y": 161.26756800149946
+      },
+      "data": {
+        "label": "ABRegulatingSynaptic",
+        "links": [
+          "14"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 181,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "64",
+      "position": {
+        "x": 1681.342415747976,
+        "y": 212.53346430640798
+      },
+      "data": {
+        "label": "ABSpread",
+        "links": [
+          "14"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 95,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "65",
+      "position": {
+        "x": 1922.8317693947822,
+        "y": -1.9738386536041332
+      },
+      "data": {
+        "label": "Amyloidogenic",
+        "links": [
+          "66"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 126,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "66",
+      "position": {
+        "x": 1685.3897233509952,
+        "y": 64.1321855290411
+      },
+      "data": {
+        "label": "APP",
+        "links": [
+          "14",
+          "65",
+          "67"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 54,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "67",
+      "position": {
+        "x": 1924.506856782318,
+        "y": 44.23870222298709
+      },
+      "data": {
+        "label": "NonAmyloidogenic",
+        "links": [
+          "66"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 155,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "68",
+      "position": {
+        "x": 365.31968946378396,
+        "y": 801.1667255085808
+      },
+      "data": {
+        "label": "Entorhinal",
+        "links": [
+          "47"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 94,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "69",
+      "position": {
+        "x": 292.1280898532899,
+        "y": 861.3108544604008
+      },
+      "data": {
+        "label": "RetrogenesisModel",
+        "links": [
+          "47"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 159,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "70",
+      "position": {
+        "x": 775.412335049014,
+        "y": 1097.0231090190518
+      },
+      "data": {
+        "label": "StructuralConnectivity",
+        "links": [
+          "33"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 177,
         "height": 46
       },
       "selected": true,
@@ -1842,6 +2062,86 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__18right-60left"
+    },
+    {
+      "source": "61",
+      "sourceHandle": "right",
+      "target": "1",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__61right-1left"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "right",
+      "target": "62",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__14right-62left"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "right",
+      "target": "63",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__14right-63left"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "right",
+      "target": "64",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__14right-64left"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "right",
+      "target": "66",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__14right-66left"
+    },
+    {
+      "source": "66",
+      "sourceHandle": "right",
+      "target": "65",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__66right-65left"
+    },
+    {
+      "source": "66",
+      "sourceHandle": "right",
+      "target": "67",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__66right-67left"
+    },
+    {
+      "source": "68",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__68right-47left"
+    },
+    {
+      "source": "69",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__69right-47left"
+    },
+    {
+      "source": "33",
+      "sourceHandle": "right",
+      "target": "70",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__33right-70left"
     }
   ]
 }

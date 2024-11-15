@@ -158,6 +158,12 @@ const Tau = new MyNode(
                     NFTs.
                 </Hypothesis>
             </CitationCard>
+            <Hypothesis>
+                Regions with high tau pathology in AD patients will show a
+                steeper PSD slope due to tau&apos;s impact on excitatory
+                neurons, resulting in reduced high-frequency power and an
+                increased relative contribution of low-frequency activity.
+            </Hypothesis>
         </NodeCard>
     )
 );

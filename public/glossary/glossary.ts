@@ -19,4 +19,10 @@ export const Glossary: Term[] = [
     { term: "MT", definition: "Microtubule" },
     { term: "MAP", definition: "Microtubule-Associated Protein" },
     { term: "MTBD", definition: "Microtubule-Binding repeat Domain" },
+    { term: "APP", definition: "Amyloid Precursor Protein" },
+    { term: "NMDAR", definition: "N-Methyl-D-Aspartate Receptor" },
+    { term: "nAChR", definition: "Nicotinic Acetylcholine Receptor" },
+    { term: "SVC", definition: "Synaptic Vesicle Cycle" },
+    { term: "ISF", definition: "Interstitial Fluid" },
+    { term: "SUVR", definition: "Standardized Uptake Value Ratio" },
 ];

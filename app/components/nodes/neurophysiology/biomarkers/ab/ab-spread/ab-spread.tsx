@@ -2,6 +2,7 @@ import { MyNode } from "@/models/node";
 import NodeCard from "@/app/components/node-card/node-card";
 import CitationCard from "@/app/components/citation-card/citation-card";
 import bibtex from "@/public/citations/bibtex.json";
+import Figure from "@/app/components/figure/figure";
 
 export const ABSpread = new MyNode(
     "ABSpread",
@@ -28,6 +29,27 @@ export const ABSpread = new MyNode(
                 with APP is stronger postsynaptically than presynaptically [90].
                 Therefore, more evidence is needed to clarify the distribution
                 of Aβ at the synapse.
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                synaptic activity dynamically regulates soluble extracellular Aβ
+                concentrations [6, 31, 148]. Aβ release depends on synaptic
+                activity mediated by endocytosis [52]
+            </CitationCard>
+            <CitationCard citations={[bibtex.cai2023physiological]}>
+                The mature Aβ along with the C-terminal fragment (CTF) is
+                packaged into vesicles or is secreted into extracellular space.
+                Intracellularly, Aβ can be transported in both anterograde and
+                retrograde directions. APP [24] as well as somatic Aβ [25] are
+                transported in the fast anterograde component, while retrograde
+                transport to cell bodies occurs when Aβ is absorbed by synaptic
+                reuptake or is produced by APP internalized from distal axon
+                terminals [26].
+                <Figure
+                    src="images/ab/ab_transporting.png"
+                    alt="AB transporting"
+                    n={1}
+                    caption="Aβ transport"
+                />
             </CitationCard>
         </NodeCard>
     )
