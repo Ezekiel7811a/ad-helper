@@ -3,7 +3,7 @@ import { promises as fs } from "fs";
 
 const getHypotheses = async (path: string) => {
     const hypotheses = [];
-    const soup = await fs.readFile(`public/nodes/${path}`, "utf-8");
+    const soup = await fs.readFile(`app/components/nodes/${path}`, "utf-8");
     const regex = /<Hypothesis>([\s\S]*?)<\/Hypothesis>/g;
     let match;
 
@@ -26,12 +26,12 @@ const updateNodes = async (nodes: NodeDTO[]): Promise<NodeDTO[]> => {
 };
 
 export async function GET() {
-    const nodes = await fs
-        .readFile("public/nodes/nodes.json", "utf-8")
-        .then((data) => JSON.parse(data))
-        .then((data) => data as NodeDTO[]);
-
     try {
+        const nodes = await fs
+            .readFile("public/nodes/nodes.json", "utf-8")
+            .then((data) => JSON.parse(data))
+            .then((data) => data as NodeDTO[]);
+
         const updatedNodes = await updateNodes(nodes);
         await fs.writeFile(
             "public/nodes/nodes.json",

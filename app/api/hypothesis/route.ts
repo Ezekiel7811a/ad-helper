@@ -16,7 +16,7 @@ const getNodeByLabel = async (label: string): Promise<NodeDTO> => {
 
 const getHypotheses = async (path: string) => {
     const hypotheses = [];
-    const soup = await fs.readFile(`public/nodes/${path}`, "utf-8");
+    const soup = await fs.readFile(`app/components/nodes/${path}`, "utf-8");
     const regex = /<Hypothesis>([\s\S]*?)<\/Hypothesis>/g;
     let match;
 
