@@ -1,9 +1,10 @@
 import { NodeDTO } from "@/models/node-dto";
 import { promises as fs } from "fs";
+import path from "path";
 
 const getNodeByLabel = async (label: string): Promise<NodeDTO> => {
     const nodes = await fs
-        .readFile("public/nodes/nodes.json", "utf-8")
+        .readFile(path.join(process.cwd(), "public/nodes/nodes.json"), "utf-8")
         .then((data) => JSON.parse(data))
         .then((data) => data as NodeDTO[]);
 
@@ -32,6 +33,6 @@ export async function GET(req: Request) {
         return Response.json(node, { status: 200 });
     } catch (e) {
         console.error(e);
-        return Response.json("Error", { status: 500 });
+        return Response.json(e, { status: 500 });
     }
 }
