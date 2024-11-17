@@ -84,6 +84,7 @@ const Home = () => {
             setDynamicComponent(() => DynamicComponent);
         };
         if (dynamicNodePath) {
+            console.log("loading dynamic component: ", dynamicNodePath);
             loadDynamicComponent();
         }
     }, [dynamicNodePath]);
