@@ -24,11 +24,17 @@ const Home = () => {
     function Search() {
         const nodeLabelParam = useSearchParams().get("nodeLabel") ?? "";
         setNodeLabel(nodeLabelParam);
+        console.log(nodeLabelParam);
 
-        return <input placeholder="Search..." />;
+        return <div className="hidden"></div>;
     }
 
     const { push } = useRouter();
+    useEffect(() => {
+        console.log("nodeLabel:", nodeLabel);
+        console.log("dynamicNodePath:", dynamicNodePath);
+        console.log("currentNode:", currentNode);
+    }, [nodeLabel, dynamicNodePath, currentNode]);
     useEffect(() => {
         const setNodeOnLoad = async () => {
             const node: MyNode = await fetch(

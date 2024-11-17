@@ -19,7 +19,9 @@
           "46",
           "61"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "<Figure\r\n          src=\"images/causality/causal_hypothesis.png\"\r\n          alt=\"Hypothesis\"\r\n          caption=\"The possible causalities of the biomarkers\"\r\n          n={1}\r\n        />"
+        ]
       },
       "type": "custom",
       "measured": {
@@ -172,7 +174,9 @@
         "links": [
           "33"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "It is possible to make a model of MEG signal / features based on\r\n                tau and Aβ that takes into account their interactions with one\r\n                another and with glial cells. As it is possible to predict the\r\n                AD progression based on MEG features it would help understand\r\n                glial cells role in AD progression."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -193,7 +197,12 @@
         "links": [
           "47"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "The vulnerability of hub regions in AD may be due to their high\r\n        connectivity, which makes them more susceptible to the spread of\r\n        pathological proteins and the propagation of neurodegenerative\r\n        processes.\r\n        <div>\r\n          We could try to find the correlation between the connectivity of the\r\n          region and the vulnerability to AD.\r\n        </div>",
+          "We could make a model to predict the progression of AD based on the\r\n        previous model of signal but adding the connectivity of the regions.",
+          "This finding could explain why previous hypersynchronization phenomena\r\n        were found at several frequency bands.",
+          "There is a correlation between the metabolic demands of the region and\r\n        the presence of Aβ plaques."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -291,7 +300,12 @@
           "64",
           "66"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Unexpected results based on our model. Can we reproduce\r\n                        that ?",
+          "Aβ plaques concentration is associated with an increased\r\n                frequency of epileptiform activity in AD patients.",
+          "In AD patients, a higher density of Aβ plaques will correlate\r\n                with a flatter PSD slope, particularly in frontal and temporal\r\n                regions, due to decreased perisomatic GABAergic inhibition and\r\n                increased neuronal hyperactivity in these areas.",
+          "In brain regions with both Aβ and tau pathology, the effect on\r\n                PSD slope will depend on the relative densities of Aβ versus\r\n                tau: Aβ-dominant regions will have a flatter slope, while\r\n                tau-dominant regions will exhibit a steeper slope."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -384,7 +398,12 @@
           "59",
           "60"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Regions with High Tau Burden Show Altered Aperiodic Slopes,\r\n                Reflecting an Imbalance in Excitatory-Inhibitory Activity",
+          "Not the expected results based on the model can we reproduce\r\n                    that ?",
+          "Soluble tau is a better predictor of cognitive decline than\r\n                    NFTs.",
+          "Regions with high tau pathology in AD patients will show a\r\n                steeper PSD slope due to tau&apos;s impact on excitatory\r\n                neurons, resulting in reduced high-frequency power and an\r\n                increased relative contribution of low-frequency activity."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -468,7 +487,10 @@
         "links": [
           "8"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Hypersynchrony observed in AD is a direct result of Aβ-induced\r\n                overactivation of excitatory neurons due to disrupted inhibitory\r\n                (GABAergic) control, rather than a compensatory mechanism.\r\n                Supported by{\" \"}\r\n                <CitationCard citations={[bibtex.maestu2021neuronal]}>\r\n                    the loss of GABAergic transmission, could induce\r\n                    hyperactivity, increasing the probability of local\r\n                    synchronization of brain oscillatory activity\r\n                </CitationCard>",
+          "If hypersynchrony is driven by Aβ pathology, then directional\r\n                connectivity from regions with higher Aβ load to regions with\r\n                lower Aβ load should show causal hypersynchrony."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -663,7 +685,11 @@
           "36",
           "49"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Increased Tau Accumulation Leads to Decreased High-Frequency Power\r\n        (Alpha/Beta) in Excitatory-Dominated Regions",
+          "High Tau Levels Correlate with Increased Low-Frequency Power\r\n        (Delta/Theta) as a Result of Compensatory Inhibitory Activity",
+          "The Ratio of Low- to High-Frequency Power Increases with Tau Load,\r\n        Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions"
+        ]
       },
       "type": "custom",
       "measured": {
@@ -687,7 +713,11 @@
           "36",
           "49"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Increased Tau Accumulation Leads to Decreased High-Frequency Power\r\n        (Alpha/Beta) in Excitatory-Dominated Regions",
+          "High Tau Levels Correlate with Increased Low-Frequency Power\r\n        (Delta/Theta) as a Result of Compensatory Inhibitory Activity",
+          "The Ratio of Low- to High-Frequency Power Increases with Tau Load,\r\n        Indicating Shifts Toward Slower Rhythms in Tau-Rich Regions"
+        ]
       },
       "type": "custom",
       "measured": {
@@ -730,7 +760,9 @@
           "29",
           "30"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Is it possible that the &theta; frequency increased in AD patients is in\r\n        fact due to slower &alpha; causing a leakage of power into the &theta;\r\n        band?"
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1015,7 +1047,9 @@
         "links": [
           "18"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "There is a correlation between activity and tau spread\r\n                    potentially explaining the AB cascade."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1149,7 +1183,10 @@
         "links": [
           "29"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Using NMM we can show that &delta;-&theta; power increase is due to\r\n          changes in the slope by varying the neural gain without changing the\r\n          time constant or neural populations.",
+          "The increased excitatory neural gains and reduced inhibitory neural\r\n          gains in AD patients could be a compensatory mechanism to the\r\n          increased neuronal time-constants."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1191,7 +1228,10 @@
         "links": [
           "29"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Tau and/or Amyloid-Beta Burden in Posterior Hubs Correlates with\r\n        Disrupted Posterior-to-Anterior Information Flow in the Beta Band",
+          "Tau Pathology in the Hippocampi Correlates with Theta Band Connectivity\r\n        and Information Flow to Anterior Regions. Although the study did not\r\n        find significant group differences in the theta band, it may be that tau\r\n        deposition specifically affects theta flow involving the hippocampi,\r\n        which could be overlooked in the general analysis."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1509,7 +1549,9 @@
         "links": [
           "47"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "There is a correlation between the metabolic rate of the region\r\n                (due to high dendritic complexity, long unmyelinated axons, high\r\n                degrees of plasticity, and unique gene expression signature\r\n                related to tau homeostasis) and tau burden."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1530,7 +1572,9 @@
         "links": [
           "47"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "Myelination is a protector against tau assimilation."
+        ]
       },
       "type": "custom",
       "measured": {
@@ -1551,7 +1595,9 @@
         "links": [
           "33"
         ],
-        "hypotheses": []
+        "hypotheses": [
+          "No correlation exist between the decrease in slow-wave activity\r\n                (&delta;-&theta;) and FA accounting for AB as covariate (indeed\r\n                AB will have an effect on slow band rythm). Supporting the idea\r\n                that the decrease in slow-wave activity is not related to real\r\n                structural connectivity changes but rather the change in the\r\n                slope."
+        ]
       },
       "type": "custom",
       "measured": {
