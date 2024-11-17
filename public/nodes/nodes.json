@@ -1,617 +1,483 @@
 [
-  {
-    "title": "ATN",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/atn/atn.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Braak",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/braak/braak.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "CDR",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/cdr/cdr.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Classifications",
-    "links": [
-      "ATN",
-      "Braak",
-      "IWG",
-      "Mini Mental State Examination (MMSE)",
-      "NIA-AA",
-      "Alzheimer's Disease",
-      "Stages",
-      "CDR"
-    ],
-    "path": "classifications/classifications.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "IWG",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/iwg/iwg.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Mini Mental State Examination (MMSE)",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/mmse/mmse.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NIA-AA",
-    "links": [
-      "Classifications"
-    ],
-    "path": "classifications/nia-aa/nia-aa.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Alzheimer's Disease",
-    "links": [
-      "Classifications",
-      "Neurophysiology",
-      "Prediction",
-      "Magnetoencephalography (MEG)",
-      "PET",
-      "GlialCells",
-      "PyramidalNeurons",
-      "Epidemiology",
-      "Regions",
-      "CSF",
-      "StructuralConnectivity"
-    ],
-    "path": "generics/ad.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Epidemiology",
-    "links": [
-      "Alzheimer's Disease"
-    ],
-    "path": "generics/epidemiology.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Neurophysiology",
-    "links": [
-      "Biomarkers",
-      "VascularInjury",
-      "Hyperexcitability",
-      "Hypoexcitability",
-      "Alzheimer's Disease",
-      "Excitotoxicity"
-    ],
-    "path": "generics/neurophysiology.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "GlialCells",
-    "links": [
-      "Alzheimer's Disease"
-    ],
-    "path": "neurophysiology/anatomy/glial-cells/glial-cells.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "HUBS",
-    "links": [
-      "Regions"
-    ],
-    "path": "neurophysiology/anatomy/hubs/hubs.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "PyramidalNeurons",
-    "links": [
-      "Alzheimer's Disease"
-    ],
-    "path": "neurophysiology/anatomy/pyramidal-neurons/pyramidal-neurons.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ASynTauInteractions",
-    "links": [
-      "Tau",
-      "AlphaSynuclein"
-    ],
-    "path": "neurophysiology/biomarkers/a-syn-tau-interactions/a-syn-tau-interactions.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "AlphaSynuclein",
-    "links": [
-      "Biomarkers",
-      "ASynTauInteractions"
-    ],
-    "path": "neurophysiology/biomarkers/a-synuclein/a-synuclein.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ABAggregation",
-    "links": [
-      "Amyloid Beta (AB)"
-    ],
-    "path": "neurophysiology/biomarkers/ab/ab-aggregation/ab-aggregation.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ABRegulatingSynaptic",
-    "links": [
-      "Amyloid Beta (AB)"
-    ],
-    "path": "neurophysiology/biomarkers/ab/ab-regulating-synaptic/ab-regulating-synaptic.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ABSpread",
-    "links": [
-      "Amyloid Beta (AB)"
-    ],
-    "path": "neurophysiology/biomarkers/ab/ab-spread/ab-spread.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Amyloid Beta (AB)",
-    "links": [
-      "Biomarkers",
-      "AbTauInteractions",
-      "ABAggregation",
-      "ABRegulatingSynaptic",
-      "ABSpread",
-      "APP"
-    ],
-    "path": "neurophysiology/biomarkers/ab/ab.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Amyloidogenic",
-    "links": [
-      "APP"
-    ],
-    "path": "neurophysiology/biomarkers/ab/app/amyloidogenic/amyloidogenic.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "APP",
-    "links": [
-      "Amyloid Beta (AB)",
-      "Amyloidogenic",
-      "NonAmyloidogenic"
-    ],
-    "path": "neurophysiology/biomarkers/ab/app/app.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NonAmyloidogenic",
-    "links": [
-      "APP"
-    ],
-    "path": "neurophysiology/biomarkers/ab/app/non-amyloidogenic/non-amyloidogenic.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "AbTauInteractions",
-    "links": [
-      "Tau",
-      "Amyloid Beta (AB)",
-      "AbCascade"
-    ],
-    "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-tau-interactions.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Apoe4",
-    "links": [
-      "Biomarkers"
-    ],
-    "path": "neurophysiology/biomarkers/apoe4/apoe4.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Biomarkers",
-    "links": [
-      "Neurophysiology",
-      "AlphaSynuclein",
-      "Amyloid Beta (AB)",
-      "Apoe4",
-      "Epileptiform",
-      "Tau",
-      "ImmuneActivation",
-      "TDP43",
-      "E/I balance"
-    ],
-    "path": "neurophysiology/biomarkers/biomarkers.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Epileptiform",
-    "links": [
-      "Biomarkers"
-    ],
-    "path": "neurophysiology/biomarkers/epileptiform/epileptiform.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ImmuneActivation",
-    "links": [
-      "Biomarkers"
-    ],
-    "path": "neurophysiology/biomarkers/immune-activation/immune-activation.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "DnaProtection",
-    "links": [
-      "Tau"
-    ],
-    "path": "neurophysiology/biomarkers/tau/dna-protection/dna-protection.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "TauAggregation",
-    "links": [
-      "Tau"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau-aggregation/tau-aggregation.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "TauEncoding",
-    "links": [
-      "Tau"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau-encoding/tau-encoding.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "TauRoles",
-    "links": [
-      "Tau"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau-roles/tau-roles.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "RetrogenesisModel",
-    "links": [
-      "Regions"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau-spread/retrogenesis-model/retrogenesis-model.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "TauSpread",
-    "links": [
-      "Tau"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau-spread/tau-spread.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Tau",
-    "links": [
-      "Biomarkers",
-      "AbTauInteractions",
-      "TauSpread",
-      "ASynTauInteractions",
-      "TauAggregation",
-      "DnaProtection",
-      "TauEncoding",
-      "TauRoles"
-    ],
-    "path": "neurophysiology/biomarkers/tau/tau.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "TDP43",
-    "links": [
-      "Biomarkers"
-    ],
-    "path": "neurophysiology/biomarkers/tdp43/tdp43.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "VascularInjury",
-    "links": [
-      "Neurophysiology"
-    ],
-    "path": "neurophysiology/biomarkers/vascular-injury/vascular-injury.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "E/I balance",
-    "links": [
-      "Biomarkers"
-    ],
-    "path": "neurophysiology/ei/ei.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Excitotoxicity",
-    "links": [
-      "Neurophysiology"
-    ],
-    "path": "neurophysiology/hyperexcitability/excitotoxicity/excitotoxicity.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Hyperexcitability",
-    "links": [
-      "Neurophysiology"
-    ],
-    "path": "neurophysiology/hyperexcitability/hyperexcitability.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Hypoexcitability",
-    "links": [
-      "Neurophysiology"
-    ],
-    "path": "neurophysiology/hypoexcitability/hypoexcitability.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "GraphPrediction",
-    "links": [
-      "Prediction"
-    ],
-    "path": "prediction/modelisation/graph-prediction.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Prediction",
-    "links": [
-      "GraphPrediction",
-      "Alzheimer's Disease"
-    ],
-    "path": "prediction/prediction.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Default Mode Network (DMN)",
-    "links": [
-      "Regions"
-    ],
-    "path": "regions/dmn/dmn.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Entorhinal",
-    "links": [
-      "Regions"
-    ],
-    "path": "regions/entorhinal/entorhinal.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Hypothalamus",
-    "links": [
-      "Regions"
-    ],
-    "path": "regions/hypothalamus/hypothalamus.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Regions",
-    "links": [
-      "Alzheimer's Disease",
-      "HUBS",
-      "Default Mode Network (DMN)",
-      "VTA",
-      "Hypothalamus",
-      "Entorhinal",
-      "RetrogenesisModel"
-    ],
-    "path": "regions/regions.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "VTA",
-    "links": [
-      "Regions"
-    ],
-    "path": "regions/vta/vta.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "CSF",
-    "links": [
-      "Alzheimer's Disease"
-    ],
-    "path": "signal/csf/csf.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Aperiodic",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/aperiodic/aperiodic.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Assymetric",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/connectivity/assymetric/assymetric.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Enveloppe Correlation",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/connectivity/enveloppe-corr/enveloppe-corr.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "HMM",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/connectivity/hmm/hmm.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Phase Correlation",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/connectivity/phase-corr/phase-corr.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Alpha",
-    "links": [
-      "Frequencies"
-    ],
-    "path": "signal/meg/frequencies/alpha/alpha.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Beta",
-    "links": [
-      "Frequencies"
-    ],
-    "path": "signal/meg/frequencies/beta/beta.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Delta-Theta",
-    "links": [
-      "Frequencies"
-    ],
-    "path": "signal/meg/frequencies/delta-theta/delta-theta.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Frequencies",
-    "links": [
-      "Periodic",
-      "Beta",
-      "Delta-Theta",
-      "Alpha"
-    ],
-    "path": "signal/meg/frequencies/frequencies.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Geometric Correction Scheme (GCS)",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/gcs/gcs.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Magnetoencephalography (MEG)",
-    "links": [
-      "Periodic",
-      "Alzheimer's Disease",
-      "Aperiodic",
-      "Phase Correlation",
-      "Enveloppe Correlation",
-      "HMM",
-      "Resting State",
-      "Geometric Correction Scheme (GCS)",
-      "NMM",
-      "Assymetric"
-    ],
-    "path": "signal/meg/meg.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NMM",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/nmm/nmm.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Periodic",
-    "links": [
-      "Magnetoencephalography (MEG)",
-      "Frequencies"
-    ],
-    "path": "signal/meg/periodic/periodic.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Resting State",
-    "links": [
-      "Magnetoencephalography (MEG)"
-    ],
-    "path": "signal/meg/resting-state/resting-state.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "StructuralConnectivity",
-    "links": [
-      "Alzheimer's Disease"
-    ],
-    "path": "signal/mri/structural-connectivity/structural-connectivity.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "PetAB",
-    "links": [
-      "PET"
-    ],
-    "path": "signal/pet/pet-ab/pet-ab.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "PetTau",
-    "links": [
-      "PET"
-    ],
-    "path": "signal/pet/pet-tau/pet-tau.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "PET",
-    "links": [
-      "Alzheimer's Disease",
-      "PetTau",
-      "PetAB"
-    ],
-    "path": "signal/pet/pet.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Mild Cognitive Impairment (MCI)",
-    "links": [
-      "Stages"
-    ],
-    "path": "stages/mci/mci.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "Stages",
-    "links": [
-      "Classifications",
-      "Mild Cognitive Impairment (MCI)"
-    ],
-    "path": "stages/stages.tsx",
-    "hypotheses": []
-  }
+    {
+        "title": "ATN",
+        "links": ["Classifications"],
+        "path": "classifications/atn/atn.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Braak",
+        "links": ["Classifications"],
+        "path": "classifications/braak/braak.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "CDR",
+        "links": ["Classifications"],
+        "path": "classifications/cdr/cdr.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Classifications",
+        "links": [
+            "ATN",
+            "Braak",
+            "IWG",
+            "Mini Mental State Examination (MMSE)",
+            "NIA-AA",
+            "Alzheimer's Disease",
+            "Stages",
+            "CDR"
+        ],
+        "path": "classifications/classifications.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "IWG",
+        "links": ["Classifications"],
+        "path": "classifications/iwg/iwg.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Mini Mental State Examination (MMSE)",
+        "links": ["Classifications"],
+        "path": "classifications/mmse/mmse.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "NIA-AA",
+        "links": ["Classifications"],
+        "path": "classifications/nia-aa/nia-aa.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Alzheimer's Disease",
+        "links": [
+            "Classifications",
+            "Neurophysiology",
+            "Prediction",
+            "Magnetoencephalography (MEG)",
+            "PET",
+            "GlialCells",
+            "PyramidalNeurons",
+            "Epidemiology",
+            "Regions",
+            "CSF",
+            "StructuralConnectivity"
+        ],
+        "path": "generics/ad.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Epidemiology",
+        "links": ["Alzheimer's Disease"],
+        "path": "generics/epidemiology.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Neurophysiology",
+        "links": [
+            "Biomarkers",
+            "VascularInjury",
+            "Hyperexcitability",
+            "Hypoexcitability",
+            "Alzheimer's Disease",
+            "Excitotoxicity"
+        ],
+        "path": "generics/neurophysiology.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "GlialCells",
+        "links": ["Alzheimer's Disease"],
+        "path": "neurophysiology/anatomy/glial-cells/glial-cells.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "HUBS",
+        "links": ["Regions"],
+        "path": "neurophysiology/anatomy/hubs/hubs.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "PyramidalNeurons",
+        "links": ["Alzheimer's Disease"],
+        "path": "neurophysiology/anatomy/pyramidal-neurons/pyramidal-neurons.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "ASynTauInteractions",
+        "links": ["Tau", "AlphaSynuclein"],
+        "path": "neurophysiology/biomarkers/a-syn-tau-interactions/a-syn-tau-interactions.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "AlphaSynuclein",
+        "links": ["Biomarkers", "ASynTauInteractions"],
+        "path": "neurophysiology/biomarkers/a-synuclein/a-synuclein.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "ABAggregation",
+        "links": ["Amyloid Beta (AB)"],
+        "path": "neurophysiology/biomarkers/ab/ab-aggregation/ab-aggregation.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "ABRegulatingSynaptic",
+        "links": ["Amyloid Beta (AB)"],
+        "path": "neurophysiology/biomarkers/ab/ab-regulating-synaptic/ab-regulating-synaptic.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "ABSpread",
+        "links": ["Amyloid Beta (AB)"],
+        "path": "neurophysiology/biomarkers/ab/ab-spread/ab-spread.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Amyloid Beta (AB)",
+        "links": [
+            "Biomarkers",
+            "AbTauInteractions",
+            "ABAggregation",
+            "ABRegulatingSynaptic",
+            "ABSpread",
+            "APP"
+        ],
+        "path": "neurophysiology/biomarkers/ab/ab.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Amyloidogenic",
+        "links": ["APP"],
+        "path": "neurophysiology/biomarkers/ab/app/amyloidogenic/amyloidogenic.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "APP",
+        "links": ["Amyloid Beta (AB)", "Amyloidogenic", "NonAmyloidogenic"],
+        "path": "neurophysiology/biomarkers/ab/app/app.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "NonAmyloidogenic",
+        "links": ["APP"],
+        "path": "neurophysiology/biomarkers/ab/app/non-amyloidogenic/non-amyloidogenic.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "AbTauInteractions",
+        "links": ["Tau", "Amyloid Beta (AB)", "AbCascade"],
+        "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-tau-interactions.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Apoe4",
+        "links": ["Biomarkers"],
+        "path": "neurophysiology/biomarkers/apoe4/apoe4.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Biomarkers",
+        "links": [
+            "Neurophysiology",
+            "AlphaSynuclein",
+            "Amyloid Beta (AB)",
+            "Apoe4",
+            "Epileptiform",
+            "Tau",
+            "ImmuneActivation",
+            "TDP43",
+            "E/I balance"
+        ],
+        "path": "neurophysiology/biomarkers/biomarkers.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Epileptiform",
+        "links": ["Biomarkers"],
+        "path": "neurophysiology/biomarkers/epileptiform/epileptiform.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "ImmuneActivation",
+        "links": ["Biomarkers"],
+        "path": "neurophysiology/biomarkers/immune-activation/immune-activation.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "DnaProtection",
+        "links": ["Tau"],
+        "path": "neurophysiology/biomarkers/tau/dna-protection/dna-protection.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "TauAggregation",
+        "links": ["Tau"],
+        "path": "neurophysiology/biomarkers/tau/tau-aggregation/tau-aggregation.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "TauEncoding",
+        "links": ["Tau"],
+        "path": "neurophysiology/biomarkers/tau/tau-encoding/tau-encoding.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "TauRoles",
+        "links": ["Tau"],
+        "path": "neurophysiology/biomarkers/tau/tau-roles/tau-roles.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "RetrogenesisModel",
+        "links": ["Regions"],
+        "path": "neurophysiology/biomarkers/tau/tau-spread/retrogenesis-model/retrogenesis-model.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "TauSpread",
+        "links": ["Tau"],
+        "path": "neurophysiology/biomarkers/tau/tau-spread/tau-spread.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Tau",
+        "links": [
+            "Biomarkers",
+            "AbTauInteractions",
+            "TauSpread",
+            "ASynTauInteractions",
+            "TauAggregation",
+            "DnaProtection",
+            "TauEncoding",
+            "TauRoles"
+        ],
+        "path": "neurophysiology/biomarkers/tau/tau.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "TDP43",
+        "links": ["Biomarkers"],
+        "path": "neurophysiology/biomarkers/tdp43/tdp43.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "VascularInjury",
+        "links": ["Neurophysiology"],
+        "path": "neurophysiology/biomarkers/vascular-injury/vascular-injury.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "E/I balance",
+        "links": ["Biomarkers"],
+        "path": "neurophysiology/ei/ei.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Excitotoxicity",
+        "links": ["Neurophysiology"],
+        "path": "neurophysiology/hyperexcitability/excitotoxicity/excitotoxicity.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Hyperexcitability",
+        "links": ["Neurophysiology"],
+        "path": "neurophysiology/hyperexcitability/hyperexcitability.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Hypoexcitability",
+        "links": ["Neurophysiology"],
+        "path": "neurophysiology/hypoexcitability/hypoexcitability.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "GraphPrediction",
+        "links": ["Prediction"],
+        "path": "prediction/modelisation/graph-prediction.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Prediction",
+        "links": ["GraphPrediction", "Alzheimer's Disease"],
+        "path": "prediction/prediction.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Default Mode Network (DMN)",
+        "links": ["Regions"],
+        "path": "regions/dmn/dmn.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Entorhinal",
+        "links": ["Regions"],
+        "path": "regions/entorhinal/entorhinal.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Hypothalamus",
+        "links": ["Regions"],
+        "path": "regions/hypothalamus/hypothalamus.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Regions",
+        "links": [
+            "Alzheimer's Disease",
+            "HUBS",
+            "Default Mode Network (DMN)",
+            "VTA",
+            "Hypothalamus",
+            "Entorhinal",
+            "RetrogenesisModel"
+        ],
+        "path": "regions/regions.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "VTA",
+        "links": ["Regions"],
+        "path": "regions/vta/vta.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "CSF",
+        "links": ["Alzheimer's Disease"],
+        "path": "signal/csf/csf.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Aperiodic",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/aperiodic/aperiodic.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Assymetric",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/connectivity/assymetric/assymetric.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Enveloppe Correlation",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/connectivity/enveloppe-corr/enveloppe-corr.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "HMM",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/connectivity/hmm/hmm.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Phase Correlation",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/connectivity/phase-corr/phase-corr.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Alpha",
+        "links": ["Frequencies"],
+        "path": "signal/meg/frequencies/alpha/alpha.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Beta",
+        "links": ["Frequencies"],
+        "path": "signal/meg/frequencies/beta/beta.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Delta-Theta",
+        "links": ["Frequencies"],
+        "path": "signal/meg/frequencies/delta-theta/delta-theta.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Frequencies",
+        "links": ["Periodic", "Beta", "Delta-Theta", "Alpha"],
+        "path": "signal/meg/frequencies/frequencies.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Geometric Correction Scheme (GCS)",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/gcs/gcs.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Magnetoencephalography (MEG)",
+        "links": [
+            "Periodic",
+            "Alzheimer's Disease",
+            "Aperiodic",
+            "Phase Correlation",
+            "Enveloppe Correlation",
+            "HMM",
+            "Resting State",
+            "Geometric Correction Scheme (GCS)",
+            "NMM",
+            "Assymetric"
+        ],
+        "path": "signal/meg/meg.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "NMM",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/nmm/nmm.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Periodic",
+        "links": ["Magnetoencephalography (MEG)", "Frequencies"],
+        "path": "signal/meg/periodic/periodic.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Resting State",
+        "links": ["Magnetoencephalography (MEG)"],
+        "path": "signal/meg/resting-state/resting-state.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "StructuralConnectivity",
+        "links": ["Alzheimer's Disease"],
+        "path": "signal/mri/structural-connectivity/structural-connectivity.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "PetAB",
+        "links": ["PET"],
+        "path": "signal/pet/pet-ab/pet-ab.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "PetTau",
+        "links": ["PET"],
+        "path": "signal/pet/pet-tau/pet-tau.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "PET",
+        "links": ["Alzheimer's Disease", "PetTau", "PetAB"],
+        "path": "signal/pet/pet.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Mild Cognitive Impairment (MCI)",
+        "links": ["Stages"],
+        "path": "stages/mci/mci.tsx",
+        "hypotheses": []
+    },
+    {
+        "title": "Stages",
+        "links": ["Classifications", "Mild Cognitive Impairment (MCI)"],
+        "path": "stages/stages.tsx",
+        "hypotheses": []
+    }
 ]

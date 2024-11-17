@@ -15,12 +15,12 @@ const Home = () => {
     );
     const [dynamicNodePath, setDynamicNodePath] = useState<string>();
     const [nodeLabel, setNodeLabel] = useState<string>();
-    function Search() {
-        const searchParams = useSearchParams();
+    const searchParams = useSearchParams();
+    useEffect(() => {
+        // Update nodeLabel whenever searchParams change
         setNodeLabel(searchParams.get("nodeLabel") ?? "");
+    }, [searchParams]);
 
-        return <div>Node Label: {nodeLabel}</div>;
-    }
     const { push } = useRouter();
     useEffect(() => {
         const setNodeOnLoad = async () => {
@@ -100,9 +100,6 @@ const Home = () => {
                             setNode={displayNode}
                         />
                     )}
-                    <Suspense>
-                        <Search />
-                    </Suspense>
                 </div>
             )}
         </div>
