@@ -1,33 +1,27 @@
+import { parseCookie } from "next/dist/compiled/@edge-runtime/cookies";
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextRequest } from "next/server";
+import jwt from "jsonwebtoken";
+import { env } from "process";
 
 // This function can be marked `async` if using `await` inside
-export function middleware(request: NextRequest) {
-    const allowedIP = ["127.0.0.1"];
-    const rawIP = request.headers.get("x-forwarded-for") || request.ip;
-    const host = request.headers.get("host"); // Cela montre le domaine ou IP cible
-    const requestIP = rawIP?.replace(/^::ffff:/, ""); // Removes the ::ffff: prefix if present
-
-    console.log(`requestIP: ${host}`);
-
-    if (!requestIP) {
-        return Response.json(
-            { error: "Invalid IP", ip: requestIP, host: host },
-            { status: 400 }
-        );
+export async function middleware(request: NextRequest) {
+    const cookies = request.cookies.get("session")?.value;
+    if (!cookies) {
+        return NextResponse.redirect(new URL("/login", request.url));
     }
+    const res = await fetch(new URL("/api/login", request.url), {
+        headers: {
+            session: cookies,
+        },
+    });
 
-    if (!allowedIP.includes(requestIP)) {
-        return Response.json(
-            { error: "Invalid IP", ip: requestIP, host: host },
-            { status: 400 }
-        );
+    if (res.status === 200) {
+        return NextResponse.next();
     }
-
-    return NextResponse.next();
 }
 
 // See "Matching Paths" below to learn more
 export const config = {
-    matcher: "/:path*",
+    matcher: "/((?!login|_next|api).*)",
 };

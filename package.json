@@ -17,12 +17,15 @@
     "better-react-mathjax": "^2.0.3",
     "bibtex-js-parser": "^1.1.6",
     "bibtex-parse-js": "^0.0.24",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
     "next": "^14.2.16",
     "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -802,7 +802,8 @@
         "label": "PET",
         "links": [
           "33",
-          "52"
+          "52",
+          "71"
         ],
         "hypotheses": []
       },
@@ -1557,6 +1558,27 @@
         "width": 177,
         "height": 46
       },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "71",
+      "position": {
+        "x": 891.3855886398096,
+        "y": 1003.3446405768389
+      },
+      "data": {
+        "label": "PetAB",
+        "links": [
+          "35"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 67,
+        "height": 46
+      },
       "selected": true,
       "dragging": false
     }
@@ -1961,7 +1983,8 @@
       "target": "52",
       "targetHandle": "left",
       "type": "buttonedge",
-      "id": "xy-edge__35right-52left"
+      "id": "xy-edge__35right-52left",
+      "selected": false
     },
     {
       "source": "29",
@@ -2114,6 +2137,14 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__33right-70left"
+    },
+    {
+      "source": "35",
+      "sourceHandle": "right",
+      "target": "71",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__35right-71left"
     }
   ]
 }
