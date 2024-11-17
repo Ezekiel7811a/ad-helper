@@ -40,7 +40,11 @@ const Home = () => {
             const node: MyNode = await fetch(
                 `/api/get-node-by-label?nodeLabel=${nodeLabel}`
             )
-                .then((res) => res.json())
+                .then((res) => {
+                    const json = res.json();
+                    console.log(json);
+                    return json;
+                })
                 .then(async (nodeDTO) => {
                     const node: MyNode = await import(
                         `@/app/components/nodes/${nodeDTO.path}`
