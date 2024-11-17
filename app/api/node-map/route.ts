@@ -7,7 +7,7 @@ export async function GET(req: Request): Promise<Response> {
             .then((data) => JSON.parse(data));
         return Response.json(data, { status: 200 });
     } catch (e) {
-        console.error(e);
-        return Response.json("Error", { status: 500 });
+        const errorMessage = e instanceof Error ? e.message : "Unknown error";
+        return Response.json(errorMessage, { status: 500 });
     }
 }

@@ -19,7 +19,7 @@ export async function POST(req: Request) {
         await fs.writeFile(filePath, JSON.stringify(data, null, 2));
         return new Response("Success", { status: 200 });
     } catch (e) {
-        console.error(e);
-        return new Response("Error", { status: 500 });
+        const message = e instanceof Error ? e.message : "Unknown error";
+        return new Response(message, { status: 500 });
     }
 }

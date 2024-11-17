@@ -53,10 +53,8 @@ export async function GET(request: Request) {
         jwt.verify(token, env.JWT_SECRET);
         return Response.json({ message: "You are logged in" }, { status: 200 });
     } catch (err) {
-        console.log(err);
-        return Response.json(
-            { message: "You are not logged in" },
-            { status: 401 }
-        );
+        const errorMessage =
+            err instanceof Error ? err.message : "Unknown error";
+        return Response.json(errorMessage, { status: 401 });
     }
 }
