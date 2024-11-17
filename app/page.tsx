@@ -15,11 +15,18 @@ const Home = () => {
     );
     const [dynamicNodePath, setDynamicNodePath] = useState<string>();
     const [nodeLabel, setNodeLabel] = useState<string>();
-    const searchParams = useSearchParams();
+    /* const searchParams = useSearchParams();
     useEffect(() => {
         // Update nodeLabel whenever searchParams change
         setNodeLabel(searchParams.get("nodeLabel") ?? "");
-    }, [searchParams]);
+    }, [searchParams]); */
+
+    function Search() {
+        const nodeLabelParam = useSearchParams().get("nodeLabel") ?? "";
+        setNodeLabel(nodeLabelParam);
+
+        return <input placeholder="Search..." />;
+    }
 
     const { push } = useRouter();
     useEffect(() => {
@@ -102,6 +109,9 @@ const Home = () => {
                     )}
                 </div>
             )}
+            <Suspense>
+                <Search />
+            </Suspense>
         </div>
     );
 };
