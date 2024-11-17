@@ -32,7 +32,7 @@ export async function GET(req: Request) {
 
         return Response.json(node, { status: 200 });
     } catch (e) {
-        console.error(e);
-        return Response.json(e, { status: 500 });
+        const errorMessage = e instanceof Error ? e.message : "Unknown error";
+        return Response.json(errorMessage, { status: 500 });
     }
 }

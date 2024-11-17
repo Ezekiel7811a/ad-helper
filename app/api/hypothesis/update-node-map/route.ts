@@ -2,6 +2,7 @@ import { CustomNode } from "@/models/custome-node";
 import { NodeDTO } from "@/models/node-dto";
 import { Edge } from "@xyflow/react";
 import { promises as fs } from "fs";
+import path from "path";
 
 const updateNodeMap = async (nodeMap: {
     nodes: CustomNode[];
@@ -36,7 +37,10 @@ const updateNodeMap = async (nodeMap: {
 export async function GET(req: Request) {
     try {
         const nodesMap = await fs
-            .readFile("public/node-map/node-map.json", "utf-8")
+            .readFile(
+                path.join(process.cwd() + "public/node-map/node-map.json"),
+                "utf-8"
+            )
             .then(
                 (data) =>
                     JSON.parse(data) as { nodes: CustomNode[]; edges: Edge[] }
@@ -44,7 +48,7 @@ export async function GET(req: Request) {
 
         const updatedNodeMap = await updateNodeMap(nodesMap);
         await fs.writeFile(
-            "public/node-map/node-map.json",
+            path.join(process.cwd() + "public/node-map/node-map.json"),
             JSON.stringify(updatedNodeMap, null, 2)
         );
 

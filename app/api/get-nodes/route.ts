@@ -54,7 +54,7 @@ export async function GET(req: Request): Promise<Response> {
 
     if (isToSave) {
         fs.writeFile(
-            "public/nodes/nodes.json",
+            path.join(process.cwd(), "public/nodes/nodes.json"),
             JSON.stringify(nodesDTO, null, 2)
         ).catch((err) => console.error(err));
     }

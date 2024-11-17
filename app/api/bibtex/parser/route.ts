@@ -1,11 +1,12 @@
 import { Citation } from "@/models/citation";
 import { promises } from "fs";
+import path from "path";
 
 export async function GET(req: Request) {
     const isToSave = new URL(req.url).searchParams.get("saving") === "true";
 
     const bibtex = await promises.readFile(
-        "public/citations/bibtex.bib",
+        path.join(process.cwd(), "public/citations/bibtex.bib"),
         "utf-8"
     );
 
@@ -49,7 +50,7 @@ export async function GET(req: Request) {
     if (isToSave) {
         promises
             .writeFile(
-                "public/citations/bibtex.json",
+                path.join(process.cwd(), "public/citations/bibtex.json"),
                 JSON.stringify(refsObj, null, 2)
             )
             .catch(console.error);

@@ -1,9 +1,13 @@
 import { NodeDTO } from "@/models/node-dto";
 import { promises as fs } from "fs";
+import path from "path";
 
-const getHypotheses = async (path: string) => {
+const getHypotheses = async (thisPath: string) => {
     const hypotheses = [];
-    const soup = await fs.readFile(`app/components/nodes/${path}`, "utf-8");
+    const soup = await fs.readFile(
+        path.join(process.cwd() + `app/components/nodes/${path}`),
+        "utf-8"
+    );
     const regex = /<Hypothesis>([\s\S]*?)<\/Hypothesis>/g;
     let match;
 
@@ -28,13 +32,16 @@ const updateNodes = async (nodes: NodeDTO[]): Promise<NodeDTO[]> => {
 export async function GET() {
     try {
         const nodes = await fs
-            .readFile("public/nodes/nodes.json", "utf-8")
+            .readFile(
+                path.join(process.cwd() + "public/nodes/nodes.json"),
+                "utf-8"
+            )
             .then((data) => JSON.parse(data))
             .then((data) => data as NodeDTO[]);
 
         const updatedNodes = await updateNodes(nodes);
         await fs.writeFile(
-            "public/nodes/nodes.json",
+            path.join(process.cwd() + "public/nodes/nodes.json"),
             JSON.stringify(updatedNodes, null, 2)
         );
         return Response.json(updatedNodes, { status: 200 });
