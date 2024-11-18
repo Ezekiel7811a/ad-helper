@@ -4,7 +4,7 @@ import path from "path";
 
 const getNodeByLabel = async (label: string): Promise<NodeDTO> => {
     const nodes = await fs
-        .readFile(path.join(process.cwd(), "public/nodes/nodes.json"), "utf-8")
+        .readFile(path.join(process.cwd(), "/public/nodes/nodes.json"), "utf-8")
         .then((data) => JSON.parse(data))
         .then((data) => data as NodeDTO[]);
 

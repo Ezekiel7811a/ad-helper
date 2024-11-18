@@ -6,14 +6,14 @@ import path from "path";
 export async function GET() {
     const nodesMap = await fs
         .readFile(
-            path.join(process.cwd() + "public/node-map/node-map.json"),
+            path.join(process.cwd(), "public/node-map/node-map.json"),
             "utf-8"
         )
         .then((data) => JSON.parse(data))
         .then((data) => data.nodes as CustomNode[]);
 
     const nodes = await fs
-        .readFile(path.join(process.cwd() + "public/nodes/nodes.json"), "utf-8")
+        .readFile(path.join(process.cwd(), "public/nodes/nodes.json"), "utf-8")
         .then((data) => JSON.parse(data))
         .then((data) => data as NodeDTO[]);
 
@@ -28,7 +28,7 @@ export async function GET() {
         }
     });
     fs.writeFile(
-        path.join(process.cwd() + "public/nodes/nodes.json"),
+        path.join(process.cwd(), "public/nodes/nodes.json"),
         JSON.stringify(nodes, null, 2)
     );
     return Response.json({ message: "Success" }, { status: 200 });

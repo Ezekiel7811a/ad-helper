@@ -1,4 +1,5 @@
 import { promises } from "fs";
+import path from "path";
 
 export async function GET(req: Request) {
     const bibref = new URL(req.url).searchParams.get("bibref");
@@ -7,7 +8,7 @@ export async function GET(req: Request) {
     }
 
     const bibtex = await promises.readFile(
-        "public/citations/bibtex.bib",
+        path.join(process.cwd(), "/public/citations/bibtex.bib"),
         "utf-8"
     );
 

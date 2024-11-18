@@ -4,7 +4,10 @@ import path from "path";
 
 const getNodeByLabel = async (label: string): Promise<NodeDTO> => {
     const nodes = await fs
-        .readFile(path.join(process.cwd() + "public/nodes/nodes.json"), "utf-8")
+        .readFile(
+            path.join(process.cwd() + "/public/nodes/nodes.json"),
+            "utf-8"
+        )
         .then((data) => JSON.parse(data))
         .then((data) => data as NodeDTO[]);
 
@@ -18,7 +21,7 @@ const getNodeByLabel = async (label: string): Promise<NodeDTO> => {
 const getHypotheses = async (thisPath: string) => {
     const hypotheses = [];
     const soup = await fs.readFile(
-        path.join(process.cwd() + `app/components/nodes/${thisPath}`),
+        path.join(process.cwd() + `/app/components/nodes/${thisPath}`),
         "utf-8"
     );
     const regex = /<Hypothesis>([\s\S]*?)<\/Hypothesis>/g;

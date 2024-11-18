@@ -5,7 +5,7 @@ import path from "path";
 const getHypotheses = async (thisPath: string) => {
     const hypotheses = [];
     const soup = await fs.readFile(
-        path.join(process.cwd() + `app/components/nodes/${path}`),
+        path.join(process.cwd(), `app/components/nodes/${path}`),
         "utf-8"
     );
     const regex = /<Hypothesis>([\s\S]*?)<\/Hypothesis>/g;
@@ -33,7 +33,7 @@ export async function GET() {
     try {
         const nodes = await fs
             .readFile(
-                path.join(process.cwd() + "public/nodes/nodes.json"),
+                path.join(process.cwd(), "public/nodes/nodes.json"),
                 "utf-8"
             )
             .then((data) => JSON.parse(data))
@@ -41,7 +41,7 @@ export async function GET() {
 
         const updatedNodes = await updateNodes(nodes);
         await fs.writeFile(
-            path.join(process.cwd() + "public/nodes/nodes.json"),
+            path.join(process.cwd(), "public/nodes/nodes.json"),
             JSON.stringify(updatedNodes, null, 2)
         );
         return Response.json(updatedNodes, { status: 200 });

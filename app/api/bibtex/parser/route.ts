@@ -6,7 +6,7 @@ export async function GET(req: Request) {
     const isToSave = new URL(req.url).searchParams.get("saving") === "true";
 
     const bibtex = await promises.readFile(
-        path.join(process.cwd(), "public/citations/bibtex.bib"),
+        path.join(process.cwd(), "/public/citations/bibtex.bib"),
         "utf-8"
     );
 

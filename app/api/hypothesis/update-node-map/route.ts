@@ -13,7 +13,7 @@ const updateNodeMap = async (nodeMap: {
 }> => {
     const customNodes = nodeMap.nodes;
     const nodesDto: NodeDTO[] = await fs
-        .readFile("public/nodes/nodes.json", "utf-8")
+        .readFile(path.join(process.cwd(), "public/nodes/nodes.json"), "utf-8")
         .then((data) => JSON.parse(data))
         .then((data) => data as NodeDTO[]);
 
@@ -38,7 +38,7 @@ export async function GET(req: Request) {
     try {
         const nodesMap = await fs
             .readFile(
-                path.join(process.cwd() + "public/node-map/node-map.json"),
+                path.join(process.cwd(), "public/node-map/node-map.json"),
                 "utf-8"
             )
             .then(
@@ -48,7 +48,7 @@ export async function GET(req: Request) {
 
         const updatedNodeMap = await updateNodeMap(nodesMap);
         await fs.writeFile(
-            path.join(process.cwd() + "public/node-map/node-map.json"),
+            path.join(process.cwd(), "public/node-map/node-map.json"),
             JSON.stringify(updatedNodeMap, null, 2)
         );
 
