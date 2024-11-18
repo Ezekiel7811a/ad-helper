@@ -15,14 +15,10 @@ const Home = () => {
     );
     const [dynamicNodePath, setDynamicNodePath] = useState<string>();
     const [nodeLabel, setNodeLabel] = useState<string>();
-    /* const searchParams = useSearchParams();
-    useEffect(() => {
-        // Update nodeLabel whenever searchParams change
-        setNodeLabel(searchParams.get("nodeLabel") ?? "");
-    }, [searchParams]); */
 
     function Search() {
-        const nodeLabelParam = useSearchParams().get("nodeLabel") ?? "";
+        const nodeLabelParam =
+            useSearchParams().get("nodeLabel") ?? "Alzheimer's Disease";
         setNodeLabel(nodeLabelParam);
         console.log(nodeLabelParam);
 

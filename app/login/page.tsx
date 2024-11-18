@@ -18,10 +18,12 @@ const Login = () => {
             },
             body: JSON.stringify({ username, password }),
         });
-        if (res.ok) {
-            console.log("Login successful");
-            push("/node-map");
+        if (!res.ok) {
+            console.error("Login failed");
+            return;
         }
+        console.log("Login successful");
+        push("/node-map");
     };
 
     return (

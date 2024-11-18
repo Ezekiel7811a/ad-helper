@@ -7,7 +7,7 @@ export async function POST(req: Request) {
 
     promises
         .writeFile(
-            path.join(process.cwd() + "public/nodes/nodes.json"),
+            path.join(process.cwd() + "/public/nodes/nodes.json"),
             JSON.stringify(nodes)
         )
         .catch((err) => console.log(err));
@@ -17,7 +17,7 @@ export async function POST(req: Request) {
 export async function GET() {
     const nodes: NodeDTO[] = JSON.parse(
         await promises.readFile(
-            path.join(process.cwd() + "public/nodes/nodes.json"),
+            path.join(process.cwd() + "/public/nodes/nodes.json"),
             "utf-8"
         )
     );
