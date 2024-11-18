@@ -4,8 +4,9 @@ import { Citation } from "@/models/citation";
 import { ReactNode, useState } from "react";
 import "./style.css";
 import RippleEffectButton from "./ripple-effect.tsx";
-import { Divider, Popover } from "@mui/material";
+import { Button, Divider, Popover } from "@mui/material";
 import Row from "./row/row.tsx";
+import { DriveFileRenameOutline } from "@mui/icons-material";
 
 interface Props {
     children: ReactNode;
@@ -22,16 +23,22 @@ const CitationCard = ({ citations, children }: Props) => {
     const handleMouseLeave = () => {
         setAnchorEl(null);
     };
+
+    const handleCopyAllRefs = () => {
+        const text = citations.map((citation) => citation.bibref).join(", ");
+        navigator.clipboard.writeText(`\\cite{${text}}`);
+    };
     const open = Boolean(anchorEl);
 
     const authors = citations.map((citation) =>
         citation.authorsList.length > 0
-            ? citation.authorsList.map((author) => author.name)
+            ? citation.authorsList.map((author) => author.name ?? "")
             : citation.author
                   ?.split(",")
                   .map((author) => author.trim())
-                  .filter((author) => author)
-    ); // Remove any empty entries, just in case);
+                  .filter((author) => author) ?? []
+    );
+
     return (
         <span>
             <span onClick={handleMouseEnter}>
@@ -54,7 +61,7 @@ const CitationCard = ({ citations, children }: Props) => {
                 <div>
                     <div>
                         <Row citation={citations[0]}>
-                            {authors[0]} et al. (
+                            {authors[0][0]} et al. (
                             {citations[0].publicationDate
                                 ? citations[0].publicationDate.getFullYear()
                                 : citations[0].year}
@@ -64,8 +71,8 @@ const CitationCard = ({ citations, children }: Props) => {
                     </div>
                     {authors.length > 1 &&
                         authors.slice(1).map((author, index) => (
-                            <Row key={index} citation={citations[index]}>
-                                {author} et al. (
+                            <Row key={index} citation={citations[index + 1]}>
+                                {author[0]} et al. (
                                 {citations[index].publicationDate
                                     ? citations[
                                           index
@@ -74,6 +81,18 @@ const CitationCard = ({ citations, children }: Props) => {
                                 )
                             </Row>
                         ))}
+                    <Button
+                        style={{
+                            minWidth: "50px",
+                            minHeight: "50px",
+                            overflow: "visible",
+                            backgroundColor: "white",
+                            color: "black",
+                        }}
+                        onClick={handleCopyAllRefs}
+                    >
+                        <DriveFileRenameOutline />
+                    </Button>
                 </div>
             </Popover>
         </span>
