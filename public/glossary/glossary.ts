@@ -25,4 +25,5 @@ export const Glossary: Term[] = [
     { term: "SVC", definition: "Synaptic Vesicle Cycle" },
     { term: "ISF", definition: "Interstitial Fluid" },
     { term: "SUVR", definition: "Standardized Uptake Value Ratio" },
+    { term: "PM", definition: "Plasma Membrane" },
 ];

@@ -28,10 +28,18 @@ export const APP = new MyNode(
                 in an amyloidogenic manner, and internalized APP is proteolyzed
                 by β-secretase in subcellular compartments to produce Aβ
             </CitationCard>
-            <CitationCard citations={[bibtex.cai2023physiological]}>
-                APP and its fragments [66] are found in dendrites and axon
-                terminals [24, 82].
-            </CitationCard>
+            <span>
+                <CitationCard
+                    citations={[
+                        bibtex.deboer2014differential,
+                        bibtex.koo1990precursor,
+                        bibtex.buxbaum1998alzheimer,
+                    ]}
+                >
+                    APP and its fragments are found in dendrites and axon
+                    terminals
+                </CitationCard>
+            </span>
         </NodeCard>
     )
 );

@@ -153,6 +153,11 @@ export const TauSpread = new MyNode(
                 part of the apical dendrite. Phase 4: Extensive tau pathology
                 throughout the dendritic tree and into the axon.
             </CitationCard>
+            <CitationCard citations={[bibtex.braak1993staging]}>
+                Neurofibrillary tangles develop mainly in Pyramidal cells of the
+                entorhinal cortex and then due to the spread effect will spread
+                to hippocampus and finally to the neocortex.
+            </CitationCard>
         </NodeCard>
     )
 );

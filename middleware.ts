@@ -6,6 +6,10 @@ import { env } from "process";
 
 // This function can be marked `async` if using `await` inside
 export async function middleware(request: NextRequest) {
+    if (env.ENVIRONMENT === "dev") {
+        return NextResponse.next();
+    }
+
     const cookies = request.cookies.get("session")?.value;
     if (!cookies) {
         return NextResponse.redirect(new URL("/login", request.url));

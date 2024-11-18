@@ -30,16 +30,31 @@ export const ABAggregation = new MyNode(
                 microscope and are one of the hallmark pathological features of
                 Alzheimer&apos;s.
             </CitationCard>
-            <CitationCard citations={[bibtex.cai2023physiological]}>
-                In recent years, more studies have focused on the aggregated
-                forms and effective sites of Aβ. So, several studies have shown
-                that it is the N-terminal Aβ, particularly the 1–16 fragment,
-                that exerts excitatory effects and promotes vesicular recycling
-                [54, 58], even reversing the Aβ toxicity. Besides, Aβ42
-                oligomers, commonly regarded as toxic, have been reported to
-                enhance synaptic plasticity at picomolar concentrations [36, 46,
-                47].
-            </CitationCard>
+            <span>
+                <CitationCard
+                    citations={[
+                        bibtex.lawrence2014regulation,
+                        bibtex.anni2021abeta1,
+                    ]}
+                >
+                    In recent years, more studies have focused on the aggregated
+                    forms and effective sites of Aβ. So, several studies have
+                    shown that it is the N-terminal Aβ, particularly the 1–16
+                    fragment, that exerts excitatory effects and promotes
+                    vesicular recycling,
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.gulisano2019neuromodulatory,
+                        bibtex.duan2022exogenous,
+                        bibtex.gulisano2018effect,
+                    ]}
+                >
+                    even reversing the Aβ toxicity. Besides, Aβ42 oligomers,
+                    commonly regarded as toxic, have been reported to enhance
+                    synaptic plasticity at picomolar concentrations.
+                </CitationCard>
+            </span>
         </NodeCard>
     )
 );

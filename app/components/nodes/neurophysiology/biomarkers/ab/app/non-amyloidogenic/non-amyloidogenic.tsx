@@ -8,7 +8,9 @@ export const NonAmyloidogenic = new MyNode(
     [],
     (
         <NodeCard>
-            <CitationCard citations={[bibtex.cai2023physiological]}>
+            <CitationCard
+                citations={[bibtex.muller2017not, bibtex.thinakaran2008amyloid]}
+            >
                 The Non-Amyloidogenic Pathway: In this alternative pathway,
                 α-secretase cleaves APP at a different site, preventing the
                 formation of Aβ. This pathway produces other APP fragments that
@@ -17,7 +19,7 @@ export const NonAmyloidogenic = new MyNode(
                 and is processed by the latter means, in which α-secretase
                 cleaves at amino-acids 16–17 on the Aβ sequence to generate a
                 soluble fragment αAPPs and α C-terminal fragments, which are
-                further catalyzed by γ-secretase to generate p3 [22, 23].
+                further catalyzed by γ-secretase to generate p3.
             </CitationCard>
         </NodeCard>
     )
