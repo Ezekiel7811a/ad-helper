@@ -130,11 +130,17 @@ const Distribution = () => {
                     the entorhinal cortex, from which they spread to limbic
                     areas, and from there to the association areas.
                 </CitationCard>
-                <CitationCard citations={[bibtex.gallego2024synergistic]}>
+                <CitationCard
+                    citations={[
+                        bibtex.ohm1995close,
+                        bibtex.leuzy2019tau,
+                        bibtex.lowe2019tau,
+                    ]}
+                >
                     Tau deposition also follows a relatively stereotypical
                     distribution pattern, accumulating first in the entorhinal
                     cortex before spreading to limbic areas and eventually the
-                    neocortex6,14,15.
+                    neocortex.
                 </CitationCard>
                 <CitationCard
                     citations={[
@@ -163,6 +169,16 @@ const Distribution = () => {
                     This localization pattern suggests that besides the main
                     function of MT regulation, tau may have other roles in
                     cells.
+                </CitationCard>
+                <CitationCard citations={[bibtex.braak2016potential]}>
+                    Temporal lobe structures, especially the mesial temporal
+                    gyri and hippocampus, are the earliest neocortical regions
+                    to manifest neurofibrillary tangles.
+                </CitationCard>
+                <CitationCard citations={[bibtex.braak1993staging]}>
+                    Neurofibrillary tangles develop mainly in Pyramidal cells of
+                    the entorhinal cortex and then due to the spread effect will
+                    spread to hippocampus and finally to the neocortex.
                 </CitationCard>
             </span>
         </div>

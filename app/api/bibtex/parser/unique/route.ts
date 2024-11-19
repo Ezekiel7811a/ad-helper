@@ -19,7 +19,10 @@ export async function POST(request: Request) {
     const res = await fetch(apiPath);
     if (res.ok) {
         return Response.json(
-            { error: "Citation already exists" },
+            {
+                error: "Citation already exists",
+                bibref: `bibtex.${parsedCitation.bibref}`,
+            },
             { status: 409 }
         );
     }
@@ -36,7 +39,10 @@ export async function POST(request: Request) {
         JSON.stringify(bibtex, null, 2)
     ).catch((err) => console.log(err));
 
-    return Response.json(parsedCitation, { status: 200 });
+    return Response.json(
+        { bibref: `bibtex.${parsedCitation.bibref}` },
+        { status: 200 }
+    );
 }
 
 const parse = (ref: string): Citation => {

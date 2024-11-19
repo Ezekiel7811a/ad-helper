@@ -18,6 +18,10 @@ const BibEntry = () => {
                 });
                 setEntry("");
                 handleClose();
+                const { bibref } = await res.json();
+                if (bibref) {
+                    navigator.clipboard.writeText(bibref);
+                }
                 if (res.ok) {
                     alert("Entry added successfully");
                     return;
@@ -45,6 +49,11 @@ const BibEntry = () => {
                 rows={40}
                 value={entry}
                 onChange={(e) => setEntry(e.target.value)}
+                sx={{
+                    "& .MuiInputBase-root": {
+                        color: "var(--text-color)",
+                    },
+                }}
             />
             <Modal
                 open={open}

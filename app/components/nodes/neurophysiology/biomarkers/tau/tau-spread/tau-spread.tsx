@@ -3,49 +3,16 @@ import Conclusion from "@/app/components/conclusion/conclusion";
 import Figure from "@/app/components/figure/figure";
 import Hypothesis from "@/app/components/hypothesis/hypothesis";
 import NodeCard from "@/app/components/node-card/node-card";
+import SectionTitle from "@/app/components/section-title/section-title";
 import { MyNode } from "@/models/node";
 import bibtex from "@/public/citations/bibtex.json";
 
-export const TauSpread = new MyNode(
-    "TauSpread",
-    [],
-    (
-        <NodeCard>
-            <CitationCard citations={[bibtex.seibyl2023visual]}>
-                Temporal lobe structures, especially the mesial temporal gyri
-                and hippocampus, are the earliest neocortical regions to
-                manifest neurofibrillary tangles (9)
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                Tau secretion involves multiple vesicular and
-                non-vesicle-mediated pathways, including secretion directly
-                through the plasma membrane. Consequently, extracellular tau can
-                be found in various forms, both as a free protein and in
-                vesicles, such as exosomes and ectosomes. Once in the
-                extracellular space, tau aggregates can be internalized by
-                neighboring cells, both neurons and glial cells, via endocytic,
-                pinocytic and phagocytic mechanisms.
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                prion-like propagation of misfolding protein pathology could
-                provide a general mechanism for disease progression in
-                tauopathies
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                Absence of the N-terminus alters cellular localization of tau,
-                promoting cytosol to nucleus relocalization [24]. It has also
-                been suggested that the N-terminal projection domain mediates PM
-                localization of tau via annexin-2 interaction [25].
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                n the majority of tauopathies glial inclusions, in the form of
-                coiled bodies, are found in oligodendrocytes [97, 98],
-                astrocytic tufts and astrocytic plaques [99].
-            </CitationCard>
+const Introduction = () => {
+    return (
+        <div>
             <CitationCard citations={[bibtex.brunello2020mechanisms]}>
                 tau can propagate trans-synaptically from one neuron to another,
-                and that the nearby network, synaptic contacts and neuronal
-                activity modulate such propagation [117, 118].
+                and that the nearby network.
                 <Figure
                     src="images/tau/tau_spread.png"
                     alt="tau spread"
@@ -86,20 +53,9 @@ export const TauSpread = new MyNode(
                 whether the synaptic release of physiological and pathological
                 forms of tau are mediated by the same mechanism(s)
             </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                depolarization of neurons promotes the release of tau-containing
-                exosomes [127].{" "}
-                <Hypothesis>
-                    There is a correlation between activity and tau spread
-                    potentially explaining the AB cascade.
-                </Hypothesis>
-                it has been suggested that synaptic activity mainly modulates
-                non-exosomal secretion of tau, through a mechanism dependent on
-                the release of synaptic vesicles [119].
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+            <CitationCard citations={[bibtex.ahmed2014novel]}>
                 the pattern of spread is determined by synaptic connectivity
-                rather than spatial proximity [131].
+                rather than spatial proximity.
             </CitationCard>
             <CitationCard citations={[bibtex.brunello2020mechanisms]}>
                 Different mechanisms are also involved in cellular uptake of
@@ -109,42 +65,6 @@ export const TauSpread = new MyNode(
                 forms of tau and in different cell types.
                 <Conclusion>Quelque chose à creuse ici</Conclusion>
             </CitationCard>
-            <CitationCard citations={[bibtex.vogels2020propagation]}>
-                1) bulk endocytosis (55), 2) macropinocytosis by heparan sulfate
-                proteoglycans (56), and/or 3) clathrin-mediated endocytosis
-                (57,58).After tau seeds enter the neuron, they can leak via
-                damaged vesicles into the cytosol and seed physiological
-                monomers to propagate the pathological process (59,60).
-            </CitationCard>
-            <CitationCard citations={[bibtex.brunello2020mechanisms]}>
-                three scenarios: (1) tau may be secreted in a free,
-                non-vesicle-associated form, with a minority secreted in
-                vesicles, (2) tau may be secreted exclusively in vesicles, but
-                rapidly escaping most of the vesicles, or (3) tau may be
-                secreted exclusively in free form, but may associate with
-                extracellular vesicles after secretion. scenario (1) seems to be
-                the most supported with th release from the PM facilitated by
-                binding to heparan sulfate proteoglycans (HSPG) located at the
-                extracellular leaflet of the PM. [67, 159]
-            </CitationCard>
-            <CitationCard citations={[bibtex.vogels2020propagation]}>
-                transgenic models have been developed that selectively express
-                the transgene in the entorhinal cortex (87,88). These models
-                show spreading of human tau to neighboring and synaptically
-                connected neurons, albeit only at advanced ages (12–21 months).
-                Viral vector models are a practical improvement on transgenic
-                spreading models, as they have been shown to induce spreading
-                from the entorhinal cortex to the dentate gyrus in as little as
-                4 weeks after injection (61).
-            </CitationCard>
-            <CitationCard citations={[bibtex.braak2018spreading]}>
-                Diffusion through volume transmission in non-thalamic nuclei
-                leads to widespread, nonspecific effects, inconsistent with AD’s
-                precise pattern of tau spread. These subcortical nuclei lack
-                specific synaptic structures necessary for tau seeding and
-                transsynaptic propagation, meaning they cannot effectively
-                transmit tau pathology to other regions.
-            </CitationCard>
             <CitationCard citations={[bibtex.braak2018spreading]}>
                 They propose 4 stages of tau spread: Phase 1: Tau aggregates in
                 isolated distal dendrites. Phase 2: Thread-like tau structures
@@ -153,11 +73,189 @@ export const TauSpread = new MyNode(
                 part of the apical dendrite. Phase 4: Extensive tau pathology
                 throughout the dendritic tree and into the axon.
             </CitationCard>
-            <CitationCard citations={[bibtex.braak1993staging]}>
-                Neurofibrillary tangles develop mainly in Pyramidal cells of the
-                entorhinal cortex and then due to the spread effect will spread
-                to hippocampus and finally to the neocortex.
-            </CitationCard>
+        </div>
+    );
+};
+
+const OtherFactors = () => {
+    return (
+        <div>
+            <span>
+                <CitationCard citations={[bibtex.paholikova2014n]}>
+                    Absence of the N-terminus alters cellular localization of
+                    tau, promoting cytosol to nucleus relocalization.
+                </CitationCard>
+                <CitationCard citations={[bibtex.gauthier2011frontotemporal]}>
+                    It has also been suggested that the N-terminal projection
+                    domain mediates PM localization of tau via annexin-2
+                    interaction.
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.iba2013synthetic,
+                        bibtex.calafate2015synaptic,
+                    ]}
+                >
+                    synaptic contacts and neuronal activity modulate such
+                    propagation.
+                </CitationCard>
+            </span>
+        </div>
+    );
+};
+
+const TauSecretion = () => {
+    return (
+        <div>
+            <span>
+                <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+                    Tau secretion involves multiple vesicular and
+                    non-vesicle-mediated pathways, including secretion directly
+                    through the PM. Consequently, extracellular tau can be found
+                    in various forms, both as a free protein and in vesicles,
+                    such as exosomes and ectosomes.
+                </CitationCard>
+                <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+                    three scenarios: (1) tau may be secreted in a free,
+                    non-vesicle-associated form, with a minority secreted in
+                    vesicles, (2) tau may be secreted exclusively in vesicles,
+                    but rapidly escaping most of the vesicles, or (3) tau may be
+                    secreted exclusively in free form, but may associate with
+                    extracellular vesicles after secretion. scenario
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.katsinelos2018unconventional,
+                        bibtex.merezhko2018secretion,
+                    ]}
+                >
+                    (1) seems to be the most supported with th release from the
+                    PM facilitated by binding to heparan sulfate proteoglycans
+                    (HSPG) located at the extracellular leaflet of the PM.
+                </CitationCard>
+            </span>
+        </div>
+    );
+};
+
+const Propagation = () => {
+    return (
+        <div>
+            <span>
+                <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+                    prion-like propagation of misfolding protein pathology could
+                    provide a general mechanism for disease progression in
+                    tauopathies.
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.yamada1990oligodendroglial,
+                        bibtex.dickson1999neuropathologic,
+                    ]}
+                >
+                    In the majority of tauopathies glial inclusions, in the form
+                    of coiled bodies, are found in oligodendrocytes,
+                </CitationCard>
+                <CitationCard citations={[bibtex.komori1998astrocytic]}>
+                    astrocytic tufts and astrocytic plaques.
+                </CitationCard>
+                <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+                    Once in the extracellular space, tau aggregates can be
+                    internalized by neighboring cells, both neurons and glial
+                    cells, via endocytic, pinocytic and phagocytic mechanisms.
+                </CitationCard>
+                <CitationCard citations={[bibtex.wu2013small]}>
+                    Bulk endocytosis,
+                </CitationCard>
+                <CitationCard citations={[bibtex.holmes2013heparan]}>
+                    macropinocytosis by heparan sulfate proteoglycans,
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.calafate2016loss,
+                        bibtex.evans2018extracellular,
+                    ]}
+                >
+                    and/or clathrin-mediated endocytosis.
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.flavin2017endocytic,
+                        bibtex.falcon2018galectin,
+                    ]}
+                >
+                    After tau seeds enter the neuron, they can leak via damaged
+                    vesicles into the cytosol and seed physiological monomers to
+                    propagate the pathological process.
+                </CitationCard>
+                <CitationCard
+                    citations={[bibtex.de2012propagation, bibtex.liu2012trans]}
+                >
+                    Models (transgenic
+                </CitationCard>
+                <CitationCard citations={[bibtex.asai2015depletion]}>
+                    and viral)
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.de2012propagation,
+                        bibtex.liu2012trans,
+                        bibtex.asai2015depletion,
+                    ]}
+                >
+                    have shown that tau can spread from the entorhinal cortex
+                    (eg. to the dentate gyrus in as little as 4 weeks).
+                </CitationCard>
+                <CitationCard citations={[bibtex.braak2018spreading]}>
+                    Diffusion through volume transmission in non-thalamic nuclei
+                    leads to widespread, nonspecific effects, inconsistent with
+                    AD’s precise pattern of tau spread. These subcortical nuclei
+                    lack specific synaptic structures necessary for tau seeding
+                    and transsynaptic propagation, meaning they cannot
+                    effectively transmit tau pathology to other regions.
+                </CitationCard>
+            </span>
+        </div>
+    );
+};
+
+const Hypotheses = () => {
+    return (
+        <div>
+            <span>
+                <CitationCard citations={[bibtex.wang2017release]}>
+                    depolarization of neurons promotes the release of
+                    tau-containing exosomes.
+                </CitationCard>
+                <Hypothesis>
+                    There is a correlation between activity and tau spread
+                    potentially explaining the AB cascade.
+                </Hypothesis>
+                <CitationCard citations={[bibtex.pooler2013physiological]}>
+                    it has been suggested that synaptic activity mainly
+                    modulates non-exosomal secretion of tau, through a mechanism
+                    dependent on the release of synaptic vesicles.
+                </CitationCard>
+            </span>
+        </div>
+    );
+};
+
+export const TauSpread = new MyNode(
+    "TauSpread",
+    [],
+    (
+        <NodeCard>
+            <SectionTitle>Introduction</SectionTitle>
+            <Introduction />
+            <SectionTitle>Tau Secretion</SectionTitle>
+            <TauSecretion />
+            <SectionTitle>Propagation</SectionTitle>
+            <Propagation />
+            <SectionTitle>Other Factors</SectionTitle>
+            <OtherFactors />
+            <SectionTitle>Hypotheses</SectionTitle>
+            <Hypotheses />
         </NodeCard>
     )
 );
