@@ -26,4 +26,5 @@ export const Glossary: Term[] = [
     { term: "ISF", definition: "Interstitial Fluid" },
     { term: "SUVR", definition: "Standardized Uptake Value Ratio" },
     { term: "PM", definition: "Plasma Membrane" },
+    { term: "LTP", definition: "Long-Term Potentiation" },
 ];
