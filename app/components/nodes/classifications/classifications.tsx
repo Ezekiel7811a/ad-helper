@@ -14,7 +14,7 @@ const Introduction = () => {
                     Due to the complex interactions between different proteins
                     and the lack of understanding of the pathophysiology, it is
                     currently impossible to reach a consensus on the
-                    classification criteria for Alzheimer's disease. For this
+                    classification criteria for Alzheimer’s disease. For this
                     reason, two major groups have proposed working frameworks
                     that offer classifications subject to evolution: NIAA-AA and
                     IWG.
