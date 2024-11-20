@@ -62,6 +62,32 @@ export const Epidemiology = new MyNode(
             <CitationCard citations={[bibtex.arevalo2015mini]}>
                 10% to 15% of individuals with MCI may progress to dementia,
             </CitationCard>
+            <CitationCard citations={[bibtex.bateman2011autosomal]}>
+                Genetic mutations cause a rare (&lt;0.5%) familial form of AD,
+                whose symptoms develop earlier, typically between 30 and 50
+                years of age.
+            </CitationCard>
+            <div>
+                <CitationCard citations={[bibtex.alzheimer20172017]}>
+                    two-thirds of the patients living with AD are women,
+                </CitationCard>
+                <CitationCard citations={[bibtex.frozza2018challenges]}>
+                    raising the intriguing suggestion that there are biological
+                    mechanisms underlying the higher incidence of AD cases in
+                    women that still demand to be investigated.
+                </CitationCard>
+                <CitationCard citations={[bibtex.vina2010women]}>
+                    However, late-onset AD risk is greater in women even after
+                    controlling for their longer lifespan relative to men.
+                </CitationCard>
+            </div>
+            <div>
+                <CitationCard citations={[bibtex.tariot2024relationships]}>
+                    AD causes worsened quality of life, adding to health,
+                    social, and economic burden for individuals, family, and the
+                    healthcare system [4, 5].
+                </CitationCard>
+            </div>
         </NodeCard>
     )
 );

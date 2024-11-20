@@ -20,12 +20,12 @@ const CSF = new MyNode(
                 neurofibrillary changes, impacting the diagnostic distinction
                 between “Alzheimer’s pathologic change” and full AD.
             </CitationCard>
-            <CitationCard citations={[bibtex.dubois2014advancing]}>
+            <CitationCard citations={[bibtex.herholz2011clinical]}>
                 CSF, there are several issues with the methods of assessment and
                 their interpretation. Visual interpretations of ¹⁸F amyloid
                 tracers require experienced raters. Tracer sensitivity for
                 moderate amyloid burden is less established and varies according
-                to the age of patients.102
+                to the age of patients.
             </CitationCard>
         </div>
     )

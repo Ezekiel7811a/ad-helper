@@ -82,6 +82,10 @@ export const AbCascade = new MyNode(
                 For example, in mouse model of AD, soluble Aβ promotes
                 development of tau pathology [75, 76].
             </CitationCard>
+            <CitationCard citations={[bibtex.frozza2018challenges]}>
+                In addition, AßOs promote tau hyperphosphorylation (De Felice et
+                al., 2008; Jin et al., 2011)
+            </CitationCard>
         </NodeCard>
     )
 );

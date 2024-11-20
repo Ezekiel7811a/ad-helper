@@ -16,9 +16,14 @@ const Introduction = () => {
                     currently impossible to reach a consensus on the
                     classification criteria for Alzheimer’s disease. For this
                     reason, two major groups have proposed working frameworks
-                    that offer classifications subject to evolution: NIAA-AA and
-                    IWG.
+                    that offer classifications subject to evolution:
                 </div>
+                <CitationCard citations={[bibtex.jack2011introduction]}>
+                    NIAA-AA and
+                </CitationCard>
+                <CitationCard citations={[bibtex.dubois2007research]}>
+                    IWG.
+                </CitationCard>
                 <CitationCard citations={[bibtex.jack2018nia]}>
                     <Figure
                         src="images/classification/classification.png"

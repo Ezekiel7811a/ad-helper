@@ -8,9 +8,15 @@ import SectionTitle from "@/app/components/section-title/section-title";
 const Introduction = () => {
     return (
         <div>
-            <span>
+            <div>
+                <CitationCard citations={[bibtex.hughes1982new]}>
+                    The Clinical Dementia Rating (CDR) scale was introduced in
+                    1982
+                </CitationCard>
+            </div>
+            <div>
                 <CitationCard citations={[bibtex.chaves2007validity]}>
-                    CDR
+                    CDR validation
                 </CitationCard>
                 <CitationCard citations={[bibtex.chaves2007validity]}>
                     Variants: BDRS or DSM III-R. Previous gold standards:
@@ -42,7 +48,16 @@ const Introduction = () => {
                     questionable, mild, moderate, and severe dementia. Thus
                     making it dichotomous
                 </CitationCard>
-            </span>
+            </div>
+            <div>
+                <CitationCard citations={[bibtex.tariot2024relationships]}>
+                    According to the CDR Global scores, AD stages are often
+                    defined as unimpaired cognition (CDR Global = 0), MCI due to
+                    AD (CDR Global= 0.5), mild AD dementia (CDR Global = 1),
+                    moderate AD dementia (CDR Global = 2), and severe AD
+                    dementia (CDR Global = 3).
+                </CitationCard>
+            </div>
         </div>
     );
 };
@@ -50,7 +65,7 @@ const Introduction = () => {
 const Strenghts = () => {
     return (
         <div>
-            <span>
+            <div>
                 <CitationCard citations={[bibtex.chaves2007validity]}>
                     The CDR rates only impairment caused by cognitive loss
                     rather than by physical disability or other noncognitive
@@ -66,7 +81,7 @@ const Strenghts = () => {
                     around the world and as a criterion standard in multicenter
                     clinical trials in Alzheimer disease.9
                 </CitationCard>
-            </span>
+            </div>
         </div>
     );
 };
@@ -88,6 +103,14 @@ const Performance = () => {
     );
 };
 
+const Update = () => {
+    return (
+        <div>
+            <CitationCard citations={[]}>(CDR-SB)</CitationCard>
+        </div>
+    );
+};
+
 export const CDR = new MyNode(
     "CDR",
     [],
@@ -100,7 +123,8 @@ export const CDR = new MyNode(
             >
                 Clinical Dementia Rating: CDR
             </Link>
-
+            <SectionTitle>Introduction</SectionTitle>
+            <Introduction />
             <SectionTitle>Performance</SectionTitle>
             <Performance />
             <SectionTitle>Strenghts</SectionTitle>
