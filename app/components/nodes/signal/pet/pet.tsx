@@ -42,6 +42,24 @@ const PET = new MyNode(
                 changes can still occur below detection thresholds, sometimes
                 causing mild cognitive effects.
             </CitationCard>
+            <CitationCard
+                citations={[
+                    bibtex.mormino2014synergistic,
+                    bibtex.jack2017age,
+                    bibtex.jack2017defining,
+                    bibtex.jagust2009relationships,
+                    bibtex.landau2013comparing,
+                    bibtex.leuzy2016pittsburgh,
+                    bibtex.palmqvist2014accuracy,
+                    bibtex.zwan2014concordance,
+                ]}
+            >
+                Biomarkers of AD: CSF biomarkers are valid proxies for
+                neuropathologic changes of AD. Imaging-to-autopsy comparison
+                studies have established that amyloid positron emission
+                tomography (PET) is a valid in vivo surrogate for Ab deposits
+                (in brain parenchyma/vessel walls).
+            </CitationCard>
         </div>
     )
 );

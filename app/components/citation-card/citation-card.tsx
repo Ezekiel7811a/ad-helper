@@ -1,7 +1,7 @@
 "use client";
 
 import { Citation } from "@/models/citation";
-import { ReactNode, useState } from "react";
+import { ReactNode, useRef, useState } from "react";
 import "./style.css";
 import RippleEffectButton from "./ripple-effect.tsx";
 import { Button, Divider, Popover } from "@mui/material";
@@ -15,9 +15,10 @@ interface Props {
 
 const CitationCard = ({ citations, children }: Props) => {
     const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
+    const anchorRef = useRef<HTMLSpanElement>(null);
 
     const handleMouseEnter = (event: React.MouseEvent<HTMLElement>) => {
-        setAnchorEl(event.currentTarget);
+        setAnchorEl(anchorRef.current);
     };
 
     const handleMouseLeave = () => {
@@ -41,7 +42,11 @@ const CitationCard = ({ citations, children }: Props) => {
 
     return (
         <span>
-            <span onClick={handleMouseEnter}>
+            <span ref={anchorRef} />
+            <span
+                onClick={handleMouseEnter}
+                className={anchorEl ? "text-blue-600" : ""}
+            >
                 <RippleEffectButton>{children}</RippleEffectButton>
             </span>
             <Popover

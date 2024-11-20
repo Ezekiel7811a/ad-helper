@@ -595,7 +595,7 @@
       "data": {
         "label": "CSF",
         "links": [
-          "33"
+          "73"
         ],
         "hypotheses": []
       },
@@ -619,7 +619,6 @@
           "28",
           "7",
           "32",
-          "33",
           "34",
           "37",
           "38",
@@ -627,7 +626,8 @@
           "42",
           "39",
           "51",
-          "53"
+          "53",
+          "73"
         ],
         "hypotheses": []
       },
@@ -651,7 +651,6 @@
           "28",
           "7",
           "32",
-          "33",
           "34",
           "37",
           "38",
@@ -659,7 +658,8 @@
           "42",
           "39",
           "51",
-          "53"
+          "53",
+          "73"
         ],
         "hypotheses": []
       },
@@ -784,14 +784,11 @@
           "1",
           "8",
           "25",
-          "29",
-          "35",
           "9",
           "11",
           "43",
           "47",
-          "27",
-          "70"
+          "73"
         ],
         "hypotheses": []
       },
@@ -833,9 +830,9 @@
       "data": {
         "label": "PET",
         "links": [
-          "33",
           "52",
-          "71"
+          "71",
+          "73"
         ],
         "hypotheses": []
       },
@@ -871,8 +868,8 @@
     {
       "id": "37",
       "position": {
-        "x": 1126.7288223161438,
-        "y": 1062.0508781065032
+        "x": 1120.665956050102,
+        "y": 1028.7051136432744
       },
       "data": {
         "label": "Phase Correlation",
@@ -892,8 +889,8 @@
     {
       "id": "38",
       "position": {
-        "x": 1111.5716566510398,
-        "y": 1134.805273299002
+        "x": 1120.6659560501023,
+        "y": 1074.176610638586
       },
       "data": {
         "label": "Enveloppe Correlation",
@@ -955,8 +952,8 @@
     {
       "id": "41",
       "position": {
-        "x": 1111.6281828596084,
-        "y": 1195.2877735181496
+        "x": 1120.7224822586709,
+        "y": 1121.0176617591403
       },
       "data": {
         "label": "HMM",
@@ -1062,14 +1059,16 @@
     {
       "id": "46",
       "position": {
-        "x": 196,
-        "y": 266.5
+        "x": 192.9685668669792,
+        "y": 263.4685668669792
       },
       "data": {
         "label": "Stages",
         "links": [
           "1",
-          "40"
+          "40",
+          "75",
+          "74"
         ],
         "hypotheses": []
       },
@@ -1096,7 +1095,8 @@
           "48",
           "54",
           "68",
-          "69"
+          "69",
+          "72"
         ],
         "hypotheses": []
       },
@@ -1175,8 +1175,8 @@
     {
       "id": "51",
       "position": {
-        "x": 1112.4608081441133,
-        "y": 1259.6148813979837
+        "x": 1123.070824109686,
+        "y": 1168.67188740736
       },
       "data": {
         "label": "NMM",
@@ -1220,8 +1220,8 @@
     {
       "id": "53",
       "position": {
-        "x": 1058.550226665228,
-        "y": 1312.9312394800697
+        "x": 1117.6631727591334,
+        "y": 1234.113978021529
       },
       "data": {
         "label": "Assymetric",
@@ -1323,7 +1323,7 @@
         "width": 134,
         "height": 46
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
@@ -1587,13 +1587,13 @@
     {
       "id": "70",
       "position": {
-        "x": 775.412335049014,
-        "y": 1097.0231090190518
+        "x": 793.6009338471388,
+        "y": 1084.8973764869686
       },
       "data": {
         "label": "StructuralConnectivity",
         "links": [
-          "33"
+          "73"
         ],
         "hypotheses": [
           "No correlation exist between the decrease in slow-wave activity\r\n                (&delta;-&theta;) and FA accounting for AB as covariate (indeed\r\n                AB will have an effect on slow band rythm). Supporting the idea\r\n                that the decrease in slow-wave activity is not related to real\r\n                structural connectivity changes but rather the change in the\r\n                slope."
@@ -1623,6 +1623,94 @@
       "type": "custom",
       "measured": {
         "width": 67,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "72",
+      "position": {
+        "x": 333.95939652661616,
+        "y": 940.1280403538109
+      },
+      "data": {
+        "label": "Hippocampus",
+        "links": [
+          "47"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 120,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "73",
+      "position": {
+        "x": 696.2162182538748,
+        "y": 861.2742611545568
+      },
+      "data": {
+        "label": "Signal",
+        "links": [
+          "33",
+          "29",
+          "35",
+          "27",
+          "70"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 66,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "74",
+      "position": {
+        "x": -14.605752266185846,
+        "y": 171.80953699838923
+      },
+      "data": {
+        "label": "Prodomal",
+        "links": [
+          "46"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 90,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "75",
+      "position": {
+        "x": -50.98294986243543,
+        "y": 217.28103399370113
+      },
+      "data": {
+        "label": "Presymptomatic",
+        "links": [
+          "46"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 137,
         "height": 46
       },
       "selected": false,
@@ -1815,28 +1903,12 @@
       "id": "xy-edge__33right-25left"
     },
     {
-      "source": "33",
-      "sourceHandle": "right",
-      "target": "29",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__33right-29left"
-    },
-    {
       "source": "29",
       "sourceHandle": "right",
       "target": "34",
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__29right-34left"
-    },
-    {
-      "source": "33",
-      "sourceHandle": "right",
-      "target": "35",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__33right-35left"
     },
     {
       "source": "32",
@@ -1990,14 +2062,6 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__30right-36left"
-    },
-    {
-      "source": "33",
-      "sourceHandle": "right",
-      "target": "27",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__33right-27left"
     },
     {
       "source": "30",
@@ -2177,20 +2241,77 @@
       "id": "xy-edge__69right-47left"
     },
     {
-      "source": "33",
-      "sourceHandle": "right",
-      "target": "70",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__33right-70left"
-    },
-    {
       "source": "35",
       "sourceHandle": "right",
       "target": "71",
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__35right-71left"
+    },
+    {
+      "source": "72",
+      "sourceHandle": "right",
+      "target": "47",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__72right-47left"
+    },
+    {
+      "source": "33",
+      "sourceHandle": "right",
+      "target": "73",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__33right-73left"
+    },
+    {
+      "source": "73",
+      "sourceHandle": "right",
+      "target": "29",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__73right-29left"
+    },
+    {
+      "source": "73",
+      "sourceHandle": "right",
+      "target": "35",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__73right-35left"
+    },
+    {
+      "source": "73",
+      "sourceHandle": "right",
+      "target": "27",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__73right-27left"
+    },
+    {
+      "source": "73",
+      "sourceHandle": "right",
+      "target": "70",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__73right-70left",
+      "selected": false
+    },
+    {
+      "source": "75",
+      "sourceHandle": "right",
+      "target": "46",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__75right-46left"
+    },
+    {
+      "source": "74",
+      "sourceHandle": "right",
+      "target": "46",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__74right-46left"
     }
   ]
 }

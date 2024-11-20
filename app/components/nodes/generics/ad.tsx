@@ -2,12 +2,28 @@ import { MyNode } from "@/models/node";
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import bibtex from "@/public/citations/bibtex.json";
 import NodeCard from "../../node-card/node-card.tsx";
+import SectionTitle from "../../section-title/section-title.tsx";
+
+const Introduction = () => {
+    return (
+        <div>
+            <span>
+                <CitationCard citations={[bibtex.dubois2014advancing]}>
+                    Memory disorders that manifest as free recall deficits occur
+                    in many brain diseases other than AD.28–30
+                </CitationCard>
+            </span>
+        </div>
+    );
+};
 
 const AlzheimerNode = new MyNode(
     "Alzheimer's Disease",
     [],
     (
         <NodeCard>
+            <SectionTitle>Introduction</SectionTitle>
+            <Introduction />
             <CitationCard citations={[bibtex.sweeney2019vascular]}>
                 Nor does anyone know for sure whether AD is one or more diseases
                 or perhaps rather a syndrome, i.e., a symptom complex caused by

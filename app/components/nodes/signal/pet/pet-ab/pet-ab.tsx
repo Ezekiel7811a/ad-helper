@@ -39,6 +39,11 @@ export const PetAB = new MyNode(
                 and tend to subside during the course of treatment in most
                 patients, as assessed by MRI.
             </CitationCard>
+            <CitationCard citations={[bibtex.dubois2014advancing]}>
+                amyloid PET is a validated pathophysiological marker for
+                fibrillar amyloid, particularly neuritic plaques and amyloid
+                angiopathy
+            </CitationCard>
         </NodeCard>
     )
 );
