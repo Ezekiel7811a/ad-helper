@@ -97,6 +97,21 @@ export const PetTau = new MyNode(
                     postmortem studies (9).
                 </span>
             </CitationCard>
+            <div>
+                <CitationCard citations={[bibtex.mielke2022comparison]}>
+                    [T1 tau biomarkers according to the AA framework: hazard
+                    ratio = 1.08-1.31],
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.mielke2022comparison,
+                        bibtex.hanseeuw2019association,
+                    ]}
+                >
+                    and unstratified tau-PET posi- tivity [35% of progression
+                    after 7 years of follow-up].
+                </CitationCard>
+            </div>
         </NodeCard>
     )
 );

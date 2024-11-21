@@ -212,6 +212,26 @@ const Impact = () => {
                     this modulation is implicated in neurotoxicity.
                 </CitationCard>
             </span>
+            <div>
+                <CitationCard
+                    citations={[bibtex.ledo2013amyloid, bibtex.ledo2016cross]}
+                >
+                    AβOs induce both depressive-like behavior and memory
+                    deficits in mice and associate with decreased brain
+                    serotonin levels.
+                </CitationCard>
+                <CitationCard citations={[bibtex.gulaj2010kynurenine]}>
+                    Reduced serotonin levels may be linked to increased levels
+                    and activity of indolamine2,3-dioxygenase (IDO) follow
+                    microglial activation. Interestingly, AD patients were found
+                    to have reduced levels of plasma tryptophan and increased
+                    quinolinic acid,
+                </CitationCard>
+                <CitationCard citations={[bibtex.frozza2018challenges]}>
+                    as well as increased IDO immunoreactivity in microglia
+                    (Bonda et al., 2010).
+                </CitationCard>
+            </div>
         </div>
     );
 };
