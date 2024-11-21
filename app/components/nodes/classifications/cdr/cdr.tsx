@@ -76,17 +76,17 @@ const Strenghts = () => {
                     applied by nonmedical personnel to identify and stage
                     dementia.
                 </CitationCard>
-                <CitationCard citations={[bibtex.chaves2007validity]}>
+                <CitationCard citations={[bibtex.schafer2004reliability]}>
                     The scale has been widely adapted for clinical research
                     around the world and as a criterion standard in multicenter
-                    clinical trials in Alzheimer disease.9
+                    clinical trials in Alzheimer disease.
                 </CitationCard>
             </div>
         </div>
     );
 };
 
-const Performance = () => {
+const AccuracyMetrics = () => {
     return (
         <div>
             <span>
@@ -125,8 +125,8 @@ export const CDR = new MyNode(
             </Link>
             <SectionTitle>Introduction</SectionTitle>
             <Introduction />
-            <SectionTitle>Performance</SectionTitle>
-            <Performance />
+            <SectionTitle>Accuracy Metrics</SectionTitle>
+            <AccuracyMetrics />
             <SectionTitle>Strenghts</SectionTitle>
             <Strenghts />
         </NodeCard>
