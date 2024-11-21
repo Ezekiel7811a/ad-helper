@@ -18,7 +18,7 @@
   {
     "title": "CDR",
     "links": [
-      "Classifications"
+      "CognitiveTests"
     ],
     "path": "classifications/cdr/cdr.tsx",
     "hypotheses": []
@@ -29,13 +29,32 @@
       "ATN",
       "Braak",
       "IWG",
-      "Mini Mental State Examination (MMSE)",
-      "NIA-AA",
       "Alzheimer's Disease",
       "Stages",
-      "CDR"
+      "CognitiveTests",
+      "NIA-AA"
     ],
     "path": "classifications/classifications.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "CognitiveTests",
+    "links": [
+      "Classifications",
+      "CDR",
+      "MOCA",
+      "MiniCog",
+      "Mini Mental State Examination (MMSE)"
+    ],
+    "path": "classifications/cognitive-tests/cognitive-tests.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "MiniCog",
+    "links": [
+      "CognitiveTests"
+    ],
+    "path": "classifications/cognitive-tests/mini-cog/mini-cog.tsx",
     "hypotheses": []
   },
   {
@@ -49,9 +68,17 @@
   {
     "title": "Mini Mental State Examination (MMSE)",
     "links": [
-      "Classifications"
+      "CognitiveTests"
     ],
     "path": "classifications/mmse/mmse.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "MOCA",
+    "links": [
+      "CognitiveTests"
+    ],
+    "path": "classifications/moca/moca.tsx",
     "hypotheses": []
   },
   {
@@ -80,7 +107,8 @@
   {
     "title": "Epidemiology",
     "links": [
-      "Alzheimer's Disease"
+      "Alzheimer's Disease",
+      "Women"
     ],
     "path": "generics/epidemiology.tsx",
     "hypotheses": []
@@ -96,6 +124,14 @@
       "Excitotoxicity"
     ],
     "path": "generics/neurophysiology.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Women",
+    "links": [
+      "Epidemiology"
+    ],
+    "path": "generics/women/women.tsx",
     "hypotheses": []
   },
   {
@@ -624,6 +660,14 @@
     "hypotheses": []
   },
   {
+    "title": "Moderate",
+    "links": [
+      "Stages"
+    ],
+    "path": "stages/moderate/moderate.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Presymptomatic",
     "links": [
       "Stages"
@@ -640,12 +684,22 @@
     "hypotheses": []
   },
   {
+    "title": "Severe",
+    "links": [
+      "Stages"
+    ],
+    "path": "stages/severe/severe.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Stages",
     "links": [
       "Classifications",
       "Mild Cognitive Impairment (MCI)",
       "Presymptomatic",
-      "Prodomal"
+      "Prodomal",
+      "Moderate",
+      "Severe"
     ],
     "path": "stages/stages.tsx",
     "hypotheses": []

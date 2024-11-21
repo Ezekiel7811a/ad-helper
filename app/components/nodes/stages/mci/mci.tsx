@@ -23,7 +23,7 @@ const MCI = new MyNode(
                     different classifications are used to define it (Matthews
                     2008; Petersen 1999;Petersen 2004; Winblad 2004). Prevalence
                     of MCI varies widely (between 0.1% and 42%) according to the
-                    criteria applied, wi
+                    criteria applied.
                 </CitationCard>
             </div>
         </div>

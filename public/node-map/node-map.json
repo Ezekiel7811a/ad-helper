@@ -3,8 +3,8 @@
     {
       "id": "1",
       "position": {
-        "x": 375,
-        "y": 390.5
+        "x": 421.5,
+        "y": 368
       },
       "data": {
         "label": "Classifications",
@@ -12,12 +12,11 @@
           "2",
           "3",
           "4",
-          "5",
-          "6",
           "7",
           "33",
           "46",
-          "61"
+          "76",
+          "6"
         ],
         "hypotheses": [
           "<Figure\r\n          src=\"images/causality/causal_hypothesis.png\"\r\n          alt=\"Hypothesis\"\r\n          caption=\"The possible causalities of the biomarkers\"\r\n          n={1}\r\n        />"
@@ -97,13 +96,13 @@
     {
       "id": "5",
       "position": {
-        "x": -47,
-        "y": 504.5
+        "x": -369.2282358774838,
+        "y": 793.5784494737279
       },
       "data": {
         "label": "Mini Mental State Examination (MMSE)",
         "links": [
-          "1"
+          "76"
         ],
         "hypotheses": []
       },
@@ -119,7 +118,7 @@
       "id": "6",
       "position": {
         "x": 175,
-        "y": 562.5
+        "y": 510.55591744810215
       },
       "data": {
         "label": "NIA-AA",
@@ -1000,7 +999,8 @@
       "data": {
         "label": "Epidemiology",
         "links": [
-          "33"
+          "33",
+          "81"
         ],
         "hypotheses": []
       },
@@ -1068,7 +1068,9 @@
           "1",
           "40",
           "75",
-          "74"
+          "74",
+          "79",
+          "80"
         ],
         "hypotheses": []
       },
@@ -1392,13 +1394,13 @@
     {
       "id": "61",
       "position": {
-        "x": 137.30075856433297,
-        "y": 621.4081305898762
+        "x": -146.1073720255432,
+        "y": 603.9854996109904
       },
       "data": {
         "label": "CDR",
         "links": [
-          "1"
+          "76"
         ],
         "hypotheses": []
       },
@@ -1715,6 +1717,136 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "76",
+      "position": {
+        "x": 31.733746994533732,
+        "y": 658.1012488695504
+      },
+      "data": {
+        "label": "CognitiveTests",
+        "links": [
+          "1",
+          "61",
+          "77",
+          "78",
+          "5"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 126,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "77",
+      "position": {
+        "x": -152.20529286815338,
+        "y": 670.1914973307565
+      },
+      "data": {
+        "label": "MOCA",
+        "links": [
+          "76"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 70,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "78",
+      "position": {
+        "x": -155.399441880949,
+        "y": 734.0744775866713
+      },
+      "data": {
+        "label": "MiniCog",
+        "links": [
+          "76"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 80,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "79",
+      "position": {
+        "x": -24.7297095393053,
+        "y": 314.7698253614856
+      },
+      "data": {
+        "label": "Moderate",
+        "links": [
+          "46"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 89,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "80",
+      "position": {
+        "x": -22.69706925843537,
+        "y": 364.7147008342916
+      },
+      "data": {
+        "label": "Severe",
+        "links": [
+          "46"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 72,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "81",
+      "position": {
+        "x": 247.75786786563782,
+        "y": 140.55870888876618
+      },
+      "data": {
+        "label": "Women",
+        "links": [
+          "43"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 76,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -1741,22 +1873,6 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__4right-1left"
-    },
-    {
-      "source": "5",
-      "sourceHandle": "right",
-      "target": "1",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__5right-1left"
-    },
-    {
-      "source": "6",
-      "sourceHandle": "right",
-      "target": "1",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__6right-1left"
     },
     {
       "source": "8",
@@ -2169,14 +2285,6 @@
       "id": "xy-edge__18right-60left"
     },
     {
-      "source": "61",
-      "sourceHandle": "right",
-      "target": "1",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__61right-1left"
-    },
-    {
       "source": "14",
       "sourceHandle": "right",
       "target": "62",
@@ -2312,6 +2420,79 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__74right-46left"
+    },
+    {
+      "source": "76",
+      "sourceHandle": "right",
+      "target": "1",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__76right-1left",
+      "selected": false
+    },
+    {
+      "source": "79",
+      "sourceHandle": "right",
+      "target": "46",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__79right-46left"
+    },
+    {
+      "source": "80",
+      "sourceHandle": "right",
+      "target": "46",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__80right-46left"
+    },
+    {
+      "source": "61",
+      "sourceHandle": "right",
+      "target": "76",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__61right-76left"
+    },
+    {
+      "source": "77",
+      "sourceHandle": "right",
+      "target": "76",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__77right-76left"
+    },
+    {
+      "source": "78",
+      "sourceHandle": "right",
+      "target": "76",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__78right-76left"
+    },
+    {
+      "source": "81",
+      "sourceHandle": "right",
+      "target": "43",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__81right-43left"
+    },
+    {
+      "source": "6",
+      "sourceHandle": "right",
+      "target": "1",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__6right-1left"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "right",
+      "target": "76",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__5right-76left"
     }
   ]
 }
