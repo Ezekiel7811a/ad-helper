@@ -1,4 +1,5 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
+import NodeCard from "@/app/components/node-card/node-card";
 import { MyNode } from "@/models/node";
 import bibtex from "@/public/citations/bibtex.json";
 
@@ -6,18 +7,26 @@ const PET = new MyNode(
     "PET",
     [],
     (
-        <div>
-            <CitationCard citations={[bibtex.hoilund2023fdg]}>
+        <NodeCard>
+            <CitationCard
+                citations={[
+                    bibtex.hoilund2019global,
+                    bibtex.hoilund2020atherosclerosis,
+                ]}
+            >
                 PET can detect disease earlier (weeks, months, years) than CT
                 and MRI, i.e., when the disease is hypothesized to be more
                 sensitive to therapy. Furthermore, PET is inherently
                 quantitative, meaning that it can in principle measure not only
                 focal disease activity but also the overall disease burden in an
                 organ or in the body and monitor change in this as a measure of
-                therapy efficacy [14,15]. PET scans do not provide a snapshot,
-                but a quantifiable “movie” with high time resolution of the
-                physiological or pathophysiological process to which the body
-                exposes the tracer in question [16].
+                therapy efficacy.
+            </CitationCard>
+            <CitationCard citations={[bibtex.basu2014basic]}>
+                PET scans do not provide a snapshot, but a quantifiable “movie”
+                with high time resolution of the physiological or
+                pathophysiological process to which the body exposes the tracer
+                in question.
             </CitationCard>
             <CitationCard citations={[bibtex.knopman2018national]}>
                 Tau PET: This emerging imaging modality targets PHF tau deposits
@@ -60,7 +69,7 @@ const PET = new MyNode(
                 tomography (PET) is a valid in vivo surrogate for Ab deposits
                 (in brain parenchyma/vessel walls).
             </CitationCard>
-        </div>
+        </NodeCard>
     )
 );
 

@@ -22,8 +22,23 @@ const Introduction = () => {
                 <CitationCard citations={[bibtex.prince2013global]}>
                     Roughly doubling in prevalence every 5 years after age 65,
                 </CitationCard>
-                <CitationCard citations={[bibtex.prince2013global]}>
-                    and affects some 47 million people worldwide.
+                <CitationCard citations={[bibtex.nichols2021estimation]}>
+                    and affects more than 57 million people worldwide (2021).
+                </CitationCard>
+                <CitationCard citations={[bibtex.nichols2022estimation]}>
+                    The prevalence of demencia is expected to triple by 2050.
+                </CitationCard>
+                <CitationCard citations={[bibtex.catala2022estimation]}>
+                    as the largest increase would be observed in North Africa
+                    and the Middle East and eastern sub-Saharan Africa with a
+                    &gt;3.5-fold increase.
+                </CitationCard>
+                <CitationCard citations={[bibtex.knopman2020enigma]}>
+                    There is evidence of decreasing prevalence in certain
+                    regions, which is not yet understood.
+                </CitationCard>
+                <CitationCard citations={[bibtex.lanctot2024burden]}>
+                    Estimated 5-year mortality in AD is 35%
                 </CitationCard>
             </div>
             <div>
@@ -45,8 +60,13 @@ const Introduction = () => {
                     The prevalence of cognitive impairment without dementia as
                     22% in people aged 71 years or older.
                 </CitationCard>
-                <CitationCard citations={[bibtex.arevalo2015mini]}>
-                    10% to 15% of individuals with MCI may progress to dementia,
+                <CitationCard
+                    citations={[
+                        bibtex.arevalo2015mini,
+                        bibtex.davis2018estimating,
+                    ]}
+                >
+                    10% to 21% of individuals with MCI may progress to dementia,
                 </CitationCard>
             </div>
             <div>
@@ -113,6 +133,16 @@ const Causes = () => {
                     between metabolic disorders and AD.
                 </CitationCard>
             </div>
+        </div>
+    );
+};
+
+const Comorbidities = () => {
+    return (
+        <div>
+            <CitationCard citations={[bibtex.lanctot2024burden]}>
+                hypertension: 30.2–73.9%; diabetes: 6.0–24.3%; stroke: 2.7–13.7%
+            </CitationCard>
         </div>
     );
 };
