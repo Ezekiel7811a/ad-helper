@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.6",
     "@mui/material": "^6.1.6",
+    "@react-pdf/renderer": "^4.1.4",
     "@xyflow/react": "^12.3.4",
     "better-react-mathjax": "^2.0.3",
     "bibtex-js-parser": "^1.1.6",
