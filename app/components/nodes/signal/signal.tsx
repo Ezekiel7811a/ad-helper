@@ -42,6 +42,31 @@ const MEGvsEEG = () => {
     );
 };
 
+const Limits = () => {
+    return (
+        <div>
+            <CitationCard citations={[bibtex.zhang2024recent]}>
+                Studies show a highly negative correlation between amyloid PET
+                and CSF results, whereas CSF P-tau and tau PET findings are
+                inconsistent. This discrepancy is related to their respective
+                representations of PHFs formation and pathological tau
+                deposition, with the latter’s higher correlation to cognitive
+                abilities supporting tau PET as the most effective method for
+                predicting cognitive decline in AD.365,374
+            </CitationCard>
+            <CitationCard citations={[bibtex.zhang2024recent]}>
+                A recent study indicated that within 20 years, abnormalities in
+                CSF Aβ42, the ratio of CSF Aβ42 to Aβ40, CSF P-tau181, CSF
+                T-tau, CSF neurofilament light chain (NfL), and hippocampal
+                volume (as detected by sMRI) appear in sequence before the
+                clinical diagnosis of SAD.375 This suggests that CSF biomarkers
+                may reveal changes in the disease process earlier than imaging
+                biomarkers.7
+            </CitationCard>
+        </div>
+    );
+};
+
 export const Signal = new MyNode(
     "Signal",
     [],

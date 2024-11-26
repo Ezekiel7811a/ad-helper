@@ -99,7 +99,8 @@
       "PyramidalNeurons",
       "Epidemiology",
       "Regions",
-      "Signal"
+      "Signal",
+      "Treatments"
     ],
     "path": "generics/ad.tsx",
     "hypotheses": []
@@ -121,7 +122,12 @@
       "Hyperexcitability",
       "Hypoexcitability",
       "Alzheimer's Disease",
-      "Excitotoxicity"
+      "Excitotoxicity",
+      "Cholinergic",
+      "GlutamatergicExcitotoxicity",
+      "MetalIon",
+      "MicrobiotaGutBrain",
+      "OxidativeStress"
     ],
     "path": "generics/neurophysiology.tsx",
     "hypotheses": []
@@ -156,6 +162,12 @@
       "Alzheimer's Disease"
     ],
     "path": "neurophysiology/anatomy/pyramidal-neurons/pyramidal-neurons.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Autophagy",
+    "links": [],
+    "path": "neurophysiology/autophagy/autophagy.tsx",
     "hypotheses": []
   },
   {
@@ -240,6 +252,14 @@
     "hypotheses": []
   },
   {
+    "title": "AbCascade",
+    "links": [
+      "AbTauInteractions"
+    ],
+    "path": "neurophysiology/biomarkers/ab-tau-interactions/ab-cascade/ab-cascade.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "AbTauInteractions",
     "links": [
       "Tau",
@@ -287,6 +307,54 @@
       "Biomarkers"
     ],
     "path": "neurophysiology/biomarkers/immune-activation/immune-activation.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "AberrantCholesterol",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/aberrant-cholesterol/aberrant-cholesterol.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "BBBDysfunction",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/bbb-dysfunction/bbb-dysfunction.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "CalciumSignaling",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/calcium-signaling/calcium-signaling.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "InsulinSignaling",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/insulin-signaling/insulin-signaling.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "LysosomalDysfunction",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/lysosomal-dysfunction/lysosomal-dysfunction.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "MitochondrialDysfunction",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/mitochondrial-dysfunction/mitochondrial-dysfunction.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "NeuroinflammatorySignaling",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/neuroinflammatory-signaling/neuroinflammatory-signaling.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "NeurotrophicSignaling",
+    "links": [],
+    "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/neurotrophic-signaling/neurotrophic-signaling.tsx",
     "hypotheses": []
   },
   {
@@ -369,11 +437,27 @@
     "hypotheses": []
   },
   {
+    "title": "Cholinergic",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/cholinergic/cholinergic.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "E/I balance",
     "links": [
       "Biomarkers"
     ],
     "path": "neurophysiology/ei/ei.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "GlutamatergicExcitotoxicity",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/glutamatergic-excitotoxicity/glutamatergic-excitotoxicity.tsx",
     "hypotheses": []
   },
   {
@@ -398,6 +482,30 @@
       "Neurophysiology"
     ],
     "path": "neurophysiology/hypoexcitability/hypoexcitability.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "MetalIon",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/metal-ion/metal-ion.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "MicrobiotaGutBrain",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/microbiota-gut-brain/microbiota-gut-brain.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "OxidativeStress",
+    "links": [
+      "Neurophysiology"
+    ],
+    "path": "neurophysiology/oxidative-stress/oxidative-stress.tsx",
     "hypotheses": []
   },
   {
@@ -581,9 +689,18 @@
     "hypotheses": []
   },
   {
+    "title": "NFM",
+    "links": [
+      "NMM"
+    ],
+    "path": "signal/meg/nmm/nfm/nfm.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "NMM",
     "links": [
-      "Magnetoencephalography (MEG)"
+      "Magnetoencephalography (MEG)",
+      "NFM"
     ],
     "path": "signal/meg/nmm/nmm.tsx",
     "hypotheses": []
@@ -702,6 +819,14 @@
       "Severe"
     ],
     "path": "stages/stages.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Treatments",
+    "links": [
+      "Alzheimer's Disease"
+    ],
+    "path": "treatments/treatments.tsx",
     "hypotheses": []
   }
 ]

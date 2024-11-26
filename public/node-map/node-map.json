@@ -150,7 +150,12 @@
           "22",
           "23",
           "33",
-          "55"
+          "55",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86"
         ],
         "hypotheses": []
       },
@@ -325,7 +330,7 @@
         "links": [
           "18",
           "14",
-          "44"
+          "89"
         ],
         "hypotheses": []
       },
@@ -457,8 +462,8 @@
     {
       "id": "21",
       "position": {
-        "x": 1234.457645440762,
-        "y": 651.3555363112491
+        "x": 1227.5700519340508,
+        "y": 618.6394671543708
       },
       "data": {
         "label": "VascularInjury",
@@ -478,8 +483,8 @@
     {
       "id": "22",
       "position": {
-        "x": 1233.138137529989,
-        "y": 716.011423939121
+        "x": 1227.1114932116168,
+        "y": 667.7982693921424
       },
       "data": {
         "label": "Hyperexcitability",
@@ -502,8 +507,8 @@
     {
       "id": "23",
       "position": {
-        "x": 1234.457645440762,
-        "y": 775.3892799239012
+        "x": 1226.7091027457118,
+        "y": 740.951312390345
       },
       "data": {
         "label": "Hypoexcitability",
@@ -588,8 +593,8 @@
     {
       "id": "27",
       "position": {
-        "x": 802.0415729690535,
-        "y": 1025.3649010271904
+        "x": 756.5396317650085,
+        "y": 1019.904668082705
       },
       "data": {
         "label": "CSF",
@@ -609,8 +614,8 @@
     {
       "id": "29",
       "position": {
-        "x": 824.1397843637079,
-        "y": 882.9463499606765
+        "x": 734.9559796037798,
+        "y": 886.586505257
       },
       "data": {
         "label": "Magnetoencephalography (MEG)",
@@ -641,8 +646,8 @@
     {
       "id": "29",
       "position": {
-        "x": 824.1397843637079,
-        "y": 882.9463499606765
+        "x": 734.9559796037798,
+        "y": 886.586505257
       },
       "data": {
         "label": "Magnetoencephalography (MEG)",
@@ -674,7 +679,7 @@
       "id": "30",
       "position": {
         "x": 1448.0607344163482,
-        "y": 893.8063392238489
+        "y": 996.0191076333125
       },
       "data": {
         "label": "Frequencies",
@@ -702,7 +707,7 @@
       "id": "30",
       "position": {
         "x": 1448.0607344163482,
-        "y": 893.8063392238489
+        "y": 996.0191076333125
       },
       "data": {
         "label": "Frequencies",
@@ -729,8 +734,8 @@
     {
       "id": "31",
       "position": {
-        "x": 1714.0666652405935,
-        "y": 955.2429932961672
+        "x": 1695.482525529782,
+        "y": 1064.4248140971852
       },
       "data": {
         "label": "Beta",
@@ -750,8 +755,8 @@
     {
       "id": "32",
       "position": {
-        "x": 1123.697389183123,
-        "y": 901.3849220564009
+        "x": 1058.1745938492984,
+        "y": 910.4853102972098
       },
       "data": {
         "label": "Periodic",
@@ -787,7 +792,8 @@
           "11",
           "43",
           "47",
-          "73"
+          "73",
+          "88"
         ],
         "hypotheses": []
       },
@@ -802,8 +808,8 @@
     {
       "id": "34",
       "position": {
-        "x": 1120.979965114293,
-        "y": 977.273990272154
+        "x": 1055.4571697804683,
+        "y": 982.7342232166394
       },
       "data": {
         "label": "Aperiodic",
@@ -823,8 +829,8 @@
     {
       "id": "35",
       "position": {
-        "x": 803.8811936494291,
-        "y": 960.4978681503065
+        "x": 749.278864204575,
+        "y": 965.9581010947919
       },
       "data": {
         "label": "PET",
@@ -846,8 +852,8 @@
     {
       "id": "36",
       "position": {
-        "x": 1713.3329992683427,
-        "y": 1023.3480601248418
+        "x": 1700.5564032171596,
+        "y": 1123.237811070454
       },
       "data": {
         "label": "Delta-Theta",
@@ -867,7 +873,7 @@
     {
       "id": "37",
       "position": {
-        "x": 1120.665956050102,
+        "x": 1055.1431607162774,
         "y": 1028.7051136432744
       },
       "data": {
@@ -888,7 +894,7 @@
     {
       "id": "38",
       "position": {
-        "x": 1120.6659560501023,
+        "x": 1055.1431607162776,
         "y": 1074.176610638586
       },
       "data": {
@@ -910,7 +916,7 @@
       "id": "39",
       "position": {
         "x": 1573.9634077833434,
-        "y": 816.6666523699878
+        "y": 925.8484731710057
       },
       "data": {
         "label": "Geometric Correction Scheme (GCS)",
@@ -951,7 +957,7 @@
     {
       "id": "41",
       "position": {
-        "x": 1120.7224822586709,
+        "x": 1071.5803857583023,
         "y": 1121.0176617591403
       },
       "data": {
@@ -972,8 +978,8 @@
     {
       "id": "42",
       "position": {
-        "x": 1103.4869663219322,
-        "y": 826.8891045301588
+        "x": 1059.805102766049,
+        "y": 852.3701916044239
       },
       "data": {
         "label": "Resting State",
@@ -1007,27 +1013,6 @@
       "type": "custom",
       "measured": {
         "width": 118,
-        "height": 46
-      },
-      "selected": false,
-      "dragging": false
-    },
-    {
-      "id": "44",
-      "position": {
-        "x": 1851.1875,
-        "y": 399.5
-      },
-      "data": {
-        "label": "AbCascade",
-        "links": [
-          "15"
-        ],
-        "hypotheses": []
-      },
-      "type": "custom",
-      "measured": {
-        "width": 105,
         "height": 46
       },
       "selected": false,
@@ -1134,8 +1119,8 @@
     {
       "id": "49",
       "position": {
-        "x": 1716.4066799349384,
-        "y": 892.0007915384556
+        "x": 1690.8534878325727,
+        "y": 1009.3131734629536
       },
       "data": {
         "label": "Alpha",
@@ -1177,13 +1162,14 @@
     {
       "id": "51",
       "position": {
-        "x": 1123.070824109686,
-        "y": 1168.67188740736
+        "x": 1070.288572312994,
+        "y": 1174.1321203518453
       },
       "data": {
         "label": "NMM",
         "links": [
-          "29"
+          "29",
+          "87"
         ],
         "hypotheses": [
           "Using NMM we can show that &delta;-&theta; power increase is due to\r\n          changes in the slope by varying the neural gain without changing the\r\n          time constant or neural populations.",
@@ -1201,7 +1187,7 @@
     {
       "id": "52",
       "position": {
-        "x": 890.2573253208319,
+        "x": 866.5963158947285,
         "y": 957.4664350172857
       },
       "data": {
@@ -1222,8 +1208,8 @@
     {
       "id": "53",
       "position": {
-        "x": 1117.6631727591334,
-        "y": 1234.113978021529
+        "x": 1068.5210762587649,
+        "y": 1241.394288614176
       },
       "data": {
         "label": "Assymetric",
@@ -1267,8 +1253,8 @@
     {
       "id": "55",
       "position": {
-        "x": 1234.727131938469,
-        "y": 598.0352866804024
+        "x": 1226.11764005508,
+        "y": 571.3458618418963
       },
       "data": {
         "label": "Excitotoxicity",
@@ -1589,8 +1575,8 @@
     {
       "id": "70",
       "position": {
-        "x": 793.6009338471388,
-        "y": 1084.8973764869686
+        "x": 668.0155761239747,
+        "y": 1099.457997672263
       },
       "data": {
         "label": "StructuralConnectivity",
@@ -1612,8 +1598,8 @@
     {
       "id": "71",
       "position": {
-        "x": 891.3855886398096,
-        "y": 1003.3446405768389
+        "x": 873.1848121581917,
+        "y": 1019.725339410295
       },
       "data": {
         "label": "PetAB",
@@ -1654,7 +1640,7 @@
     {
       "id": "73",
       "position": {
-        "x": 696.2162182538748,
+        "x": 630.4024545501302,
         "y": 861.2742611545568
       },
       "data": {
@@ -1846,6 +1832,195 @@
         "height": 46
       },
       "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "82",
+      "position": {
+        "x": 1229.6615582486822,
+        "y": 789.4964164003645
+      },
+      "data": {
+        "label": "Cholinergic",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 102,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "83",
+      "position": {
+        "x": 1222.1499141829574,
+        "y": 836.2872459961347
+      },
+      "data": {
+        "label": "GlutamatergicExcitotoxicity",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 214,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "84",
+      "position": {
+        "x": 1221.2984515381388,
+        "y": 524.1761497388784
+      },
+      "data": {
+        "label": "MetalIon",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 83,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "85",
+      "position": {
+        "x": 1228.0439642098372,
+        "y": 470.2120483652905
+      },
+      "data": {
+        "label": "MicrobiotaGutBrain",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 159,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "86",
+      "position": {
+        "x": 1219,
+        "y": 434
+      },
+      "data": {
+        "label": "OxidativeStress",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 134,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "87",
+      "position": {
+        "x": 1217.170008992291,
+        "y": 1188.099970025696
+      },
+      "data": {
+        "label": "NFM",
+        "links": [
+          "51"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 56,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "88",
+      "position": {
+        "x": 924.2457858784289,
+        "y": 588.3519232087281
+      },
+      "data": {
+        "label": "Treatments",
+        "links": [
+          "33"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 102,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "88",
+      "position": {
+        "x": 924.2457858784289,
+        "y": 588.3519232087281
+      },
+      "data": {
+        "label": "Treatments",
+        "links": [
+          "33"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 102,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "89",
+      "position": {
+        "x": 1875.659707025834,
+        "y": 403.0705812077941
+      },
+      "data": {
+        "label": "AbCascade",
+        "links": [
+          "15"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 104,
+        "height": 46
+      },
+      "selected": true,
       "dragging": false
     }
   ],
@@ -2082,14 +2257,6 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__43right-33left"
-    },
-    {
-      "source": "15",
-      "sourceHandle": "right",
-      "target": "44",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__15right-44left"
     },
     {
       "source": "18",
@@ -2493,6 +2660,70 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__5right-76left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "82",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-82left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "83",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-83left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "84",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-84left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "85",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-85left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "86",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-86left"
+    },
+    {
+      "source": "51",
+      "sourceHandle": "right",
+      "target": "87",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__51right-87left"
+    },
+    {
+      "source": "33",
+      "sourceHandle": "right",
+      "target": "88",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__33right-88left"
+    },
+    {
+      "source": "15",
+      "sourceHandle": "right",
+      "target": "89",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__15right-89left"
     }
   ]
 }

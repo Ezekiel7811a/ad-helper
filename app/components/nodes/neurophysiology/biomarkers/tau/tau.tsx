@@ -116,6 +116,37 @@ const Physiology = () => {
                     </CitationCard>
                 </span>
             </span>
+            <div>
+                <CitationCard citations={[bibtex.ossenkoppele2022tau]}>
+                    As a major component of NFTs, tau protein exhibits a spatial
+                    and temporal distribution that strongly correlates with
+                    clinical symptoms, making it a highly specific pathological
+                    biomarker in AD patients.
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.almansoub2019tau,
+                        bibtex.wu2017tau,
+                        bibtex.yin2021dendritic,
+                    ]}
+                >
+                    This process leads to the detachment of tau protein from
+                    microtubules, followed by conformational changes and
+                    mislocalization, accumulation of tau oligomers, paired
+                    helical filaments (PHFs), and NFTs within the cell body and
+                    dendrites. These changes ultimately impair neuronal function
+                    and cause cell death.
+                </CitationCard>
+                <CitationCard citations={[]}>
+                    Additionally, other posttranslational modifications,
+                    including truncation,161,162
+                </CitationCard>
+                <CitationCard citations={[]}>glycosylation,163</CitationCard>
+                <CitationCard citations={[bibtex.zhang2024recent]}>
+                    and sumoylation,165 play an active role in promoting tau
+                    aggregation and increasing its toxicity.
+                </CitationCard>
+            </div>
         </div>
     );
 };
