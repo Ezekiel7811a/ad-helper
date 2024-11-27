@@ -85,6 +85,18 @@ const Introduction = () => {
                     healthcare system.
                 </CitationCard>
             </div>
+            <div>
+                <CitationCard
+                    citations={[
+                        bibtex.querfurth2010mechanisms,
+                        bibtex.better2023alzheimer,
+                    ]}
+                >
+                    In the United States, approximately one in nine individuals
+                    (10.8%) age 65 and older suffer from AD, with an annual
+                    incidence of 1275 new cases per 100,000 persons.3,4
+                </CitationCard>
+            </div>
         </div>
     );
 };
@@ -158,6 +170,8 @@ export const Epidemiology = new MyNode(
             <Monetary />
             <SectionTitle>Causes</SectionTitle>
             <Causes />
+            <SectionTitle>Comorbidities</SectionTitle>
+            <Comorbidities />
         </NodeCard>
     )
 );

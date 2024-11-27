@@ -232,6 +232,79 @@ const Impact = () => {
                     (Bonda et al., 2010).
                 </CitationCard>
             </div>
+            <div>
+                <CitationCard citations={[bibtex.zhang2024recent]}>
+                    Aβ is capable of interacting with cell membranes and binding
+                    to a variety of synaptic receptors such as PrPC, NMDA
+                    receptors, P75NTR,and mGluR5, which leads to a cascade of
+                    events including calcium dyshomeostasis, inhibition of
+                    long-term potentiation (LTP), tau hyperphosphorylation,
+                    mitochondrial dysfunction, and oxidative stress, ultimately
+                    resulting in neuronal death.112,632,633 (2) Aβ blocks the
+                    reuptake of glutamate by excitatory amino acid transporter
+                    (EAAT) receptors, causing glutamate accumulation
+                    intersynaptically and neuronal hyperactivity.634 (3) Aβ and
+                    some pro-inflammatory cytokines (such as TNFα,IL-1α, and
+                    C1q) may induce the A1 phenotype of astrocytes. This
+                    transformation may involve altering astrocyte functions and
+                    modulating their interactions with other cells (such as
+                    neurons and microglia), thereby participating in processes
+                    such as Aβ deposition, neuroinflammation, synaptic loss, and
+                    neuronal death.635–637 (4) APOE, primarily released from
+                    astrocytes, associates with lipoproteins to form
+                    APOE-associated lipoprotein particles, which can bind to
+                    soluble Aβ and mediate its clearance119
+                </CitationCard>
+                <CitationCard
+                    citations={[
+                        bibtex.kepp2023amyloid,
+                        bibtex.o2011amyloid,
+                        bibtex.chen2017amyloid,
+                    ]}
+                >
+                    Aβ originates from the processing of the APP, a
+                    transmembrane glycoprotein, through its sequential cleavage
+                    by β-secretase and γ-secretase (a multiprotein complex with
+                    PS1 or PS2 as catalytic subunits). This process yields
+                    various lengths of Aβ fragments, with Aβ40 and Aβ42 being
+                    the predominant. The hydrophobic C-terminal of Aβ42
+                    facilitates the β-sheet conformational transition and the
+                    aggregation and formation of the core component of senile
+                    plaques.
+                </CitationCard>
+                <CitationCard citations={[bibtex.ullah2021abnormal]}>
+                    The plaque formation in SAD is notably more intricate,
+                    related to a dynamic imbalance between Aβ production and
+                    clearance mechanisms.
+                </CitationCard>
+                <CitationCard citations={[bibtex.zhang2024recent]}>
+                    The toxicity mechanism of Aβ aggregates remains uncertain,
+                    but different perspectives exist:77,128 Aβ might cause AD
+                    pathology through the loss of physiological functions during
+                    the aggregation process. Aβ monomers have neuroprotective
+                    properties, with assumed roles in antioxidant and
+                    antimicrobial activities, improving the condition of damaged
+                    nervous systems, regulating the vascular system, and
+                    enhancing synaptic plasticity.129,130 Soluble Aβ oligomers
+                    are the primary neurotoxic substances,131–133 disruption of
+                    cell membrane integrity,134 activation in inflammatory
+                    responses,135,136 causes of calcium homeostasis imbalance137
+                    and mitochondrial dysfunction,138–140 triggers in oxidative
+                    stress,141 and damage factor of synapses.142
+                </CitationCard>
+                <CitationCard citations={[bibtex.zhang2024recent]}>
+                    The amyloid cascade143 has been proposed for over 30 years,
+                    which provided crucial insights into the mechanisms of AD’s
+                    onset and progression. This hypothesis has led to the
+                    development of drugs, including β-secretase inhibitors,
+                    γ-secretase inhibitors and modulators, anti-amyloid
+                    antibodies, Aβ vaccine, and Aβ aggregation inhibitors, aimed
+                    at delaying the disease’s advancement. Currently, antibodies
+                    like aducanumab (1), lecanemab (2), and donanemab (10) show
+                    their promise in proving Aβ as a significant factor in AD
+                    development.
+                </CitationCard>
+            </div>
         </div>
     );
 };

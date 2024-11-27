@@ -57,6 +57,23 @@ const GlialCells = new MyNode(
                 thereby providing the first evidence that microglia play an
                 important role in tau propagation (61).
             </CitationCard>
+            <div>
+                <CitationCard citations={[bibtex.zhang2024recent]}>
+                    Microglia has numerous pattern recognition receptors that
+                    can bind to Aβ, initiating an inflammatory cascade. This
+                    process promotes the assembly and activation of NLRP3,
+                    leading to the release of pro-inflammatory cytokines, which
+                    further exacerbate the aggregation of Aβ.171 In addition,
+                    the diagram also encompasses the downstream signaling
+                    pathways of TREM2.638,639 Some variants associated with AD,
+                    such as the TREM2 variant R47H, may potentially diminish the
+                    binding or internalization of TREM2 with ligands such as
+                    APOE-Aβ complexes, APOE, phospholipids, and Aβ. This
+                    reduction may consequently impair the activation of
+                    microglial cells, thereby compromising their ability to
+                    clear amyloid plaques.638,640–643
+                </CitationCard>
+            </div>
         </div>
     )
 );
