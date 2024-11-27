@@ -4495,5 +4495,18 @@
     "pages": "500",
     "year": "1952",
     "publisher": "Wiley"
+  },
+  "izhikevich2003simple": {
+    "type": "article",
+    "bibref": "izhikevich2003simple",
+    "authorsList": [],
+    "title": "Simple model of spiking neurons",
+    "author": "Izhikevich, Eugene M",
+    "journal": "IEEE Transactions on neural networks",
+    "volume": "14",
+    "number": "6",
+    "pages": "1569--1572",
+    "year": "2003",
+    "publisher": "IEEE"
   }
 }

@@ -1183,7 +1183,8 @@
       "data": {
         "label": "NMM",
         "links": [
-          "29"
+          "29",
+          "82"
         ],
         "hypotheses": [
           "Using NMM we can show that &delta;-&theta; power increase is due to\r\n          changes in the slope by varying the neural gain without changing the\r\n          time constant or neural populations.",
@@ -1847,6 +1848,27 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "82",
+      "position": {
+        "x": 1384.8815472688723,
+        "y": 1176.5196847988611
+      },
+      "data": {
+        "label": "NeuronModel",
+        "links": [
+          "51"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 118,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -2493,6 +2515,14 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__5right-76left"
+    },
+    {
+      "source": "51",
+      "sourceHandle": "right",
+      "target": "82",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__51right-82left"
     }
   ]
 }
