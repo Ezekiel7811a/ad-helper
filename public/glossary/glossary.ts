@@ -27,4 +27,18 @@ export const Glossary: Term[] = [
     { term: "SUVR", definition: "Standardized Uptake Value Ratio" },
     { term: "PM", definition: "Plasma Membrane" },
     { term: "LTP", definition: "Long-Term Potentiation" },
+    { term: "BBB", definition: "Blood-Brain Barrier" },
+    { term: "TDP-43", definition: "TAR DNA-binding protein 43" },
+    { term: "FTLD", definition: "Frontotemporal Lobar Degeneration" },
+    { term: "MAPT", definition: "Microtubule-Associated Protein Tau" },
+    { term: "PSEN1", definition: "Presenilin 1" },
+    { term: "PSEN2", definition: "Presenilin 2" },
+    { term: "APOE", definition: "Apolipoprotein E" },
+    {
+        term: "TREM2",
+        definition: "Triggering Receptor Expressed on Myeloid Cells 2",
+    },
+    { term: "CD33", definition: "Cluster of Differentiation 33" },
+    { term: "CR1", definition: "Complement Receptor 1" },
+    { term: "CU", definition: "Cognitively Unimpaired" },
 ];

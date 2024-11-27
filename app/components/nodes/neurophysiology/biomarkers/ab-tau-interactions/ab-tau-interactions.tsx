@@ -7,19 +7,23 @@ const AbTauInteractions = new MyNode(
     [],
     (
         <div>
-            <CitationCard citations={[bibtex.giorgio2024amyloid]}>
+            <CitationCard
+                citations={[
+                    bibtex.bennett2017enhanced,
+                    bibtex.pontecorvo2017relationships,
+                ]}
+            >
                 It has been proposed that this Ab then promotes the migration of
-                tau4,5
+                tau
             </CitationCard>
-            <CitationCard citations={[bibtex.vogels2020propagation]}>
+            <CitationCard citations={[bibtex.bennett2017enhanced]}>
                 Tau isolated from AD cases with Ab plaque pathology was more
                 seed competent than tau from a case without plaques; this could
                 be experimentally explained by an increased proportion of
-                highmolecular-weight tau in the presence of plaque pathology
-                (80).
+                highmolecular-weight tau in the presence of plaque pathology.
             </CitationCard>
-            <CitationCard citations={[bibtex.vogels2020propagation]}>
-                Ab deposition accelerates the propagation of tau (89)
+            <CitationCard citations={[bibtex.pooler2015amyloid]}>
+                Ab deposition accelerates the propagation of tau
             </CitationCard>
         </div>
     )

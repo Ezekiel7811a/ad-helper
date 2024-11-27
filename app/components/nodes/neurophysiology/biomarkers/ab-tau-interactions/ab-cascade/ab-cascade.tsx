@@ -2,6 +2,95 @@ import { MyNode } from "@/models/node";
 import NodeCard from "@/app/components/node-card/node-card.tsx";
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import bibtex from "@/public/citations/bibtex.json";
+import SectionTitle from "@/app/components/section-title/section-title";
+
+const InteractionsWithTau = () => {
+    return (
+        <div>
+            <div>
+                <CitationCard citations={[bibtex.maia2013changes]}>
+                    Interestingly, several APP models exhibit some degree of
+                    Aβ-induced tau hyperphosphorylation, especially in
+                    dystrophic neurites near plaques, and increased tau CSF
+                    levels, even in the absence of expression of a human tau
+                    transgene.
+                </CitationCard>
+                <CitationCard citations={[bibtex.schelle2017prevention]}>
+                    Additionally, β-secretase inhibition prevented the
+                    age-related increase of tau in the CSF of APP mice.
+                </CitationCard>
+                <CitationCard citations={[bibtex.bennett2017enhanced]}>
+                    Aβ is more complex, such that its presence enhances tau
+                    phenotypes throughout the disease course
+                </CitationCard>
+                <CitationCard citations={[bibtex.busche2019tau]}>
+                    and that the functional consequences of Aβ and tau occur in
+                    late stages of the disease.
+                </CitationCard>
+                <CitationCard citations={[bibtex.pontecorvo2017relationships]}>
+                    It is further supported by spread of tau pathology into
+                    association cortices is nearly always associated with the
+                    presence of widespread plaques,
+                </CitationCard>
+                <CitationCard citations={[bibtex.adams2019cortical]}>
+                    Isuggesting either that plaques precede tangles in the
+                    cortex by chance or that plaques act synergistically on
+                    tangles, leading to a situation in which tangle spread to
+                    the cortex is more likely and A recent study combining
+                    resting-state functional MRI (fMRI) and tau–Aβ-PET in
+                    cognitively normal individuals reported that the likelihood
+                    of tau spread outside of the EC was augmented by the
+                    presence of cortical Aβ.
+                </CitationCard>
+                <CitationCard citations={[bibtex.jacobs2018structural]}>
+                    Aβ accumulation facilitates tau spread into the posterior
+                    cingulate cortex (PCC) through the cingulum bundle, a major
+                    white matter tract that connects the HC with the cingulate
+                    gyrus,
+                </CitationCard>
+                <CitationCard
+                    citations={[bibtex.hanseeuw2017fluorodeoxyglucose]}
+                >
+                    the combination of cortical Aβ and tau (but not Aβ or tau
+                    individually) is associated with hypometabolism of the PCC,
+                    which in turn predicts memory decline.
+                </CitationCard>
+                <CitationCard citations={[bibtex.pascoal2017amyloid]}>
+                    Similarly, the Aβ–tau interaction, but not their independent
+                    effects, was reported to drive cortical hypometabolism.
+                </CitationCard>
+            </div>
+            <div>
+                <CitationCard citations={[bibtex.takeda2015neuronal]}>
+                    the presence of Aβ accelerates the formation of a rare
+                    soluble species of high-molecular weight (HMW)
+                    hyperphosphorylated tau, which in experimental studies
+                    appears to be a competent substrate for the intercellular
+                    spread.
+                </CitationCard>
+                <CitationCard citations={[bibtex.ferrari2003beta]}>
+                    In cell culture, the addition of Aβ to human cells
+                    expressing (wild-type) tau resulted, after a 5-day period,
+                    in tau aggregate formation in the form of PHF.
+                </CitationCard>
+                <CitationCard citations={[bibtex.busche2020synergy]}>
+                    Further supported by animal models. With evidences of
+                    modulation of Aß by tau through microglia activation.
+                </CitationCard>
+                <CitationCard citations={[bibtex.ondrejcak2019soluble]}>
+                    synergistic effects on LTP, as subthreshold doses of soluble
+                    tau dramatically enhanced Aβ-dependent inhibition of LTP.
+                </CitationCard>
+            </div>
+            <div>
+                <CitationCard citations={[bibtex.busche2020synergy]}>
+                    Move away from linear frameworks (e.g., single targets or
+                    &apos;silver bullets&apos;).
+                </CitationCard>
+            </div>
+        </div>
+    );
+};
 
 export const AbCascade = new MyNode(
     "AbCascade",
@@ -99,75 +188,117 @@ export const AbCascade = new MyNode(
                     A considerable number of studies has reported that AβOs
                     accumulate in the brain and CSF of AD patients,
                 </CitationCard>
-                <CitationCard citations={[]}>
+                <CitationCard
+                    citations={[
+                        bibtex.koffie2009oligomeric,
+                        bibtex.bjorklund2012absence,
+                        bibtex.perez2013dissecting,
+                        bibtex.bilousova2016synaptic,
+                    ]}
+                >
                     and are found in association with synapses in the brains of
-                    patients presenting clinical signals of dementia (Koffie et
-                    al., 2009; Bjorklund et al., 2012; Perez-Nievas et al.,
-                    2013; Bilousova et al., 2016), adding clinical relevance to
-                    their role in AD.
+                    patients presenting clinical signals of dementia, adding
+                    clinical relevance to their role in AD.
                 </CitationCard>
-                <CitationCard citations={[]}>
+                <CitationCard
+                    citations={[
+                        bibtex.terry1991physical,
+                        bibtex.masliah1992three,
+                        bibtex.selkoe2002alzheimer,
+                    ]}
+                >
                     These studies suggest that synapse-associated AβOs promote
                     detrimental modifications in synapse structure and
                     composition, thereby leading to memory loss. This growing
                     body of evidence props up an early notion that cognitive
                     decline is not only a result of the extracellular
                     accumulation of Aβ and intracellular accumulation of tau but
-                    also as a consequence of synapse failure and loss in AD
-                    (Terry et al., 1991; Masliah et al., 1992; Selkoe, 2002).
+                    also as a consequence of synapse failure and loss in AD.
                 </CitationCard>
             </div>
             <div>
-                <CitationCard citations={[]}>
+                <CitationCard citations={[bibtex.ferreira2015soluble]}>
                     Despite intense research, the exact mechanisms of how AβOs
                     exert their toxicity remains to be fully unveiled. Binding
                     of Aβ aggregates to various receptors may disrupt key
                     neuronal functions. However, the complete identity of
                     receptors to which they bind and the underlying signaling
-                    pathways still remain to be fully elucidated (Ferreira et
-                    al., 2015).
+                    pathways still remain to be fully elucidated.
                 </CitationCard>
-                <CitationCard citations={[]}>
+                <CitationCard
+                    citations={[
+                        bibtex.mattson2010er,
+                        bibtex.ferreira2015soluble,
+                    ]}
+                >
                     We now know that AβOs bind to cell surface receptors and
                     trigger multiple aberrant signaling pathways, including
-                    calcium signaling (Mattson, 2010; Ferreira et al., 2015),
+                    calcium signaling,
                 </CitationCard>
-                <CitationCard citations={[]}>
-                    oxidative stress (Smith et al., 1998; Perry et al., 2002; De
-                    Felice et al., 2007),
+                <CitationCard
+                    citations={[
+                        bibtex.smith1998amyloid,
+                        bibtex.perry2002alzheimer,
+                        bibtex.de2007abeta,
+                    ]}
+                >
+                    oxidative stress,
                 </CitationCard>
-                <CitationCard citations={[]}>
+                <CitationCard
+                    citations={[
+                        bibtex.roselli2005soluble,
+                        bibtex.shankar2007natural,
+                        bibtex.decker2010n,
+                        bibtex.ferreira2015soluble,
+                    ]}
+                >
                     derangements in plasticity-related receptors and increased
-                    glutamate release from pre-synaptic terminals (Roselli et
-                    al., 2005; Shankar et al., 2007; Decker et al., 2010a;
-                    Ferreira et al., 2015).
+                    glutamate release from pre-synaptic terminals.
                 </CitationCard>
-                <CitationCard citations={[]}>
-                    In addition, they promote tau hyperphosphorylation (De
-                    Felice et al., 2008; Jin et al., 2011),
+                <CitationCard
+                    citations={[bibtex.de2008alzheimer, bibtex.jin2011soluble]}
+                >
+                    In addition, they promote tau hyperphosphorylation,
                 </CitationCard>
-                <CitationCard citations={[]}>
-                    impaired axonal transport (Snyder et al., 2005; Decker et
-                    al., 2010b; Miñano-Molina et al., 2011; Bomfim et al.,
-                    2012),
+                <CitationCard
+                    citations={[
+                        bibtex.snyder2005regulation,
+                        bibtex.decker2010amyloid,
+                        bibtex.minano2011soluble,
+                        bibtex.bomfim2012anti,
+                    ]}
+                >
+                    impaired axonal transport,
                 </CitationCard>
-                <CitationCard citations={[]}>
-                    and drive inhibition of long-term potentiation (LTP) and
-                    memory impairment (Rowan et al., 2005; Shankar et al., 2008;
-                    Ferreira and Klein, 2011; Ferreira et al., 2015; Yang et
-                    al., 2017).
+                <CitationCard
+                    citations={[
+                        bibtex.rowan2005synaptic,
+                        bibtex.shankar2008amyloid,
+                        bibtex.ferreira2011abeta,
+                        bibtex.yang2017large,
+                    ]}
+                >
+                    and drive inhibition of LTP and memory impairment.
                 </CitationCard>
-                <CitationCard citations={[bibtex.frozza2018challenges]}>
-                    In addition, AßOs promote tau hyperphosphorylation (De
-                    Felice et al., 2008; Jin et al., 2011)
+                <CitationCard
+                    citations={[bibtex.de2008alzheimer, bibtex.jin2011soluble]}
+                >
+                    In addition, AßOs promote tau hyperphosphorylation
                 </CitationCard>
             </div>
             <div>
-                <CitationCard citations={[bibtex.brunello2020mechanisms]}>
+                <CitationCard
+                    citations={[
+                        bibtex.gotz2001formation,
+                        bibtex.chabrier2012soluble,
+                    ]}
+                >
                     supported by mouse models where soluble Aβ promotes
-                    development of tau pathology [75, 76].
+                    development of tau pathology.
                 </CitationCard>
             </div>
+            <SectionTitle>Interactions with Tau</SectionTitle>
+            <InteractionsWithTau />
         </NodeCard>
     )
 );
