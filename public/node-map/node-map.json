@@ -155,7 +155,8 @@
           "83",
           "84",
           "85",
-          "86"
+          "86",
+          "90"
         ],
         "hypotheses": []
       },
@@ -420,13 +421,21 @@
     {
       "id": "19",
       "position": {
-        "x": 1409.9521975735568,
-        "y": 617.0483306311539
+        "x": 1757.0512913044379,
+        "y": 783.7771529472976
       },
       "data": {
         "label": "ImmuneActivation",
         "links": [
-          "12"
+          "12",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98"
         ],
         "hypotheses": []
       },
@@ -624,14 +633,15 @@
           "7",
           "32",
           "34",
-          "37",
-          "38",
           "41",
           "42",
           "39",
           "51",
           "53",
-          "73"
+          "73",
+          "104",
+          "106",
+          "108"
         ],
         "hypotheses": []
       },
@@ -656,14 +666,15 @@
           "7",
           "32",
           "34",
-          "37",
-          "38",
           "41",
           "42",
           "39",
           "51",
           "53",
-          "73"
+          "73",
+          "104",
+          "106",
+          "108"
         ],
         "hypotheses": []
       },
@@ -873,13 +884,13 @@
     {
       "id": "37",
       "position": {
-        "x": 1055.1431607162774,
-        "y": 1028.7051136432744
+        "x": 1273.1431607162774,
+        "y": 1047.7051136432744
       },
       "data": {
         "label": "Phase Correlation",
         "links": [
-          "29"
+          "108"
         ],
         "hypotheses": []
       },
@@ -888,19 +899,19 @@
         "width": 150,
         "height": 46
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
       "id": "38",
       "position": {
-        "x": 1055.1431607162776,
-        "y": 1074.176610638586
+        "x": 1269.1431607162776,
+        "y": 1091.176610638586
       },
       "data": {
         "label": "Enveloppe Correlation",
         "links": [
-          "29"
+          "108"
         ],
         "hypotheses": []
       },
@@ -1169,11 +1180,9 @@
         "label": "NMM",
         "links": [
           "29",
-<<<<<<< HEAD
-          "82"
-=======
-          "87"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
+          "87",
+          "99",
+          "101"
         ],
         "hypotheses": [
           "Using NMM we can show that &delta;-&theta; power increase is due to\r\n          changes in the slope by varying the neural gain without changing the\r\n          time constant or neural populations.",
@@ -1841,15 +1850,8 @@
     {
       "id": "82",
       "position": {
-<<<<<<< HEAD
-        "x": 1384.8815472688723,
-        "y": 1176.5196847988611
-      },
-      "data": {
-        "label": "NeuronModel",
-=======
-        "x": 1229.6615582486822,
-        "y": 789.4964164003645
+        "x": 1320.8459517752415,
+        "y": 1126.0860105771278
       },
       "data": {
         "label": "Cholinergic",
@@ -1953,12 +1955,11 @@
     {
       "id": "87",
       "position": {
-        "x": 1217.170008992291,
-        "y": 1188.099970025696
+        "x": 1352.3335629322078,
+        "y": 1355.5125331452687
       },
       "data": {
         "label": "NFM",
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
         "links": [
           "51"
         ],
@@ -1966,23 +1967,17 @@
       },
       "type": "custom",
       "measured": {
-<<<<<<< HEAD
-        "width": 118,
-=======
         "width": 56,
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
         "height": 46
       },
       "selected": false,
       "dragging": false
-<<<<<<< HEAD
-=======
     },
     {
       "id": "88",
       "position": {
-        "x": 924.2457858784289,
-        "y": 588.3519232087281
+        "x": 909.7311988599271,
+        "y": 573.8373361902262
       },
       "data": {
         "label": "Treatments",
@@ -2002,8 +1997,8 @@
     {
       "id": "88",
       "position": {
-        "x": 924.2457858784289,
-        "y": 588.3519232087281
+        "x": 909.7311988599271,
+        "y": 573.8373361902262
       },
       "data": {
         "label": "Treatments",
@@ -2038,9 +2033,415 @@
         "width": 104,
         "height": 46
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
+    },
+    {
+      "id": "90",
+      "position": {
+        "x": 1232.4914451277432,
+        "y": 789.0188124323201
+      },
+      "data": {
+        "label": "Autophagy",
+        "links": [
+          "8"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 99,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "91",
+      "position": {
+        "x": 2066.4730935525895,
+        "y": 721.0146506416636
+      },
+      "data": {
+        "label": "AberrantCholesterol",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 164,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "92",
+      "position": {
+        "x": 2067.9888101191004,
+        "y": 768.0018642034859
+      },
+      "data": {
+        "label": "BBBDysfunction",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 138,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "93",
+      "position": {
+        "x": 2071.020243252121,
+        "y": 814.9890777653081
+      },
+      "data": {
+        "label": "CalciumSignaling",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 146,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "94",
+      "position": {
+        "x": 2071.020243252121,
+        "y": 861.9762913271305
+      },
+      "data": {
+        "label": "InsulinSignaling",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 134,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "95",
+      "position": {
+        "x": 2071.020243252121,
+        "y": 915.0263711549944
+      },
+      "data": {
+        "label": "LysosomalDysfunction",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 181,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "96",
+      "position": {
+        "x": 2071.020243252121,
+        "y": 962.0135847168167
+      },
+      "data": {
+        "label": "MitochondrialDysfunction",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 201,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "97",
+      "position": {
+        "x": 2064.9573769860795,
+        "y": 674.0274370798413
+      },
+      "data": {
+        "label": "NeuroinflammatorySignaling",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 223,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "98",
+      "position": {
+        "x": 2066.4730935525895,
+        "y": 625.5245069515086
+      },
+      "data": {
+        "label": "NeurotrophicSignaling",
+        "links": [
+          "19"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 179,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "99",
+      "position": {
+        "x": 1321.545167551773,
+        "y": 1171.241653155769
+      },
+      "data": {
+        "label": "Bifurcation",
+        "links": [
+          "51"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 98,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "100",
+      "position": {
+        "x": 1593.3637971709886,
+        "y": 1234.5780328728679
+      },
+      "data": {
+        "label": "ActionPotential",
+        "links": [
+          "101"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 129,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "101",
+      "position": {
+        "x": 1392.7985947335092,
+        "y": 1235.8975407836406
+      },
+      "data": {
+        "label": "NeuronModel",
+        "links": [
+          "NMM",
+          "51",
+          "100",
+          "102",
+          "103"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 118,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "102",
+      "position": {
+        "x": 1596.0028129925345,
+        "y": 1286.0388413930107
+      },
+      "data": {
+        "label": "SynapticTransmission",
+        "links": [
+          "101"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 178,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "103",
+      "position": {
+        "x": 1593.3637971709886,
+        "y": 1336.1801420023805
+      },
+      "data": {
+        "label": "NeuronalNet",
+        "links": [
+          "101"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 112,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "104",
+      "position": {
+        "x": 1034.8673484434667,
+        "y": 1484.2035382478475
+      },
+      "data": {
+        "label": "EvokedPotentials",
+        "links": [
+          "29"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 146,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "105",
+      "position": {
+        "x": 1267.9582562776675,
+        "y": 1694.6026048204633
+      },
+      "data": {
+        "label": "DipoleOrientation",
+        "links": [
+          "106"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 146,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "106",
+      "position": {
+        "x": 1012.2330337977671,
+        "y": 1689.0005582632605
+      },
+      "data": {
+        "label": "InverseModeling",
+        "links": [
+          "29",
+          "105",
+          "107"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 139,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "107",
+      "position": {
+        "x": 1268,
+        "y": 1756.4999999999995
+      },
+      "data": {
+        "label": "Regularization",
+        "links": [
+          "106"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 124,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "108",
+      "position": {
+        "x": 1062.839648703816,
+        "y": 1063.013814029742
+      },
+      "data": {
+        "label": "Connectivity",
+        "links": [
+          "29",
+          "38",
+          "37"
+        ],
+        "hypotheses": []
+      },
+      "type": "custom",
+      "measured": {
+        "width": 109,
+        "height": 46
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -2227,23 +2628,6 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__32right-30left"
-    },
-    {
-      "source": "29",
-      "sourceHandle": "right",
-      "target": "37",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__29right-37left"
-    },
-    {
-      "source": "29",
-      "sourceHandle": "right",
-      "target": "38",
-      "targetHandle": "left",
-      "type": "buttonedge",
-      "id": "xy-edge__29right-38left",
-      "selected": false
     },
     {
       "source": "29",
@@ -2681,19 +3065,12 @@
       "id": "xy-edge__5right-76left"
     },
     {
-<<<<<<< HEAD
       "source": "51",
-=======
-      "source": "8",
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
       "sourceHandle": "right",
       "target": "82",
       "targetHandle": "left",
       "type": "buttonedge",
-<<<<<<< HEAD
       "id": "xy-edge__51right-82left"
-=======
-      "id": "xy-edge__8right-82left"
     },
     {
       "source": "8",
@@ -2750,7 +3127,174 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__15right-89left"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "91",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-91left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "92",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-92left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "93",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-93left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "94",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-94left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "95",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-95left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "96",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-96left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "97",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-97left"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "right",
+      "target": "98",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__19right-98left"
+    },
+    {
+      "source": "51",
+      "sourceHandle": "right",
+      "target": "99",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__51right-99left"
+    },
+    {
+      "source": "51",
+      "sourceHandle": "right",
+      "target": "101",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__51right-101left"
+    },
+    {
+      "source": "101",
+      "sourceHandle": "right",
+      "target": "100",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__101right-100left"
+    },
+    {
+      "source": "101",
+      "sourceHandle": "right",
+      "target": "102",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__101right-102left"
+    },
+    {
+      "source": "101",
+      "sourceHandle": "right",
+      "target": "103",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__101right-103left"
+    },
+    {
+      "source": "8",
+      "sourceHandle": "right",
+      "target": "90",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__8right-90left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "104",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-104left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "106",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-106left"
+    },
+    {
+      "source": "106",
+      "sourceHandle": "right",
+      "target": "105",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__106right-105left"
+    },
+    {
+      "source": "106",
+      "sourceHandle": "right",
+      "target": "107",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__106right-107left"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "right",
+      "target": "108",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__29right-108left"
+    },
+    {
+      "source": "108",
+      "sourceHandle": "right",
+      "target": "38",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__108right-38left"
+    },
+    {
+      "source": "108",
+      "sourceHandle": "right",
+      "target": "37",
+      "targetHandle": "left",
+      "type": "buttonedge",
+      "id": "xy-edge__108right-37left"
     }
   ]
 }

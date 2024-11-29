@@ -127,7 +127,8 @@
       "GlutamatergicExcitotoxicity",
       "MetalIon",
       "MicrobiotaGutBrain",
-      "OxidativeStress"
+      "OxidativeStress",
+      "Autophagy"
     ],
     "path": "generics/neurophysiology.tsx",
     "hypotheses": []
@@ -166,7 +167,9 @@
   },
   {
     "title": "Autophagy",
-    "links": [],
+    "links": [
+      "Neurophysiology"
+    ],
     "path": "neurophysiology/autophagy/autophagy.tsx",
     "hypotheses": []
   },
@@ -304,56 +307,80 @@
   {
     "title": "ImmuneActivation",
     "links": [
-      "Biomarkers"
+      "Biomarkers",
+      "AberrantCholesterol",
+      "BBBDysfunction",
+      "CalciumSignaling",
+      "InsulinSignaling",
+      "LysosomalDysfunction",
+      "MitochondrialDysfunction",
+      "NeuroinflammatorySignaling",
+      "NeurotrophicSignaling"
     ],
     "path": "neurophysiology/biomarkers/immune-activation/immune-activation.tsx",
     "hypotheses": []
   },
   {
     "title": "AberrantCholesterol",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/aberrant-cholesterol/aberrant-cholesterol.tsx",
     "hypotheses": []
   },
   {
     "title": "BBBDysfunction",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/bbb-dysfunction/bbb-dysfunction.tsx",
     "hypotheses": []
   },
   {
     "title": "CalciumSignaling",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/calcium-signaling/calcium-signaling.tsx",
     "hypotheses": []
   },
   {
     "title": "InsulinSignaling",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/insulin-signaling/insulin-signaling.tsx",
     "hypotheses": []
   },
   {
     "title": "LysosomalDysfunction",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/lysosomal-dysfunction/lysosomal-dysfunction.tsx",
     "hypotheses": []
   },
   {
     "title": "MitochondrialDysfunction",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/mitochondrial-dysfunction/mitochondrial-dysfunction.tsx",
     "hypotheses": []
   },
   {
     "title": "NeuroinflammatorySignaling",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/neuroinflammatory-signaling/neuroinflammatory-signaling.tsx",
     "hypotheses": []
   },
   {
     "title": "NeurotrophicSignaling",
-    "links": [],
+    "links": [
+      "ImmuneActivation"
+    ],
     "path": "neurophysiology/biomarkers/immune-activation/signaling-pathways/neurotrophic-signaling/neurotrophic-signaling.tsx",
     "hypotheses": []
   },
@@ -605,9 +632,19 @@
     "hypotheses": []
   },
   {
+    "title": "Connectivity",
+    "links": [
+      "Magnetoencephalography (MEG)",
+      "Enveloppe Correlation",
+      "Phase Correlation"
+    ],
+    "path": "signal/meg/connectivity/connectivity.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Enveloppe Correlation",
     "links": [
-      "Magnetoencephalography (MEG)"
+      "Connectivity"
     ],
     "path": "signal/meg/connectivity/enveloppe-corr/enveloppe-corr.tsx",
     "hypotheses": []
@@ -623,9 +660,17 @@
   {
     "title": "Phase Correlation",
     "links": [
-      "Magnetoencephalography (MEG)"
+      "Connectivity"
     ],
     "path": "signal/meg/connectivity/phase-corr/phase-corr.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "EvokedPotentials",
+    "links": [
+      "Magnetoencephalography (MEG)"
+    ],
+    "path": "signal/meg/evoked-potentials/evoked-potentials.tsx",
     "hypotheses": []
   },
   {
@@ -672,64 +717,97 @@
     "hypotheses": []
   },
   {
+    "title": "DipoleOrientation",
+    "links": [
+      "InverseModeling"
+    ],
+    "path": "signal/meg/inverse-modeling/dipole-orientation/dipole-orientation.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "InverseModeling",
+    "links": [
+      "Magnetoencephalography (MEG)",
+      "DipoleOrientation",
+      "Regularization"
+    ],
+    "path": "signal/meg/inverse-modeling/inverse-modeling.tsx",
+    "hypotheses": []
+  },
+  {
+    "title": "Regularization",
+    "links": [
+      "InverseModeling"
+    ],
+    "path": "signal/meg/inverse-modeling/regularization/regularization.tsx",
+    "hypotheses": []
+  },
+  {
     "title": "Magnetoencephalography (MEG)",
     "links": [
       "Periodic",
       "Aperiodic",
-      "Phase Correlation",
-      "Enveloppe Correlation",
       "HMM",
       "Resting State",
       "Geometric Correction Scheme (GCS)",
       "NMM",
       "Assymetric",
-      "Signal"
+      "Signal",
+      "EvokedPotentials",
+      "InverseModeling",
+      "Connectivity"
     ],
     "path": "signal/meg/meg.tsx",
     "hypotheses": []
   },
   {
-<<<<<<< HEAD
     "title": "Bifurcation",
-    "links": [],
+    "links": [
+      "NMM"
+    ],
     "path": "signal/meg/nmm/bifurcation/bifurcation.tsx",
     "hypotheses": []
   },
   {
     "title": "ActionPotential",
-    "links": [],
+    "links": [
+      "NeuronModel"
+    ],
     "path": "signal/meg/nmm/model-neuron/action-potential/action-potential.tsx",
     "hypotheses": []
   },
   {
     "title": "NeuronModel",
     "links": [
-      "NMM"
+      "NMM",
+      "ActionPotential",
+      "SynapticTransmission",
+      "NeuronalNet"
     ],
     "path": "signal/meg/nmm/model-neuron/model-neuron.tsx",
     "hypotheses": []
   },
   {
     "title": "NeuronalNet",
-    "links": [],
+    "links": [
+      "NeuronModel"
+    ],
     "path": "signal/meg/nmm/model-neuron/neuronal-net/neuronal-net.tsx",
     "hypotheses": []
   },
   {
     "title": "SynapticTransmission",
-    "links": [],
+    "links": [
+      "NeuronModel"
+    ],
     "path": "signal/meg/nmm/model-neuron/transmission-synaptique/transmission-synaptique.tsx",
     "hypotheses": []
   },
   {
     "title": "NFM",
-    "links": [],
-=======
-    "title": "NFM",
     "links": [
       "NMM"
     ],
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     "path": "signal/meg/nmm/nfm/nfm.tsx",
     "hypotheses": []
   },
@@ -737,11 +815,9 @@
     "title": "NMM",
     "links": [
       "Magnetoencephalography (MEG)",
-<<<<<<< HEAD
+      "NFM",
+      "Bifurcation",
       "NeuronModel"
-=======
-      "NFM"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     ],
     "path": "signal/meg/nmm/nmm.tsx",
     "hypotheses": []

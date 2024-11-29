@@ -221,6 +221,25 @@ const FieldSpread = () => {
     );
 };
 
+const Limits = () => {
+    return (
+        <div>
+            <CitationCard citations={[bibtex.schoonhoven2022sensitive]}>
+                For MEG, global reliability for both metrics was excellent in
+                the alpha band, as well as high-density EEG, with the delta band
+                being the worst. Finally, they found lower reliability for both
+                metrics in a vertex-based regional analysis, compared to global
+                reliability [26].
+            </CitationCard>
+            <CitationCard citations={[bibtex.schoonhoven2022sensitive]}>
+                .Overall, phase-based metrics and imaginary partial coherence
+                performed worst while the leakage-corrected amplitude envelope
+                correlation (AECc) showed reproducible results.[27]
+            </CitationCard>
+        </div>
+    );
+};
+
 const Meg = new MyNode(
     "Magnetoencephalography (MEG)",
     [],
@@ -236,6 +255,10 @@ const Meg = new MyNode(
             <NonLinearity />
             <SectionTitle>Field Spread</SectionTitle>
             <FieldSpread />
+            <SectionTitle>Inverse Problem</SectionTitle>
+            <InverseProblem />
+            <SectionTitle>Limits</SectionTitle>
+            <Limits />
         </NodeCard>
     )
 );

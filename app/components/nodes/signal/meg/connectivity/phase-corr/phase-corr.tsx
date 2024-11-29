@@ -1,14 +1,42 @@
 import CitationCard from "@/app/components/citation-card/citation-card.tsx";
 import Figure from "@/app/components/figure/figure.tsx";
+import NodeCard from "@/app/components/node-card/node-card";
+import SectionTitle from "@/app/components/section-title/section-title";
 import { MyNode } from "@/models/node";
 import bibtex from "@/public/citations/bibtex.json";
 import { MathJax } from "better-react-mathjax";
+
+const PLI = () => {
+    return (
+        <div>
+            <CitationCard citations={[bibtex.schoonhoven2022sensitive]}>
+                AEC-c and the phase lag index (PLI). These metrics were selected
+                based on their performance in previous work [24, 27, 28], and
+                their use in AD literature [11, 29–35].
+            </CitationCard>
+        </div>
+    );
+};
+
+const Strengths = () => {
+    return (
+        <div>
+            <CitationCard citations={[bibtex.schoonhoven2022sensitive]}>
+                Phase-based measures seem less determined by structural
+                connectivity and more related to stimulus context, task, or
+                cognitive setting. Spatially, an MEG study using the phase lag
+                index revealed patterns of highly connected regions that
+                differed across frequency bands [37].
+            </CitationCard>
+        </div>
+    );
+};
 
 const PhaseCorr = new MyNode(
     "Phase Correlation",
     [],
     (
-        <div>
+        <NodeCard>
             <CitationCard citations={[bibtex.o2015measuring]}>
                 <Figure
                     n={0}
@@ -41,7 +69,11 @@ const PhaseCorr = new MyNode(
                     }
                 </MathJax>
             </CitationCard>
-        </div>
+            <SectionTitle>PLI</SectionTitle>
+            <PLI />
+            <SectionTitle>Strengths</SectionTitle>
+            <Strengths />
+        </NodeCard>
     )
 );
 
