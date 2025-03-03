@@ -1169,11 +1169,7 @@
         "label": "NMM",
         "links": [
           "29",
-<<<<<<< HEAD
-          "82"
-=======
           "87"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
         ],
         "hypotheses": [
           "Using NMM we can show that &delta;-&theta; power increase is due to\r\n          changes in the slope by varying the neural gain without changing the\r\n          time constant or neural populations.",
@@ -1841,13 +1837,6 @@
     {
       "id": "82",
       "position": {
-<<<<<<< HEAD
-        "x": 1384.8815472688723,
-        "y": 1176.5196847988611
-      },
-      "data": {
-        "label": "NeuronModel",
-=======
         "x": 1229.6615582486822,
         "y": 789.4964164003645
       },
@@ -1958,7 +1947,6 @@
       },
       "data": {
         "label": "NFM",
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
         "links": [
           "51"
         ],
@@ -1966,17 +1954,11 @@
       },
       "type": "custom",
       "measured": {
-<<<<<<< HEAD
-        "width": 118,
-=======
         "width": 56,
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
         "height": 46
       },
       "selected": false,
       "dragging": false
-<<<<<<< HEAD
-=======
     },
     {
       "id": "88",
@@ -2040,7 +2022,6 @@
       },
       "selected": true,
       "dragging": false
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     }
   ],
   "edges": [
@@ -2681,18 +2662,11 @@
       "id": "xy-edge__5right-76left"
     },
     {
-<<<<<<< HEAD
-      "source": "51",
-=======
       "source": "8",
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
       "sourceHandle": "right",
       "target": "82",
       "targetHandle": "left",
       "type": "buttonedge",
-<<<<<<< HEAD
-      "id": "xy-edge__51right-82left"
-=======
       "id": "xy-edge__8right-82left"
     },
     {
@@ -2750,7 +2724,6 @@
       "targetHandle": "left",
       "type": "buttonedge",
       "id": "xy-edge__15right-89left"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     }
   ]
 }

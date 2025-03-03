@@ -689,47 +689,10 @@
     "hypotheses": []
   },
   {
-<<<<<<< HEAD
-    "title": "Bifurcation",
-    "links": [],
-    "path": "signal/meg/nmm/bifurcation/bifurcation.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "ActionPotential",
-    "links": [],
-    "path": "signal/meg/nmm/model-neuron/action-potential/action-potential.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NeuronModel",
-    "links": [
-      "NMM"
-    ],
-    "path": "signal/meg/nmm/model-neuron/model-neuron.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NeuronalNet",
-    "links": [],
-    "path": "signal/meg/nmm/model-neuron/neuronal-net/neuronal-net.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "SynapticTransmission",
-    "links": [],
-    "path": "signal/meg/nmm/model-neuron/transmission-synaptique/transmission-synaptique.tsx",
-    "hypotheses": []
-  },
-  {
-    "title": "NFM",
-    "links": [],
-=======
     "title": "NFM",
     "links": [
       "NMM"
     ],
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     "path": "signal/meg/nmm/nfm/nfm.tsx",
     "hypotheses": []
   },
@@ -737,11 +700,7 @@
     "title": "NMM",
     "links": [
       "Magnetoencephalography (MEG)",
-<<<<<<< HEAD
-      "NeuronModel"
-=======
       "NFM"
->>>>>>> bd07d61c58d6ccb3efa948c78ac0cbb3d21eae6e
     ],
     "path": "signal/meg/nmm/nmm.tsx",
     "hypotheses": []
